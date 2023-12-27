@@ -9,6 +9,7 @@ module.exports = {
   ],
   theme: {
     screens: {
+      "2xs": "240px",
       xs: "400px",
       sm: "640px",
       md: "768px",
@@ -30,7 +31,7 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       colors: {
-        primary: "#2190FF",
+        primary: "#1C6570",
         black: {
           DEFAULT: "#000",
           100: "#0D1117",
@@ -51,10 +52,14 @@ module.exports = {
         purple: "#8C7CFF",
         pink: "#ED5FBD",
         violet: "#F16565",
+        brand_original_main: "#1C6570",
+        brand_original_main2: "#0c432b",
+        brand_original_main3: "#2fd78e",
         orange: "#FF964B",
+        brand_original_secondary: "#FF7C29",
       },
       backgroundImage: {
-        banner: "url('/jsm_resources_banner.svg')",
+        banner: "url('/hero-banner.webp')",
       },
       keyframes: {
         "accordion-down": {

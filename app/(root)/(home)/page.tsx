@@ -23,9 +23,8 @@ const Page = async ({ searchParams }: Props) => {
     <main className='flex-center paddings mx-auto w-full max-w-screen-2xl flex-col'>
 
       <section className='nav-padding w-full'>
-        <div className='flex-center relative min-h-[274px] w-full flex-col rounded-xl bg-banner bg-cover bg-center text-center'>
-           <h1 className='sm:heading1 heading2 mb-6 text-center text-white'>Glas glas zonnepanelen <br></br> op elk type dak</h1>
-        </div>
+           <h1 className='heading1 sm:heading2 xs:heading2 2xs:heading3 mb-6 text-center text-brand_original_main'>Glas glas zonnepanelen<br></br> op elk type dak</h1>
+        <div className='flex-center relative min-h-[274px] w-full flex-col rounded-xl bg-banner bg-cover bg-center'/>          
         <SearchForm />      
       </section>
 
@@ -52,7 +51,7 @@ const Page = async ({ searchParams }: Props) => {
               />
             ))
             ): (
-              <p className='body-regular text-white-400'>
+              <p className='body-regular text-black-400'>
                 No resources found
               </p>
             )}
@@ -62,7 +61,7 @@ const Page = async ({ searchParams }: Props) => {
 
       {resourcesPlaylist.map((item: any) => (
         <section key={item._id} className='flex-center mt-6 w-full flex-col sm:mt-20'>
-          <h1 className='heading3 self-start text-white-800'>{item.title}</h1>
+          <h1 className='heading3 self-start text-black-400'>{item.title}</h1>
           <div className='mt-12 flex w-full flex-wrap justify-center gap-16 sm:justify-start'>
             {resources.map((resource: any) => (
               <ResourceCard 

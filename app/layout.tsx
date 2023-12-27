@@ -22,8 +22,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className='min-h-screen bg-black-100 font-poppins'>{children}</body>
+    <html lang="nl">
+      <body className='min-h-screen bg-white font-poppins'>{children}</body>
     </html>
   )
 }
