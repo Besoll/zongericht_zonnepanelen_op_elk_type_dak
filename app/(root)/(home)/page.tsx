@@ -42,17 +42,18 @@ const Page = async ({ searchParams }: Props) => {
             {resources?.length > 0 ? ( 
               resources.map((resource: any) => (
               <ResourceCard 
+                id={resource._id}
                 key={resource._id}
                 title={resource.title}
-                id={resource._id}
+                shortDescription={resource.shortDescription}
                 image={resource.image}
                 downloadNumber={resource.views}
-                downloadLink={resource.downloadLink}
+                schouwingLink={resource.schouwingLink}
               />
             ))
             ): (
               <p className='body-regular text-black-400'>
-                No resources found
+                0 result - geen resultaten ...
               </p>
             )}
           </div>
@@ -63,14 +64,15 @@ const Page = async ({ searchParams }: Props) => {
         <section key={item._id} className='flex-center mt-6 w-full flex-col sm:mt-20'>
           <h1 className='heading3 self-start text-black-400'>{item.title}</h1>
           <div className='mt-12 flex w-full flex-wrap justify-center gap-16 sm:justify-start'>
-            {resources.map((resource: any) => (
+            {item.resources.map((resource: any) => (
               <ResourceCard 
+                id={resource._id}
                 key={resource._id}
                 title={resource.title}
-                id={resource._id}
+                shortDescription={resource.shortDescription}
                 image={resource.image}
                 downloadNumber={resource.views}
-                downloadLink={resource.downloadLink}
+                schouwingLink={resource.schouwingLink}
               />
             ))}
           </div>

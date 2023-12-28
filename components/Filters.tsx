@@ -4,13 +4,13 @@ import { formUrlQuery } from '@/sanity/utils';
 import { useState } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation';
 
-const links = ['all', 'Next 13', 'frontend', 'backend', 'fullstack']
+const links = ['Elk type dak', 'schuin bitumen dak', 'schuin pvc dak', 'schuin epdm dak', 'golfplaten dak', 'zinken dak', 'leistenen dak', 'dakkapellen', 'plat dak', 'dakpannen']
 const Filters = () => {
     const [active, setActive] = useState('');
     const searchParams = useSearchParams();
     const router = useRouter();
 
-    const handleFilter = (link: string) => {
+    const handleFilter = (link: string ) => {
         let newUrl = '';  
         
         if(active === link) {

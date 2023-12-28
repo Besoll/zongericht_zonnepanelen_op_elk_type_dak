@@ -7,7 +7,7 @@ const Header = ({ query, category }: Props) => {
   if(query && category) {
     return (
       <h1 className='heading3 self-start text-black-400'>
-        Search results for "{query}" in <span className='capitalize'>{category}</span>
+        Zoekresultaten voor <span className='capitalize text-gradient_orange'>"{query}"</span> in <span className='capitalize text-gradient_orange'>{category}</span>
       </h1>
     )
   }
@@ -15,7 +15,7 @@ const Header = ({ query, category }: Props) => {
   if(query) {
     return (
       <h1 className='heading3 self-start text-black-400'>
-        Search results for "{query}"
+        Zoekresultaten voor <span className='capitalize text-gradient_orange'>"{query}"</span> 
       </h1>
     )
   }
@@ -23,13 +23,13 @@ const Header = ({ query, category }: Props) => {
   if(category) {
     return (
       <h1 className='heading3 self-start text-black-400'>
-        Search results for <span className='capitalize'>{category}</span>
+        Zoekresultaten voor <span className='capitalize text-gradient_orange'>{category}</span>
       </h1>
     )
   }
 
   return (
-    <h1 className='heading3 self-start text-black-400'>No Results</h1>
+    <h1 className='heading3 self-start text-gradient_orange'>geen resultaten</h1>
   )
 }
 

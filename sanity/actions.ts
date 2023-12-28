@@ -17,12 +17,52 @@ export const getResourcesPlaylist = async () => {
                 title,
                 resources[0...6]->{
                     title,
-                    _id,
-                    downloadLink,
+                    shortDescription,
+                    slug,
+                    schouwingLink,
                     "image": poster.asset->url,
+                    _id,
                     views,
                     categrory
                 }
+            }`
+        )
+
+        return resources;
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+
+export const getResourcesMore = async (params: GetResuourcesParams) => {
+    const { query, category, page } = params;
+    
+    try {
+        const resources = await readClient.fetch(
+            groq`${buildQuery({
+                type: 'resource',
+                query,
+                category,
+                page: parseInt(page)
+            })}{
+                title,
+                _id,
+                paragraph,
+                title1,
+                description1,
+                title2,
+                description2,
+                title3,
+                description3,
+                slug,
+                schouwingLink,
+                youTubeLink,  
+                "image": poster.asset->url,
+                "image2": poster2.asset->url,
+                "image3": poster3.asset->url,
+                views,
+                categrory
             }`
         )
 
@@ -46,10 +86,11 @@ export const getResources = async (params: GetResuourcesParams) => {
             })}{
                 title,
                 _id,
-                downloadLink,
+                shortDescription,
                 "image": poster.asset->url,
-                views,
                 slug,
+                schouwingLink,
+                views,
                 categrory
             }`
         )
