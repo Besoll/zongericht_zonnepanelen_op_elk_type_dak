@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import ResourceCard from '@/components/ResourceCard'
 import SearchForm from '@/components/SearchForm'
 import { getResources, getResourcesPlaylist } from '@/sanity/actions'
+import Image from "next/image"
 
 export const revalidate = 900;
 
@@ -23,8 +24,21 @@ const Page = async ({ searchParams }: Props) => {
     <main className='flex-center paddings mx-auto w-full max-w-screen-2xl flex-col'>
 
       <section className='nav-padding w-full'>
-           <h1 className='heading1 sm:heading2 xs:heading2 2xs:heading3 mb-6 text-center text-brand_original_main'>Glas glas zonnepanelen<br></br> op elk type dak</h1>
-        <div className='flex-center relative min-h-[274px] w-full flex-col rounded-xl bg-banner bg-cover bg-center'/>          
+           <h1 className='heading1 mb-6 text-center text-brand_original_main 
+                            sm:heading2 
+                            xs:heading2 
+                            xxs:heading3'
+                            >Glas glas zonnepanelen<br></br> op elk type dak</h1>
+        {/* <div className='flex-center relative min-h-[274px] w-full flex-col rounded-xl bg-banner bg-cover bg-center'/>           */}
+                    <Image 
+                        src='/hero-banner.webp'
+                        alt='glas glas zonnepanelen op elk type dak'
+                        width={384}
+                        height={250}
+                        className=" flex-center relative object-cover min-h-[600px] h-auto  w-full flex-col rounded-xl
+                                    xs:min-h-[250px]
+                                    xxs:min-h-[50px]"
+                    />
         <SearchForm />      
       </section>
 
@@ -32,13 +46,13 @@ const Page = async ({ searchParams }: Props) => {
 
       {(searchParams?.query || searchParams?.category) && (
 
-        <section className='flex-center mt-6 w-full flex-col sm:mt-20'>
+        <section className='flex-center mt-6 flex-col justify-center sm:mt-20' id='resourceCards'>
           <Header 
             query={searchParams?.query || ''}
             category={searchParams?.category || ''}
           />
 
-          <div className='mt-12 flex w-full flex-wrap justify-center gap-16 sm:justify-start'>
+          <div className='mt-12 flex flex-wrap justify-center gap-16 sm:justify-start'>
             {resources?.length > 0 ? ( 
               resources.map((resource: any) => (
               <ResourceCard 

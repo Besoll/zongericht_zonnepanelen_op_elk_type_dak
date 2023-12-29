@@ -9,7 +9,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      "2xs": "240px",
+      xxs: "240px",
       xs: "400px",
       sm: "640px",
       md: "768px",

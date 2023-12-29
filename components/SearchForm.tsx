@@ -39,18 +39,24 @@ const SearchForm = () => {
     }, [search])
 
   return (
-    <form className='flex-center mx-auto mt-10 w-full xs:-mt-10 xs:w-[90%]  sm:px-4'>
-        <label className='flex-center relative w-full max-w-3xl'>
+    <form className='flex-center mx-auto mt-10 w-full 
+                        xs:-mt-10 xs:w-[90%] sm:px-4 
+                        xxs:-mt-2 xxs:w-[95%] '>
+        <label className='flex-center relative w-full max-w-3xl '>
             <Image 
                 src='/magnifying-glass.svg'
                 alt='Search icon'
                 width={20}
                 height={20}
-                className='absolute left-6 2xs:left-3'
+                className='absolute left-6 xxs:left-3'
             />
             <Input 
-                className='base-regular h-fit border-1 border py-6 pl-20 pr-8 sm:py-4 xs:py-4 2xs:py-4 2xs:pl-10 text-white-400 !ring-0 !ring-offset-0 
-                placeholder:text-white-400'
+                className='base-regular h-fit border-1 border py-6 pl-20 pr-8 text-white-400 !ring-0 !ring-offset-0         
+                placeholder:text-white-400
+                            sm:py-4 sm:text-base
+                            xs:py-4 xs:text-sm
+                            xxs:py-2 xxs:pl-10 xxs:text-xs '
+                
                 type='text'
                 placeholder='Zoeken'
                 value={search}

@@ -1,50 +1,107 @@
-import Image from 'next/image'
-import Link from 'next/link'
+"use client"
+
+import Link from "next/link";
+import Image from "next/image";
+import React, { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { BsHandIndex } from "react-icons/bs";
 import { Button } from "@/components/ui/button"
 import { buttonVariants } from "@/components/ui/button"
 
-
 const Navbar = () => {
+    const [nav, setNav] = useState(false);
+
+  const links = [
+    {
+      id: 1,
+      link: "Zonnepanelen",
+    },
+    {
+      id: 2,
+      link: "Projecten",
+    },
+    {
+      id: 3,
+      link: "Over ons",
+    },
+  ];
+
   return (
-    <nav className='flex-center fixed top-0 z-50 w-full border-grey-100 bg-white py-7 text-black-400 shadow-lg'>
-        <div className='flex-between mx-auto w-full max-w-screen-2xl px-6 xs:px-8 sm:px-16'>
+    <div className="flex justify-between items-center w-full h-20 px-4 text-primary bg-white shadow-lg fixed nav z-10">
+      <div>                
             <Link href="/">
                 <Image 
                     src='/zongericht-logo.svg'
                     alt='Logo Zongericht'
-                    width={150} 
-                    height={38} 
+                    width={200} 
+                    height={50} 
+                    layout="responsive"
+                    className="hover:scale-105 transition duration-300 ease-in-out"
                 />
             </Link>
+      </div>
 
-            <Image
-                src='/hamburger-menu.svg'
-                alt='hamburger icon for menu'
-                width={30}
-                height={30}
-                className='block md:hidden'
-            />
+      <ul className="hidden md:flex md:flex-center">
+        {links.map(({ id, link }) => (
+          <li
+            key={id}
+            className="nav-links px-2 cursor-pointer capitalize text-base font-semibold text-gray-500 hover:scale-105 hover:text-orange duration-300 link-underline
+            xl:px-6
+            lg:px-4
+            md:px-1
+            "
+          >
+            <Link href={link}>{link}</Link>
+          </li>
+        ))}
+        <Button asChild className='ml-5 gradient_orange text-white shadow-xl px-4 py-4 
+                                    hover:scale-105 transition duration-300 ease-in-out
+                                    '>
+                <Link 
+                    href="/schouwing" 
+                    className="text-base font-semibold"
+                >
+                    Schouwing aanvragen
+                    <BsHandIndex className="text-white animate-pulse ml-1 hover:animate-none " size={20} />
+                </Link>
+        </Button>  
+      </ul>
 
-            <ul className='flex-center gap-x-3 max-md:hidden md:gap-x-10'>
-                <li className='body-text !font-bold hover:text-primary'>
-                    <Link href='/zonnepanelen'>Zonnepanelen</Link>
-                </li>
-                <li className='body-text !font-bold hover:text-primary'>
-                    <Link href='/projecten'>Projecten</Link>
-                </li>
-                <li className='body-text !font-bold hover:text-primary'>
-                    <Link href='/overons'>Over ons</Link>
-                </li>               
+      <div
+        onClick={() => setNav(!nav)}
+        className="cursor-pointer pr-4 z-10 md:hidden"
+      >
+        {nav ? <FaTimes className="text-white animate-bounce" size={30} /> : <FaBars className="text-primary" size={30} />}
+      </div>
 
-            </ul>
-            <Button asChild className='body-text bg-brand_original_main text-white hover:bg-brand_original_main2 shadow-lg !font-bold'>
-                 <Link href="/schouwing">Schouwing aanvragen</Link>
-            </Button>
+      {nav && (
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen 
+                        bg-gradient-to-b gradient_green to-orange text-white            
+                        ">
+          {links.map(({ id, link }) => (
+            <li
+              key={id}
+              className="px-4 cursor-pointer capitalize py-6 text-3xl"
+            >
+              <Link onClick={() => setNav(!nav)} href={link} >
+                {link}
+              </Link>
+            </li>
 
+          ))}
+            <Button asChild className='mt-5 gradient_orange text-white shadow-2xl px-6 py-8'>
+                 <Link 
+                    href="/schouwing" 
+                    className="!text-xl"
+                >
+                        Schouwing aanvragen
+                        <BsHandIndex className="text-white ml-2 animate-pulse " size={30} />
+                 </Link>
+            </Button>    
+        </ul>
+      )}
+    </div>
+  );
+};
 
-        </div>
-    </nav>
-  )
-}
-
-export default Navbar
+export default Navbar;

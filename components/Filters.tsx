@@ -32,9 +32,24 @@ const Filters = () => {
 
         router.push(newUrl, { scroll:false });
     }
+
+    const scrollToSection = (link: string) => {
+        handleFilter(link);
+    
+        const section = document.getElementById(link);
+        if (section) {
+          section.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+
+
     
   return (
-    <ul className='text-primary body-text no-scrollbar flex w-full max-w-full gap-2 overflow-auto flex-wrap py-12 2xs:py-4 xs:py-6 xs:gap-2  justify-center'>
+    <ul className='text-primary body-text flex no-scrollbar w-full max-w-full gap-2 overflow-auto flex-wrap py-12 
+                    justify-center       
+                    xs:py-4 xs:gap-2 
+                    xxs:py-2 xxs:gap-1 
+                    '>
         {links.map((link) => (
             <button
                 key={link}
@@ -42,7 +57,13 @@ const Filters = () => {
                 className={` ${
                     active === link ? 
                     'gradient_green-orange text-white ' : ''
-                } whitespace-nowrap  bg-grey-100/30 shadow-lg rounded-lg px-8 py-2.5 capitalize`}
+                     } 
+                     whitespace-nowrap bg-white border shadow-inner rounded-lg px-8 py-2.5 capitalize
+                     justify-center
+                     sm:text-base
+                     xs:text-sm
+                    xxs:px-4 xxs:py-1  xxs:text-xs
+                `}
             >  
                 {link}
             </button>

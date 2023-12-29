@@ -24,8 +24,8 @@ const ResourceCard = ({ id, title, image, shortDescription, downloadNumber, scho
                         src={image}
                         alt={title}  
                         width={384}
-                        height={250}
-                        className="h-full rounded-md object-cover"
+                        height={220}
+                        className="h-full rounded-md object-cover max-h-[220px]"
                     />
                 </div>
 
