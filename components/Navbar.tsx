@@ -76,8 +76,8 @@ const Navbar = () => {
 
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen 
-                        bg-gradient-to-b gradient_green to-orange text-white            
-                        ">
+                        bg-gradient-to-b gradient_green to-orange text-white           
+                        ">                            
           {links.map(({ id, link }) => (
             <li
               key={id}
@@ -97,7 +97,18 @@ const Navbar = () => {
                         Schouwing aanvragen
                         <BsHandIndex className="text-white ml-2 animate-pulse " size={30} />
                  </Link>
-            </Button>    
+            </Button> 
+
+            <Link href="/">
+                <Image 
+                    src='/zongericht-logo.svg'
+                    alt='Logo Zongericht'
+                    width={200} 
+                    height={50} 
+                    layout="responsive"
+                    className="hover:scale-105 mt-10 transition duration-300 ease-in-out"
+                />
+            </Link>   
         </ul>
       )}
     </div>

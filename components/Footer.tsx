@@ -7,6 +7,8 @@ const Footer = () => {
         <p>© 2023-2024 QOQU BV | All rights reserved</p>
         <p>Malachiet 590 3316 LD Dordrecht</p>
 
+
+
         <div className='flex gap-x-9'>
             <Link href='/disclaimer'>Disclaimer</Link>
         </div>
@@ -20,6 +22,17 @@ const Footer = () => {
             <Link href='/cookies'>Cookies</Link>
         </div>
     </footer>
+
+    
+
+
+
+
+
+
+
+
+
   )
 }
 
