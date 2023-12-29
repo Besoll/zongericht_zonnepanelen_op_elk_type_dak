@@ -99,14 +99,14 @@ const Navbar = () => {
                  </Link>
             </Button> 
 
-            <Link href="/">
+            <Link href="/" className="absolute bottom-10">
                 <Image 
                     src='/zongericht-logo.svg'
                     alt='Logo Zongericht'
-                    width={200} 
+                    width={100} 
                     height={50} 
                     layout="responsive"
-                    className="hover:scale-105 mt-10 transition duration-300 ease-in-out"
+                    className="hover:scale-105 transition duration-300 ease-in-out"
                 />
             </Link>   
         </ul>
