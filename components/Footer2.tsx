@@ -1,20 +1,23 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
-import { BsPhoneVibrate, BsFillPinMapFill } from "react-icons/bs";
+import { BsPhoneVibrate, BsFillPinMapFill, BsHandIndex } from "react-icons/bs";
 import { IoMailUnreadOutline } from "react-icons/io5";
+import { Button } from "@/components/ui/button"
 
 const Footer = () => {
   return (
-<footer className="bg-white shadow-lg text-gray-500 text-base">
-    <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+<footer className="bg-white shadow-lg text-gray-500 text-base mt-20 md:mt-5">
+    <hr className="my-6 border-gray-200 md:mx-auto lg:my-8" />
 
-    <div className="flex flex-col justify-between mx-6
-                    sm:flex-row 
-                    md:mx-4
+    <div className="flex flex-col justify-center mx-6 ml-5 
+                    md:flex-row md:justify-between
+                    md:mx-4 md:ml-10
                     ">
-        <ul className='mt-8 mb-2 md:mt-2 md:mb-6 max-w-[300px] min-w-[200px]'>
-            <li>
+        <ul className='!-mt-20 gradient_special mb-2 rounded justify-center mx-auto
+                        md:-mt-10 md:mb-6 max-w-[300px] min-w-[200px] max-h-[350px] shadow-xl
+                        md:justify-center md:mx-0'>
+            <li className='flex flex-col justify-center '>
                 <Link href="/">
                     <Image 
                         src='/zongericht-logo.svg'
@@ -22,12 +25,25 @@ const Footer = () => {
                         width={200} 
                         height={50} 
                         layout="responsive"
-                        className="hover:scale-105 transition duration-300 ease-in-out"
+                        className="hover:scale-105 transition duration-300 ease-in-out w-[80%] h-auto p-5"
                     />
                 </Link>
+                <span className='text-center px-6 mt-2 mb-2 md:mt-4 md:mb-4'> Vraag bij u thuis een vrijblijvende inspectie en rendementsplan aan voor een op maat gemaakte offerte</span>
+
+                <Button asChild className='gradient_green text-white shadow-xl scale-105 py-4 mb-5
+                                    hover:scale-110 transition duration-300 ease-in-out
+                                    '>
+                        <Link 
+                            href="/schouwing" 
+                            className="text-base font-semibold"
+                        >
+                            Vraag een schouwing aan
+                            <BsHandIndex className="text-white animate-pulse ml-1 hover:animate-none" size={20} />
+                        </Link>
+                </Button> 
             </li>
         </ul>
-        <ul className='mt-8 mb-2 md:mt-2 md:mb-6'>
+        <ul className='mt-8 mb-2 ml-0 md:ml-5 md:mt-2 md:mb-6'>
             <span className="font-semibold text-gray-900 uppercase">
                 Paginas
             </span>
@@ -78,7 +94,7 @@ const Footer = () => {
                 </Link>
             </li>
         </ul>
-        <ul className='mt-8 mb-2 md:mt-2 md:mb-6'>
+        <ul className='mt-8 mb-2 ml-0 md:ml-3 md:mt-2 md:mb-6'>
             <span className="mb-6 font-semibold text-gray-900 uppercase">
             Voorwaarden & Privacy
             </span>
@@ -138,7 +154,7 @@ const Footer = () => {
                 </Link>
             </li>
         </ul>               
-        <ul className='mt-8 mb-2 md:mt-2 md:mb-6'>
+        <ul className='mt-8 mb-2 ml-0 md:ml-3 md:mt-2 md:mb-6'>
             <span className="mt-6 mb-2 md:mt-8 md:mb-6 font-semibold text-gray-900 uppercase">
                 Beoordelingen
             </span>
@@ -159,8 +175,7 @@ const Footer = () => {
 
 
     <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
-    <div className="flex justify-center text-center flex-wrap pb-6 flex-col 
-                    ">
+    <div className="flex justify-center text-center flex-wrap pb-6 flex-col">
         <ul className='flex flex-col justify-center text-center flex-wrap sm:flex-row'>
             <li className='mb-2 mr-5 sm:mr-5'>
                 <Link href='tel:0031165700130' className='flex justify-center items-center hover:scale-105 hover:text-orange duration-300'>
