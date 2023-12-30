@@ -1,176 +1,195 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
+import { BsPhoneVibrate, BsFillPinMapFill } from "react-icons/bs";
+import { IoMailUnreadOutline } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    
-
-<footer className="bg-white shadow-lg">
+<footer className="bg-white shadow-lg text-gray-500 text-base">
     <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
 
-    <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">             
-                  
-              <Link href="/">
-                <Image 
-                    src='/zongericht-logo.svg'
-                    alt='Logo Zongericht'
-                    width={200} 
-                    height={50} 
-                    layout="responsive"
-                    className="hover:scale-105 transition duration-300 ease-in-out"
-                />
-            </Link>
-          </div>
-
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
-                <div className="mb-6 text-sm font-semibold text-gray-900 uppercase">Paginas</div>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                    <li className="mb-4">
-                        <Link 
-                            href="/" 
-                            className='nav-links cursor-pointer capitalize text-base text-gray-500  
-                                    md:hover:scale-105 md:hover:text-orange md:duration-300'
-                        >
-                            Zonnepanel                      
-                        </Link>
-                    </li>
-                    <li className="mb-4">
-                        <Link 
-                            href="/" 
-                            className='nav-links cursor-pointer capitalize text-base text-gray-500  
-                                    md:hover:scale-105 md:hover:text-orange md:duration-300'
-                        >
-                            Projecten                        
-                        </Link>
-                    </li>
-                    <li className="mb-4">
-                        <Link 
-                            href="/" 
-                            className='nav-links cursor-pointer capitalize text-base text-gray-500  
-                                    md:hover:scale-105 md:hover:text-orange md:duration-300'
-                        >
-                            Brochures                        
-                        </Link>
-                    </li>
-                    <li className="mb-4">
-                        <Link 
-                            href="/" 
-                            className='nav-links cursor-pointer capitalize text-base text-gray-500  
-                                    md:hover:scale-105 md:hover:text-orange md:duration-300'
-                        >
-                            Over Ons                        
-                        </Link>
-                    </li>
-                    <li className="mb-4">
-                        <Link 
-                            href="/" 
-                            className='nav-links cursor-pointer capitalize text-base text-gray-500  
-                                    md:hover:scale-105 md:hover:text-orange md:duration-300'
-                        >
-                            Oferte aanvragen                       
-                        </Link>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <div className="mb-6 text-sm font-semibold text-gray-900 uppercase">Voorwaarden & Privacy</div>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <li className='mb-4'
-                    >
-                        <Link 
-                            href='/' 
-                            className='nav-links cursor-pointer capitalize text-base text-gray-500  
-                                    md:hover:scale-105 md:hover:text-orange md:duration-300'
-                        >
-                            Algemene voorwaarden                        
-                        </Link>
-                    </li>
-                    <li className='mb-4'
-                    >
-                        <Link 
-                            href='/' 
-                            className='nav-links cursor-pointer capitalize text-base text-gray-500  
-                                    md:hover:scale-105 md:hover:text-orange md:duration-300'
-                        >
-                            Disclaimer                       
-                        </Link>
-                    </li>
-                    <li className='mb-4'
-                    >
-                        <Link 
-                            href='/' 
-                            className='nav-links cursor-pointer capitalize text-base text-gray-500  
-                                    md:hover:scale-105 md:hover:text-orange md:duration-300'
-                        >
-                            Imprint                       
-                        </Link>
-                    </li>
-                    <li className='mb-4'
-                    >
-                        <Link 
-                            href='/' 
-                            className='nav-links cursor-pointer capitalize text-base text-gray-500  
-                                    md:hover:scale-105 md:hover:text-orange md:duration-300'
-                        >
-                            Cookie Policy (EU)                       
-                        </Link>
-                    </li>
-                    <li className='mb-4'
-                    >
-                        <Link 
-                            href='/' 
-                            className='nav-links cursor-pointer capitalize text-base text-gray-500  
-                                    md:hover:scale-105 md:hover:text-orange md:duration-300'
-                        >
-                            Privacy Statement (EU)                        
-                        </Link>
-                    </li>
-                    <li>
-                        <Link 
-                            href='/'
-                            className='nav-links cursor-pointer capitalize text-base text-gray-500  
-                                    md:hover:scale-105 md:hover:text-orange md:duration-300'
-                        >
-                            Terms and Conditions                        
-                        </Link>
-                    </li>
-                </ul>
-            <div>
-            </div>
-            <div>
-                <div className="mt-8 mb-2 md:mt-8 md:mb-6 text-sm font-semibold text-gray-900 uppercase">Beoordelingen</div>
-                    
-                            <Link href="/">
-                                <Image 
-                                    src='/reviews.png'
-                                    alt='Logo Zongericht'
-                                    width={200} 
-                                    height={50} 
-                                    layout="responsive"
-                                    className="hover:scale-105 transition duration-300 ease-in-out"
-                                />
-                            </Link>
-                        
-                </div>
-            </div>
-        </div>
-      </div>
+    <div className="flex flex-col justify-between mx-6
+                    sm:flex-row 
+                    md:mx-4
+                    ">
+        <ul className='mt-8 mb-2 md:mt-2 md:mb-6 max-w-[300px] min-w-[200px]'>
+            <li>
+                <Link href="/">
+                    <Image 
+                        src='/zongericht-logo.svg'
+                        alt='Logo Zongericht'
+                        width={200} 
+                        height={50} 
+                        layout="responsive"
+                        className="hover:scale-105 transition duration-300 ease-in-out"
+                    />
+                </Link>
+            </li>
+        </ul>
+        <ul className='mt-8 mb-2 md:mt-2 md:mb-6'>
+            <span className="font-semibold text-gray-900 uppercase">
+                Paginas
+            </span>
+            <hr className="my-2 border-gray-200 md:mx-auto"/>
+            <li className="mb-2">
+                <Link 
+                    href="/" 
+                    className='nav-links cursor-pointer capitalize text-base text-gray-500  
+                            md:hover:scale-105 md:hover:text-orange md:duration-300'
+                >
+                    Zonnepanel                      
+                </Link>
+            </li>
+            <li className="mb-2">
+                <Link 
+                    href="/" 
+                    className='nav-links cursor-pointer capitalize text-base text-gray-500  
+                            md:hover:scale-105 md:hover:text-orange md:duration-300'
+                >
+                    Projecten                        
+                </Link>
+            </li>
+            <li className="mb-2">
+                <Link 
+                    href="/" 
+                    className='nav-links cursor-pointer capitalize text-base text-gray-500  
+                            md:hover:scale-105 md:hover:text-orange md:duration-300'
+                >
+                    Brochures                        
+                </Link>
+            </li>
+            <li className="mb-2">
+                <Link 
+                    href="/" 
+                    className='nav-links cursor-pointer capitalize text-base text-gray-500  
+                            md:hover:scale-105 md:hover:text-orange md:duration-300'
+                >
+                    Over Ons                        
+                </Link>
+            </li>
+            <li className="mb-2">
+                <Link 
+                    href="/" 
+                    className='nav-links cursor-pointer capitalize text-base text-gray-500  
+                            md:hover:scale-105 md:hover:text-orange md:duration-300'
+                >
+                    Oferte aanvragen                       
+                </Link>
+            </li>
+        </ul>
+        <ul className='mt-8 mb-2 md:mt-2 md:mb-6'>
+            <span className="mb-6 font-semibold text-gray-900 uppercase">
+            Voorwaarden & Privacy
+            </span>
+            <hr className="my-2 border-gray-200 md:mx-auto"/>
+            <li className='mb-2'>
+                <Link 
+                    href='/' 
+                    className='nav-links cursor-pointer capitalize text-base text-gray-500  
+                            md:hover:scale-105 md:hover:text-orange md:duration-300'
+                >
+                    Algemene voorwaarden                        
+                </Link>
+            </li>
+            <li className='mb-2'>
+                <Link 
+                    href='/' 
+                    className='nav-links cursor-pointer capitalize text-base text-gray-500  
+                            md:hover:scale-105 md:hover:text-orange md:duration-300'
+                >
+                    Disclaimer                       
+                </Link>
+            </li>
+            <li className='mb-2'>
+                <Link 
+                    href='/' 
+                    className='nav-links cursor-pointer capitalize text-base text-gray-500  
+                            md:hover:scale-105 md:hover:text-orange md:duration-300'
+                >
+                    Imprint                       
+                </Link>
+            </li>
+            <li className='mb-2'>
+                <Link 
+                    href='/' 
+                    className='nav-links cursor-pointer capitalize text-base text-gray-500  
+                            md:hover:scale-105 md:hover:text-orange md:duration-300'
+                >
+                    Cookie Policy (EU)                       
+                </Link>
+            </li>
+            <li className='mb-2'>
+                <Link 
+                    href='/' 
+                    className='nav-links cursor-pointer capitalize text-base text-gray-500  
+                            md:hover:scale-105 md:hover:text-orange md:duration-300'
+                >
+                    Privacy Statement (EU)                        
+                </Link>
+            </li>
+            <li className='mb-2'>
+                <Link 
+                    href='/'
+                    className='nav-links cursor-pointer capitalize text-base text-gray-500  
+                            md:hover:scale-105 md:hover:text-orange md:duration-300'
+                >
+                    Terms and Conditions                        
+                </Link>
+            </li>
+        </ul>               
+        <ul className='mt-8 mb-2 md:mt-2 md:mb-6'>
+            <span className="mt-6 mb-2 md:mt-8 md:mb-6 font-semibold text-gray-900 uppercase">
+                Beoordelingen
+            </span>
+            <li className='mb-2 max-w-[200px]'>
+                <Link href="/">
+                    <Image 
+                        src='/reviews.png'
+                        alt='Logo Zongericht'
+                        width={100} 
+                        height={25} 
+                        layout="responsive"
+                        className="hover:scale-105 transition duration-300 ease-in-out"
+                        />
+                </Link>   
+            </li>                   
+        </ul> 
+    </div>
 
 
-      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© Alle rechten voorbehouden. 
-            Ontwerp & Copyright door QOQU B.V. - 2023-2024
-          </span>  
-        <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
-        <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
-           <span> Malachiet 590 3316 LD Dordrecht   </span>    </a>
-         </div>
-      </div>
+    <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+    <div className="flex justify-center text-center flex-wrap pb-6 flex-col 
+                    ">
+        <ul className='flex flex-col justify-center text-center flex-wrap sm:flex-row'>
+            <li className='mb-2 mr-5 sm:mr-5'>
+                <Link href='tel:0031165700130' className='flex justify-center items-center hover:scale-105 hover:text-orange duration-300'>
+                    <BsPhoneVibrate className="mr-2" size={20} /> 
+                        0165 700 130
+                </Link>
+            </li>
+            <li className='mb-2'>
+                <Link href='mailto:info@zongericht.nl' className='flex justify-center items-center hover:scale-105 hover:text-orange duration-300'>
+                    <IoMailUnreadOutline className="mr-2" size={12} /> 
+                        info@zongericht.nl
+                </Link>
+            </li>
+            <li className='mb-2 ml-1 sm:ml-5'>
+                <Link href='https://www.google.com/maps/place/Industriestraat+32,+4715+RL+Rucphen/@51.5351787,4.5734938,17z/data=!3m1!4b1!4m5!3m4!1s0x47c4190b8ac43c0b:0xb3377e1836ff7b8f!8m2!3d51.5351754!4d4.5760687?entry=ttu' target='_blank' className='flex justify-center items-center hover:scale-105 hover:text-orange duration-300'>
+                    <BsFillPinMapFill className="mr-2" size={12} /> 
+                        Industriestraat 32, 4715 RL Rucphen
+                </Link>
+            </li>
+        </ul>
+        <hr className="my-4 mb-2 border-gray-200 sm:mx-auto lg:mb-5 " />
+        <ul className='text-sm'>
+            <li>
+                2023-2024 © Alle rechten voorbehouden.
+            </li>
+            <li>
+                Ontwerp & Copyright door QOQU B.V.
+            </li>
+        </ul>
     </div>
 </footer>
 
