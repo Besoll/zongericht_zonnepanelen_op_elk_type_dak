@@ -3,10 +3,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import { BsHandIndex } from "react-icons/bs";
 import { Button } from "@/components/ui/button"
-import { buttonVariants } from "@/components/ui/button"
+import HandIndex from "@/public/icons/HandIndex.svg"
+import HamburgerMenu from "@/public/icons/HamburgerMenu.svg"
+import HamburgerMenuOpen from "@/public/icons/HamburgerMenuOpen.svg"
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -36,6 +36,7 @@ const Navbar = () => {
                     width={200} 
                     height={50} 
                     layout="responsive"
+                    loading="lazy"
                     className="hover:scale-105 transition duration-300 ease-in-out"
                 />
             </Link>
@@ -62,7 +63,14 @@ const Navbar = () => {
                     className="text-base font-semibold"
                 >
                     Schouwing aanvragen
-                    <BsHandIndex className="text-white animate-pulse ml-1 hover:animate-none " size={20} />
+                    <Image 
+                        src={HandIndex} 
+                        className="text-white animate-pulse ml-1 hover:animate-none" 
+                        width={20} 
+                        height={20}
+                        alt='Hand Index Icon'
+                        loading='lazy'
+                    />
                 </Link>
         </Button>  
       </ul>
@@ -71,7 +79,25 @@ const Navbar = () => {
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-10 md:hidden"
       >
-        {nav ? <FaTimes className="text-white animate-bounce" size={30} /> : <FaBars className="text-primary" size={30} />}
+        {nav ? 
+          <Image 
+              src={HamburgerMenuOpen} 
+              className="text-white animate-bounce" 
+              width={30} 
+              height={30}
+              alt='Hamburger Menu open Icon'
+              loading='lazy'
+          />  
+         : 
+         <Image 
+            src={HamburgerMenu} 
+            className="text-primary" 
+            width={30} 
+            height={30}
+            alt='Hamburger Menu Icon'
+            loading='lazy'
+          />  
+          }
       </div>
 
       {nav && (
@@ -95,7 +121,14 @@ const Navbar = () => {
                     className="!text-xl"
                 >
                         Schouwing aanvragen
-                        <BsHandIndex className="text-white ml-2 animate-pulse " size={30} />
+                        <Image 
+                            src={HandIndex} 
+                            className="text-white ml-2 animate-pulse" 
+                            width={30} 
+                            height={30}
+                            alt='Hand Index Icon'
+                            loading='lazy'
+                        />
                  </Link>
             </Button> 
 
@@ -105,6 +138,7 @@ const Navbar = () => {
                     alt='Logo Zongericht'
                     width={100} 
                     height={50} 
+                    loading="lazy"
                     layout="responsive"
                     className="hover:scale-105 transition duration-300 ease-in-out"
                 />

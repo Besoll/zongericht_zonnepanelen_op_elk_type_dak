@@ -26,6 +26,7 @@ const ResourceCard = ({ id, title, image, shortDescription, downloadNumber, scho
                         width={384}
                         height={220}
                         className="h-full rounded-md object-cover max-h-[220px]"
+                        loading='lazy'
                     />
                 </div>
 
@@ -44,6 +45,7 @@ const ResourceCard = ({ id, title, image, shortDescription, downloadNumber, scho
                     alt='downloads icon'
                     width={20}
                     height={20}
+                    loading='lazy'
                 />
                 {downloadNumber}
             </div>
@@ -57,6 +59,7 @@ const ResourceCard = ({ id, title, image, shortDescription, downloadNumber, scho
                     alt='arrow icon'
                     width={12}
                     height={10}
+                    loading='lazy'
                 />            
             </Link>
         </CardContent>

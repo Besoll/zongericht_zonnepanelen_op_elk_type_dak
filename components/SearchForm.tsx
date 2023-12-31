@@ -49,6 +49,7 @@ const SearchForm = () => {
                 width={20}
                 height={20}
                 className='absolute left-6 xxs:left-3'
+                loading='lazy'
             />
             <Input 
                 className='base-regular h-fit border-1 border py-6 pl-20 pr-8 text-white-400 !ring-0 !ring-offset-0         
