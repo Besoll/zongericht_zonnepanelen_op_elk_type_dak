@@ -28,7 +28,7 @@ const Page = async ({ searchParams }: Props) => {
                             sm:heading2 
                             xs:heading2 
                             xxs:heading3'
-                            >Beste Glas glas zonnepanelen<br></br> op elk type dak</h1>
+                            >Glas glas zonnepanelen<br></br> op elk type dak</h1>
         {/* <div className='flex-center relative min-h-[274px] w-full flex-col rounded-xl bg-banner bg-cover bg-center'/>           */}
                     <Image 
                         src='/hero-banner.webp'

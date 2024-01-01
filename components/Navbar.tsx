@@ -14,15 +14,23 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
-      link: "Zonnepanelen",
+      name: "Zonnepanelen",
+      link: "zonnepanelen",
     },
     {
       id: 2,
-      link: "Projecten",
+      name: "Dak Typen",
+      link: "dakTypen"
     },
     {
       id: 3,
-      link: "Over ons",
+      name: "Projecten",
+      link: "projecten"
+    },
+    {
+      id: 4,
+      name: "Over ons",
+      link: "overOns"
     },
   ];
 
@@ -43,7 +51,7 @@ const Navbar = () => {
       </div>
 
       <ul className="hidden md:flex md:flex-center">
-        {links.map(({ id, link }) => (
+        {links.map(({ id, name, link }) => (
           <li
             key={id}
             className="nav-links px-2 cursor-pointer capitalize text-base font-semibold text-gray-500 hover:scale-105 hover:text-orange duration-300 link-underline
@@ -52,7 +60,7 @@ const Navbar = () => {
             md:px-1
             "
           >
-            <Link href={link}>{link}</Link>
+            <Link href={link}>{name}</Link>
           </li>
         ))}
         <Button asChild className='ml-5 gradient_orange text-white shadow-xl px-4 py-4 
@@ -104,13 +112,13 @@ const Navbar = () => {
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen 
                         bg-gradient-to-b gradient_green to-orange text-white           
                         ">                            
-          {links.map(({ id, link }) => (
+          {links.map(({ id, name, link }) => (
             <li
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-3xl"
             >
               <Link onClick={() => setNav(!nav)} href={link} >
-                {link}
+                {name}
               </Link>
             </li>
 
