@@ -35,7 +35,6 @@ const Page = async ({ searchParams }: Props) => {
                         alt='glas glas zonnepanelen op elk type dak'
                         width={384}
                         height={250}
-                        loading='lazy'
                         className=" flex-center relative object-cover min-h-[600px] h-auto  w-full flex-col rounded-xl
                                     xs:min-h-[250px]
                                     xxs:min-h-[50px]"
