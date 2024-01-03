@@ -106,8 +106,6 @@ const HeroProjects = () => {
                         </Card>
                       </div>
                     </CarouselItem>
-
-
                
       </CarouselContent>
       <CarouselPrevious className="-left-5 md:-left-12"/>
