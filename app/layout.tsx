@@ -8,10 +8,10 @@ export const metadata: Metadata = {
   other: {
     'theme-color': '#0d1117',
     "color-scheme": "dark only",
-    "twitter:image": 'https://i.ibb.co/d6TXxB2/homepage-thumbnail.jpg',
+    "twitter:image": 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Fhero-banner.webp&w=828&q=75',
     "twitter:card": "summary_large_image",
     "og:url": "zongericht.nl",
-    "og:image": 'https://i.ibb.co/d6TXxB2/homepage-thumbnail.jpg',
+    "og:image": 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Fhero-banner.webp&w=828&q=75',
     "og:type": "website",
   }
 }

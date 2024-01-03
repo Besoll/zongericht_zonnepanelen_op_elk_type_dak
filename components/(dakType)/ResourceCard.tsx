@@ -38,8 +38,8 @@ const ResourceCard = ({ id, title, image, shortDescription, downloadNumber, scho
                 {shortDescription}
             </CardDescription>
         </Link>
-        <CardContent className='flex-between mt-4 p-4'>            
-            <div className='flex-center body-medium gap-1.5 text-black'>
+        <CardContent className='flex flex-col xs:flex-row xs:flex-between mt-4 p-4 border'>            
+            <div className='xs:flex-center flex xs:flex-row body-medium xs:gap-1.5 text-black'>
                 <Image 
                     src='/downloads.svg'
                     alt='downloads icon'
@@ -51,11 +51,11 @@ const ResourceCard = ({ id, title, image, shortDescription, downloadNumber, scho
             </div>
             <Link 
                 href={schouwingLink} 
-                className='flex-center text-gradient_green-orange body-semibold gap-1.5'
+                className='flex-center text-gradient_green-orange xs:body-semibold xs:gap-1.5'
             >
                 Schouwing aanvragen
                 <Image 
-                    src='/arrow-blue.svg'
+                    src='/icons/arrow-blue.svg'
                     alt='arrow icon'
                     width={12}
                     height={10}

@@ -1,7 +1,7 @@
-import Filters from '@/components/Filters'
-import Header from '@/components/Header'
-import ResourceCard from '@/components/ResourceCard'
-import SearchForm from '@/components/SearchForm'
+import Filters from '@/components/(dakType)/Filters'
+import Header from '@/components/(dakType)/Header'
+import ResourceCard from '@/components/(dakType)/ResourceCard'
+import SearchForm from '@/components/(dakType)/SearchForm'
 import { getResources, getResourcesPlaylist } from '@/sanity/actions'
 import Image from "next/image"
 
