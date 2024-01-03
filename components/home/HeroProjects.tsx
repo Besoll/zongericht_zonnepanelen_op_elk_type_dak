@@ -8,15 +8,16 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import Dakkapellen from "@/components/dakTypen/Dakkapellen"
-import PlatDak from "@/components/dakTypen/PlatDak"
-import LeistenenDak from "@/components/dakTypen/LeistenenDak"
-import SchuinEPDMdak from "@/components/dakTypen/SchuinEPDMdak"
-import SchuinPVCdak from "@/components/dakTypen/SchuinPVCdak"
-import SchuinBitumenDak from "@/components/dakTypen/SchuinBitumenDak"
-import GolfplatenDak from "@/components/dakTypen/GolfplatenDak"
-import Dakpannen from "@/components/dakTypen/Dakpannen"
-import ZinkenDak from "@/components/dakTypen/ZinkenDak"
+import dynamic from 'next/dynamic'
+const Dakkapellen = dynamic(() => import('@/components/dakTypen/Dakkapellen'))
+const PlatDak = dynamic(() => import('@/components/dakTypen/PlatDak'))
+const LeistenenDak = dynamic(() => import('@/components/dakTypen/LeistenenDak'))
+const SchuinEPDMdak = dynamic(() => import('@/components/dakTypen/SchuinEPDMdak'))
+const SchuinPVCdak = dynamic(() => import('@/components/dakTypen/SchuinPVCdak'))
+const SchuinBitumenDak = dynamic(() => import('@/components/dakTypen/SchuinBitumenDak'))
+const GolfplatenDak = dynamic(() => import('@/components/dakTypen/GolfplatenDak'))
+const Dakpannen = dynamic(() => import('@/components/dakTypen/Dakpannen'))
+const ZinkenDak = dynamic(() => import('@/components/dakTypen/ZinkenDak'))
 
 
 
