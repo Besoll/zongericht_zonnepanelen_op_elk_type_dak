@@ -8,22 +8,28 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import Dakkapellen from "@/components/dakTypen/Dakkapellen"
+import PlatDak from "@/components/dakTypen/PlatDak"
+import LeistenenDak from "@/components/dakTypen/LeistenenDak"
+import SchuinEPDMdak from "@/components/dakTypen/SchuinEPDMdak"
+import SchuinPVCdak from "@/components/dakTypen/SchuinPVCdak"
+import SchuinBitumenDak from "@/components/dakTypen/SchuinBitumenDak"
+import GolfplatenDak from "@/components/dakTypen/GolfplatenDak"
+import Dakpannen from "@/components/dakTypen/Dakpannen"
+import ZinkenDak from "@/components/dakTypen/ZinkenDak"
 
 
 
-
-const HeroProjects = async () => {
+const HeroProjects = () => {
   
   return (
     <Carousel className="w-full max-w-lg mt-16">
       <CarouselContent >
-                
-
                     <CarouselItem className="pl-1 md:basis-1/2 lg:basis-10/12" >
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-6">
-                                TEST beso
+                            <Dakkapellen />
                           </CardContent>
                         </Card>
                       </div>
@@ -32,7 +38,7 @@ const HeroProjects = async () => {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-6">
-                                TEST beso
+                            <PlatDak />
                           </CardContent>
                         </Card>
                       </div>
@@ -41,7 +47,7 @@ const HeroProjects = async () => {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-6">
-                                TEST beso
+                            <LeistenenDak />
                           </CardContent>
                         </Card>
                       </div>
@@ -50,7 +56,7 @@ const HeroProjects = async () => {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-6">
-                                TEST beso
+                            <Dakpannen />
                           </CardContent>
                         </Card>
                       </div>
@@ -59,7 +65,7 @@ const HeroProjects = async () => {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-6">
-                                TEST beso
+                            <SchuinBitumenDak />
                           </CardContent>
                         </Card>
                       </div>
@@ -68,7 +74,34 @@ const HeroProjects = async () => {
                       <div className="p-1">
                         <Card>
                           <CardContent className="flex aspect-square items-center justify-center p-6">
-                                TEST beso
+                            <ZinkenDak />
+                          </CardContent>
+                        </Card>
+                      </div>
+                    </CarouselItem>
+                    <CarouselItem className="pl-1 md:basis-1/2 lg:basis-10/12" >
+                      <div className="p-1">
+                        <Card>
+                          <CardContent className="flex aspect-square items-center justify-center p-6">
+                            <SchuinPVCdak />
+                          </CardContent>
+                        </Card>
+                      </div>
+                    </CarouselItem>
+                    <CarouselItem className="pl-1 md:basis-1/2 lg:basis-10/12" >
+                      <div className="p-1">
+                        <Card>
+                          <CardContent className="flex aspect-square items-center justify-center p-6">
+                            <GolfplatenDak />
+                          </CardContent>
+                        </Card>
+                      </div>
+                    </CarouselItem>
+                    <CarouselItem className="pl-1 md:basis-1/2 lg:basis-10/12" >
+                      <div className="p-1">
+                        <Card>
+                          <CardContent className="flex aspect-square items-center justify-center p-6">
+                            <SchuinEPDMdak />
                           </CardContent>
                         </Card>
                       </div>
