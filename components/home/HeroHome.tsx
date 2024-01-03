@@ -22,7 +22,7 @@ const HeroHome = () => {
                           Met Onze kennis transformeren we elk dak in een zonne-energiebron
           </h1>
           <div className='w-full md:w-[70%]'>
-            Bij Zongeschikt zijn we niet zomaar een zonnepaneleninstallateur:
+            Bij Zongericht zijn we niet zomaar een zonnepaneleninstallateur:
             <p className='flex flex-row pt-4'>
                 <Image 
                     src={Checked} 
