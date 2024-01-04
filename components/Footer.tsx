@@ -1,10 +1,13 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"
-import HandIndex from "@/public/icons/HandIndex.svg"
-import Email from "@/public/icons/Email.svg"
-import MapLocation from "@/public/icons/MapLocation.svg"
-import Mobile from "@/public/icons/Mobile.svg"
+
+
+import dynamic from 'next/dynamic'
+const HandIndex = dynamic(() => import('@/public/icons/HandIndex'))
+const EmailIcon = dynamic(() => import('@/public/icons/EmailIcon'))
+const MobileIcon = dynamic(() => import('@/public/icons/MobileIcon'))
+const MapLocation = dynamic(() => import('@/public/icons/MapLocation'))
 
 
 const Footer = () => {
@@ -41,14 +44,7 @@ const Footer = () => {
                             className="text-base font-semibold"
                         >
                             Vraag een schouwing aan
-                            <Image 
-                                src={HandIndex} 
-                                className="text-white animate-pulse ml-1 hover:animate-none" 
-                                width={20} 
-                                height={20}
-                                alt='Hand Index Icon'
-                                loading='lazy'
-                            />
+                            <HandIndex />
                         </Link>
                 </Button> 
             </li>
@@ -139,7 +135,7 @@ const Footer = () => {
             <li className='mb-2'>
                 <Link 
                     href='/' 
-                    className='nav-links cursor-pointer capitalize text-base text-gray-500  
+                    className='nav-links cursor-pointer capitalize text-base text-gray-500
                             md:hover:scale-105 md:hover:text-orange md:duration-300'
                 >
                     Cookie Policy (EU)                       
@@ -189,42 +185,20 @@ const Footer = () => {
         <ul className='flex flex-col justify-center text-center flex-wrap sm:flex-row'>
             <li className='mb-2 mr-5 sm:mr-5'>
                 <Link href='tel:0031165700130' className='flex justify-center items-center hover:scale-105 hover:text-orange duration-300'>
-                    <Image 
-                        src={Mobile} 
-                        className="mr-2" 
-                        width={20} 
-                        height={20}
-                        alt='Mobile Icon'
-                        loading='lazy'
-                    />
-                        0165 700 130
+                    <MobileIcon />
+                    <span className="ml-2" >0165 700 130</span>
                 </Link>
             </li>
             <li className='mb-2'>
                 <Link href='mailto:info@zongericht.nl' className='flex justify-center items-center hover:scale-105 hover:text-orange duration-300'>
-                    <Image 
-                        src={Email} 
-                        className="mr-2" 
-                        width={12} 
-                        height={12}
-                        alt='Email Icon'
-                        loading='lazy'
-                    />
-                        info@zongericht.nl
+                    <EmailIcon />
+                    <span className="ml-2" >info@zongericht.nl</span> 
                 </Link>
             </li>
             <li className='mb-2 ml-1 sm:ml-5'>
                 <Link href='https://www.google.com/maps/place/Industriestraat+32,+4715+RL+Rucphen/@51.5351787,4.5734938,17z/data=!3m1!4b1!4m5!3m4!1s0x47c4190b8ac43c0b:0xb3377e1836ff7b8f!8m2!3d51.5351754!4d4.5760687?entry=ttu' target='_blank' className='flex justify-center items-center hover:scale-105 hover:text-orange duration-300'>
-
-                    <Image 
-                        src={MapLocation} 
-                        className="mr-2" 
-                        width={12} 
-                        height={12}
-                        alt='Location Icon'
-                        loading='lazy'
-                    />
-                        Industriestraat 32, 4715 RL Rucphen
+                    <MapLocation />                        
+                    <span className="ml-2" >Industriestraat 32, 4715 RL Rucphen</span> 
                 </Link>
             </li>
         </ul>

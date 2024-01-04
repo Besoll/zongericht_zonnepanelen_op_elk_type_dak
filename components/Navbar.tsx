@@ -4,10 +4,13 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button"
-import HandIndex from "@/public/icons/HandIndex.svg"
-import HamburgerMenu from "@/public/icons/HamburgerMenu.svg"
-import HamburgerMenuOpen from "@/public/icons/HamburgerMenuOpen.svg"
-import NavbarMobile from "./NavbarMobile";
+
+import dynamic from 'next/dynamic'
+const HandIndex = dynamic(() => import('@/public/icons/HandIndex'))
+const HamburgerMenu = dynamic(() => import('@/public/icons/HamburgerMenu'))
+const HamburgerMenuOpen = dynamic(() => import('@/public/icons/HamburgerMenuOpen'))
+const NavbarMobile = dynamic(() => import('@/components/NavbarMobile'))
+
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -72,14 +75,7 @@ const Navbar = () => {
                     className="text-base font-semibold"
                 >
                     Schouwing aanvragen
-                    <Image 
-                        src={HandIndex} 
-                        className="text-white animate-pulse ml-1 hover:animate-none" 
-                        width={20} 
-                        height={20}
-                        alt='Hand Index Icon'
-                        loading='lazy'
-                    />
+                    <HandIndex />
                 </Link>
         </Button>  
       </ul>
@@ -89,23 +85,9 @@ const Navbar = () => {
         className="cursor-pointer pr-4 z-10 md:hidden"
       >
         {nav ? 
-          <Image 
-              src={HamburgerMenuOpen} 
-              className="text-white animate-bounce" 
-              width={30} 
-              height={30}
-              alt='Hamburger Menu open Icon'
-              loading='lazy'
-          />  
+          <HamburgerMenuOpen />  
          : 
-         <Image 
-            src={HamburgerMenu} 
-            className="text-primary" 
-            width={30} 
-            height={30}
-            alt='Hamburger Menu Icon'
-            loading='lazy'
-          />  
+         <HamburgerMenu />  
           }
       </div>
 

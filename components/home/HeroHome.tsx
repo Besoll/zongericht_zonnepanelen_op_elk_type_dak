@@ -1,9 +1,10 @@
-import React from 'react'
 import Image from 'next/image'
-import Checked from "@/public/icons/Checked.svg"
-import Arrow from "@/public/icons/arrow_white.svg"
 import { Button } from "@/components/ui/button"
 import Link from 'next/link'
+
+import dynamic from 'next/dynamic'
+const ArrowWhite = dynamic(() => import('@/public/icons/ArrowWhite'))
+const CheckedMarked = dynamic(() => import('@/public/icons/CheckedMarked'))
 
 const HeroHome = () => {
   return (
@@ -22,49 +23,21 @@ const HeroHome = () => {
                           Met Onze kennis transformeren we elk dak in een zonne-energiebron
           </h1>
           <div className='w-full md:w-[70%]'>
-            Bij Zongericht zijn we niet zomaar een zonnepaneleninstallateur:
+            Bij Zongeschikt zijn we niet zomaar een zonnepaneleninstallateur:
             <p className='flex flex-row pt-4'>
-                <Image 
-                    src={Checked} 
-                    className="text-white animate-pulse mr-2 hover:animate-none" 
-                    width={25} 
-                    height={25}
-                    alt='Hand Index Icon'
-                    loading='lazy'
-                />
+                <span className='w-[20px] h-auto'><CheckedMarked /></span>
                 Wij zijn dé specialist in het plaatsen van zonnepanelen op niet-gebruikelijke dakconstructies.
             </p>
             <p className='flex flex-row pt-4'>
-                <Image 
-                    src={Checked} 
-                    className="text-white animate-pulse mr-2 hover:animate-none" 
-                    width={25} 
-                    height={25}
-                    alt='Hand Index Icon'
-                    loading='lazy'
-                />
+                <CheckedMarked />
                 Van historische panden met leistenen daken tot moderne huizen met unieke architectonische structuren, wij hebben de expertise om elk project met precisie aan te pakken.
             </p>
             <p className='flex flex-row pt-4'>
-                <Image 
-                    src={Checked} 
-                    className="text-white animate-pulse mr-2 hover:animate-none" 
-                    width={25} 
-                    height={25}
-                    alt='Hand Index Icon'
-                    loading='lazy'
-                />
+                <CheckedMarked />
                 Waar anderen terughoudend zijn, zien wij kansen en oplossingen.
             </p>
-            <p className='flex flex-row pt-4'>
-                <Image 
-                    src={Checked} 
-                    className="text-white animate-pulse mr-2 hover:animate-none" 
-                    width={25} 
-                    height={25}
-                    alt='Hand Index Icon'
-                    loading='lazy'
-                />
+            <p className='flex flex-row pt-4'>                
+                <CheckedMarked />
                 Met onze jarenlange ervaring, innovatieve technieken en oog voor esthetiek, veranderen we elke uitdaging in een succesverhaal.
             </p>
           </div>
@@ -132,13 +105,7 @@ const HeroHome = () => {
                     className="!text-xl"
                 >
                     Meer info
-                    <Image 
-                        src={Arrow}
-                        className="text-white ml-2 " 
-                        width={20} 
-                        height={20}
-                        alt='arrow'
-                    />
+                    <ArrowWhite />
                 </Link>
             </Button>
         </div>

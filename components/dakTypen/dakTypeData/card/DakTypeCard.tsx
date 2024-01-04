@@ -2,6 +2,10 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import Image from 'next/image'
 import Link from 'next/link'
 
+import dynamic from 'next/dynamic'
+const DownloadIconImage = dynamic (() => import('@/components/icons/DownloadsIconImage'))
+const ArrowBlue = dynamic (() => import('@/components/icons/ArrowBlue'))
+
 
 interface Props {
     title: string;
@@ -24,7 +28,7 @@ const DakTypeCard = ({ title, image, shortDescription, views, schouwingLink, slu
                         src={image}
                         alt={title}  
                         width={384}
-                        height={220}
+                        height={384}
                         className="h-full rounded-md object-cover max-h-[220px]"
                         loading='lazy'
                     />
@@ -40,13 +44,7 @@ const DakTypeCard = ({ title, image, shortDescription, views, schouwingLink, slu
         </Link>
         <CardContent className='flex flex-col xs:flex-row xs:flex-between mt-4 p-4 border'>            
             <div className='xs:flex-center flex xs:flex-row body-medium xs:gap-1.5 text-black'>
-                <Image 
-                    src='/downloads.svg'
-                    alt='downloads icon'
-                    width={20}
-                    height={20}
-                    loading='lazy'
-                />
+                <DownloadIconImage />
                 {views}
             </div>
             <Link 
@@ -54,13 +52,7 @@ const DakTypeCard = ({ title, image, shortDescription, views, schouwingLink, slu
                 className='flex-center text-gradient_green-orange xs:body-semibold xs:gap-1.5'
             >
                 Schouwing aanvragen
-                <Image 
-                    src='/icons/arrow-blue.svg'
-                    alt='arrow icon'
-                    width={12}
-                    height={10}
-                    loading='lazy'
-                />            
+                <ArrowBlue />            
             </Link>
         </CardContent>
     </Card>

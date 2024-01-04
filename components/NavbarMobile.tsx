@@ -2,9 +2,11 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import React, { useState } from "react";
+import { useState } from "react";
 import { Button } from "@/components/ui/button"
-import HandIndex from "@/public/icons/HandIndex.svg"
+
+import dynamic from "next/dynamic";
+const HandIndex = dynamic(() => import('@/public/icons/HandIndex'))
 
 const NavbarMobile = () => {
     const [nav, setNav] = useState(false);
@@ -52,14 +54,7 @@ const NavbarMobile = () => {
                     className="!text-xl"
                 >
                         Schouwing aanvragen
-                        <Image 
-                            src={HandIndex} 
-                            className="text-white ml-2 animate-pulse" 
-                            width={30} 
-                            height={30}
-                            alt='Hand Index Icon'
-                            loading='lazy'
-                        />
+                        <HandIndex />
                  </Link>
             </Button> 
 
