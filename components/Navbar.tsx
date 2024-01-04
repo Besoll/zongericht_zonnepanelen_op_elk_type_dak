@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import { Button } from "@/components/ui/button"
 
 import dynamic from 'next/dynamic'
-const HandIndex = dynamic(() => import('@/public/icons/HandIndex'))
+const HandIndex = dynamic(() => import('@/components/icons/HandIndex'))
 const HamburgerMenu = dynamic(() => import('@/public/icons/HamburgerMenu'))
 const HamburgerMenuOpen = dynamic(() => import('@/public/icons/HamburgerMenuOpen'))
 const NavbarMobile = dynamic(() => import('@/components/NavbarMobile'))
@@ -67,17 +67,19 @@ const Navbar = () => {
             <Link href={link}>{name}</Link>
           </li>
         ))}
-        <Button asChild className='ml-5 gradient_orange text-white shadow-xl px-4 py-4 
-                                    hover:scale-105 transition duration-300 ease-in-out
-                                    '>
-                <Link 
-                    href="/schouwing" 
-                    className="text-base font-semibold"
-                >
-                    Schouwing aanvragen
-                    <HandIndex />
-                </Link>
-        </Button>  
+          <li>
+            <Button asChild className='ml-5 gradient_orange text-white shadow-xl px-4 py-4 
+                                        hover:scale-105 transition duration-300 ease-in-out
+                                        '>
+                    <Link 
+                        href="/schouwing" 
+                        className="text-base font-semibold"
+                    >
+                        Schouwing aanvragen
+                        <HandIndex />
+                    </Link>
+            </Button>
+          </li>
       </ul>
 
       <div

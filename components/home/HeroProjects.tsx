@@ -26,88 +26,33 @@ const HeroProjects = () => {
   return (
     <Carousel className="w-full max-w-lg mt-16">
       <CarouselContent >
-                    <CarouselItem className="pl-1 md:basis-1/2 lg:basis-10/12" >
-                      <div className="p-1">
-                        <Card>
-                          <CardContent className="flex aspect-square items-center justify-center p-6">
-                            <Dakkapellen />
-                          </CardContent>
-                        </Card>
-                      </div>
-                    </CarouselItem>
-                    <CarouselItem className="pl-1 md:basis-1/2 lg:basis-10/12" >
-                      <div className="p-1">
-                        <Card>
-                          <CardContent className="flex aspect-square items-center justify-center p-6">
-                            <PlatDak />
-                          </CardContent>
-                        </Card>
-                      </div>
-                    </CarouselItem>
-                    <CarouselItem className="pl-1 md:basis-1/2 lg:basis-10/12" >
-                      <div className="p-1">
-                        <Card>
-                          <CardContent className="flex aspect-square items-center justify-center p-6">
-                            <LeistenenDak />
-                          </CardContent>
-                        </Card>
-                      </div>
-                    </CarouselItem>
-                    <CarouselItem className="pl-1 md:basis-1/2 lg:basis-10/12" >
-                      <div className="p-1">
-                        <Card>
-                          <CardContent className="flex aspect-square items-center justify-center p-6">
-                            <Dakpannen />
-                          </CardContent>
-                        </Card>
-                      </div>
-                    </CarouselItem>
-                    <CarouselItem className="pl-1 md:basis-1/2 lg:basis-10/12" >
-                      <div className="p-1">
-                        <Card>
-                          <CardContent className="flex aspect-square items-center justify-center p-6">
-                            <SchuinBitumenDak />
-                          </CardContent>
-                        </Card>
-                      </div>
-                    </CarouselItem>
-                    <CarouselItem className="pl-1 md:basis-1/2 lg:basis-10/12" >
-                      <div className="p-1">
-                        <Card>
-                          <CardContent className="flex aspect-square items-center justify-center p-6">
-                            <ZinkenDak />
-                          </CardContent>
-                        </Card>
-                      </div>
-                    </CarouselItem>
-                    <CarouselItem className="pl-1 md:basis-1/2 lg:basis-10/12" >
-                      <div className="p-1">
-                        <Card>
-                          <CardContent className="flex aspect-square items-center justify-center p-6">
-                            <SchuinPVCdak />
-                          </CardContent>
-                        </Card>
-                      </div>
-                    </CarouselItem>
-                    <CarouselItem className="pl-1 md:basis-1/2 lg:basis-10/12" >
-                      <div className="p-1">
-                        <Card>
-                          <CardContent className="flex aspect-square items-center justify-center p-6">
-                            <GolfplatenDak />
-                          </CardContent>
-                        </Card>
-                      </div>
-                    </CarouselItem>
-                    <CarouselItem className="pl-1 md:basis-1/2 lg:basis-10/12" >
-                      <div className="p-1">
-                        <Card>
-                          <CardContent className="flex aspect-square items-center justify-center p-6">
-                            <SchuinEPDMdak />
-                          </CardContent>
-                        </Card>
-                      </div>
-                    </CarouselItem>
-               
+        <CarouselItem className="mr-1 basis-10/12" >
+          <Dakkapellen />                        
+        </CarouselItem>
+        <CarouselItem className="mr-1 basis-10/12" >
+          <PlatDak />                        
+        </CarouselItem>
+        <CarouselItem className="mr-1 basis-10/12" >
+          <LeistenenDak />                        
+        </CarouselItem>
+        <CarouselItem className="mr-1 basis-10/12" >
+          <Dakpannen />                        
+        </CarouselItem>
+        <CarouselItem className="mr-1 basis-10/12" >
+          <SchuinBitumenDak />                        
+        </CarouselItem>
+        <CarouselItem className="mr-1 basis-10/12" >
+          <ZinkenDak />                        
+        </CarouselItem>
+        <CarouselItem className="mr-1 basis-10/12" >
+          <SchuinPVCdak />                        
+        </CarouselItem>
+        <CarouselItem className="mr-1 basis-10/12" >
+          <GolfplatenDak />                        
+        </CarouselItem>
+        <CarouselItem className="mr-1 basis-10/12" >
+          <SchuinEPDMdak />                        
+        </CarouselItem>              
       </CarouselContent>
       <CarouselPrevious className="-left-5 md:-left-12"/>
       <CarouselNext className="-right-5 md:-right-12"/>

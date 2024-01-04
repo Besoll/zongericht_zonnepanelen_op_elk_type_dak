@@ -20,10 +20,9 @@ interface Props {
 
 const DakTypeCard = ({ title, image, shortDescription, views, schouwingLink, slug }: Props) => {
   return (
-    <Card className="w-full max-w-fit border-0 !bg-transparent xs:max-w-[356px]">
+    <Card className="w-full max-w-fit px-5 py-5 ">
         <Link href={`/daktypen/${slug}`}>
-            <CardHeader className='flex-center flex-col gap-2.5 !p-0'>
-                <div className='h-fit w-full'>
+            <CardHeader className='flex-center flex-col gap-2.5 !p-0 h-fit w-full'>
                     <Image 
                         src={image}
                         alt={title}  
@@ -32,8 +31,6 @@ const DakTypeCard = ({ title, image, shortDescription, views, schouwingLink, slu
                         className="h-full rounded-md object-cover max-h-[220px]"
                         loading='lazy'
                     />
-                </div>
-
                 <CardTitle className='text-primary paragraph-semibold line-clamp-1 w-full text-left capitalize'>
                     {title}
                 </CardTitle>
@@ -42,14 +39,14 @@ const DakTypeCard = ({ title, image, shortDescription, views, schouwingLink, slu
                 {shortDescription}
             </CardDescription>
         </Link>
-        <CardContent className='flex flex-col xs:flex-row xs:flex-between mt-4 p-4 border'>            
-            <div className='xs:flex-center flex xs:flex-row body-medium xs:gap-1.5 text-black'>
+        <CardContent className='flex flex-row xs:flex-between mt-4 p-4 border'>            
+            <div className='xs:flex hidden flex-row body-medium gap-1.5 text-black'>
                 <DownloadIconImage />
                 {views}
             </div>
             <Link 
                 href={schouwingLink} 
-                className='flex-center text-gradient_green-orange xs:body-semibold xs:gap-1.5'
+                className='flex-center text-gradient_green-orange gap-1.5'
             >
                 Schouwing aanvragen
                 <ArrowBlue />            

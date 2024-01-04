@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button"
 
 import dynamic from "next/dynamic";
-const HandIndex = dynamic(() => import('@/public/icons/HandIndex'))
+const HandIndex = dynamic(() => import('@/components/icons/HandIndex'))
 
 const NavbarMobile = () => {
     const [nav, setNav] = useState(false);
