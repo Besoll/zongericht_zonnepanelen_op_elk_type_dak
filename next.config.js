@@ -3,8 +3,7 @@ const nextConfig = {
     images: {
         domains: ['cdn.sanity.io']
     },
-    reactStrictMode: true,
-    experimental: { optimizeCss: true }
+    optimizeFonts: true,
     
 }
 
