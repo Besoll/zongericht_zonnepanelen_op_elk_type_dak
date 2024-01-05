@@ -58,14 +58,14 @@ const HeroHome = () => {
         <div className='lg:flex-col justify-start w-full lg:w-[45%]  '>
             <div className='flex flex-row justify-between pb-2'>
                 <Image 
-                    src='/DSC6310.webp'
+                    src='/heroImages/DSC6310.webp'
                     alt='glas glas zonnepanelen op elk type dak testimonial'
                     width={280}
                     height={250}
                     className="object-cover min-h-[100px] h-auto w-[35%] rounded-xl pr-2"
                 />   
                 <Image 
-                    src='/dakkapel.webp'
+                    src='/heroImages/dakkapel.webp'
                     alt='glas glas zonnepanelen op elk type dak op dakkapel'
                     width={280}
                     height={250}
@@ -73,7 +73,7 @@ const HeroHome = () => {
                 />   
             </div>
             <Image 
-                src='/DJI_0613.webp'
+                src='/heroImages/DJI_0613.webp'
                 alt='glas glas zonnepanelen op elk type dak project'
                 width={280}
                 height={250}

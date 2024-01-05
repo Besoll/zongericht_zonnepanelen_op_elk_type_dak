@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import downloads from '@/public/downloads.svg'
+import downloads from '@/public/icons/downloads.svg'
 
 const DownloadIconImage = () => (
   <Image 

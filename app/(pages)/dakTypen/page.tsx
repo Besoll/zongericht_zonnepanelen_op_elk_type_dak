@@ -31,7 +31,7 @@ const Page = async ({ searchParams }: Props) => {
                             >Glas glas zonnepanelen<br></br> op elk type dak</h1>
         {/* <div className='flex-center relative min-h-[274px] w-full flex-col rounded-xl bg-banner bg-cover bg-center'/>           */}
                     <Image 
-                        src='/hero-banner.webp'
+                        src='/heroImages/hero-banner.webp'
                         alt='glas glas zonnepanelen op elk type dak'
                         width={384}
                         height={250}

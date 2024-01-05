@@ -169,7 +169,7 @@ const Footer = () => {
                 <li className='mb-2 max-w-[200px]'>
                     <Link href="/">
                         <Image 
-                            src='/reviews.png'
+                            src='/items/reviews.png'
                             alt='reviews from klantenvertellen'
                             width={100} 
                             height={25} 

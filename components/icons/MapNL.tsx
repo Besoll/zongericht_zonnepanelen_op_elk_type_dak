@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import map from '@/public/map.svg'
+import map from '@/public/items/map.svg'
 
 const MapNL = () => (
   <Image 
