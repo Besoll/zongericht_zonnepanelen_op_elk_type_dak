@@ -1,25 +1,16 @@
-const withPWA = require("@ducanh2912/next-pwa").default({
-    dest: "public",
-    disable: process.env.NODE_ENV === "production",
-    cacheOnFrontEndNavCaching: true,
-    aggressiveFrontEndNavCaching: true,
-    reloadOnOnline: true,
-    swcMinify: true,
-    workboxOptions: {
-        disableDevLogs: true,
-      },
+const withPWA = require('next-pwa');
 
-  });
-
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = withPWA({
+    pwa: {
+        dest: 'public',
+        // Additional PWA configurations can be added here
+        // For example, to disable PWA in development mode:
+        // disable: process.env.NODE_ENV === 'development',
+    },
     images: {
-        domains: ['cdn.sanity.io']
+        domains: ['cdn.sanity.io'],
     },
     optimizeFonts: true,
-}
-
-module.exports = withPWA(nextConfig)
-
+    // Other Next.js configurations...
+});
 

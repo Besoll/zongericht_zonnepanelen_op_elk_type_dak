@@ -77,7 +77,7 @@ const HeroHome = () => {
                 alt='glas glas zonnepanelen op elk type dak project'
                 width={280}
                 height={250}
-                className="object-cover min-h-[100px] h-auto  w-full flex-col rounded-xl"
+                className="object-cover min-h-[100px] h-auto w-full flex-col rounded-xl"
             />     
         </div>
       </div>
