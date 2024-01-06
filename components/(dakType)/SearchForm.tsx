@@ -2,10 +2,10 @@
 
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 
 import { Input } from "@/components/ui/input";
 import { formUrlQuery } from '@/sanity/utils';
+import SearchIcon from '../icons/SearchIcon';
 
 
 const SearchForm = () => {
@@ -43,14 +43,7 @@ const SearchForm = () => {
                         xs:-mt-10 xs:w-[90%] sm:px-4 
                         xxs:-mt-2 xxs:w-[95%] '>
         <label className='flex-center relative w-full max-w-3xl '>
-            <Image 
-                src='/magnifying-glass.svg'
-                alt='Search icon'
-                width={20}
-                height={20}
-                className='absolute left-6 xxs:left-3'
-                loading='lazy'
-            />
+            <SearchIcon />
             <Input 
                 className='base-regular h-fit border-1 border py-6 pl-20 pr-8 text-white-400 !ring-0 !ring-offset-0         
                 placeholder:text-white-400

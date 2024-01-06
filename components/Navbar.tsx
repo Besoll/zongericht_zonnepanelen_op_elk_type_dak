@@ -7,8 +7,8 @@ import { Button } from "@/components/ui/button"
 
 import dynamic from 'next/dynamic'
 const HandIndex = dynamic(() => import('@/components/icons/HandIndex'))
-const HamburgerMenu = dynamic(() => import('@/public/icons/HamburgerMenu'))
-const HamburgerMenuOpen = dynamic(() => import('@/public/icons/HamburgerMenuOpen'))
+const HamburgerMenu = dynamic(() => import('@/components/icons/HamburgerMenu'))
+const HamburgerMenuOpen = dynamic(() => import('@/components/icons/HamburgerMenuOpen'))
 const NavbarMobile = dynamic(() => import('@/components/NavbarMobile'))
 
 

@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 import dynamic from 'next/dynamic'
 const MapNL = dynamic(() => import('@/components/icons/MapNL'))
-const ArrowWhite = dynamic(() => import('@/public/icons/ArrowWhite'))
+const ArrowWhite = dynamic(() => import('@/components/icons/ArrowWhite'))
 const CheckedMarked = dynamic(() => import('@/components/icons/CheckedMarked'))
 
 const HeroHome = () => {

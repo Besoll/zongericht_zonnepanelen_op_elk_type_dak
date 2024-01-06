@@ -476,7 +476,12 @@
           {
             "src": "ios/1024.png",
             "sizes": "1024x1024"
+          },
+          {
+            "src": "/icon-192x192.png",
+            "sizes": "196x196",
+            "type": "image/png",
+            "purpose": "any maskable"
           }
-
     ]
 }

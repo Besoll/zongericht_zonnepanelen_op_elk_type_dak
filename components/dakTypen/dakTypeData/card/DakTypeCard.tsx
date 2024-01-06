@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import dynamic from 'next/dynamic'
-const DownloadIconImage = dynamic (() => import('@/components/icons/DownloadsIconImage'))
+const DownloadsIcon = dynamic (() => import('@/components/icons/DownloadsIcon'))
 const ArrowBlue = dynamic (() => import('@/components/icons/ArrowBlue'))
 
 
@@ -15,8 +15,6 @@ interface Props {
     schouwingLink: string;
     slug: string;
 }
-
-
 
 const DakTypeCard = ({ title, image, shortDescription, views, schouwingLink, slug }: Props) => {
   return (
@@ -41,7 +39,7 @@ const DakTypeCard = ({ title, image, shortDescription, views, schouwingLink, slu
         </Link>
         <CardContent className='flex flex-row xs:flex-between mt-4 p-4 border'>            
             <div className='xs:flex hidden flex-row body-medium gap-1.5 text-black'>
-                <DownloadIconImage />
+                <DownloadsIcon />
                 {views}
             </div>
             <Link 

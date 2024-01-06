@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button"
 
 import dynamic from 'next/dynamic'
 const HandIndex = dynamic(() => import('@/components/icons/HandIndex'))
-const EmailIcon = dynamic(() => import('@/public/icons/EmailIcon'))
-const MobileIcon = dynamic(() => import('@/public/icons/MobileIcon'))
-const MapLocation = dynamic(() => import('@/public/icons/MapLocation'))
+const EmailIcon = dynamic(() => import('@/components/icons/EmailIcon'))
+const MobileIcon = dynamic(() => import('@/components/icons/MobileIcon'))
+const MapLocation = dynamic(() => import('@/components/icons/MapLocation'))
 
 
 const Footer = () => {
