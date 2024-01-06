@@ -42,6 +42,7 @@ export default function ProductUSP() {
     <div className="flex my-12 w-full justify-center items-center  flex-col space-y-2">
       {accordionInput.map(({ title, subTitle, id })  => (
         <AccordionBox 
+          key={id}
           title={title}
           subTitle={subTitle}
           i={id}
