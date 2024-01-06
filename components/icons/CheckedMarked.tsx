@@ -4,7 +4,7 @@ import checked from '@/public/icons/checked.svg'
 const CheckedMarked = () => (
   <Image 
     src={checked} 
-    alt="Download Icon" 
+    alt="Checked Marked" 
     width={20} 
     height={20} 
     className='h-auto min-h-[20px]'

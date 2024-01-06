@@ -11,7 +11,35 @@ const HeroHome = () => {
   return (
     <section className='flex pt-[40px] md:pt-[98px] w-full flex-col text-base text-black'>
       {/* top side of the hero */}
-      <div className='w-full flex flex-col-reverse lg:flex-row justify-between'>
+      <div className='w-full flex flex-col lg:flex-row-reverse justify-between'>
+         {/* right side */}
+        <div className='lg:flex-col justify-start w-full lg:w-[45%]  '>
+            <div className='flex flex-row justify-between pb-2'>
+                <Image 
+                    src='/heroImages/DSC6310.webp'
+                    alt='glas glas zonnepanelen op elk type dak testimonial'
+                    width={280}
+                    height={250}
+                    className="object-cover min-h-[100px] h-auto w-[35%] rounded-xl pr-2"
+                />   
+                <Image 
+                    src='/heroImages/dakkapel.webp'
+                    alt='glas glas zonnepanelen op elk type dak op dakkapel'
+                    width={280}
+                    height={250}
+                    className="object-cover min-h-[100px] h-auto w-[65%] rounded-xl"
+                />   
+            </div>
+            <Image 
+                src='/heroImages/DJI_0613.webp'
+                alt='glas glas zonnepanelen op elk type dak project'
+                width={280}
+                height={250}
+                layout=''
+                className="object-cover min-h-[100px] h-auto w-full flex-col rounded-xl"
+            />     
+        </div>
+        
          {/* left side */}
         <div className='flex-col justify-start w-full'>
             <p className='font-medium text-gradient_orange'>Zongericht:</p>
@@ -54,32 +82,6 @@ const HeroHome = () => {
             </ul>
         </div>
 
-         {/* right side */}
-        <div className='lg:flex-col justify-start w-full lg:w-[45%]  '>
-            <div className='flex flex-row justify-between pb-2'>
-                <Image 
-                    src='/heroImages/DSC6310.webp'
-                    alt='glas glas zonnepanelen op elk type dak testimonial'
-                    width={280}
-                    height={250}
-                    className="object-cover min-h-[100px] h-auto w-[35%] rounded-xl pr-2"
-                />   
-                <Image 
-                    src='/heroImages/dakkapel.webp'
-                    alt='glas glas zonnepanelen op elk type dak op dakkapel'
-                    width={280}
-                    height={250}
-                    className="object-cover min-h-[100px] h-auto w-[65%] rounded-xl"
-                />   
-            </div>
-            <Image 
-                src='/heroImages/DJI_0613.webp'
-                alt='glas glas zonnepanelen op elk type dak project'
-                width={280}
-                height={250}
-                className="object-cover min-h-[100px] h-auto w-full flex-col rounded-xl"
-            />     
-        </div>
       </div>
 
       {/* bottom side of the hero */}
