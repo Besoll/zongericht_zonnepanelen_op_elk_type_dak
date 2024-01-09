@@ -13,20 +13,20 @@ const HeroHome = () => {
       {/* top side of the hero */}
       <div className='w-full flex flex-col lg:flex-row-reverse justify-between'>
          {/* right side */}
-        <div className='lg:flex-col justify-start w-full lg:w-[45%]  '>
+        <div className='lg:flex-col justify-start w-full lg:w-[45%] max-w-[490px] '>
             <div className='flex flex-row justify-between pb-2 max-h-[300px]'>
                 <Image 
                     src='/heroImages/DSC6310.webp'
                     alt='glas glas zonnepanelen op elk type dak testimonial'
-                    width={280}
-                    height={250}
+                    width={140}
+                    height={125}
                     className="object-cover h-auto w-[35%] rounded-xl pr-2 "
                 />   
                 <Image 
                     src='/heroImages/dakkapel.webp'
                     alt='glas glas zonnepanelen op elk type dak op dakkapel'
-                    width={280}
-                    height={250}
+                    width={140}
+                    height={125}
                     className="object-cover h-auto w-[65%] rounded-xl"
                 />   
             </div>
@@ -34,15 +34,15 @@ const HeroHome = () => {
                 <Image 
                     src='/dakTypes/plat-dak/4.webp'
                     alt='glas glas zonnepanelen op elk type dak testimonial'
-                    width={280}
-                    height={250}
+                    width={140}
+                    height={125}
                     className="object-cover h-auto w-[35%] rounded-xl"
                 />   
                 <Image 
                     src='/heroImages/DJI_0613.webp'
                     alt='glas glas zonnepanelen op elk type dak op dakkapel'
-                    width={280}
-                    height={250}
+                    width={140}
+                    height={125}
                     className="object-cover h-auto w-[65%] rounded-xl pr-2"
                 />   
             </div>   
