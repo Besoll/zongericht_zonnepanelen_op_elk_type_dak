@@ -30,14 +30,7 @@ const HeroHome = () => {
                     className="object-cover min-h-[100px] h-auto w-[65%] rounded-xl"
                 />   
             </div>
-            <Image 
-                src='/heroImages/DJI_0613.webp'
-                alt='glas glas zonnepanelen op elk type dak project'
-                width={280}
-                height={250}
-                layout=''
-                className="object-cover min-h-[100px] h-auto w-full flex-col rounded-xl"
-            />     
+              
         </div>
         
          {/* left side */}
