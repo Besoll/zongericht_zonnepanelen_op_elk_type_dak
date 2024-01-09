@@ -28,7 +28,6 @@ const nextConfig = {
     images: {
         domains: ['cdn.sanity.io'],
     },
-    optimizeFonts: true,
 };
 
 module.exports = nextConfig;
