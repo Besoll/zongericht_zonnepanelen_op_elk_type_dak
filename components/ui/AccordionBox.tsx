@@ -29,7 +29,7 @@ export default function AccordionBox(item: AccordionItems) {
             <motion.div
                 className='flex'
                 animate = {{
-                    rotate: expanded ? 100 : 0,
+                    rotate: expanded ? 90 : 0,
                 }}
             >
                 <span className={`w-3 ${expanded ? "text-gradient_orange" : "text-gradient_green"}`}>
