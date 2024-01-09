@@ -14,20 +14,20 @@ const HeroHome = () => {
       <div className='w-full flex flex-col lg:flex-row-reverse justify-between'>
          {/* right side */}
         <div className='lg:flex-col justify-start w-full lg:w-[45%]  '>
-            <div className='flex flex-row justify-between pb-2'>
+            <div className='flex flex-row justify-between pb-2 max-h-[300px]'>
                 <Image 
                     src='/heroImages/DSC6310.webp'
                     alt='glas glas zonnepanelen op elk type dak testimonial'
                     width={280}
                     height={250}
-                    className="object-cover min-h-[100px] h-auto w-[35%] rounded-xl pr-2 max-h-[300px]"
+                    className="object-cover h-auto w-[35%] rounded-xl pr-2 "
                 />   
                 <Image 
                     src='/heroImages/dakkapel.webp'
                     alt='glas glas zonnepanelen op elk type dak op dakkapel'
                     width={280}
                     height={250}
-                    className="object-cover min-h-[100px] h-auto w-[65%] rounded-xl max-h-[300px]"
+                    className="object-cover h-auto w-[65%] rounded-xl"
                 />   
             </div>
             <div className='hidden md:flex flex-row-reverse justify-between pb-2'>
@@ -36,14 +36,14 @@ const HeroHome = () => {
                     alt='glas glas zonnepanelen op elk type dak testimonial'
                     width={280}
                     height={250}
-                    className="object-cover min-h-[100px] h-auto w-[35%] rounded-xl max-h-[300px]"
+                    className="object-cover h-auto w-[35%] rounded-xl"
                 />   
                 <Image 
                     src='/heroImages/DJI_0613.webp'
                     alt='glas glas zonnepanelen op elk type dak op dakkapel'
                     width={280}
                     height={250}
-                    className="object-cover min-h-[100px] h-auto w-[65%] rounded-xl pr-2 max-h-[300px]"
+                    className="object-cover h-auto w-[65%] rounded-xl pr-2"
                 />   
             </div>   
         </div>
