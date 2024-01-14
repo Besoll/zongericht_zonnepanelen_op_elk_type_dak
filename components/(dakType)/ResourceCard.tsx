@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card" 
+import DownloadsIcon from "@/components/icons/DownloadsIcon";
 
 
 interface Props {
@@ -40,13 +41,7 @@ const ResourceCard = ({ id, title, image, shortDescription, downloadNumber, scho
         </Link>
         <CardContent className='flex flex-col xs:flex-row xs:flex-between mt-4 p-4 border'>            
             <div className='xs:flex-center flex xs:flex-row body-medium xs:gap-1.5 text-black'>
-                <Image 
-                    src='/downloads.svg'
-                    alt='downloads icon'
-                    width={20}
-                    height={20}
-                    loading='lazy'
-                />
+                <DownloadsIcon />
                 {downloadNumber}
             </div>
             <Link 

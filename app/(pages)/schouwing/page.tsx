@@ -1,12 +1,14 @@
-import React from 'react'
+import TimelineSchouwing from '@/components/ui/TimelineSchouwing'
 
 const page = () => {
   return (
-    <main className='min-h-[70vh] flex justify-center items-center '>
-      <h1 className='text-black heading4 text-center'>
+    <section className='flex justify-center items-center flex-col gap-5 w-full'>
+      <h1 className='text-black heading4 text-center mt-24'>
         404 | pagina
       </h1>
-    </main>
+      <div className='btn'>Hello</div>
+      <TimelineSchouwing />
+    </section>
   )
 }
 
