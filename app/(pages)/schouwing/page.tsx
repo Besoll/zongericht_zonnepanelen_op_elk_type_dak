@@ -1,14 +1,52 @@
-import TimelineSchouwing from '@/components/ui/TimelineSchouwing'
+import dynamic from 'next/dynamic'
+const TimelineSchouwing = dynamic(() => import('@/components/ui/TimelineSchouwing'))
+const ZohoForm = dynamic(() => import('@/components/ZohoForm'))
+
+import Image from 'next/image'
 
 const page = () => {
   return (
-    <section className='flex justify-center items-center flex-col gap-5 w-full'>
-      <h1 className='text-black heading4 text-center mt-24'>
-        404 | pagina
-      </h1>
-      <div className='btn'>Hello</div>
-      <TimelineSchouwing />
-    </section>
+    <main className='flex-center mx-auto w-full flex-col'>
+      <section className='w-full gradient_green flex-center'>
+        <header className='paddings max-w-screen-3xl text-white felx-col md:flex-row'>
+          <div className='flex flex-col'>
+            <h1 className='heading4 mb-6 pr-5 mt-24  
+                              xs:heading2
+                              xl:heading1'>
+            Geïnteresseerd in een offerte?
+            </h1>
+            <div className=''>
+              
+                Vraag gerust een vrijblijvende schouwing aan voor een inspectie op locatie aan voor een offerte die perfect bij u past. Binnen een termijn van maximaal 2 weken komt onze adviseur graag bij u thuis langs.
+                <br></br>
+                Tijdens de inspectie kunt u samen met de adviseur met behulp van ons intekenprogramma direct de zonnepanelen in kaart brengen. Zo kunt u gezamenlijk bepalen hoe de panelen esthetisch het mooist geplaatst kunnen worden.
+              
+            </div>
+          </div>
+          <div className='flex'>
+
+          </div>
+        </header>
+      </section>
+      <section className='max-w-screen-3xl my-10'>
+        <TimelineSchouwing />
+      </section>
+      <section className='flex justify-center items-center w-full gradient_green min-h-full flex-row' id="zohoForm">
+        <div className='mt-20 mb-28'>
+          <div className='absolute sm:-ml-56 xs:-ml-40 xs:w-full xs:h-auto w-[100px] -ml-12 mt-4 xs:mt-0'>
+            <Image 
+              src='/person/4.webp' 
+              alt={'dd'}
+              width='250'
+              height='700'          
+            />
+          </div>
+          <div>
+            <ZohoForm />
+          </div>
+        </div>
+      </section>
+    </main>
   )
 }
 
