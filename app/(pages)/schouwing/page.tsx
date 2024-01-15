@@ -42,10 +42,10 @@ const page = () => {
               src='/person/4.webp' 
               alt={'dd'}
               width='250'
-              height='700'          
+              height='700'       
             />
           </div>
-          <div>
+          <div className='w-[320px] h-[540px]'>
             <ZohoForm />
           </div>
         </div>

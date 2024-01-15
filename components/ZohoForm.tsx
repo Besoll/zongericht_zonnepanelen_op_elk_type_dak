@@ -15,6 +15,8 @@ const ZohoForm = () => {
         const iframe = document.createElement('iframe');
         iframe.src = 'https://forms.zohopublic.eu/zongeschikt/form/ZongerichtReference/formperma/O0REFYM-akHQlpS2WI6SCjyaeliedZS7zIAxCwgF_hs?zf_rszfm=1';
         iframe.style.border = 'none';
+        iframe.style.width = '320px';
+        iframe.style.height = '540px';
         iframe.style.transition = 'all 0.5s ease';
         iframe.setAttribute('inter', 'Zongericht- Reference');
         iframe.setAttribute('title', 'Zongericht Reference Form');
