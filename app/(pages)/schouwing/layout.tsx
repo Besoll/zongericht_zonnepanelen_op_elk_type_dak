@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '@/components/Footer'
+import FooterSchouwing from '@/components/FooterSchouwing'
 import Navbar from '@/components/Navbar'
 
 const layout = ({ children }: { children: React.ReactNode }) => {
@@ -7,7 +7,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
     <>
         <Navbar />
         {children}
-        <Footer />
+        <FooterSchouwing />
     </>
   )
 }

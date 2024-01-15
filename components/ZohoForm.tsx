@@ -17,6 +17,7 @@ const ZohoForm = () => {
         iframe.style.border = 'none';
         iframe.style.transition = 'all 0.5s ease';
         iframe.setAttribute('inter', 'Zongericht- Reference');
+        iframe.setAttribute('title', 'Zongericht Reference Form');
 
         div.appendChild(iframe);
       } catch (e) {

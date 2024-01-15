@@ -1,13 +1,12 @@
-import HandIndex from '../icons/HandIndex'
 import Link from 'next/link'
+import { Button } from './button'
 
 import dynamic from 'next/dynamic'
-import { Button } from './button'
-const ZohoForm = dynamic(() => import('@/components/ZohoForm'))
+const HandIndex = dynamic(() => import('@/components/icons/HandIndex'))
 
 const TimelineSchouwing = () => {
   return (
-    <div className='text-black flex flex-col gap-8 pt-14'>
+    <div className='text-black flex flex-col gap-8 text-base'>
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
             <li>
                 <div className="timeline-middle">
@@ -16,7 +15,7 @@ const TimelineSchouwing = () => {
                 <div className="timeline-start md:text-end mb-10">
                 <time className="font-mono italic text-brand_original_secondary animate-pulse">Stap 1</time>
                 <div className="text-lg font-black">Vraag een schouwing aan</div>
-                Vrijblijvend formulier invullen, nadat u van ons een telefoontje heeft ontvangen voor het maken van een afspraak voor de inspectie. Ons uiterst professionele personeel zal de hele procedure uitleggen, al uw vragen beantwoorden en een geschikt tijdstip voor de inspectie afspreken om te zien wat er mogelijk is om op uw dak te installeren.<br></br>
+                Vrijblijvend formulier invullen, nadat u van ons een telefoontje heeft ontvangen voor het maken van een afspraak voor de inspectie. Ons uiterst professionele personeel zal de hele procedure uitleggen, al uw vragen beantwoorden en een geschikt tijdstip voor de inspectie afspreken om te zien wat er mogelijk is om op uw dak te installeren.<br></br><br></br>
                 
                 <Button asChild className='ml-5 gradient_orange text-white shadow-xl px-4 py-4 
                                         hover:scale-105 transition duration-300 ease-in-out
