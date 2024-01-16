@@ -7,7 +7,7 @@ const CheckedFillColored = () => (
     alt="Checked Mark Filled" 
     width={20} 
     height={20} 
-    className='h-auto'
+    className='h-auto text-brand_original_secondary'
   />
 );
 

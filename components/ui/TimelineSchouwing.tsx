@@ -11,12 +11,12 @@ const TimelineSchouwing = () => {
     <div className='text-black flex flex-col gap-8 text-base'>
         <ul className="min-h-[500px] timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
             <li>
-                    <hr className='gradient_orange'/>
-                <div className="timeline-middle text-brand_original_secondary animate-pulse w-5 h-5">
+                    <hr className='gradient_orange animate-spin'/>
+                <div className="timeline-middle">
                         <CheckedFillColored />
                 </div>
                 <div className="timeline-start md:text-end mb-10">
-                <time className="font-mono italic animate-pulse">Stap 1</time>
+                <time className="font-mono italic">Stap 1</time>
                 <div className="text-lg font-black">Vraag een schouwing aan</div>
                 Vrijblijvend formulier invullen, nadat u van ons een telefoontje heeft ontvangen voor het maken van een afspraak voor de inspectie. Ons uiterst professionele personeel zal de hele procedure uitleggen, al uw vragen beantwoorden en een geschikt tijdstip voor de inspectie afspreken om te zien wat er mogelijk is om op uw dak te installeren.<br></br><br></br>
                 
@@ -50,7 +50,7 @@ const TimelineSchouwing = () => {
             <li>
                 <hr />
                 <div className="timeline-middle">
-                <CheckedFill />
+                    <CheckedFill />
                 </div>
                 <div className="timeline-start md:text-end mb-10">
                     <time className="font-mono italic">Stap 3</time>

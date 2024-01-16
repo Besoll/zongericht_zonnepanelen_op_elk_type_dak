@@ -27,9 +27,8 @@ const page = () => {
               src='/person/7.webp' 
               alt={'dd'}
               width='200'
-              height='550'          
+              height='550'       
           />
-
         </div>
       </header>
       <section className='max-w-screen-3xl my-8 md:my-10'>
