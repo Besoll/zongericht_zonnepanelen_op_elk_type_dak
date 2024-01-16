@@ -5,8 +5,9 @@ const MapNL = () => (
   <Image 
     src={map} 
     alt="Map Nederlands" 
-    width={100} 
-    height={100}
+    width={50} 
+    height={50}
+    loading='lazy'
     className='w-full h-auto pr-2 md:mt-24'
   />
 );

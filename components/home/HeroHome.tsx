@@ -95,7 +95,7 @@ const HeroHome = () => {
       {/* bottom side of the hero */}
       <div className='w-full flex flex-row justify-between '>
         {/* left side */}
-        <div className='w-full md:w-[50%] h-auto lg:w-full lg:-mt-24 md:-mt-12 md:hidden sm:flex lg:flex
+        <div className='w-full md:w-[50%] h-auto lg:w-full lg:-mt-24 md:-mt-12 md:hidden sm:flex lg:flex lg:p-40
                         '>
           <MapNL /> 
         </div>
