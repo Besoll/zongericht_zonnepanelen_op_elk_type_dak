@@ -47,7 +47,6 @@ const Navbar = () => {
                     alt='Logo Zongericht'
                     width={200} 
                     height={50} 
-                    layout="responsive"
                     loading="lazy"
                     className="hover:scale-105 transition duration-300 ease-in-out"
                 />

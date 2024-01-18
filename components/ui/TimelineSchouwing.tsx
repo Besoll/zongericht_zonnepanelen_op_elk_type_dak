@@ -67,7 +67,7 @@ const TimelineSchouwing = () => {
                 <div className="timeline-end mb-10">
                 <time className="font-mono italic">Stap 4</time>
                 <div className="text-lg font-black">Bij Opdracht</div>
-                U krijgt een projectleider toegewezen die de voorbereidingen treft tot na de installatie.
+                    U krijgt een projectleider toegewezen die de voorbereidingen treft tot na de installatie.
                 </div>
                 <hr />
             </li>

@@ -2,7 +2,7 @@ import Hero from '@/components/schouwing/Hero'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 const TimelineSchouwing = dynamic(() => import('@/components/ui/TimelineSchouwing'))
-const ZohoForm = dynamic(() => import('@/components/ZohoForm'))
+const LeadForm = dynamic(() => import('@/components/ui/LeadForm'))
 
 import Image from 'next/image'
 
@@ -20,7 +20,7 @@ const page = () => {
                   alt='arrow down svg'
                   width={80}
                   height={80}
-                  className="object-cover text-white  h-auto px-2 animate-bounce hover:animate-none hover:scale-105"
+                  className="object-cover text-white  h-auto px-2 animate-bounce animate-duration-[1600ms] animate-ease-linear hover:animate-none hover:scale-105"
               />               
           </Link>
       </section>
@@ -36,11 +36,13 @@ const page = () => {
               src='/person/4.webp' 
               alt={'dd'}
               width='250'
-              height='700'       
+              height='700'
+              className='h-auto'       
             />
           </div>
           <div className='w-[320px] h-[540px]'>
-            <ZohoForm />
+            {/* <ZohoForm /> */}
+            <LeadForm />
           </div>
         </div>
       </section>

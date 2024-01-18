@@ -65,7 +65,6 @@ const NavbarMobile = () => {
                     width={100} 
                     height={50} 
                     loading="lazy"
-                    layout="responsive"
                     className="hover:scale-105 transition duration-300 ease-in-out"
                 />
             </Link>   

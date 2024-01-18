@@ -31,7 +31,6 @@ const Footer = () => {
                             width={200} 
                             height={50} 
                             loading="lazy"
-                            layout="responsive"
                             className="hover:scale-105 transition duration-300 ease-in-out w-[80%] h-auto p-5"
                         />
                     </Link>
@@ -172,7 +171,7 @@ const Footer = () => {
                             src='/items/reviews.png'
                             alt='reviews from klantenvertellen'
                             width={100} 
-                            height={25} 
+                            height={35} 
                             className="h-auto md:hover:scale-105 md:transition md:duration-300 md:ease-in-out"
                             />
                     </Link>   

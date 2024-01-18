@@ -28,9 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="nl">
-      <body className='min-h-screen bg-white font-poppins'>{children}
-      <script type="text/javascript" src='https://forms.zoho.eu/js/zf_gclid.js'></script>
-      </body>
+      <body className='min-h-screen bg-white font-poppins'>{children}</body>
     </html>
   )
 }
