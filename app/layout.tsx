@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next'
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css'
 
 
@@ -28,7 +29,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="nl">
-      <body className='min-h-screen bg-white font-poppins'>{children}</body>
+      <body className='min-h-screen bg-white font-poppins'>
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   )
 }
