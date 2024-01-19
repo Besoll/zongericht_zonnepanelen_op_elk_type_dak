@@ -222,6 +222,10 @@
   background: linear-gradient(155deg, #000000 50%, #FF7C29 100%);
 }
 
+.gradient_special_Hero2 {
+  background: linear-gradient(155deg, #000000 50%, #d806f4 100%);
+}
+
 .gradient_green-orange {
   background: linear-gradient(155deg, #1C6570 50%, #FF7C29 100%);
 }
