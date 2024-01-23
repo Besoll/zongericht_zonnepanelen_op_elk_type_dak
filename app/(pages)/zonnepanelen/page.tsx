@@ -9,7 +9,7 @@ const page = () => {
         <Hero />
       </header>
 
-      <section className='-mt-10 xs:-mt-20'>
+      <section className='-mt-20'>
           <Link href='#timelineSection'>
             <Image 
                   src='/icons/arrowDown.svg'
