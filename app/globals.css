@@ -223,6 +223,10 @@
 }
 
 .gradient_special_Hero2 {
+  background: linear-gradient(155deg, #000000 50%, #ffb303 65%, #037410 90%);
+}
+
+.gradient_special_Hero3 {
   background: linear-gradient(155deg, #000000 50%, #d806f4 100%);
 }
 
@@ -252,6 +256,22 @@
 
 .text-gradient_orange {
   background: linear-gradient(90deg, #c42e04 2.34%, #FF7C29 100.78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text-gradient_special {
+  background: linear-gradient(90deg, #9aff02 2.34%, #fff200 100.78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text-gradient_special2 {
+  background: linear-gradient(90deg, #08ffff 2.34%, #fff200 100.78%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="69.3616mm" height="32.9041mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 82.42 39.1"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+   <clipPath id="id0">
+    <rect x="6.07" width="76.35" height="39.1"/>
+   </clipPath>
+    <clipPath id="id1">
+     <rect x="6.07" y="0" width="76.35" height="39.1"/>
+    </clipPath>
+   <clipPath id="id2">
+    <rect x="0.36" y="0.83" width="77.24" height="38.27"/>
+   </clipPath>
+    <clipPath id="id3">
+     <rect x="0.36" y="0.83" width="77.24" height="38.27"/>
+    </clipPath>
+   <clipPath id="id4">
+    <rect y="0.82" width="52.25" height="38.28"/>
+   </clipPath>
+    <clipPath id="id5">
+     <rect x="-0" y="0.82" width="52.25" height="38.28"/>
+    </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g style="clip-path:url(#id0)">
+   <image style="clip-path:url(#id1)" x="6.07" y="-23.46" width="76.46" height="62.65" xlink:href="zonnepanelen-3x_Images/zonnepanelen-3x_ImgID1.png"/>
+  </g>
+  <g style="clip-path:url(#id2)">
+   <image style="clip-path:url(#id3)" x="-8.85" y="-23.46" width="86.45" height="62.65" xlink:href="zonnepanelen-3x_Images/zonnepanelen-3x_ImgID2.png"/>
+  </g>
+  <g style="clip-path:url(#id4)">
+   <image style="clip-path:url(#id5)" x="-0.1" y="-23.46" width="52.35" height="62.65" xlink:href="zonnepanelen-3x_Images/zonnepanelen-3x_ImgID3.png"/>
+  </g>
+ </g>
+</svg>
