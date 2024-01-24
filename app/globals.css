@@ -230,6 +230,10 @@
   background: linear-gradient(210deg, #037410 35%, #ff7003 65%, #000000 75%);
 }
 
+.gradient_special_Hero3_mob {
+  background: linear-gradient(210deg, #037410 35%,  #000000 75%);
+}
+
 .gradient_green-orange {
   background: linear-gradient(155deg, #1C6570 50%, #FF7C29 100%);
 }

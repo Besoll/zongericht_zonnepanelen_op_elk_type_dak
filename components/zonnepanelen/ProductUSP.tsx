@@ -34,7 +34,7 @@ const ProductUSP = () => {
     
   return (
     <div className='flex w-full justify-center items-center flex-col max-w-[1200px]'>
-        <div className='flex my-10 justify-center'>
+        <div className='flex mt-6 mb-2 justify-center'>
             <h2 className='text-white heading3 xs:heading2 xl:heading1 text-center'>
                 Glas glas zonnepanelen
                 <br></br>                
@@ -163,13 +163,7 @@ const ProductUSP = () => {
                 </Popover> 
             </div>
             <div className='w-[320px] h-auto flex flex-col'>
-                <h3 className='heading3 text-white rounded-md border-2 py-1 px-2 -ml-2 bg-black-100/80 text-center md:text-left md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer active:opacity-25'>
-                    Duurzaam en betrouwbaar
-                </h3>
-                <p className='py-6 text-center md:text-left'>
-                    Opzoek naar hoogwaardige zonnepanelen? Glas-glas zonnepanelen zijn de meest betrouwbare keuze. Vanwege de langere levensduur vergeleken met andere glasfolie panelen, is dit de meest duurzame keuze. Ook zijn glas-glas panelen beter bestand tegen weersinvloeden en behouden ze langer hun vermogen om zonne-energie om te zetten in elektriciteit.
-                </p>
-                <div className='flex flex-col md:flex-row w-full md:gap-2'>
+                <div className='flex flex-row w-full md:gap-3 mb-4'>
                     <div className='flex flex-col w-full'>
                         <div className='flex flex-row justify-start items-start gap-1 md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer active:opacity-25'  onClick={() => handlePopoverOpen(1)}>
                             <CheckedFillColored />
@@ -204,6 +198,15 @@ const ProductUSP = () => {
                     </div>
 
                 </div>
+
+                <h3 className='heading3 text-white rounded-md border-2 py-1 px-2 -ml-2 bg-black-100/80 text-center md:text-left md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer active:opacity-25'>
+                    Duurzaam en betrouwbaar
+                </h3>
+
+                <p className='py-6 text-center md:text-left'>
+                    Opzoek naar hoogwaardige zonnepanelen? Glas-glas zonnepanelen zijn de meest betrouwbare keuze. Vanwege de langere levensduur vergeleken met andere glasfolie panelen, is dit de meest duurzame keuze. Ook zijn glas-glas panelen beter bestand tegen weersinvloeden en behouden ze langer hun vermogen om zonne-energie om te zetten in elektriciteit.
+                </p>
+                
             </div>
 
         </div>
