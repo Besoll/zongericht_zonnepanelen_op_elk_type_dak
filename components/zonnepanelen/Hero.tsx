@@ -49,6 +49,7 @@ const Hero = () => {
                     alt='glas glas zonnepanelen op elk type dak testimonial'
                     width={140}
                     height={125}
+                    loading='lazy'
                     className=" w-[50%] h-auto pr-2 md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer"
                 />   
                 <Image 
@@ -56,6 +57,7 @@ const Hero = () => {
                     alt='glas glas zonnepanelen op elk type dak op dakkapel'
                     width={140}
                     height={125}
+                    loading='lazy'
                     className="w-[50%]  h-auto md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer "
                 />   
             </div>
@@ -65,6 +67,7 @@ const Hero = () => {
                     alt='glas glas zonnepanelen op elk type dak testimonial'
                     width={140}
                     height={125}
+                    loading='lazy'
                     className="object-cover h-auto w-[100%] md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer "
                 />  
             </div>   

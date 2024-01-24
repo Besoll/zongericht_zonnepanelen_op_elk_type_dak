@@ -29,11 +29,8 @@ const page = () => {
         <PartnersLogos />
       </section>
 
-      <section className='w-full  flex-center gradient_special_Hero3 flex h-[100vh] xs:h-[95vh]
+      <section className='w-full  flex-center gradient_special_Hero3 flex min-h-[100vh] pb-32 md:pb-2 xs:h-[95vh]
       scroll-mt-24 snap-start' id='productUSP' >
-        <div className='max-w-screen-3xl my-8 md:my-10  '>
-
-        </div>
         <ProductUSP />
       </section>
 
