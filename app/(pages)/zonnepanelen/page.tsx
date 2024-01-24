@@ -29,7 +29,7 @@ const page = () => {
         <PartnersLogos />
       </section>
 
-      <section className='w-full  flex-center gradient_special_Hero3_mob md:gradient_special_Hero3 flex min-h-[100vh] pb-32 md:pb-2 xs:h-[95vh]
+      <section className='w-full flex-center gradient_special_Hero3_mob md:gradient_special_Hero3 flex min-h-[100vh] pb-32 md:pb-2 xs:h-[95vh]
       scroll-mt-16 snap-start' id='productUSP' >
         <ProductUSP />
       </section>
