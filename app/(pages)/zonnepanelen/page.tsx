@@ -2,6 +2,11 @@ import Hero from '@/components/zonnepanelen/Hero'
 import Link from 'next/link'
 import Image from 'next/image'
 
+import dynamic from 'next/dynamic'
+const PartnersLogos = dynamic(() => import("@/components/zonnepanelen/PartnersLogos"))
+const ProductUSP = dynamic(() => import("@/components/zonnepanelen/ProductUSP"))
+
+
 const page = () => {
   return (
     <main className='flex-center mx-auto w-full flex-col text-white snap-y gap-2'>
@@ -10,7 +15,7 @@ const page = () => {
       </header>
 
       <section className='-mt-20'>
-          <Link href='#timelineSection'>
+          <Link href='#partnersLogos'>
             <Image 
                   src='/icons/arrowDown.svg'
                   alt='arrow down svg'
@@ -20,9 +25,16 @@ const page = () => {
               />               
           </Link>
       </section>
+      <section className='max-w-screen-3xl  scroll-mt-24 snap-start' id='partnersLogos' >
+        <PartnersLogos />
+      </section>
 
-      <section className='max-w-screen-3xl my-8 md:my-10  scroll-mt-28 snap-start' id='timelineSection' >
-        
+      <section className='w-full  flex-center gradient_special_Hero3 flex h-[100vh] xs:h-[95vh]
+      scroll-mt-24 snap-start' id='productUSP' >
+        <div className='max-w-screen-3xl my-8 md:my-10  '>
+
+        </div>
+        <ProductUSP />
       </section>
 
       <section className='flex justify-center items-center w-full gradient_green min-h-full flex-row scroll-mt-12 snap-start'  id="zohoForm">
