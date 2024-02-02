@@ -5,6 +5,7 @@ import Image from 'next/image'
 import dynamic from 'next/dynamic'
 const PartnersLogos = dynamic(() => import("@/components/zonnepanelen/PartnersLogos"))
 const ProductUSP = dynamic(() => import("@/components/zonnepanelen/ProductUSP"))
+const QualityFirst = dynamic(() => import("@/components/zonnepanelen/QualityFirst"))
 
 
 const page = () => {
@@ -14,7 +15,7 @@ const page = () => {
         <Hero />
       </header>
 
-      <section className='-mt-20'>
+      <section className='-mt-24'>
           <Link href='#partnersLogos'>
             <Image 
                   src='/icons/arrowDown.svg'
@@ -29,13 +30,23 @@ const page = () => {
         <PartnersLogos />
       </section>
 
-      <section className='w-full flex-center gradient_special_Hero3_mob md:gradient_special_Hero3 flex min-h-[100vh] pb-32 md:pb-2 xs:h-[95vh]
-      scroll-mt-16 snap-start' id='productUSP' >
+      <section className='w-full flex-center gradient_special_Hero3_mob md:gradient_special_Hero3 flex min-h-[100vh] pb-32 md:pb-2 xs:h-[95vh]  scroll-mt-16 snap-start' id='productUSP' >
         <ProductUSP />
       </section>
+      <section className='-mt-28 md:-mt-40'>
+          <Link href='#qualityFirst'>
+            <Image 
+                  src='/icons/arrowDown.svg'
+                  alt='arrow down svg'
+                  width={80}
+                  height={80}
+                  className="object-cover text-white-400 w-[50px] xs:w-[80px] h-auto px-2 animate-bounce animate-duration-[1600ms] animate-ease-linear"
+              />               
+          </Link>
+      </section>
 
-      <section className='flex justify-center items-center w-full gradient_green min-h-full flex-row scroll-mt-12 snap-start'  id="zohoForm">
-       
+      <section className='w-full flex-center flex min-h-[100vh] pb-32 md:pb-2 xs:h-[95vh] scroll-mt-16 snap-start text-black' id='qualityFirst' >
+        <QualityFirst />
       </section>
 
     </main>

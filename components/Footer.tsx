@@ -206,7 +206,7 @@ const Footer = () => {
             <hr className="my-4 mb-2 border-gray-200 sm:mx-auto lg:mb-5 " />
             <ul className='text-sm'>
                 <li>
-                    2023-2024 © Alle rechten voorbehouden.
+                    Auteursrecht © 2018-2024. Alle rechten voorbehouden.
                 </li>
                 <li>
                     Ontwerp & Copyright door QOQU B.V.
