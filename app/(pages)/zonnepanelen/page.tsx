@@ -6,6 +6,7 @@ import dynamic from 'next/dynamic'
 const PartnersLogos = dynamic(() => import("@/components/zonnepanelen/PartnersLogos"))
 const ProductUSP = dynamic(() => import("@/components/zonnepanelen/ProductUSP"))
 const QualityFirst = dynamic(() => import("@/components/zonnepanelen/QualityFirst"))
+const AccordionProduct = dynamic(() => import('@/components/home/AccordionProduct')) 
 
 
 const page = () => {
@@ -30,8 +31,9 @@ const page = () => {
         <PartnersLogos />
       </section>
 
-      <section className='w-full flex-center gradient_special_Hero3_mob md:gradient_special_Hero3 flex min-h-[100vh] pb-32 md:pb-2 xs:h-[95vh]  scroll-mt-16 snap-start' id='productUSP' >
+      <section className='w-full flex-center gradient_special_Hero3_mob md:gradient_special_Hero3 flex flex-col min-h-[100vh] pb-32 md:pb-2 xs:h-[95vh] scroll-mt-16 snap-start' id='productUSP' >
         <ProductUSP />
+        <AccordionProduct />
       </section>
       <section className='-mt-28 md:-mt-40'>
           <Link href='#qualityFirst'>

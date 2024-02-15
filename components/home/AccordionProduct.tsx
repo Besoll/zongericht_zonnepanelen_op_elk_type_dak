@@ -7,7 +7,7 @@ const AccordionBox = dynamic(() => import('@/components/ui/AccordionBox'));
 
 
 
-export default function ProductUSP() {
+export default function AccordionProduct() {
   const [open, setOpen] = useState<number>(1)
   
   const accordionInput = [

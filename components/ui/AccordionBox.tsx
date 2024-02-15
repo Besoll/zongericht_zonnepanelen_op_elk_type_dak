@@ -51,7 +51,7 @@ export default function AccordionBox(item: AccordionItems) {
                     transition={{ duration: 0.6, ease: [0.04, 0.62, 0.23, 0.98] }}
                 >
                     <div className='mt-4 px-5'>
-                        <p className='text-base'>
+                        <p className='text-base text-black-100'>
                             {item.subTitle}
                         </p>
                     </div>
