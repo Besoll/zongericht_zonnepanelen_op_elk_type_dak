@@ -25,11 +25,11 @@ const page = () => {
           </Link>
       </header>
 
-      <section className='max-w-screen-3xl  scroll-mt-24 snap-start scroll-smooth md:scroll-auto' id='partnersLogos' >
+      <section className='max-w-screen-3xl  scroll-mt-24 snap-start scroll-smooth md:scroll-auto h-auto' id='partnersLogos' >
         <PartnersLogos />
       </section>
 
-      <section className='w-full flex-center gradient_special_Hero3_mob md:gradient_special_Hero3 flex flex-col min-h-[100vh] pb-32 md:pb-2 xs:h-[95vh] scroll-mt-16 snap-start scroll-smooth md:scroll-auto' id='productUSP' >
+      <section className='w-full flex-center gradient_special_Hero3_mob md:gradient_special_Hero3 flex flex-col min-h-[100vh]  pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start scroll-smooth md:scroll-auto' id='productUSP' >
         <ProductUSP />
         <Link href='#qualityFirst'>
             <Image 
@@ -45,7 +45,7 @@ const page = () => {
           
       </section>
 
-      <section className='w-full flex-center flex-col flex min-h-[100vh] pb-32 md:pb-2 xs:h-[95vh] scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto lg:mt-40 xl:mt-24 mt-12' id='qualityFirst' >
+      <section className='w-full flex-center flex-col flex min-h-[100vh] pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto lg:mt-40 xl:mt-24 mt-12' id='qualityFirst' >
         <QualityFirst />
         <AccordionProduct />
       </section>
