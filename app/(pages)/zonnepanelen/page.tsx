@@ -12,7 +12,7 @@ const AccordionProduct = dynamic(() => import('@/components/home/AccordionProduc
 const page = () => {
   return (
     <main className='flex-center mx-auto w-full flex-col text-white snap-y gap-2'>
-      <header className='w-full  flex-center gradient_special_Hero2 flex h-[100vh] xs:h-[95vh] flex-col'>
+      <header className='w-full flex-center justify-center gradient_special_Hero2 flex min-h-[100vh] mt-15 pb-30 xs:h-auto flex-col items-center'>
         <Hero />
           <Link href='#productUSP'>
             <Image 

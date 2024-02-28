@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className='w-full h-full flex justify-center items-center flex-col md:flex-row px-8 md:px-20 py-8 md:py-20 max-w-[1750px]'>
         <div className='w-full flex flex-col text-center md:text-start justify-center md:justify-start items-center md:items-start mb-6 md:mb-0'>
-            <h1 className='heading3 mb-3 mt-8  text-white pr-5 uppercase
+            <h1 className='heading3 mb-3 mt-8  text-white pl-2 uppercase
                         xs:heading2 
                         xl:heading1'>
                 <span className=''>
