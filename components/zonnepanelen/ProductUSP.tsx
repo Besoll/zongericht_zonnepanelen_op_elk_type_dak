@@ -49,7 +49,7 @@ const ProductUSP = () => {
                             alt='zonnepanelen scheme 1st part'
                             width={300}
                             height={40}
-                            className="w-[300px] md:w-[400px] h-auto md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer z-[7] active:opacity-25"
+                            className="w-[300px] md:w-[400px] h-auto md:hover:scale-125 md:transition md:duration-300 md:ease-in-out md:cursor-pointer z-[7] active:opacity-25"
                         /> 
                     </PopoverTrigger>
                     <PopoverContent>
@@ -66,7 +66,7 @@ const ProductUSP = () => {
                             alt='zonnepanelen scheme 2nd part'
                             width={300}
                             height={40}
-                            className="-mt-36 md:-mt-44 w-[300px] md:w-[400px] h-auto md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer z-[6] active:opacity-25"
+                            className="-mt-36 md:-mt-44 w-[300px] md:w-[400px] h-auto md:hover:scale-125 md:transition md:duration-300 md:ease-in-out md:cursor-pointer z-[6] active:opacity-25"
                         />
                     </PopoverTrigger>
                     <PopoverContent>
@@ -83,7 +83,7 @@ const ProductUSP = () => {
                             alt='zonnepanelen scheme 3rd part'
                             width={300}
                             height={40}
-                            className="-mt-36 md:-mt-44 w-[300px] md:w-[400px] h-auto md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer z-[5] active:opacity-25"
+                            className="-mt-36 md:-mt-44 w-[300px] md:w-[400px] h-auto md:hover:scale-125 md:transition md:duration-300 md:ease-in-out md:cursor-pointer z-[5] active:opacity-25"
                         />
                     </PopoverTrigger>
                     <PopoverContent>
@@ -100,7 +100,7 @@ const ProductUSP = () => {
                             alt='zonnepanelen scheme 4th part'
                             width={300}
                             height={40}
-                            className="-mt-36 md:-mt-44 w-[300px] md:w-[400px] h-auto md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer z-[4] active:opacity-25"
+                            className="-mt-36 md:-mt-44 w-[300px] md:w-[400px] h-auto md:hover:scale-125 md:transition md:duration-300 md:ease-in-out md:cursor-pointer z-[4] active:opacity-25"
                         />
                     </PopoverTrigger>
                     <PopoverContent>
@@ -117,7 +117,7 @@ const ProductUSP = () => {
                             alt='zonnepanelen scheme 5th part'
                             width={300}
                             height={40}
-                            className="-mt-36 md:-mt-44 w-[300px] md:w-[400px] h-auto md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer z-[3] active:opacity-25"
+                            className="-mt-36 md:-mt-44 w-[300px] md:w-[400px] h-auto md:hover:scale-125 md:transition md:duration-300 md:ease-in-out md:cursor-pointer z-[3] active:opacity-25"
                         />  
                     </PopoverTrigger>
                     <PopoverContent>
@@ -134,7 +134,7 @@ const ProductUSP = () => {
                             alt='zonnepanelen scheme 6th part'
                             width={300}
                             height={40}
-                            className="-mt-36 md:-mt-44 w-[300px] md:w-[400px] h-auto md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer z-[2] active:opacity-25"
+                            className="-mt-36 md:-mt-44 w-[300px] md:w-[400px] h-auto md:hover:scale-125 md:transition md:duration-300 md:ease-in-out md:cursor-pointer z-[2] active:opacity-25"
                         />    
                     </PopoverTrigger>
                     <PopoverContent>
@@ -151,7 +151,7 @@ const ProductUSP = () => {
                             alt='zonnepanelen scheme 7th part'
                             width={300}
                             height={40}
-                            className="-mt-36 md:-mt-44 w-[300px] md:w-[400px] h-auto md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer opacity-80 hover:opacity-40 z-[1] active:opacity-25"
+                            className="-mt-36 md:-mt-44 w-[300px] md:w-[400px] h-auto md:hover:scale-125 md:transition md:duration-300 md:ease-in-out md:cursor-pointer opacity-80 hover:opacity-40 z-[1] active:opacity-25"
                         />   
                     </PopoverTrigger>
                     <PopoverContent>
@@ -199,7 +199,7 @@ const ProductUSP = () => {
 
                 </div>
 
-                <h3 className='heading3 text-white rounded-md border-2 py-1 px-2 -ml-2 bg-black-100/80 text-center md:text-left md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer active:opacity-25'>
+                <h3 className='heading3 text-white rounded-md border-2 py-1 px-2 -ml-2 bg-black-100/80 text-center md:text-left md:hover:scale-125 md:transition md:duration-300 md:ease-in-out md:cursor-pointer active:opacity-25'>
                     Duurzaam en betrouwbaar
                 </h3>
 

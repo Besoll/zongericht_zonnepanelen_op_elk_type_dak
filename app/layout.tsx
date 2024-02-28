@@ -15,14 +15,8 @@ export const metadata: Metadata = {
     "og:url": "zongericht.nl",
     "og:image": 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Fhero-banner.webp&w=828&q=75',
     "og:type": "website",
-    
-    
-    
   }
 }
-
-
-
 
 
 export const viewport: Viewport = {
