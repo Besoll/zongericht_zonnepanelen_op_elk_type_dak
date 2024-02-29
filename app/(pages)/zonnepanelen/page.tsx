@@ -43,7 +43,7 @@ const page = () => {
         </Link>        
       </section>
 
-      <section className='w-full flex-center flex-col flex min-h-[100vh] pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto lg:mt-40 xl:mt-24 mt-12' id='qualityFirst' >
+      <section className='w-full flex-center flex-col flex min-h-[100vh] pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto lg:mt-40 xl:mt-24 mt-12 px-4 md:px-0' id='qualityFirst' >
         <Section1 />
         <Section2 />
         <AccordionProduct />

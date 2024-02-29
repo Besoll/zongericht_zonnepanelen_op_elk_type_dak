@@ -12,7 +12,7 @@ const Section2 = () => {
   
 
 return (
-  <div className='flex w-full justify-center items-center flex-col max-w-[1200px] gap-3'>
+  <div className='flex w-full justify-center items-center flex-col max-w-[1200px] gap-3 '>
     <div className='flex flex-col items-center justify-center text-center gap-3'>
           <h2 className='text-black heading4 xs:heading4 xl:heading3'>
               Technische eigenschappen van goede <br></br> glas op glas
