@@ -194,6 +194,7 @@ const Footer = () => {
                         src="https://www.klantenvertellen.nl/retrieve-widget.html?color=white&allowTransparency=false&button=true&lang=nl&tenantId=99&locationId=1066957"
                         width="160"
                         height="120"
+                        title='Beoordelingen'
                     />
                 </li>
             </ul>             

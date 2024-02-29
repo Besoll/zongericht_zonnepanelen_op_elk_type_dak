@@ -56,9 +56,9 @@ const Hero = () => {
                     src='/zonnepanelen/MeyerBurger-M-small.webp'
                     alt='glas glas zonnepanelen op elk type dak op dakkapel'
                     width={140}
-                    height={125}
+                    height={140}
                     loading='lazy'
-                    className="w-[50%]  h-auto md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer "
+                    className="w-auto  h-auto md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer "
                 />   
             </div>
             <div className='hidden md:flex flex-row-reverse justify-between pb-2'>
