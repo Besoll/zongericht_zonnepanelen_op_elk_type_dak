@@ -5,7 +5,8 @@ import Image from 'next/image'
 import dynamic from 'next/dynamic'
 const PartnersLogos = dynamic(() => import("@/components/zonnepanelen/PartnersLogos"))
 const ProductUSP = dynamic(() => import("@/components/zonnepanelen/ProductUSP"))
-const QualityFirst = dynamic(() => import("@/components/zonnepanelen/QualityFirst"))
+const Section1 = dynamic(() => import("@/components/zonnepanelen/Section1"))
+const Section2 = dynamic(() => import("@/components/zonnepanelen/Section2"))
 const AccordionProduct = dynamic(() => import('@/components/home/AccordionProduct')) 
 
 
@@ -41,12 +42,10 @@ const page = () => {
               />               
         </Link>        
       </section>
-      <section className='-mt-28 md:-mt-40'>
-          
-      </section>
 
       <section className='w-full flex-center flex-col flex min-h-[100vh] pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto lg:mt-40 xl:mt-24 mt-12' id='qualityFirst' >
-        <QualityFirst />
+        <Section1 />
+        <Section2 />
         <AccordionProduct />
       </section>
 
