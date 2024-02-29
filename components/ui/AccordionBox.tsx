@@ -16,7 +16,7 @@ export default function AccordionBox(item: AccordionItems) {
 
    return (
     <motion.div 
-        className='flex flex-col shadow-inner rounded-xl border px-8 py-5 cursor-pointer max-w-[1400px] w-full gradient_special'
+        className='flex flex-col shadow-inner rounded-xl border px-8 py-5 cursor-pointer max-w-[1200px] w-full gradient_special'
         initial={false}
         onClick={() => item.setIsOpen(expanded ? false : item.i)}
     >

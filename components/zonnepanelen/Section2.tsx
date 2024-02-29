@@ -29,20 +29,20 @@ return (
       <div className='w-full flex flex-col justify-end items-end gap-2'>  
         <div className='w-fit h-auto flex justify-start items-start flex-row gap-3'>
           <p className='text-center md:text-left'>
-              <span className='heading4'>Beter rendement </span><br></br>
-              Glas glas leveren langer een hoog rendement op
+              <span className='heading4'>Superieure Kwaliteit en Duurzaamheid </span><br></br>
+              Glas op glas zonnepanelen hebben bewezen minder snel te degraderen, wat betekent dat ze langer meegaan en gedurende hun levensduur dichter bij hun oorspronkelijke prestaties blijven.
           </p>
         </div>
         <div className='w-fit h-auto flex justify-start items-start flex-row gap-3'>
           <p className='text-center md:text-left'>
-              <span className='heading4'>Beter rendement </span><br></br>
-              Glas glas leveren langer een hoog rendement op
+              <span className='heading4'>Esthetisch Plezier </span><br></br>
+              Glas op glas zonnepanelen behouden hun esthetische uitstraling jarenlang, ongeacht de weersinvloeden. Dit betekent dat uw dak er niet alleen goed uitziet wanneer de panelen nieuw zijn, maar ook in de vele jaren die volgen.
           </p>
         </div>
         <div className='w-fit h-auto flex justify-start items-start flex-row gap-3'>
           <p className='text-center md:text-left'>
-              <span className='heading4'>Beter rendement </span><br></br>
-              Glas glas leveren langer een hoog rendement op
+              <span className='heading4'>Hoger Rendement </span><br></br>
+              Door hun constructie en kwaliteit kunnen glas op glas zonnepanelen een hoger rendement bieden, wat leidt tot meer energieproductie en uiteindelijk meer besparingen voor u.
           </p>
         </div>
       </div>
@@ -50,8 +50,8 @@ return (
       {/* middle part */}   
       <div className='flex mt-6 mb-2 justify-center w-[55%] '>
             <Image 
-                src='/zonnepanelen/dave-solar-3.webp'
-                alt='over ons - zonnepnalen dave'
+                src='/zonnepanelen/GlasGlasZonnepanelen.webp'
+                alt='glas glas zonnepnalen Zongericht'
                 width={480}
                 height={480}
                 className="w-full h-auto md:sepia md:hover:sepia-0 md:hover:rotate-1 md:hover:skew-3 
@@ -60,25 +60,25 @@ return (
       </div>
 
       {/* right/bottom part */}   
-      <div className='w-full flex flex-col justify-end items-end gap-2'>
+      <div className='w-full flex flex-col justify-end items-end gap-2 md:pl-3'>
         <div className='w-fit h-auto flex justify-start items-start flex-row gap-3'>
           <p className='text-center md:text-left'>
-              <span className='heading4'>Beter rendement </span><br></br>
-              Glas glas leveren langer een hoog rendement op
+              <span className='heading4'>Veiligheid voorop </span><br></br>
+              Deze panelen bieden een hogere mate van brandveiligheid dan traditionele panelen, waardoor u en uw omgeving beschermd blijven. Hun stevige constructie zorgt ook voor een betere bescherming tegen externe schade.
           </p>
         </div>
 
         <div className='w-fit h-auto flex justify-start items-start flex-row gap-3'>
           <p className='text-center md:text-left'>
-              <span className='heading4'>Beter rendement </span><br></br>
-              Glas glas leveren langer een hoog rendement op
+              <span className='heading4'>Stabiliteit </span><br></br>
+              Extreem sterke en breuk vaste zonnepanelen dankzij de gepatenteerde SmartWire- rasterstructuur.
           </p>
         </div>
 
         <div className='w-fit h-auto flex justify-start items-start flex-row gap-3'>
           <p className='text-center md:text-left'>
-              <span className='heading4'>Beter rendement </span><br></br>
-              Glas glas leveren langer een hoog rendement op
+              <span className='heading4'>Milieubewustzijn </span><br></br>
+              Met een langere levensduur en efficiëntere energieproductie zijn glas op glas zonnepanelen een milieuvriendelijkere keuze. Ze helpen niet alleen om uw CO2-voetafdruk te verminderen, maar door hun duurzaamheid wordt ook het afval van vervangen panelen verminderd.
           </p>
         </div>
 

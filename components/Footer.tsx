@@ -8,6 +8,7 @@ const HandIndex = dynamic(() => import('@/components/icons/HandIndex'))
 const EmailIcon = dynamic(() => import('@/components/icons/EmailIcon'))
 const MobileIcon = dynamic(() => import('@/components/icons/MobileIcon'))
 const MapLocation = dynamic(() => import('@/components/icons/MapLocation'))
+const IframeComponent = dynamic(() => import('@/components/ui/IframeProps'))
 
 
 const Footer = () => {
@@ -162,21 +163,40 @@ const Footer = () => {
                 </li>
             </ul>               
             <ul className='mt-8 mb-2 ml-0 md:ml-3 md:mt-2 md:mb-6'>
-                <li className="mt-6 mb-2 md:mt-8 md:mb-6 font-semibold text-gray-900 uppercase">
+                <li className="mb-6 font-semibold text-gray-900 uppercase">
                     Beoordelingen
+                    <hr className="my-2 border-gray-200 md:mx-auto"/>
                 </li>
-                <li className='mb-2 max-w-[200px]'>
-                    <Link href="/">
-                        <Image 
-                            src='/items/reviews.png'
-                            alt='reviews from klantenvertellen'
-                            width={100} 
-                            height={35} 
-                            className="h-auto md:hover:scale-105 md:transition md:duration-300 md:ease-in-out"
+                <li className='mb-2 '>
+                    <div className='flex flex-row gap-3 items-start justify-start'>
+                        <div>
+                            <Image 
+                                src='/icons/Guarantee10Years-Big.svg'
+                                alt='Guarantee 10 years - Beoordelingen'
+                                width={32}
+                                height={32}
+                                className="w-[45px] h-auto md:hover:rotate-1 md:hover:skew-3 
+                                md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer"
                             />
-                    </Link>   
-                </li>                   
-            </ul> 
+                        </div>
+                        <div className='flex flex-col'>
+                            <div className='text-black text-xs font-medium'>
+                                10 jaar installatiegarantie
+                            </div>
+                            <div className='text-white-100 text-xs '>
+                                Kwaliteit gegarandeerd
+                            </div>
+                        </div>
+                    </div>
+                </li>                     
+                <li className='mb-2 max-w-[200px] -ml-2'>
+                    <IframeComponent
+                        src="https://www.klantenvertellen.nl/retrieve-widget.html?color=white&allowTransparency=false&button=true&lang=nl&tenantId=99&locationId=1066957"
+                        width="160"
+                        height="120"
+                    />
+                </li>
+            </ul>             
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div className="flex justify-center text-center flex-wrap pb-6 flex-col">
