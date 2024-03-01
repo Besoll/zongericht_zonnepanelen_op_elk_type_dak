@@ -34,7 +34,7 @@ const page = () => {
 
       <section className='w-full flex-center gradient_special_Hero3_mob md:gradient_special_Hero3 flex flex-col min-h-[100vh]  pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start scroll-smooth md:scroll-auto' id='productUSP' >
         <ProductUSP />
-        <Link href='#qualityFirst'>
+        <Link href='#sections'>
             <Image 
                   src='/icons/arrowDown.svg'
                   alt='arrow down svg'
@@ -45,12 +45,11 @@ const page = () => {
         </Link>        
       </section>
 
-      <section className='w-full flex-center flex-col flex min-h-[100vh] pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto lg:mt-40 xl:mt-24 mt-12 px-4 md:px-0 mb-4 md:mb-16' id='qualityFirst' >
+      <section className='w-full flex-center flex-col flex min-h-[100vh] pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto lg:mt-40 xl:mt-24 mt-12 mb-4 md:mb-16' id='sections' >
         <Section1 />
         <Section2 />
         <SectionCTA />
         <Section3 />
-        <AccordionProduct />
       </section>
 
     </main>

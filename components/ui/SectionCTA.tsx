@@ -14,7 +14,7 @@ const SectionCTA = () => {
 
   return (
     <div className='flex w-full justify-center items-center flex-col max-w-[1200px] gap-3 gradient_green 
-    py-6 my-6 md:py-16 md:my-16 text-white rounded-md'>
+    py-12 my-0 md:my-16 px-4 md:py-16 mb-12 md:mb-0 text-white rounded-md text-center'>
      
       <h2 className='heading4 xs:heading4 xl:heading3'>
           Glas op glas
@@ -22,11 +22,11 @@ const SectionCTA = () => {
           op elk type dak               
       </h2>
 
-      <p className='heading4'>
+      <p className='heading4 text-center'>
         Vraag vandaag een gratis en vrijblijvende woninginspectie en offerte aan
       </p>
 
-      <Button asChild className='gradient_orange text-white shadow-xl scale-105 py-4 md:py-8
+      <Button asChild className='gradient_orange text-white shadow-xl scale-105 py-6 md:py-8
                           hover:scale-110 transition ease-in-out animate-spin
                           '>
               <Link 

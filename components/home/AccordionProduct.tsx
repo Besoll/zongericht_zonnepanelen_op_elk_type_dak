@@ -39,7 +39,7 @@ export default function AccordionProduct() {
   ]
 
   return (
-    <div className="flex my-12 w-full justify-center items-center  flex-col space-y-2">
+    <div className="flex my-12 w-full justify-center items-center  flex-col space-y-2 px-4 md:px-0">
       {accordionInput.map(({ title, subTitle, id })  => (
         <AccordionBox 
           key={id}

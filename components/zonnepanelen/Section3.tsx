@@ -12,7 +12,7 @@ const Section3 = () => {
   
 
 return (
-  <div className='flex w-full justify-center items-center flex-col-reverse md:flex-row max-w-[1200px] gap-3 '>
+  <div className='flex w-full justify-center items-center flex-col-reverse md:flex-row max-w-[1200px] gap-3 mb-12 md:mb-0 px-4 md:px-0'>
     <div className='flex flex-col items-center justify-center text-center gap-3'>
       <div className='w-fit h-auto flex justify-start items-start flex-row gap-3'>
         <p className='text-center md:text-left'>
