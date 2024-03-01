@@ -13,7 +13,7 @@ const Hero = () => {
                 <span 
                     className='flex py-2 px-2 -ml-2 scale-70
                                  border-2 border-l-brand_original_secondary border-r-brand_original_secondary
-                                text-orange w-fit rounded-3xl
+                                text-orange w-fit rounded-3xl bg-black/85
                                 md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer'>
                         zonnepanelen <br className='flex md:hidden'></br> geproduceerd
                 </span> 
