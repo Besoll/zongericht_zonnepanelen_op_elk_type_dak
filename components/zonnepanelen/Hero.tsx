@@ -47,10 +47,10 @@ const Hero = () => {
                 <Image 
                     src='/zonnepanelen/IQ-7X-small.webp'
                     alt='glas glas zonnepanelen op elk type dak testimonial'
-                    width={140}
-                    height={125}
+                    width={150}
+                    height={192}
                     loading='lazy'
-                    className=" w-[50%] h-auto pr-2 md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer"
+                    className="w-auto md:w-[45%] h-auto pr-2 md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer"
                 />   
                 <Image 
                     src='/zonnepanelen/MeyerBurger-M-small.webp'
@@ -58,7 +58,7 @@ const Hero = () => {
                     width={140}
                     height={140}
                     loading='lazy'
-                    className="w-auto  h-auto md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer "
+                    className="w-auto md:w-[55%]  h-auto md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer "
                 />   
             </div>
             <div className='hidden md:flex flex-row-reverse justify-between pb-2'>
