@@ -3,13 +3,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 import dynamic from 'next/dynamic'
-const PartnersLogos = dynamic(() => import("@/components/zonnepanelen/PartnersLogos"))
+const PartnersLogos = dynamic(() => import("@/components/ui/PartnersLogos"))
 const ProductUSP = dynamic(() => import("@/components/zonnepanelen/ProductUSP"))
 const Section1 = dynamic(() => import("@/components/zonnepanelen/Section1"))
 const Section2 = dynamic(() => import("@/components/zonnepanelen/Section2"))
 const SectionCTA = dynamic(() => import("@/components/ui/SectionCTA"))
 const Section3 = dynamic(() => import("@/components/zonnepanelen/Section3"))
-const AccordionProduct = dynamic(() => import('@/components/home/AccordionProduct')) 
 
 
 const page = () => {
