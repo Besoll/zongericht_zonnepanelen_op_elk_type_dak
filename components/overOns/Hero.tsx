@@ -1,14 +1,13 @@
+import Link from 'next/link'
 import Image from 'next/image'
 
-const Section1 = () => {
-  
-
-return (
-  <div className='flex w-full justify-center items-center flex-col md:flex-row max-w-[1200px] px-3 md:px-0 gap-0 md:gap-3 mb-16'>
+const Hero = () => {
+  return (
+    <div className='flex w-full justify-center items-center flex-col md:flex-row max-w-[1200px] px-3 md:px-0 gap-0 md:gap-3 mb-16'>
       <div className='flex mt-6 mb-2 justify-center w-full px-6 md:px-0 md:w-[55%] '>
             <Image 
-                src='/zonnepanelen/dave-solar-3.webp'
-                alt='over ons - zonnepnalen dave'
+                src='/overOns/contact-2-beso-dave.webp'
+                alt='over ons - zonnepnalen dave - happy clients'
                 width={480}
                 height={480}
                 className="w-full h-auto md:sepia md:hover:sepia-0 md:hover:rotate-1 md:hover:skew-3 
@@ -76,4 +75,4 @@ return (
   )
 }
 
-export default Section1
+export default Hero
