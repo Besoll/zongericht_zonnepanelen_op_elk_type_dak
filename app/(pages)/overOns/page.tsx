@@ -16,7 +16,7 @@ const AccordionProduct = dynamic(() => import('@/components/home/AccordionProduc
 const page = () => {
   return (
     <main className='flex-center mx-auto w-full flex-col snap-y gap-2'>
-      <header className='w-full flex-center justify-center flex min-h-[100vh] mt-15 pb-30 xs:h-auto flex-col items-center'>
+      <header className='w-full flex-center justify-center flex min-h-[100vh] mt-20 md:mt-0 pb-30 xs:h-auto flex-col items-center'>
         <Hero />
           <Link href='#productUSP'>
             <Image
