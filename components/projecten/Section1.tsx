@@ -13,7 +13,7 @@ const ArrowWhite = dynamic(() => import('@/components/icons/ArrowWhite'))
 
 const Section1 = () => {
   return (
-    <div className='flex flex-col gap-4 max-w-[1200px] mt-5  lg:-mt-10 mb-24'>
+    <div className='flex flex-col lg:flex-row max-w-[1200px] mt-5  lg:-mt-10 mb-24'>
         {/* Top section */}
         <div className='flex justify-between flex-col lg:flex-row gap-4 w-full px-4 md:px-2'>
             {/* card 1 */}
@@ -58,7 +58,52 @@ const Section1 = () => {
                    />    
                 </div>                
             </div>
+            {/* card 3 */}
+            <div className='flex flex-col gap-2 text-center w-full border-b-2 mb-4 justify-center items-center'>
+                <div className="w-[80%] lg:w-full h-auto gradient_white_orange shadow-lg rounded flex justify-center items-center relative ">
+                   <Image 
+                    src='/projecten/3/Zongericht-review-3.webp'
+                    alt='Zonnepanelen in Elst'
+                    width={480}
+                    height={480}
+                    className="w-full max-w-[450px] h-auto"
+                   />
 
+                    <div className='w-[90%] rounded-lg bg-white/75 absolute bottom-16 px-2 py-2 '>
+                        <h4 className='heading4 text-gradient_green'>
+                            Zonnepanelen in Elst
+                        </h4>
+                        <p className="">
+                            Bekijk ons uitgelichte project: 10 glas-op-glas zonnepanelen vakkundig geplaatst op een plat dak.
+                        </p>
+                    </div>
+                    <Button asChild className='absolute gradient_green opacity-90 text-white shadow-2xl px-6 py-6 bottom-2 right-2 md:hover:skew-3 md:hover:-rotate-1
+                    md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer'>
+                        <Link 
+                            href="#" 
+                            className="!text-xl"
+                        >
+                            Meer info
+                            <ArrowWhite />
+                        </Link>
+                    </Button>
+
+                </div>
+
+                <div className="w-[80%] lg:w-full h-auto flex justify-center items-center">
+                   <Video 
+                    src={Zongericht3}                    
+                    loop={true} // Set loop attribute to true
+                    controls={false} // Set controls attribute to false
+                    autoPlay={true} // Enable autoplay
+                    className="w-full h-auto md:cursor-pointer "
+                   />    
+                </div>                
+            </div>            
+            
+        </div>
+        {/* Top section */}
+        <div className='flex justify-center items-center flex-col md:flex-row gap-4 w-full px-4 md:px-2'>           
             {/* card 2 */}
             <div className='flex flex-col gap-2 text-center w-full border-b-2 mb-4 justify-center items-center'>
                 <div className="w-[80%] lg:w-full h-auto gradient_white_orange shadow-lg rounded flex justify-center items-center relative ">
@@ -101,50 +146,6 @@ const Section1 = () => {
                    />    
                 </div>                
             </div>
-
-            {/* card 3 */}
-            <div className='flex flex-col gap-2 text-center w-full border-b-2 mb-4 justify-center items-center'>
-                <div className="w-[80%] lg:w-full h-auto gradient_white_orange shadow-lg rounded flex justify-center items-center relative ">
-                   <Image 
-                    src='/projecten/3/Zongericht-review-3.webp'
-                    alt='Zonnepanelen in Elst'
-                    width={480}
-                    height={480}
-                    className="w-full max-w-[450px] h-auto"
-                   />
-
-                    <div className='w-[90%] rounded-lg bg-white/75 absolute bottom-16 px-2 py-2 '>
-                        <h4 className='heading4 text-gradient_green'>
-                            Zonnepanelen in Elst
-                        </h4>
-                        <p className="">
-                            Bekijk ons uitgelichte project: 10 glas-op-glas zonnepanelen vakkundig geplaatst op een plat dak.
-                        </p>
-                    </div>
-                    <Button asChild className='absolute gradient_green opacity-90 text-white shadow-2xl px-6 py-6 bottom-2 right-2 md:hover:skew-3 md:hover:-rotate-1
-                    md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer'>
-                        <Link 
-                            href="#" 
-                            className="!text-xl"
-                        >
-                            Meer info
-                            <ArrowWhite />
-                        </Link>
-                    </Button>
-
-                </div>
-
-                <div className="w-[80%] lg:w-full h-auto flex justify-center items-center">
-                   <Video 
-                    src={Zongericht3}                    
-                    loop={true} // Set loop attribute to true
-                    controls={false} // Set controls attribute to false
-                    autoPlay={true} // Enable autoplay
-                    className="w-full h-auto md:cursor-pointer "
-                   />    
-                </div>                
-            </div>
-            
             {/* card 4 */}
             <div className='flex flex-col gap-2 text-center w-full border-b-2 mb-4 justify-center items-center'>
                 <div className="w-[80%] lg:w-full h-auto gradient_white_orange shadow-lg rounded flex justify-center items-center relative ">
@@ -187,12 +188,6 @@ const Section1 = () => {
                    />    
                 </div>                
             </div>
-        </div>
-
-
-
-        {/* Top section */}
-        <div className='flex justify-center items-center flex-col md:flex-row gap-4 w-full px-4 md:px-2'>           
 
             
         </div>             
