@@ -17,7 +17,7 @@ const Section1 = () => {
         {/* Top section */}
         <div className='flex justify-between flex-col lg:flex-row gap-4 w-full px-4 md:px-2'>
             {/* card 1 */}
-            <div className='flex flex-col gap-2 text-center w-full lg:w-[23%] md:w-full border-b-2 mb-4 justify-center items-center'>
+            <div className='flex flex-col gap-2 text-center w-full border-b-2 mb-4 justify-center items-center'>
                 <div className="w-[80%] lg:w-full h-auto gradient_white_orange shadow-lg rounded flex justify-center items-center relative ">
                    <Image 
                     src='/projecten/1/Zongericht-review-1.webp'
@@ -60,7 +60,7 @@ const Section1 = () => {
             </div>
 
             {/* card 2 */}
-            <div className='flex flex-col gap-2 text-center w-full lg:w-[23%] md:w-full border-b-2 mb-4 justify-center items-center'>
+            <div className='flex flex-col gap-2 text-center w-full border-b-2 mb-4 justify-center items-center'>
                 <div className="w-[80%] lg:w-full h-auto gradient_white_orange shadow-lg rounded flex justify-center items-center relative ">
                    <Image 
                     src='/projecten/2/Zongericht-review-2.webp'
@@ -103,7 +103,7 @@ const Section1 = () => {
             </div>
 
             {/* card 3 */}
-            <div className='flex flex-col gap-2 text-center w-full lg:w-[23%] md:w-full border-b-2 mb-4 justify-center items-center'>
+            <div className='flex flex-col gap-2 text-center w-full border-b-2 mb-4 justify-center items-center'>
                 <div className="w-[80%] lg:w-full h-auto gradient_white_orange shadow-lg rounded flex justify-center items-center relative ">
                    <Image 
                     src='/projecten/3/Zongericht-review-3.webp'
@@ -146,7 +146,7 @@ const Section1 = () => {
             </div>
             
             {/* card 4 */}
-            <div className='flex flex-col gap-2 text-center w-full lg:w-[23%] md:w-full border-b-2 mb-4 justify-center items-center'>
+            <div className='flex flex-col gap-2 text-center w-full border-b-2 mb-4 justify-center items-center'>
                 <div className="w-[80%] lg:w-full h-auto gradient_white_orange shadow-lg rounded flex justify-center items-center relative ">
                    <Image 
                     src='/projecten/4/Zongericht-review-4.webp'
