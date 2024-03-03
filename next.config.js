@@ -13,6 +13,10 @@ const withPWA = require("@ducanh2912/next-pwa").default({
 
 
 /** @type {import('next').NextConfig} */
+
+const { withNextVideo } = require('next-video/process');
+
+
 const nextConfig = {
     images: {
         domains: ['cdn.sanity.io']
@@ -20,6 +24,7 @@ const nextConfig = {
 }
 
 module.exports = withPWA(nextConfig)
+module.exports = withNextVideo(nextConfig);
 
 
 // /** @type {import('next').NextConfig} */
