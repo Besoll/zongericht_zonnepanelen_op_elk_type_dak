@@ -14,7 +14,9 @@ const Page = () => {
     <main className='flex-center paddings mx-auto w-full max-w-screen-3xl flex-col text-black-100'>   
     
       <HeroHome />
-      <AccordionProduct />
+      <div className='px-4'>
+        <AccordionProduct />
+      </div>
       <HeroProjects />
       <CompanyUSP />
       <HeroDakTypes />

@@ -50,8 +50,10 @@ const page = () => {
 
       <section className='w-full flex-center flex-col flex min-h-[100vh] pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto lg:mt-40 xl:mt-24 mt-12 mb-4 md:mb-16' id='sections' >
         <Section1 />
-        <SectionCTA />
-        <AccordionProduct />
+        <div className='px-4'>
+          <SectionCTA />
+          <AccordionProduct />
+        </div>
         <Section2 />
       </section>
 

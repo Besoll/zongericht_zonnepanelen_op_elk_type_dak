@@ -1,9 +1,9 @@
 import Image from "next/image"
 const Section2 = () => {
   return (
-    <div className='flex flex-col gap-4 max-w-[1200px]'>
+    <div className='flex flex-col gap-4 max-w-[1200px] px-4'>
         {/* Top section */}
-        <div className='flex justify-between flex-col md:flex-row gap-4 w-full px-4 md:px-2'>
+        <div className='flex justify-between flex-col md:flex-row gap-4 w-full px-4'>
             {/* card 1 */}
             <div className='flex flex-col gap-2 text-center md:text-left w-full md:w-[33%] border-b-2 mb-4 justify-center items-center'>
                 <div className="w-[50px] h-[50px] md:w-[65px] md:h-[65px] gradient_white_orange shadow-lg rounded flex justify-center items-center">

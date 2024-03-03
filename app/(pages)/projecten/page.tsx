@@ -31,7 +31,9 @@ const page = () => {
 
       <section className='w-full flex-center flex-col flex min-h-[100vh] pb-4 md:pb-2 xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto ' id='sections' >
         <Section1 />
-        <SectionCTA />
+        <div className='px-4'>
+          <SectionCTA />
+        </div>
       </section>
 
       <section className='scroll-mt-24 mb-12 snap-start scroll-smooth md:scroll-auto h-auto' id='partnersLogos' >

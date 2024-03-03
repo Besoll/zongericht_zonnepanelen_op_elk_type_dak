@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className='flex w-full justify-center items-center flex-col md:flex-row max-w-[1200px] px-3 md:px-0 gap-0 md:gap-3 mb-16'>
+    <div className='flex w-full justify-center items-center flex-col md:flex-row max-w-[1200px] px-4 gap-0 md:gap-3 mb-16 '>
       <div className='flex mt-6 mb-2 justify-center w-full px-6 md:px-0 md:w-[85%] '>
             <Image 
                 src='/overOns/contact-1-beso-dave.webp'

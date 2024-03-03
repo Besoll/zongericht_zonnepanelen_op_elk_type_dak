@@ -111,7 +111,7 @@ const LeadForm = () => {
 
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-4 text-black">
+    <form onSubmit={handleSubmit} className="flex flex-col gap-4 text-white">
       <div>
       <input
         type="text"
@@ -119,10 +119,10 @@ const LeadForm = () => {
         value={formData.name}
         onChange={handleChange}
         placeholder="Voor en achternaam"
-        className={`file-input w-full max-w-xs px-4 mb-2 mt-2 ${formErrors.name ? 'border-red-500' : 'file-input-bordered file-input-success'}`}
+        className={`file-input w-full max-w-xs px-4 mb-2 mt-2 ${formErrors.name ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
         disabled={!!submitStatus.success}
       />
-      {formErrors.name && <p className="text-red-500 text-xs">{formErrors.name}</p>}
+      {formErrors.name && <p className="text-red-500 text-xs absolute">{formErrors.name}</p>}
     </div>
 
     <div>
@@ -132,10 +132,10 @@ const LeadForm = () => {
         value={formData.email}
         onChange={handleChange}
         placeholder="Email"
-        className={`file-input w-full max-w-xs px-4 mb-2 ${formErrors.email ? 'border-red-500' : 'file-input-bordered file-input-success'}`}
+        className={`file-input w-full max-w-xs px-4 mb-2 ${formErrors.email ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
         disabled={!!submitStatus.success}
       />
-      {formErrors.email && <p className="text-red-500 text-xs">{formErrors.email}</p>}
+      {formErrors.email && <p className="text-red-500 text-xs absolute">{formErrors.email}</p>}
     </div>
 
     <div>
@@ -145,11 +145,11 @@ const LeadForm = () => {
         value={formData.phone}
         onChange={handleChange}
         placeholder="Telefoonnummer"
-        className={`file-input w-full max-w-xs px-4 mb-2 ${formErrors.phone ? 'border-red-500' : 'file-input-bordered file-input-success'}`}
+        className={`file-input w-full max-w-xs px-4 mb-2 ${formErrors.phone ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
         disabled={!!submitStatus.success}
         
       />
-      {formErrors.phone && <p className="text-red-500 text-xs">{formErrors.phone}</p>}
+      {formErrors.phone && <p className="text-red-500 text-xs absolute">{formErrors.phone}</p>}
     </div>
 
     <div>
@@ -159,10 +159,10 @@ const LeadForm = () => {
         value={formData.postcode}
         onChange={handleChange}
         placeholder="Postcode"
-        className={`file-input w-full max-w-xs px-4 mb-2 ${formErrors.postcode ? 'border-red-500' : 'file-input-bordered file-input-success'}`}
+        className={`file-input w-full max-w-xs px-4 mb-2 ${formErrors.postcode ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
         disabled={!!submitStatus.success}
       />
-      {formErrors.postcode && <p className="text-red-500 text-xs">{formErrors.postcode}</p>}
+      {formErrors.postcode && <p className="text-red-500 text-xs absolute">{formErrors.postcode}</p>}
     </div>
 
     <div>
@@ -172,10 +172,10 @@ const LeadForm = () => {
         value={formData.address}
         onChange={handleChange}
         placeholder="Huisnummer"
-        className={`file-input w-full max-w-xs px-4 mb-2 ${formErrors.address ? 'border-red-500' : 'file-input-bordered file-input-success'}`}
+        className={`file-input w-full max-w-xs px-4 mb-2 ${formErrors.address ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
         disabled={!!submitStatus.success}
       />
-      {formErrors.address && <p className="text-red-500 text-xs">{formErrors.address}</p>}
+      {formErrors.address && <p className="text-red-500 text-xs absolute">{formErrors.address}</p>}
     </div>
       {/* Hidden fields */}
       <input type="hidden" name="opdrachtgever" value="Zongericht" />
