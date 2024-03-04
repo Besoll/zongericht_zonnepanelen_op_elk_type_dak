@@ -13,7 +13,7 @@ const ArrowWhite = dynamic(() => import('@/components/icons/ArrowWhite'))
 
 const Section1 = () => {
   return (
-    <div className='flex flex-col lg:flex-row max-w-[1200px] mt-5  lg:-mt-10 mb-24'>
+    <div className='flex flex-col lg:flex-row max-w-[1200px] min-w-[100%] lg:min-w-[50%] mt-5  lg:-mt-10 mb-24'>
         {/* Top section */}
         <div className='flex justify-between flex-col lg:flex-row gap-4 w-full px-4 md:px-2'>
             {/* card 1 */}
