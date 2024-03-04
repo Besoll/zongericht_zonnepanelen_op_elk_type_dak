@@ -108,7 +108,7 @@ const ZofoForm: React.FC = () => {
         <input type="hidden" name="SingleLine6" value="Next.JS application - New technology" />
         <input type="hidden" name="SingleLine4" value="" />
 
-        <div className="flex flex-col items-center w-full gap-4 text-black">
+        <div className="flex flex-col items-center w-full gap-1 md:gap-4 text-black">
           {/* Text Inputs */}
           <div>
             <input
