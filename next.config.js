@@ -19,7 +19,15 @@ const { withNextVideo } = require('next-video/process');
 
 const nextConfig = {
     images: {
-        domains: ['cdn.sanity.io']
+        domains: ['cdn.sanity.io'],
+        remotePatterns: [
+            {
+              protocol: 'https',
+              hostname: 'image.mux.com',
+              port: '',
+              pathname: '**',
+            },
+          ],
     },
 }
 

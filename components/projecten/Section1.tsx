@@ -31,7 +31,7 @@ const Section1 = () => {
                         <h4 className='heading4 text-gradient_green'>
                             Zonnepanelen in Zwijndrecht
                         </h4>
-                        <p className="">
+                        <p className="text-xs">
                             Bekijk ons uitgelichte project: 12 glas-op-glas zonnepanelen geïnstalleerd op een dak met dakpannen
                         </p>
                     </div>
@@ -49,13 +49,21 @@ const Section1 = () => {
                 </div>
 
                 <div className="w-[80%] lg:w-full h-auto flex justify-center items-center">
-                   <Video 
+                   {/* <Video 
                     src={Zongericht1}                    
                     loop={true} // Set loop attribute to true
                     controls={false} // Set controls attribute to false
                     autoPlay={true} // Enable autoplay
                     className="w-full h-auto md:cursor-pointer "
-                   />    
+                   />     */}
+
+                   <Image 
+                        src='https://image.mux.com/4enPcOcMGdlNtS5LE5mY4iam9xaOtfhOx1m8IZ2Dzbk/animated.gif?width=320'
+                        alt='Zonnepanelen in Zwijndrecht'
+                        width={480}
+                        height={480}
+                        className="w-full max-w-[450px] h-auto"
+                   />
                 </div>                
             </div>
             {/* card 3 */}
@@ -73,7 +81,7 @@ const Section1 = () => {
                         <h4 className='heading4 text-gradient_green'>
                             Zonnepanelen in Elst
                         </h4>
-                        <p className="">
+                        <p className="text-xs">
                             Bekijk ons uitgelichte project: 10 glas-op-glas zonnepanelen vakkundig geplaatst op een plat dak.
                         </p>
                     </div>
@@ -91,12 +99,12 @@ const Section1 = () => {
                 </div>
 
                 <div className="w-[80%] lg:w-full h-auto flex justify-center items-center">
-                   <Video 
-                    src={Zongericht3}                    
-                    loop={true} // Set loop attribute to true
-                    controls={false} // Set controls attribute to false
-                    autoPlay={true} // Enable autoplay
-                    className="w-full h-auto md:cursor-pointer "
+                    <Image 
+                        src='https://image.mux.com/LqwFHeL01WM8zrVAQ37zPDE7lBK0001jpdr5Xiw94SvzT8/animated.gif?width=320&start=5'
+                        alt='Zonnepanelen in Elst'
+                        width={480}
+                        height={480}
+                        className="w-full max-w-[450px] h-auto"
                    />    
                 </div>                
             </div>            
@@ -119,7 +127,7 @@ const Section1 = () => {
                         <h4 className='heading4 text-gradient_green'>
                             Zonnepanelen in Oud Gastel
                         </h4>
-                        <p className="">
+                        <p className="text-xs">
                             Bekijk ons uitgelichte project: 29 glas-op-glas zonnepanelen geïnstalleerd op diverse dakvlakken van een schuin dak met dakpannen.
                         </p>
                     </div>
@@ -137,13 +145,13 @@ const Section1 = () => {
                 </div>
 
                 <div className="w-[80%] lg:w-full h-auto flex justify-center items-center">
-                   <Video 
-                    src={Zongericht2}                    
-                    loop={true} // Set loop attribute to true
-                    controls={false} // Set controls attribute to false
-                    autoPlay={true} // Enable autoplay
-                    className="w-full h-auto md:cursor-pointer "
-                   />    
+                    <Image 
+                        src='https://image.mux.com/7cOOKOY573CxgEvHMfTplWFDbkvgfKO8DVCuhI02hHL8/animated.gif?width=320&start=3'
+                        alt='Zonnepanelen in Oud Gastel'
+                        width={480}
+                        height={480}
+                        className="w-full max-w-[450px] h-auto"
+                   /> 
                 </div>                
             </div>
             {/* card 4 */}
@@ -161,7 +169,7 @@ const Section1 = () => {
                         <h4 className='heading4 text-gradient_green'>
                             Zonnepanelen in Utrecht
                         </h4>
-                        <p className="">
+                        <p className="text-xs">
                             Bekijk ons uitgelichte project: 7 glas-op-glas zonnepanelen vakkundig gemonteerd op een PVC dakkapel én op een dakpannendak.
                         </p>
                     </div>
@@ -179,13 +187,13 @@ const Section1 = () => {
                 </div>
 
                 <div className="w-[80%] lg:w-full h-auto flex justify-center items-center">
-                   <Video 
-                    src={Zongericht4}                    
-                    loop={true} // Set loop attribute to true
-                    controls={false} // Set controls attribute to false
-                    autoPlay={true} // Enable autoplay
-                    className="w-full h-auto md:cursor-pointer "
-                   />    
+                    <Image 
+                        src='https://image.mux.com/t6J3mK1L5FpMyUw5nxwc7VLkxja9L56G01YicQrmwypI/animated.gif?width=320&start=4&end=10'
+                        alt='Zonnepanelen in Utrecht'
+                        width={480}
+                        height={480}
+                        className="w-full max-w-[450px] h-auto"
+                   />   
                 </div>                
             </div>
 
