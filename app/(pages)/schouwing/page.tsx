@@ -2,7 +2,7 @@ import Hero from '@/components/schouwing/Hero'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 const TimelineSchouwing = dynamic(() => import('@/components/ui/TimelineSchouwing'))
-const LeadForm = dynamic(() => import('@/components/ui/LeadForm'))
+const LeadForm = dynamic(() => import('@/components/ui/ZohoForm'))
 
 import Image from 'next/image'
 
