@@ -1,8 +1,8 @@
-import Video from 'next-video';
-import Zongericht1 from '/videos/Zongericht1.mp4';
-import Zongericht2 from '/videos/Zongericht2.mp4'; 
-import Zongericht3 from '/videos/Zongericht3.mp4'; 
-import Zongericht4 from '/videos/Zongericht4.mp4';  
+// import Video from 'next-video';
+// import Zongericht1 from '/videos/Zongericht1.mp4';
+// import Zongericht2 from '/videos/Zongericht2.mp4'; 
+// import Zongericht3 from '/videos/Zongericht3.mp4'; 
+// import Zongericht4 from '/videos/Zongericht4.mp4';  
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import Link from 'next/link';
@@ -172,6 +172,7 @@ const Section1 = () => {
                         <p className="text-xs">
                             Bekijk ons uitgelichte project: 7 glas-op-glas zonnepanelen vakkundig gemonteerd op een PVC dakkapel én op een dakpannendak.
                         </p>
+                        
                     </div>
                     <Button asChild className='absolute gradient_green opacity-90 text-white shadow-2xl px-6 py-6 bottom-2 right-2 md:hover:skew-3 md:hover:-rotate-1
                     md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer'>

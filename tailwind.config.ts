@@ -49,6 +49,7 @@ module.exports = {
           500: "#A4B8D5",
           800: "#D0DFFF",
         },
+        qoqu_Blue: "#3E64FF",
         purple: "#8C7CFF",
         pink: "#ED5FBD",
         violet: "#F16565",
