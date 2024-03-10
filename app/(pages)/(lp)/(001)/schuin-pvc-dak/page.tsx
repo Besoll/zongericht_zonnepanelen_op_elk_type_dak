@@ -6,10 +6,9 @@ import dynamic from 'next/dynamic'
 const Form = dynamic(() => import("@/components/__lp/001/Form"))
 const PartnersLogos = dynamic(() => import("@/components/ui/PartnersLogos"))
 const ProductUSP = dynamic(() => import("@/components/zonnepanelen/ProductUSP"))
-const Section1 = dynamic(() => import("@/components/zonnepanelen/Section1"))
-const Section2 = dynamic(() => import("@/components/zonnepanelen/Section2"))
+const Section1 = dynamic(() => import("@/components/__lp/001/Section1"))
+const Section2 = dynamic(() => import("@/components/__lp/001/Section2"))
 const SectionCTA = dynamic(() => import("@/components/ui/SectionCTA"))
-const Section3 = dynamic(() => import("@/components/zonnepanelen/Section3"))
 
 
 // lp: page 001 - schuin pvc dak
@@ -28,7 +27,7 @@ const page = () => {
                   className="bg-gray-400 w-[50px] xs:w-[80px] h-auto px-2 animate-bounce animate-duration-[1600ms] animate-ease-linear rounded-lg"
               />               
           </Link> */}
-          <div className='bg-white shadow-2xl w-[95%] rounded-lg py-6 px-4 md:px-8 flex flex-col 
+          <div className='bg-white shadow-xl w-[95%] rounded-3xl py-6 px-4 md:px-8 flex flex-col 
           justify-center items-center md:justify-start md:items-start max-w-[1440px] gap-3' id="schouwingForm">
             <h3 className='text-black heading3'>
               Vraag een huis inspectie aan
@@ -42,7 +41,7 @@ const page = () => {
         <PartnersLogos />
       </section>
 
-      <section className='w-full flex-center gradient_special_Hero3_mob md:gradient_special_Hero3 flex flex-col min-h-[100vh]  pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start scroll-smooth md:scroll-auto' id='productUSP' >
+      {/* <section className='w-full flex-center bg-qoqu_Blue/20 md:gradient_special_Hero3 flex flex-col min-h-[100vh]  pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start scroll-smooth md:scroll-auto' id='productUSP' >
         <ProductUSP />
         <Link href='#sections'>
             <Image 
@@ -53,13 +52,11 @@ const page = () => {
                   className="object-cover text-white-400 w-[50px] xs:w-[80px] h-auto px-2 animate-bounce animate-duration-[1600ms] animate-ease-linear"
               />               
         </Link>        
-      </section>
+      </section> */}
 
-      <section className='w-full flex-center flex-col flex min-h-[100vh] pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto lg:mt-40 xl:mt-24 mt-12 mb-4 md:mb-16' id='sections' >
+      <section className='w-full flex-center flex-col flex min-h-[100vh] pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto lg:mt-40 xl:mt-24 mt-12 mb-4 md:mb-16 px-4' id='sections' >
         <Section1 />
         <Section2 />
-        <SectionCTA />
-        <Section3 />
       </section>
 
     </main>

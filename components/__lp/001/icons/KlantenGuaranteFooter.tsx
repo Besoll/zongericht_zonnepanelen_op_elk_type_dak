@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const KlantenGuaranteFooter = () => {
   return (
-    <div className='flex flex-col md:flex-row gap-2 justify-start items-start md:justify-center md:items-center'>
+    <div className='flex flex-col lg:flex-row gap-2 justify-start items-start md:justify-center md:items-center'>
                         <div className='flex flex-row gap-3 items-center justify-center'>
                             <Image 
                                 src='/icons/KlantenVertelenOriginal.svg'
@@ -21,7 +21,7 @@ const KlantenGuaranteFooter = () => {
                                 </div>
                             </div>
                         </div>
-                        <hr className='hidden md:flex rotate-90 w-[15px]'></hr>
+                        <hr className='hidden lg:flex rotate-90 w-[15px]'></hr>
                         <div className='flex flex-row gap-3 items-center justify-center'>
                             <Image 
                                 src='/icons/Guarantee10Years-Big.svg'
