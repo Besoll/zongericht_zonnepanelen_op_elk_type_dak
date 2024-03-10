@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 import dynamic from 'next/dynamic'
+const Form = dynamic(() => import("@/components/__lp/001/Form"))
 const PartnersLogos = dynamic(() => import("@/components/ui/PartnersLogos"))
 const ProductUSP = dynamic(() => import("@/components/zonnepanelen/ProductUSP"))
 const Section1 = dynamic(() => import("@/components/zonnepanelen/Section1"))
@@ -27,6 +28,14 @@ const page = () => {
                   className="bg-gray-400 w-[50px] xs:w-[80px] h-auto px-2 animate-bounce animate-duration-[1600ms] animate-ease-linear rounded-lg"
               />               
           </Link> */}
+          <div className='bg-white shadow-2xl w-[95%] rounded-lg py-6 px-4 md:px-8 flex flex-col 
+          justify-center items-center md:justify-start md:items-start max-w-[1440px] gap-3'>
+            <h3 className='text-black heading3'>
+              Vraag een huis inspectie aan
+            </h3>
+            <Form />
+          </div>
+          
       </header>
 
       <section className='max-w-screen-3xl  scroll-mt-24 snap-start scroll-smooth md:scroll-auto h-auto' id='partnersLogos' >

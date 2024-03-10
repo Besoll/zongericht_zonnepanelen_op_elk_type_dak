@@ -1,7 +1,5 @@
 import Image from 'next/image'
 
-
-
 import dynamic from 'next/dynamic'
 const CtaButton2 = dynamic(() => import('@/components/__lp/001/ctaButtons/CtaButton2'))
 const KlantenGuarante = dynamic(() => import('@/components/__lp/001/icons/KlantenGuarante'))
