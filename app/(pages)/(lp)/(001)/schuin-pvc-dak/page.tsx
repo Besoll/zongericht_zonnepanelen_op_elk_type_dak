@@ -29,7 +29,7 @@ const page = () => {
               />               
           </Link> */}
           <div className='bg-white shadow-2xl w-[95%] rounded-lg py-6 px-4 md:px-8 flex flex-col 
-          justify-center items-center md:justify-start md:items-start max-w-[1440px] gap-3'>
+          justify-center items-center md:justify-start md:items-start max-w-[1440px] gap-3' id="schouwingForm">
             <h3 className='text-black heading3'>
               Vraag een huis inspectie aan
             </h3>
