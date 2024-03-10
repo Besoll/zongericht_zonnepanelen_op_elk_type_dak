@@ -16,7 +16,7 @@ const Section3 = dynamic(() => import("@/components/zonnepanelen/Section3"))
 const page = () => {
   return (
     <main className='flex-center mx-auto w-full flex-col text-black snap-y gap-2'>
-      <header className='w-full flex-center justify-center flex min-h-[100vh] mt-15 pb-30 xs:h-auto flex-col items-center'>
+      <header className='w-full flex-center justify-center flex mt-12 md:mt-16 pb-30 xs:h-auto flex-col items-center'>
         <Hero />
           <Link href='#productUSP' className='flex w-full mr-2 md:mr-6 flex-end items-end'>
             <Image 
