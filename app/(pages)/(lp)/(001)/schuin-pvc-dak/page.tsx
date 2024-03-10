@@ -16,9 +16,9 @@ const Section3 = dynamic(() => import("@/components/zonnepanelen/Section3"))
 const page = () => {
   return (
     <main className='flex-center mx-auto w-full flex-col text-black snap-y gap-2'>
-      <header className='w-full flex-center justify-center flex mt-12 md:mt-16 pb-30 xs:h-auto flex-col items-center'>
+      <header className='w-full flex-center justify-center flex mt-4 md:mt-12 pb-30 xs:h-auto flex-col items-center'>
         <Hero />
-          <Link href='#productUSP' className='flex w-full mr-2 md:mr-6 flex-end items-end'>
+          {/* <Link href='#productUSP' className='flex w-full mr-2 md:mr-6 flex-end items-end'>
             <Image 
                   src='/icons/arrowDown.svg'
                   alt='arrow down svg'
@@ -26,7 +26,7 @@ const page = () => {
                   height={80}
                   className="bg-gray-400 w-[50px] xs:w-[80px] h-auto px-2 animate-bounce animate-duration-[1600ms] animate-ease-linear rounded-lg"
               />               
-          </Link>
+          </Link> */}
       </header>
 
       <section className='max-w-screen-3xl  scroll-mt-24 snap-start scroll-smooth md:scroll-auto h-auto' id='partnersLogos' >

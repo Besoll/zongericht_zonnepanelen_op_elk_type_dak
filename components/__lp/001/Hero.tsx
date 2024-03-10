@@ -11,10 +11,10 @@ const Hero = () => {
     <div className='flex w-full justify-center items-center md:justify-start md:items-start max-w-[1200px] px-4 md:px-8 gap-0 md:gap-2 mb-16 flex-col-reverse md:flex-row'>      
         <div className='w-full flex flex-col justify-center items-center md:justify-start md:items-start gap-3'>
             <div className='w-full flex flex-col items-start mb-2 justify-start'>              
-                <h1 className='w-full heading2 md:heading2 lg:heading1 md:text-left text-center line-clamp-4'>
+                <h1 className='w-full heading3 md:heading2 lg:heading1 md:text-left text-center line-clamp-4'>
                     Zonnepanelen voor 
                     <br />
-                    <span className='bg-qoqu_Blue/20 px-2 -ml-2 rounded-lg font-black'>PVC-Daken</span>
+                    <span className='bg-qoqu_Blue/20 px-2 -ml-2 rounded-lg font-black heading2 lg:heading1'>PVC-Daken</span>
                     <br />
                     plaats je door Zongericht       
                 </h1> 
