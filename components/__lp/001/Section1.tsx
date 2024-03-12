@@ -2,7 +2,6 @@ import Image from 'next/image'
 
 import dynamic from 'next/dynamic'
 const CtaButton2 = dynamic(() => import('@/components/__lp/001/ctaButtons/CtaButton2'))
-const KlantenGuarante = dynamic(() => import('@/components/__lp/001/icons/KlantenGuarante'))
 
 const IsntalationSolarBlue = dynamic(() => import('@/components/__lp/001/icons/IsntalationSolarBlue'))
 const PaymentBlue = dynamic(() => import('@/components/__lp/001/icons/PaymentBlue'))
@@ -14,7 +13,7 @@ const Section1 = () => {
     px-4 md:px-8 flex-col mb-16 py-16 md:mb-24 md:py-24'>
         <div className='flex w-full justify-center items-center md:justify-start md:items-start
         gap-6 md:gap-20 flex-col md:flex-row ml-4'>      
-            <div className='flex flex-col relative justify-center items-center w-[55%] md:min-w-[300px] 
+            <div className='flex flex-col relative justify-center items-center w-[75%] md:min-w-[300px] 
             lg:min-w-[450px]'>
                 <div className='flex w-full h-auto '>
                     <Image 
@@ -22,11 +21,18 @@ const Section1 = () => {
                         alt='zonnepanelen op schuin pvc dak'
                         width={510}
                         height={700}
-                        className="w-full h-auto  rounded-[500px] bg-repeat-x bg-center"
+                        className="w-full h-auto rounded-[500px] md:flex hidden"
+                    />
+                    <Image 
+                        src='/lp/001/2-small.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={510}
+                        height={700}
+                        className="w-full h-auto rounded-[500px] md:hidden flex"
                     />
                 </div>
                 <div className=' w-[45%] h-auto items-center justify-center 
-                -mt-52 -mr-[18rem]
+                -mt-52 -mr-[18rem]  md:flex hidden
                 md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
                 md:cursor-pointer md:hover:rotate-2
                 

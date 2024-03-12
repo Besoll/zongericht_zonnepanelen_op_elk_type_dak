@@ -34,7 +34,14 @@ const Hero = () => {
                 alt='zonnepanelen op schuin pvc dak'
                 width={510}
                 height={700}
-                className="w-full h-auto min-w-[300px] rounded-[500px]"
+                className="w-full h-auto min-w-[300px] rounded-[500px] md:flex hidden"
+            />
+            <Image 
+                src='/lp/001/1-small.webp'
+                alt='zonnepanelen op schuin pvc dak'
+                width={510}
+                height={700}
+                className="w-full h-auto min-w-[300px] rounded-[500px] md:hidden flex"
             />
             <div className='bg-white w-[95%] h-auto py-4 px-4 rounded-lg shadow-md flex flex-row gap-2 items-center justify-center absolute bottom-2 md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out md:cursor-pointer md:hover:rotate-2
             min-w-[300px]

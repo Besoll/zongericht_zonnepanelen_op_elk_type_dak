@@ -7,7 +7,7 @@ const ForwardBlue = dynamic(() => import('@/components/__lp/001/icons/ForwardBlu
 
 
 
-const Section1 = () => {
+const Section2 = () => {
   return (
     <div className='flex w-full justify-center items-center max-w-[1440px] 
     px-4 md:px-8 mb-16 flex-col'>
@@ -22,7 +22,17 @@ const Section1 = () => {
                         width={510}
                         height={700}
                         className="w-full h-auto rounded-[500px] bg-repeat-x bg-center shadow-lg md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                        md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl"
+                        md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
+                        md:flex hidden"
+                    />
+                    <Image 
+                        src='/lp/001/3-small.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={510}
+                        height={700}
+                        className="w-full h-auto rounded-[500px] bg-repeat-x bg-center shadow-lg md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
+                        md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl 
+                        md:hidden flex"
                     />
                 </div>
             </div>
@@ -145,4 +155,4 @@ const Section1 = () => {
   )
 }
 
-export default Section1
+export default Section2

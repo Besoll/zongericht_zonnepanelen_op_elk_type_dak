@@ -15,7 +15,7 @@ const Navbar = () => {
               width={200} 
               height={50} 
               loading="lazy"
-              className="hover:scale-105 transition duration-300 ease-in-out"
+              className="md:hover:scale-105 transition duration-300 ease-in-out"
           />          
           <CtaButton5 />
       </div>
