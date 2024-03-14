@@ -10,12 +10,21 @@ const ForwardBlue = dynamic(() => import('@/components/__lp/001/icons/ForwardBlu
 const Section2 = () => {
   return (
     <div className='flex w-full justify-center items-center max-w-[1440px] 
-    px-4 md:px-8 mb-16 flex-col'>
+    px-4 md:px-8 mb-16 flex-col p-12 md:py-16'>
         <div className='flex w-full justify-center items-center md:justify-start md:items-start 
         gap-6 md:gap-20 mb-16 flex-col md:flex-row ml-4'>      
             <div className='flex flex-col relative justify-center items-center w-[55%] md:min-w-[300px] 
             lg:min-w-[450px]'>
                 <div className='flex w-full h-auto '>
+                    <Image 
+                        src='/lp/001/3-big.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={510}
+                        height={700}
+                        className="w-full h-auto rounded-[500px] bg-repeat-x bg-center shadow-lg md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
+                        md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
+                        xl:flex hidden"
+                    />
                     <Image 
                         src='/lp/001/3.webp'
                         alt='zonnepanelen op schuin pvc dak'
@@ -23,7 +32,7 @@ const Section2 = () => {
                         height={700}
                         className="w-full h-auto rounded-[500px] bg-repeat-x bg-center shadow-lg md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
                         md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
-                        md:flex hidden"
+                        md:flex xl:hidden hidden"
                     />
                     <Image 
                         src='/lp/001/3-small.webp'

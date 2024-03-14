@@ -8,7 +8,7 @@ const Icon3successfullInstalation = () => (
     width={25}
     height={25}
     loading='lazy'
-    className='w-[25px] h-auto'
+    className='w-[100px] h-auto'
   />
 );
 

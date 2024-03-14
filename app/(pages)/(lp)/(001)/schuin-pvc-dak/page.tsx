@@ -10,6 +10,8 @@ const Section1 = dynamic(() => import("@/components/__lp/001/Section1"))
 const Section2 = dynamic(() => import("@/components/__lp/001/Section2"))
 const SectionCTA = dynamic(() => import("@/components/__lp/001/SectionCTA"))
 const Section3 = dynamic(() => import("@/components/__lp/001/Section3"))
+const Section4 = dynamic(() => import("@/components/__lp/001/Section4"))
+const FAQ = dynamic(() => import("@/components/__lp/001/FAQ"))
 
 
 // lp: page 001 - schuin pvc dak
@@ -60,25 +62,28 @@ const page = () => {
       </section>
 
       <section className='w-full flex-center flex-col flex h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto text-center' id='section3' >
-        <h2 className='heading3 md:heading2 font-semibold py-12 px-4 md:px-6'>
+        <h2 className='heading3 md:heading2 font-semibold py-12 md:py-16 px-4 md:px-6'>
             Ook benieuwd wat wij voor uw PVC dak kunnen betekenen? <br/>
             Nodig ons uit en een van onze adviseurs zal het u komen uitleggen. 
         </h2>
-        <Image 
-            src='/lp/001/4.webp'
-            alt='arrow down svg'
-            width={80}
-            height={80}
-            className="w-full h-auto  lg:h-[400px] lg:w-auto hidden md:flex"
-        /> 
-        <Image 
-            src='/lp/001/4-small.webp'
-            alt='arrow down svg'
-            width={80}
-            height={80}
-            className="w-full h-auto flex md:hidden"
-        /> 
+        <div className="w-full lg: h-[400px] bg-[url('/lp/001/4-big.webp')] bg-no-repeat bg-cover bg-top xl:flex hidden"></div> 
+        <div className="w-full lg: h-[400px] bg-[url('/lp/001/4.webp')] bg-no-repeat bg-cover bg-top md:flex xl:hidden hidden"></div>
+        <div className="w-full h-[350px] bg-[url('/lp/001/4-small.webp')] bg-no-repeat bg-cover bg-top md:hidden flex"></div>
         <Section3 />        
+      </section>
+
+      <section className='w-full flex-center flex-col flex h-auto bg-qoqu_Blue/10 py-6 text-black' id='sectionCTA2' >
+        <SectionCTA />        
+      </section>
+
+      <section className='w-full mb-16 flex-center flex-col flex h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto' id='section2' >
+        <Section4 /> 
+        <div className='flex flex-col gap-4 px-4 md:px-6'>
+          <h2 className='heading3 md:heading2 font-semibold text-center'>
+            Veel gestelde vragen
+          </h2>
+          <FAQ />      
+        </div>  
       </section>
 
     </main>

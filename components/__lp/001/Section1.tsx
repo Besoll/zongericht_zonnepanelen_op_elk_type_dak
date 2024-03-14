@@ -17,11 +17,18 @@ const Section1 = () => {
             lg:min-w-[450px]'>
                 <div className='flex w-full h-auto '>
                     <Image 
+                        src='/lp/001/2-big.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={510}
+                        height={700}
+                        className="w-full h-auto rounded-[500px] xl:flex hidden"
+                    />
+                    <Image 
                         src='/lp/001/2.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={510}
                         height={700}
-                        className="w-full h-auto rounded-[500px] md:flex hidden"
+                        className="w-full h-auto rounded-[500px] md:flex xl:hidden hidden"
                     />
                     <Image 
                         src='/lp/001/2-small.webp'
