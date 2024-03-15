@@ -12,6 +12,8 @@ const SectionCTA = dynamic(() => import("@/components/__lp/001/SectionCTA"))
 const Section3 = dynamic(() => import("@/components/__lp/001/Section3"))
 const Section4 = dynamic(() => import("@/components/__lp/001/Section4"))
 const FAQ = dynamic(() => import("@/components/__lp/001/FAQ"))
+const TestimonialsSmall = dynamic(() => import("@/components/__lp/001/TestimonialsSmall"))
+const TestimonialsBig = dynamic(() => import("@/components/__lp/001/TestimonialsBig"))
 
 
 // lp: page 001 - schuin pvc dak
@@ -71,6 +73,21 @@ const page = () => {
         <div className="w-full h-[350px] bg-[url('/lp/001/4-small.webp')] bg-no-repeat bg-cover bg-top md:hidden flex"></div>
         <Section3 />        
       </section>
+
+      <section 
+        className='w-full flex-center flex-col flex h-auto bg-qoqu_Blue/10 py-6 text-black' 
+        id='testimonialsSmall' 
+      >
+        <TestimonialsSmall />        
+      </section>
+
+      <section 
+        className='w-full flex-center flex-col flex h-auto py-6 text-black' 
+        id='testimonialsBig' 
+      >
+        <TestimonialsBig />        
+      </section>
+
 
       <section className='w-full flex-center flex-col flex h-auto bg-qoqu_Blue/10 py-6 text-black' id='sectionCTA2' >
         <SectionCTA />        

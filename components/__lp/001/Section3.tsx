@@ -29,12 +29,12 @@ const Section3 = () => {
                     </div>
                     <div className='flex fflex-start items-start w-2/5'>
                         <h2 className='heading3 md:heading2 font-semibold '>
-                            5+
+                            4K+
                         </h2>
                     </div>
                     <div className='flex flex-center items-center p-6 w-full'>
                         <h2 className='taxt-base text-left '>
-                            Jaren ervaring
+                            Tevreden klanten
                         </h2>
                     </div>
                 </div>
@@ -47,12 +47,12 @@ const Section3 = () => {
                     </div>
                     <div className='flex fflex-start items-start w-2/5'>
                         <h2 className='heading3 md:heading2 font-semibold '>
-                            4K+
+                            5+
                         </h2>
                     </div>
                     <div className='flex flex-center items-center p-6 w-full'>
                         <h2 className='taxt-base text-left '>
-                            Tevreden klanten
+                            Jaren ervaring
                         </h2>
                     </div>
                 </div>
