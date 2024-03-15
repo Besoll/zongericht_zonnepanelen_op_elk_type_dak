@@ -76,9 +76,9 @@ const page = () => {
         <SectionCTA />        
       </section>
 
-      <section className='w-full mb-16 flex-center flex-col flex h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto' id='section2' >
+      <section className='w-full mb-16 flex-center flex-col flex h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto' id='section2'>
         <Section4 /> 
-        <div className='flex flex-col gap-4 px-4 md:px-6'>
+        <div className='flex flex-col gap-4 px-4 lg:px-6 scroll-mt-4 snap-start' id="accordionstart">
           <h2 className='heading3 md:heading2 font-semibold text-center'>
             Veel gestelde vragen
           </h2>

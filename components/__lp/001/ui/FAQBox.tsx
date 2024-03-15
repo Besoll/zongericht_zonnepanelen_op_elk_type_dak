@@ -8,6 +8,7 @@ interface FAQItems {
     subTitle2: string,
     subTitle3: string,
     subTitle4: string,
+    divId: string,
     isOpen: any,
     setIsOpen: any,
     i: number
@@ -16,12 +17,25 @@ interface FAQItems {
 
 export default function FAQBox(item: FAQItems) {
     const expanded = item.i === item.isOpen
+    
 
    return (
     <motion.div 
-        className='flex flex-col shadow-inner rounded-xl border px-4 py-5 cursor-pointer max-w-[1200px] w-full gradient_special_blue'
+        className='flex flex-col shadow-inner rounded-xl border px-4 py-5 cursor-pointer max-w-[1200px] w-full gradient_special_blue max-h-[95vw] overflow-scroll md:max-h-[300vw] md:overflow-hidden
+        snap-start scroll-smooth md:scroll-auto
+        '        
         initial={false}
-        onClick={() => item.setIsOpen(expanded ? false : item.i)}
+        onClick={() => {
+            const isExpanding = expanded ? false : item.i;
+            item.setIsOpen(isExpanding);
+            
+            if (!expanded) {
+                // This ensures navigation occurs after state update
+                setTimeout(() => {
+                    window.location.hash = 'accordionstart';
+                }, 0);
+            }
+        }}
     >
         <motion.header
             className='flex items-center justify-between px-5'>
