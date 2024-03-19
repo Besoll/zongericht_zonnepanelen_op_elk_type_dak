@@ -184,7 +184,7 @@ const ZofoForm: React.FC = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className={`submit-button mt-5 md:mt-0 py-4 md:py-3 px-3 md:px-1 w-full md:w-[250px] rounded-3xl  leading-tight border-none ${isFormValid && !isSubmitted ? 'bg-orange hover:bg-brand_original_main3' : 'bg-qoqu_Blue cursor-not-allowed'} text-white shadow-sm transition-colors duration-300`}
+            className={`submit-button mt-5 md:mt-0 py-4 md:py-3 px-3 md:px-3 md:min-w-[250px] w-full md:w-[250px] rounded-3xl  leading-tight border-none ${isFormValid && !isSubmitted ? 'bg-orange hover:bg-brand_original_main3' : 'bg-qoqu_Blue cursor-not-allowed'} text-white shadow-sm transition-colors duration-300`}
           >
             {isSubmitted ?
               "Uw aanvraag is succesvol ingediend" : "Vrag aan schouwing een" }
