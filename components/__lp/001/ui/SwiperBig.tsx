@@ -106,17 +106,15 @@ const Stars5 = dynamic(() => import("@/components/__lp/001/icons/Stars5"))
 
               <div className="hidden hover:flex  top-0 left-0 bg-black-100 justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl">
                   <Image 
-                        src='/lp/reviews/daveCover'
-                        alt='M.Tilborg, Zwijndrecht - cover'
-                        width={510}
-                        height={700}
-                        className="w-full h-auto"
-                    />
+                      src='/lp/reviews/daveCover'
+                      alt='M.Tilborg, Zwijndrecht - cover'
+                      width={510}
+                      height={700}
+                      className="w-full h-auto"
+                  />
                 <div className="show_content">
                   <Stars5 />
-                  <p className="card_brief">"Al met al kan ik zeggen dat mijn ervaring met Zongericht positief is. Van begin
-                    tot eind overtroffen ze mijn verwachtingen met hun toewijding aan kwaliteit, snelle service, expertise
-                    en vriendelijkheid."</p>
+                  <p className="card_brief">"Al met al kan ik zeggen dat mijn ervaring met Zongericht positief is. Van begin tot eind overtroffen ze mijn verwachtingen met hun toewijding aan kwaliteit, snelle service, expertise en vriendelijkheid."</p>
                   <h4 className="card_author">M.Tilborg, Zwijndrecht</h4>
                   <p className="card_info">Huiseigenaar</p>
                 </div>
