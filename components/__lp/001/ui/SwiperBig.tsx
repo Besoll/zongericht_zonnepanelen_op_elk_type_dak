@@ -48,6 +48,36 @@ import { TestimonialBigData } from '@/components/__lp/constants/TestimonialBigDa
   
   export default function SwiperBig() {
 
+    
+
+  // Define your images and content in an array for easier management and rendering
+  const slides = [
+    { big: image1_big, normal: image1_normal, small: image1_small, 
+      title: "M.Tilborg, Zwijndrecht", 
+      content: "Al met al kan ik zeggen dat mijn ervaring met Zongericht positief is. Van begin tot eind overtroffen ze mijn verwachtingen met hun toewijding aan kwaliteit, snelle service, expertise en vriendelijkheid.",
+      statuswho: "Huiseigenaar" },
+
+    { big: image2_big, normal: image2_normal, small: image2_small, 
+      title: "S. Vergouwen, Oud Gastel", 
+      content: "Mijn ervaring met Zongericht is niets minder dan uitstekend, en ik kan ze zonder aarzeling aanbevelen aan iedereen die overweegt om zonne-energie te omarmen en zijn of haar energierekening te verlagen. Laat ik de zon maar schijnen, met Zongericht bouw ik aan een groenere, duurzamere toekomst voor ons allemaal.",
+      statuswho: "Huiseigenaar" },
+
+    { big: image3_big, normal: image3_normal, small: image3_small, 
+      title: "W. Sonderen, Elst", 
+      content: "Zongericht gaf me het vertrouwen dat ze niet alleen een product verkopen, maar ook streven naar educatie en gebruik bij hun klanten.",
+      statuswho: "Huiseigenaar" },
+
+    { big: image4_big, normal: image4_normal, small: image4_small, 
+      title: "R. Panhuysen, Utrecht", 
+      content: "Zongericht zond een kundige adviseur die bij mij thuis de analyse deed voor de inrichting en de geschiktheid van mijn elektriciteitskast. Aan de hand daarvan heb ik een vrijblijvende offerte gekregen.",
+      statuswho: "Huiseigenaar" },
+
+    { big: image5_big, normal: image5_normal, small: image5_small, 
+      title: "Desmond, Alblasserwaard", 
+      content: "Vanaf het eerste contact met Zongericht voelden we ons welkom en goed geïnformeerd. Het begon met een vriendelijk telefoongesprek waarin we onze wensen deelden. We zijn een gezin van vijf met een elektrische auto, wat extra elektriciteit vereist voor het opladen.",
+      statuswho: "Huiseigenaar" },
+];
+  
 
 
 
@@ -57,7 +87,7 @@ import { TestimonialBigData } from '@/components/__lp/constants/TestimonialBigDa
           effect={'coverflow'}
           grabCursor={true}
           centeredSlides={true}
-          slidesPerView={2}
+          slidesPerView={'auto'}
           spaceBetween={30}
           pagination={{
             clickable: true,          
@@ -91,70 +121,37 @@ import { TestimonialBigData } from '@/components/__lp/constants/TestimonialBigDa
             },
           }}
           
-          
           modules={[EffectCoverflow, Pagination, Navigation, Mousewheel, Keyboard]}
           className="flex justify-center items-center text-center w-full max-w-[1440px] px-4 py-12 md:py-16 "
         >
-          <SwiperSlide>
-            <div className='relative mb-8'>
-              <Image src={image1_big} alt="Alt text" width={510} height={700} 
+          {slides.map((slide, index) => (
+          <SwiperSlide key={index}>
+            <div className='relative mb-8 group transition duration-300 ease-in-out md:cursor-pointer'>
+              <Image src={slide.big} alt={`${slide.title} big`} width={510} height={700} 
                 className='hidden xl:flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl'/>
-              <Image src={image1_normal} alt="Alt text" width={510} height={700} 
+              <Image src={slide.normal} alt={`${slide.title} normal`} width={510} height={700} 
                 className='hidden md:flex xl:hidden justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl'/>
-              <Image src={image1_small} alt="Alt text" width={510} height={700} 
+              <Image src={slide.small} alt={`${slide.title} small`} width={510} height={700} 
                 className='md:hidden flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl'/>
 
-              <div className="hidden hover:flex  top-0 left-0 bg-black-100 justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl">
+              <div className={` flex opacity-75 md:opacity-0 md:group-hover:opacity-100 absolute top-0 left-0 bg-black bg-opacity-50 justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl transition duration-300 ease-in-out md:cursor-pointer`}>
                   <Image 
                         src={daveCover}
-                        alt='M.Tilborg, Zwijndrecht - cover'
+                        alt={`${slide.title} dave cover`}
                         width={510}
                         height={700}
-                        className="w-full h-auto"
+                        className="w-full h-auto rounded-3xl opacity-40"
                     />
-                <div className="show_content">
+                <div className="absolute flex flex-col gap-4 w-full h-fit justify-start items-center px-4 py-2">
                   <Stars5 />
-                  <p className="card_brief">"Al met al kan ik zeggen dat mijn ervaring met Zongericht positief is. Van begin
-                    tot eind overtroffen ze mijn verwachtingen met hun toewijding aan kwaliteit, snelle service, expertise
-                    en vriendelijkheid."</p>
-                  <h4 className="card_author">M.Tilborg, Zwijndrecht</h4>
-                  <p className="card_info">Huiseigenaar</p>
+                  <p className="text-white text-base">{slide.content}</p>
+                  <h4 className="text-white text-xl font-semibold">{slide.title}</h4>
+                  <p className="text-white text-sm">{slide.statuswho}</p>
                 </div>
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <Image src={image2_big} alt="Alt text" width={510} height={700} 
-              className='hidden xl:flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
-            <Image src={image2_normal} alt="Alt text" width={510} height={700} 
-              className='hidden md:flex xl:hidden justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
-            <Image src={image2_small} alt="Alt text" width={510} height={700} 
-              className='md:hidden flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={image3_big} alt="Alt text" width={510} height={700} 
-              className='hidden xl:flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
-            <Image src={image3_normal} alt="Alt text" width={510} height={700} 
-              className='hidden md:flex xl:hidden justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
-            <Image src={image3_small} alt="Alt text" width={510} height={700} 
-              className='md:hidden flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={image4_big} alt="Alt text" width={510} height={700} 
-              className='hidden xl:flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
-            <Image src={image4_normal} alt="Alt text" width={510} height={700} 
-              className='hidden md:flex xl:hidden justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
-            <Image src={image4_small} alt="Alt text" width={510} height={700} 
-              className='md:hidden flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={image5_big} alt="Alt text" width={510} height={700} 
-              className='hidden xl:flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
-            <Image src={image5_normal} alt="Alt text" width={400} height={600} 
-              className='hidden md:flex xl:hidden justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
-            <Image src={image5_small} alt="Alt text" width={260} height={350} 
-              className='md:hidden flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
-          </SwiperSlide>
+          ))}          
         </Swiper>
       
       </>
