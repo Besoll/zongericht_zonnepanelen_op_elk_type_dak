@@ -96,12 +96,32 @@ import { TestimonialBigData } from '@/components/__lp/constants/TestimonialBigDa
           className="flex justify-center items-center text-center w-full max-w-[1440px] px-4 py-12 md:py-16 "
         >
           <SwiperSlide>
-            <Image src={image1_big} alt="Alt text" width={510} height={700} 
-              className='hidden xl:flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
-            <Image src={image1_normal} alt="Alt text" width={510} height={700} 
-              className='hidden md:flex xl:hidden justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
-            <Image src={image1_small} alt="Alt text" width={510} height={700} 
-              className='md:hidden flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl mb-2'/>
+            <div className='relative mb-8'>
+              <Image src={image1_big} alt="Alt text" width={510} height={700} 
+                className='hidden xl:flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl'/>
+              <Image src={image1_normal} alt="Alt text" width={510} height={700} 
+                className='hidden md:flex xl:hidden justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl'/>
+              <Image src={image1_small} alt="Alt text" width={510} height={700} 
+                className='md:hidden flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl'/>
+
+              <div className="hidden hover:flex  top-0 left-0 bg-black-100 justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl">
+                  <Image 
+                        src={daveCover}
+                        alt='M.Tilborg, Zwijndrecht - cover'
+                        width={510}
+                        height={700}
+                        className="w-full h-auto"
+                    />
+                <div className="show_content">
+                  <Stars5 />
+                  <p className="card_brief">"Al met al kan ik zeggen dat mijn ervaring met Zongericht positief is. Van begin
+                    tot eind overtroffen ze mijn verwachtingen met hun toewijding aan kwaliteit, snelle service, expertise
+                    en vriendelijkheid."</p>
+                  <h4 className="card_author">M.Tilborg, Zwijndrecht</h4>
+                  <p className="card_info">Huiseigenaar</p>
+                </div>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
             <Image src={image2_big} alt="Alt text" width={510} height={700} 
