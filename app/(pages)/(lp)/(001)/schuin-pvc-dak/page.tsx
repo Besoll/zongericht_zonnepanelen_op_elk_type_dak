@@ -20,8 +20,8 @@ const TestimonialsBig = dynamic(() => import("@/components/__lp/001/Testimonials
 
 const page = () => {
   return (
-    <main className='flex-center mx-auto w-full flex-col text-black snap-y gap-2'>
-      <header className='w-full flex-center justify-center flex mt-4 md:mt-12 pb-30 xs:h-auto flex-col items-center'>
+    <main className='mx-auto w-full flex-col text-black snap-y gap-2'>
+      <header className='w-full justify-center items-center flex mt-4 md:mt-12 pb-30 xs:h-auto flex-col '>
         <Hero />
           <div className='bg-white shadow-xl w-[95%] rounded-3xl py-6 px-4 md:px-8 flex flex-col 
           justify-center items-center md:justify-start md:items-start max-w-[1440px] gap-3 scroll-mt-4
@@ -34,11 +34,11 @@ const page = () => {
           
       </header>
 
-      <section className=' scroll-mt-24 snap-start scroll-smooth md:scroll-auto h-auto' id='partnersLogos' >
+      <section className='flex justify-center items-center scroll-mt-24 snap-start scroll-smooth md:scroll-auto h-auto' id='partnersLogos' >
         <Partners6Logos />
       </section>
 
-      {/* <section className='w-full flex-center bg-qoqu_Blue/20 md:gradient_special_Hero3 flex flex-col min-h-[100vh]  pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start scroll-smooth md:scroll-auto' id='productUSP' >
+      {/* <section className='w-full bg-qoqu_Blue/20 md:gradient_special_Hero3 flex flex-col min-h-[100vh]  pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start scroll-smooth md:scroll-auto' id='productUSP' >
         <ProductUSP />
         <Link href='#sections'>
             <Image 
@@ -51,20 +51,20 @@ const page = () => {
         </Link>        
       </section> */}
 
-      <section className='w-full flex-center flex-col flex min-h-[100vh] xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto bg-qoqu_Blue/10' id='sections' >
+      <section className='flex justify-center items-center w-full flex-col min-h-[100vh] xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto bg-qoqu_Blue/10' id='sections' >
         <Section1 />        
       </section>
 
-      <section className='w-full flex-center flex-col flex min-h-[100vh] xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto' id='section2' >
+      <section className='flex justify-center items-center w-full flex-col min-h-[100vh] xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto' id='section2' >
         <Section2 />        
       </section>
 
-      <section className='w-full flex-center flex-col flex h-auto bg-qoqu_Blue/10 py-6 text-black' id='sectionCTA' >
+      <section className='flex justify-center items-center w-full flex-col h-auto bg-qoqu_Blue/10 py-6 text-black' id='sectionCTA' >
         <SectionCTA />        
       </section>
 
-      <section className='w-full flex-center flex-col flex h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto text-center' id='section3' >
-        <h2 className='heading3 md:heading2 font-semibold py-12 md:py-16 px-4 md:px-6'>
+      <section className='flex justify-center items-center w-full flex-col h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto text-center' id='section3' >
+        <h2 className='w-full heading3 md:heading2 font-semibold py-12 md:py-16 px-4 md:px-6'>
             Ook benieuwd wat wij voor uw PVC dak kunnen betekenen? <br/>
             Nodig ons uit en een van onze adviseurs zal het u komen uitleggen. 
         </h2>
@@ -75,25 +75,25 @@ const page = () => {
       </section>
 
       <section 
-        className='w-full flex-center flex-col flex h-auto bg-qoqu_Blue/10 py-6 text-black' 
+        className='flex justify-center items-center w-full flex-col h-auto bg-qoqu_Blue/10 py-6 text-black' 
         id='testimonialsSmall' 
       >
         <TestimonialsSmall />        
       </section>
 
       <section 
-        className='w-full flex-center flex-col flex h-auto py-6 text-black' 
+        className='flex justify-center items-center w-full flex-col h-auto py-6 text-black' 
         id='testimonialsBig' 
       >
         <TestimonialsBig />        
       </section>
 
 
-      <section className='w-full flex-center flex-col flex h-auto bg-qoqu_Blue/10 py-6 text-black' id='sectionCTA2' >
+      <section className='flex justify-center items-center w-full flex-col h-auto bg-qoqu_Blue/10 py-6 text-black' id='sectionCTA2' >
         <SectionCTA />        
       </section>
 
-      <section className='w-full mb-16 flex-center flex-col flex h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto' id='section2'>
+      <section className='flex justify-center items-center w-full mb-16 flex-col h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto' id='faq'>
         <Section4 /> 
         <div className='flex flex-col gap-4 px-4 lg:px-6 scroll-mt-4 snap-start' id="accordionstart">
           <h2 className='heading3 md:heading2 font-semibold text-center'>
