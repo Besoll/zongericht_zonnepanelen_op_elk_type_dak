@@ -40,7 +40,7 @@ import image5_small from "@/public/lp/Reviews/small/5-1.webp"
 
 
 import daveCover from "@/public/lp/Reviews/daveCover.webp"
-import { TestimonialBigData } from '@/components/__lp/constants/TestimonialBigData';
+
 
 
 
@@ -145,7 +145,7 @@ import { TestimonialBigData } from '@/components/__lp/constants/TestimonialBigDa
                 <div className="absolute flex flex-col gap-4 w-full h-fit justify-start items-center px-4 py-2">
                   <Stars5 />
                   <p className="text-white text-base">{slide.content}</p>
-                  <h4 className="text-white text-xl font-semibold">{slide.title}</h4>
+                  <p className="text-white text-xl font-semibold">{slide.title}</p>
                   <p className="text-white text-sm">{slide.statuswho}</p>
                 </div>
               </div>
