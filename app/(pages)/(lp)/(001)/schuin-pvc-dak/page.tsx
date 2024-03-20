@@ -25,9 +25,9 @@ const page = () => {
           <div className='bg-white shadow-xl w-[95%] rounded-3xl py-6 px-4 md:px-8 flex flex-col 
           justify-center items-center md:justify-start md:items-start max-w-[1440px] gap-3 scroll-mt-4
           md:scroll-mt-24 snap-start scroll-smooth md:scroll-auto' id="schouwingForm">
-            <h3 className='text-black heading3'>
+            <p className='text-black text-3xl font-semibold'>
               Vraag een huis inspectie aan
-            </h3>
+            </p>
             <Form />
           </div>
           
