@@ -1,6 +1,5 @@
 import Hero from '@/components/__lp/001/Hero'
-import Link from 'next/link'
-import Image from 'next/image'
+
 
 import dynamic from 'next/dynamic'
 const Form = dynamic(() => import("@/components/__lp/001/Form"))

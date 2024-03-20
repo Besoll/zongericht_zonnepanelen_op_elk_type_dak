@@ -64,9 +64,9 @@ const Section2 = () => {
                 <div className='flex flex-row gap-4 justify-start items-start'>
                     <HandPointerBlue />
                     <div className='flex flex-col gap-1'>
-                        <h4 className='text-black font-bold heading4'>
+                        <p className='text-black font-bold text-xl'>
                             Maatwerk:
-                        </h4>                    
+                        </p>                    
                         <p className='text-base'>
                             Bij Zongericht benaderen we elk dak als een uniek project. We begrijpen dat elke dakconstructie en elke woning zijn eigen specifieke uitdagingen en aandachtspunten heeft. Dit is precies de reden waarom wij niet geloven in het opstellen van offertes zonder eerst de situatie ter plaatse grondig te hebben bekeken. Het is simpelweg onmogelijk om de specifieke uitdagingen van een dak op afstand correct in te schatten, en al helemaal niet om een installatieplan te maken dat hier perfect op aansluit. 
                             <br />
@@ -81,9 +81,9 @@ const Section2 = () => {
                 <div className='flex flex-row gap-4 justify-start items-start'>
                     <HandPointerBlue />
                     <div className='flex flex-col gap-1'>
-                        <h4 className='text-black font-bold heading4'>
+                        <p className='text-black font-bold text-xl'>
                             Technische installatie
-                        </h4>                    
+                        </p>                    
                         <p className='text-base'>
                             Bij Zongericht beschikken we over een team van ervaren monteurs en specialisten in zonnepanelen, ondersteund door een groep van bouwkundigen en dakexperts. Deze combinatie van expertise zorgt ervoor dat elke installatie, met een bijzondere focus op PVC daken, zowel aan de elektrotechnische veiligheidsnormen als aan de bouwkundige vereisten voldoet.
                             <br />
@@ -98,9 +98,9 @@ const Section2 = () => {
                 <div className='flex flex-row gap-4 justify-start items-start mb-4'>
                     <HandPointerBlue />
                     <div className='flex flex-col gap-1'>
-                        <h4 className='text-black font-bold heading4'>
+                        <p className='text-black font-bold text-xl'>
                             Controle en service
-                        </h4>                    
+                        </p>                    
                         <p className='text-base'>
                             Het installeren van zonnepanelen op uw PVC dak vereist precisie en vakmanschap. Wij zorgen ervoor dat uw installatie aan alle recente normen voldoet. Voor elk project krijgt u een eigen projectleider toegewezen, die op afstand uw directe aanspreekpunt is. Deze projectleider gebruikt onze software om de installatie op afstand te monitoren en goed te keuren, waardoor eventuele fouten direct worden opgespoord en aangepakt.
                             <br />

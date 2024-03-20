@@ -89,9 +89,9 @@ const Section1 = () => {
                     <div className='p-6 rounded-lg bg-qoqu_Blue/10'>
                         <CustomerSupportBlue />
                     </div>
-                    <h4 className='heading4 font-semibold'>
+                    <p className='text-xl font-semibold'>
                         Gratis huis inspectie
-                    </h4>
+                    </p>
                     <p className='text-center'>
                         Wij bieden een gratis en vrijblijvende huisinspectie, waarbij onze adviseur uw vragen beantwoordt en een persoonlijke offerte op maat opstelt na zorgvuldige inspectie.
                     </p>
@@ -102,9 +102,9 @@ const Section1 = () => {
                     <div className='p-6 rounded-lg bg-qoqu_Blue/10'>
                         <IsntalationSolarBlue />
                     </div>
-                    <h4 className='heading4 font-semibold'>
+                    <p className='text-xl font-semibold'>
                         Installatie
-                    </h4>
+                    </p>
                     <p className='text-center'>
                         Als u instemt met de offerte van onze adviseur die bij u thuis is geweest, regelt onze planner een afspraak met u. We beloven binnen 4 weken na uw bestelling te starten met de installatie van uw zonnepanelen, die meestal binnen één dag voltooid is.
                     </p>
@@ -115,9 +115,9 @@ const Section1 = () => {
                     <div className='p-6 rounded-lg bg-qoqu_Blue/10'>
                         <PaymentBlue />
                     </div>
-                    <h4 className='heading4 font-semibold'>
+                    <p className='text-xl font-semibold'>
                         Betaling
-                    </h4>
+                    </p>
                     <p className='text-center'>
                         Na de succesvolle en werkende installatie van uw zonnepanelen op uw pvc dak, ontvangt u een factuur voor de betaling achteraf. U hoeft niet direct aan de deur te betalen; u kunt de betaling gemakkelijk regelen na voltooiing van de installatie.
                     </p>
