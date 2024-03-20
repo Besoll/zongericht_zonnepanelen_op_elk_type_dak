@@ -14,32 +14,32 @@ const Section1 = () => {
         <div className='flex w-full justify-center items-center md:justify-start md:items-start
         gap-6 md:gap-20 flex-col md:flex-row ml-4'>      
             <div className='flex flex-col relative justify-center items-center w-[75%] md:min-w-[300px] 
-            lg:min-w-[450px] aspect-[1/1.8]'>
+            lg:min-w-[450px] md:aspect-[1/1.8] aspect-[2.90381125/4]'>
                 <div className='flex w-full h-auto '>
                     <Image 
                         src='/lp/001/2.webp'
                         alt='zonnepanelen op schuin pvc dak'
-                        width={600}
-                        height={850}
-                        className="w-full h-auto rounded-[500px] xl:flex hidden"
+                        width={400}
+                        height={551}
+                        className="absolute top-0 w-full h-auto rounded-[500px] xl:flex hidden"
                     />
                     <Image 
                         src='/lp/001/2.webp'
                         alt='zonnepanelen op schuin pvc dak'
-                        width={450}
-                        height={600}
-                        className="w-full h-auto rounded-[500px] md:flex xl:hidden hidden"
+                        width={400}
+                        height={551}
+                        className="absolute top-0 w-full h-auto rounded-[500px] md:flex xl:hidden hidden"
                     />
                     <Image 
                         src='/lp/001/2-small.webp'
                         alt='zonnepanelen op schuin pvc dak'
-                        width={300}
-                        height={400}
-                        className="w-full h-auto rounded-[500px] md:hidden flex"
+                        width={400}
+                        height={551}
+                        className="absolute top-0 w-full h-auto rounded-[500px] md:hidden flex"
                     />
                 </div>
                 <div className=' w-[45%] h-auto items-center justify-center 
-                -mt-52 -mr-[18rem]  md:flex hidden
+                mt-[10rem] -mr-[10rem] md:-mr-[18rem] xl:-mr-[25rem]  md:flex hidden
                 md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
                 md:cursor-pointer md:hover:rotate-2
                 
@@ -48,8 +48,8 @@ const Section1 = () => {
                         src='/lp/001/2-2.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={400}
-                        height={400}
-                        className="w-full h-auto rounded-full shadow-xl"
+                        height={551}
+                        className="w-3/4 z-10 h-auto rounded-full shadow-xl"
                     />                   
                 </div>
             </div>
