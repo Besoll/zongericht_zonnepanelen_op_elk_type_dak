@@ -32,7 +32,7 @@ const Hero = () => {
             <div className='w-full h-auto min-w-[300px] min-h-[412px] md:min-h-[400px] lg:min-h-[600px] rounded-[500px]'>                
                 <div className="w-full min-w-[300px] aspect-[2.92/4] rounded-[500px] xl:flex hidden">
                     <Image
-                        src='/lp/001/1-big.webp'
+                        src='/lp/001/1-skeleton.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={550}
                         height={755}                    
@@ -41,7 +41,7 @@ const Hero = () => {
                 </div>
                 <div className="w-full min-w-[300px] aspect-[2.92/4] rounded-[500px] md:flex xl:hidden hidden">
                     <Image 
-                        src='/lp/001/1-small.webp'
+                        src='/lp/001/1-skeleton.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={450}
                         height={617}                   
@@ -50,7 +50,7 @@ const Hero = () => {
                 </div>
                 <div className="w-full min-w-[300px] aspect-[2.92/4] rounded-[500px] md:hidden flex">                    
                     <Image 
-                        src='/lp/001/1-small.webp'
+                        src='/lp/001/1-skeleton.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={300}
                         height={412}                       
