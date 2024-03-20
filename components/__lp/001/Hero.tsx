@@ -29,70 +29,53 @@ const Hero = () => {
         </div>   
       
         <div className='flex flex-col relative justify-center items-center w-[35%] md:min-w-[300px] lg:min-w-[450px]'>
-            <div className='w-full h-auto min-w-[300px] min-h-[412px] md:min-h-[400px] lg:min-h-[600px] rounded-[500px]'>
-                <div className="w-full h-auto min-w-[300px] xl:flex hidden">
-                    <Image
-                        src='/lp/001/1-skeleton.webp'
-                        alt='zonnepanelen op schuin pvc dak'
-                        width={510}
-                        height={700}
-                        quality={1}                                            
-                        className="w-full h-auto min-w-[300px] rounded-[500px]"
-                    />
+            <div className='w-full h-auto min-w-[300px] min-h-[412px] md:min-h-[400px] lg:min-h-[600px] rounded-[500px]'>                
+                <div className="w-full min-w-[300px] aspect-[3/4] rounded-[500px] xl:flex hidden">
                     <Image
                         src='/lp/001/1-big.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={510}
-                        height={700}                    
-                        className="absolute w-full h-auto min-w-[300px] rounded-[500px]"
-                    />
-                </div>
-                <div className="w-full h-auto min-w-[300px] md:flex xl:hidden hidden">
-                    <Image
-                        src='/lp/001/1-skeleton.webp'
-                        alt='zonnepanelen op schuin pvc dak'
-                        width={510}
                         height={700}
-                        quality={1}                                            
+                        loading='lazy'                     
                         className="w-full h-auto min-w-[300px] rounded-[500px]"
                     />
+                </div>
+                <div className="w-full min-w-[300px] aspect-[3/4] rounded-[500px] md:flex xl:hidden hidden">
                     <Image 
                         src='/lp/001/1-small.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={510}
-                        height={700}                    
-                        className="absolute w-full h-auto min-w-[300px] rounded-[500px]"
-                    />
-                </div>
-                <div className="w-full h-auto min-w-[300px] md:hidden flex">
-                    <Image
-                        src='/lp/001/1-skeleton.webp'
-                        alt='zonnepanelen op schuin pvc dak'
-                        width={510}
                         height={700}
-                        quality={1}                                            
+                        loading='lazy'                    
                         className="w-full h-auto min-w-[300px] rounded-[500px]"
                     />
+                </div>
+                <div className="w-full min-w-[300px] aspect-[3/4] rounded-[500px] md:hidden flex">                    
                     <Image 
                         src='/lp/001/1-small.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={510}
-                        height={700}                        
-                        className="absolute w-full h-auto min-w-[300px] rounded-[500px]"
+                        height={700}  
+                        loading='lazy'                       
+                        className="w-full h-auto min-w-[300px] rounded-[500px]"
                     />           
                 </div>
             </div>
-            <div className='bg-white w-[95%] h-auto py-4 px-4 rounded-lg shadow-md flex flex-row gap-2 items-center justify-center absolute bottom-2 md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out md:cursor-pointer md:hover:rotate-2
+            <div className='bg-white w-[95%] h-auto py-4 px-4 rounded-lg shadow-md flex flex-row gap-2 items-center justify-center absolute bottom-2 
+            md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out md:cursor-pointer md:hover:rotate-2
             min-w-[300px]
             '>
-                <Image 
-                    src='/lp/001/1-2.webp'
-                    alt='zonnepanelen op schuin pvc dak'
-                    width={120}
-                    height={480}
-                    quality={75}
-                    className="w-[50%] lg:w-[55%] h-auto"
-                />
+                <div className="w-full aspect-[3.5/1] flex flex-col ">
+                    <Image 
+                        src='/lp/001/1-2.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={120}
+                        height={35}
+                        loading='lazy'
+                        className="w-full object-cover h-auto "
+                    />          
+                </div>
+                
                 <div className='flex flex-col text-black w-full'>
                     <p className='text-2xl font-bold'>
                         4,000+

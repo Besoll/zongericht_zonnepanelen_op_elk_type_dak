@@ -14,27 +14,29 @@ const Section1 = () => {
         <div className='flex w-full justify-center items-center md:justify-start md:items-start
         gap-6 md:gap-20 flex-col md:flex-row ml-4'>      
             <div className='flex flex-col relative justify-center items-center w-[75%] md:min-w-[300px] 
-            lg:min-w-[450px]'>
+            lg:min-w-[450px] aspect-[1/1.8]'>
                 <div className='flex w-full h-auto '>
                     <Image 
                         src='/lp/001/2.webp'
                         alt='zonnepanelen op schuin pvc dak'
-                        width={510}
-                        height={700}
+                        width={600}
+                        height={850}
+                        loading='lazy'
                         className="w-full h-auto rounded-[500px] xl:flex hidden"
                     />
                     <Image 
-                        src='/lp/001/2-small.webp'
+                        src='/lp/001/2.webp'
                         alt='zonnepanelen op schuin pvc dak'
-                        width={510}
-                        height={700}
+                        width={450}
+                        height={600}
+                        loading='lazy'
                         className="w-full h-auto rounded-[500px] md:flex xl:hidden hidden"
                     />
                     <Image 
                         src='/lp/001/2-small.webp'
                         alt='zonnepanelen op schuin pvc dak'
-                        width={510}
-                        height={700}
+                        width={300}
+                        height={400}
                         className="w-full h-auto rounded-[500px] md:hidden flex"
                     />
                 </div>
@@ -49,6 +51,7 @@ const Section1 = () => {
                         alt='zonnepanelen op schuin pvc dak'
                         width={400}
                         height={400}
+                        loading='lazy'
                         className="w-full h-auto rounded-full shadow-xl"
                     />                   
                 </div>
