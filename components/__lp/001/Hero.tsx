@@ -36,10 +36,10 @@ const Hero = () => {
                     width={510}
                     height={700}
                     loading='lazy'
-                    className="w-full h-auto min-w-[300px] rounded-[500px] xl:flex hidden"
+                    className="w-full h-auto min-w-[300px] rounded-[500px] 2xl:flex hidden"
                 />
                 <Image 
-                    src='/lp/001/1.webp'
+                    src='/lp/001/1-small.webp'
                     alt='zonnepanelen op schuin pvc dak'
                     width={510}
                     height={700}

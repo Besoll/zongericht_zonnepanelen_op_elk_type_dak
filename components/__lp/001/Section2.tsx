@@ -17,7 +17,7 @@ const Section2 = () => {
             lg:min-w-[450px]'>
                 <div className='flex w-full h-auto '>
                     <Image 
-                        src='/lp/001/3-big.webp'
+                        src='/lp/001/3.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={510}
                         height={700}
@@ -26,7 +26,7 @@ const Section2 = () => {
                         xl:flex hidden"
                     />
                     <Image 
-                        src='/lp/001/3.webp'
+                        src='/lp/001/3-small.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={510}
                         height={700}

@@ -71,14 +71,14 @@ const Section4 = () => {
             lg:min-w-[450px]'>
             <div className='flex w-full h-auto '>
                 <Image 
-                    src='/lp/001/5-big.webp'
+                    src='/lp/001/5.webp'
                     alt='zonnepanelen op schuin pvc dak'
                     width={510}
                     height={700}
                     className="w-full h-auto rounded-[500px] xl:flex hidden"
                 />
                 <Image 
-                    src='/lp/001/5.webp'
+                    src='/lp/001/5-small.webp'
                     alt='zonnepanelen op schuin pvc dak'
                     width={510}
                     height={700}
@@ -99,7 +99,7 @@ const Section4 = () => {
             
             '>
                 <Image 
-                    src='/lp/001/5-2-big.webp'
+                    src='/lp/001/5-2.webp'
                     alt='zonnepanelen op schuin pvc dak'
                     width={510}
                     height={700}
