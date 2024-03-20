@@ -29,10 +29,20 @@ const Hero = () => {
         </div>   
       
         <div className='flex flex-col relative justify-center items-center w-[35%] md:min-w-[300px] lg:min-w-[450px]'>
-            <div className='w-full h-auto min-w-[300px] min-h-[412px] md:min-h-[400px] lg:min-h-[600px] rounded-[500px]'>                
-                <div className="w-full min-w-[300px] aspect-[2.90381125/4] rounded-[500px] xl:flex hidden">
+            <div className='w-full h-auto min-w-[300px] min-h-[412px] md:min-h-[400px] lg:min-h-[600px] rounded-[500px]'>     
+                <div className="w-full min-w-[300px] aspect-[2.90381125/4]">
                     <Image
-                        src='/lp/001/1.webp'
+                        src='/lp/001/1-small.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={400}
+                        height={551}
+                        loading='eager'                    
+                        className="w-full h-auto min-w-[300px] rounded-[500px]"
+                    />
+                </div>           
+                {/* <div className="w-full min-w-[300px] aspect-[2.90381125/4] rounded-[500px] xl:flex hidden">
+                    <Image
+                        src='/lp/001/1-small.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={400}
                         height={551}
@@ -59,7 +69,7 @@ const Hero = () => {
                         loading='eager'                         
                         className="w-full h-auto min-w-[300px] rounded-[500px]"
                     />           
-                </div>
+                </div> */}
             </div>
             <div className='bg-white w-[95%] h-auto py-4 px-4 rounded-lg shadow-md flex flex-row gap-2 items-center justify-center absolute bottom-2 
             md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out md:cursor-pointer md:hover:rotate-2
@@ -71,6 +81,7 @@ const Hero = () => {
                         alt='zonnepanelen op schuin pvc dak'
                         width={120}
                         height={35}
+                        loading='eager'
                         className="w-full object-cover h-auto "
                     />          
                 </div>
