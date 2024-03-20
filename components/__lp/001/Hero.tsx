@@ -30,31 +30,55 @@ const Hero = () => {
       
         <div className='flex flex-col relative justify-center items-center w-[35%] md:min-w-[300px] lg:min-w-[450px]'>
             <div className='w-full h-auto min-w-[300px] min-h-[412px] md:min-h-[400px] lg:min-h-[600px] rounded-[500px]'>
-                <div className="w-full h-auto min-w-[300px] rounded-[500px] xl:flex hidden">
+                <div className="w-full h-auto min-w-[300px] xl:flex hidden">
+                    <Image
+                        src='/lp/001/1-skeleton.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={510}
+                        height={700}
+                        quality={1}                                            
+                        className="w-full h-auto min-w-[300px] rounded-[500px]"
+                    />
                     <Image
                         src='/lp/001/1-big.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={510}
                         height={700}                    
-                        className="w-full h-auto min-w-[300px] rounded-[500px] xl:flex hidden"
+                        className="absolute w-full h-auto min-w-[300px] rounded-[500px]"
                     />
                 </div>
-                <div className="w-full h-auto min-w-[300px] rounded-[500px] md:flex xl:hidden hidden">
+                <div className="w-full h-auto min-w-[300px] md:flex xl:hidden hidden">
+                    <Image
+                        src='/lp/001/1-skeleton.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={510}
+                        height={700}
+                        quality={1}                                            
+                        className="w-full h-auto min-w-[300px] rounded-[500px]"
+                    />
                     <Image 
                         src='/lp/001/1-small.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={510}
                         height={700}                    
-                        className="w-full h-auto min-w-[300px] rounded-[500px] md:flex xl:hidden hidden"
+                        className="absolute w-full h-auto min-w-[300px] rounded-[500px]"
                     />
                 </div>
-                <div className="w-full h-auto min-w-[300px] rounded-[500px] md:hidden flex">
+                <div className="w-full h-auto min-w-[300px] md:hidden flex">
+                    <Image
+                        src='/lp/001/1-skeleton.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={510}
+                        height={700}
+                        quality={1}                                            
+                        className="w-full h-auto min-w-[300px] rounded-[500px]"
+                    />
                     <Image 
                         src='/lp/001/1-small.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={510}
                         height={700}                        
-                        className="w-full h-auto min-w-[300px] rounded-[500px] md:hidden flex"
+                        className="absolute w-full h-auto min-w-[300px] rounded-[500px]"
                     />           
                 </div>
             </div>
