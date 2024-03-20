@@ -73,22 +73,22 @@ const Section4 = () => {
                 <Image 
                     src='/lp/001/5.webp'
                     alt='zonnepanelen op schuin pvc dak'
-                    width={510}
-                    height={700}
+                    width={600}
+                    height={826}
                     className="w-full h-auto rounded-[500px] xl:flex hidden"
                 />
                 <Image 
                     src='/lp/001/5-small.webp'
                     alt='zonnepanelen op schuin pvc dak'
-                    width={510}
-                    height={700}
+                    width={450}
+                    height={600}
                     className="w-full h-auto rounded-[500px] md:flex xl:hidden hidden"
                 />
                 <Image 
                     src='/lp/001/5-small.webp'
                     alt='zonnepanelen op schuin pvc dak'
-                    width={510}
-                    height={700}
+                    width={300}
+                    height={413}
                     className="w-full h-auto rounded-[500px] md:hidden flex"
                 />
             </div>
