@@ -34,8 +34,9 @@ const Hero = () => {
                     <Image
                         src='/lp/001/1-skeleton.webp'
                         alt='zonnepanelen op schuin pvc dak'
-                        width={550}
-                        height={755}                    
+                        width={300}
+                        height={412}
+                        loading='eager'                    
                         className="w-full h-auto min-w-[300px] rounded-[500px]"
                     />
                 </div>
@@ -43,8 +44,9 @@ const Hero = () => {
                     <Image 
                         src='/lp/001/1-skeleton.webp'
                         alt='zonnepanelen op schuin pvc dak'
-                        width={450}
-                        height={617}                   
+                        width={300}
+                        height={412}
+                        loading='eager'                     
                         className="w-full h-auto min-w-[300px] rounded-[500px]"
                     />
                 </div>
@@ -53,7 +55,8 @@ const Hero = () => {
                         src='/lp/001/1-skeleton.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={300}
-                        height={412}                       
+                        height={412}
+                        loading='eager'                         
                         className="w-full h-auto min-w-[300px] rounded-[500px]"
                     />           
                 </div>
