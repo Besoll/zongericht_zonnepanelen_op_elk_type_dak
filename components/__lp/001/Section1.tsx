@@ -21,7 +21,6 @@ const Section1 = () => {
                         alt='zonnepanelen op schuin pvc dak'
                         width={600}
                         height={850}
-                        loading='lazy'
                         className="w-full h-auto rounded-[500px] xl:flex hidden"
                     />
                     <Image 
@@ -29,7 +28,6 @@ const Section1 = () => {
                         alt='zonnepanelen op schuin pvc dak'
                         width={450}
                         height={600}
-                        loading='lazy'
                         className="w-full h-auto rounded-[500px] md:flex xl:hidden hidden"
                     />
                     <Image 
@@ -51,7 +49,6 @@ const Section1 = () => {
                         alt='zonnepanelen op schuin pvc dak'
                         width={400}
                         height={400}
-                        loading='lazy'
                         className="w-full h-auto rounded-full shadow-xl"
                     />                   
                 </div>

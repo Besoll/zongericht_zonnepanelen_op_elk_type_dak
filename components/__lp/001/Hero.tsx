@@ -30,33 +30,30 @@ const Hero = () => {
       
         <div className='flex flex-col relative justify-center items-center w-[35%] md:min-w-[300px] lg:min-w-[450px]'>
             <div className='w-full h-auto min-w-[300px] min-h-[412px] md:min-h-[400px] lg:min-h-[600px] rounded-[500px]'>                
-                <div className="w-full min-w-[300px] aspect-[3/4] rounded-[500px] xl:flex hidden">
+                <div className="w-full min-w-[300px] aspect-[2.92/4] rounded-[500px] xl:flex hidden">
                     <Image
                         src='/lp/001/1-big.webp'
                         alt='zonnepanelen op schuin pvc dak'
-                        width={510}
-                        height={700}
-                        loading='lazy'                     
+                        width={550}
+                        height={755}                    
                         className="w-full h-auto min-w-[300px] rounded-[500px]"
                     />
                 </div>
-                <div className="w-full min-w-[300px] aspect-[3/4] rounded-[500px] md:flex xl:hidden hidden">
+                <div className="w-full min-w-[300px] aspect-[2.92/4] rounded-[500px] md:flex xl:hidden hidden">
                     <Image 
                         src='/lp/001/1-small.webp'
                         alt='zonnepanelen op schuin pvc dak'
-                        width={510}
-                        height={700}
-                        loading='lazy'                    
+                        width={450}
+                        height={617}                   
                         className="w-full h-auto min-w-[300px] rounded-[500px]"
                     />
                 </div>
-                <div className="w-full min-w-[300px] aspect-[3/4] rounded-[500px] md:hidden flex">                    
+                <div className="w-full min-w-[300px] aspect-[2.92/4] rounded-[500px] md:hidden flex">                    
                     <Image 
                         src='/lp/001/1-small.webp'
                         alt='zonnepanelen op schuin pvc dak'
-                        width={510}
-                        height={700}  
-                        loading='lazy'                       
+                        width={300}
+                        height={412}                       
                         className="w-full h-auto min-w-[300px] rounded-[500px]"
                     />           
                 </div>
@@ -71,7 +68,6 @@ const Hero = () => {
                         alt='zonnepanelen op schuin pvc dak'
                         width={120}
                         height={35}
-                        loading='lazy'
                         className="w-full object-cover h-auto "
                     />          
                 </div>
