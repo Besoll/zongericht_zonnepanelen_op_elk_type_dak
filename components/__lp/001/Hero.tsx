@@ -63,9 +63,9 @@ const Hero = () => {
                     className="w-[50%] lg:w-[55%] h-auto"
                 />
                 <div className='flex flex-col text-black w-full'>
-                    <h3 className='heading3 font-bold'>
+                    <p className='text-2xl font-bold'>
                         4,000+
-                    </h3>
+                    </p>
                     <p>
                         Tevreden Klanten
                     </p>
