@@ -53,7 +53,7 @@ const Hero = () => {
                         src='/lp/001/1-small.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={510}
-                        height={700}
+                        height={700}                        
                         className="w-full h-auto min-w-[300px] rounded-[500px] md:hidden flex"
                     />           
                 </div>
@@ -66,6 +66,7 @@ const Hero = () => {
                     alt='zonnepanelen op schuin pvc dak'
                     width={120}
                     height={480}
+                    quality={75}
                     className="w-[50%] lg:w-[55%] h-auto"
                 />
                 <div className='flex flex-col text-black w-full'>
