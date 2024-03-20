@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image'
-import React, { useRef, useState } from 'react';
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -9,12 +8,12 @@ import 'swiper/css/pagination';
 
 import '@/components/__lp/001/ui/swiper.css'
 
-import { Navigation, Pagination, EffectCoverflow, Mousewheel, Keyboard, Controller, Scrollbar, A11y } from 'swiper/modules'
+import { Navigation, Pagination, EffectCoverflow, Mousewheel, Keyboard } from 'swiper/modules'
 
 import dynamic from 'next/dynamic'
 const Stars5 = dynamic(() => import("@/components/__lp/001/icons/Stars5"))
-const SwiperButtonNext = dynamic(() => import("@/components/__lp/001/icons/SwiperButtonNext"))
-const SwiperButtonPrev = dynamic(() => import("@/components/__lp/001/icons/SwiperButtonPrev"))
+// const SwiperButtonNext = dynamic(() => import("@/components/__lp/001/icons/SwiperButtonNext"))
+// const SwiperButtonPrev = dynamic(() => import("@/components/__lp/001/icons/SwiperButtonPrev"))
 
 
 
