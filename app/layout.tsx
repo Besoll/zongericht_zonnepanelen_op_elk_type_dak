@@ -3,24 +3,56 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css'
 
 
+const titleZG = 'Zongericht';
+const colorZG = '#FF7C29'; // orange
+const urlZG = 'https://zonnepanelen.zongericht.nl';
+const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Fhero-banner.webp&w=828&q=75';
+const descriptionZG = 'Zonnepanelen op elk type dak - Waar een dak is, schijnt de zon! Met Onze kennis transformeren we elk dak in een zonne-energiebron';
+
+const creatorZG = "B. Kavzharadze - QOQU BV";
+
+
+
 export const metadata: Metadata = {
+
   manifest: "/manifest.json",
-  title: 'Zongericht',
-  description: 'Zonnepanelen op elk type dak - Waar een dak is, schijnt de zon! Met Onze kennis transformeren we elk dak in een zonne-energiebron',
+  applicationName: "Landing Page",
+  authors: [{ name: "Zongericht", url: "https://zongericht.nl/" }],
+  generator: "Next.js",
+  title: titleZG,
+  description: descriptionZG,
+  themeColor: colorZG,
+  creator: creatorZG,
+  publisher: "Vercel",
+  robots: "index, follow",
+  alternates: { canonical: urlZG },
+
+  openGraph: {
+    type: "website",
+    url: urlZG,
+    title: titleZG,
+    description: descriptionZG,
+    siteName: titleZG,
+    images: [{ url: imageZG, }],
+  },
+  
+
   other: {
-    'theme-color': '#0d1117',
     "color-scheme": "dark only",
-    "twitter:image": 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Fhero-banner.webp&w=828&q=75',
-    "twitter:card": "summary_large_image",
-    "og:url": "zongericht.nl",
-    "og:image": 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Fhero-banner.webp&w=828&q=75',
-    "og:type": "website",
+    "twitter:card": imageZG,
+    "twitter:site": urlZG,
+    "twitter:creator": creatorZG,
+    "twitter:title": titleZG,
+    "twitter:description": descriptionZG,
+    "twitter:image": imageZG,
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-title": titleZG,
   }
 }
 
 
 export const viewport: Viewport = {
-  themeColor: '#FF7C29',
+  themeColor: colorZG,
 }
 
 export default function RootLayout({

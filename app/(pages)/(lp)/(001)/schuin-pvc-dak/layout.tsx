@@ -2,6 +2,62 @@ import React from 'react'
 import Footer from '@/components/__lp/001/Footer'
 import Navbar from '@/components/__lp/001/Navbar'
 
+import type { Metadata, Viewport } from 'next'
+
+const titleZG = 'Zongericht - Zonnepanelen op Schuin PVC dak';
+const colorZG = '#4c73ff'; // Blue
+const urlZG = 'https://zonnepanelen.zongericht.nl/schuin-pvc-dak';
+const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Flp%2F001%2F1-small.webp&w=828&q=75';
+const descriptionZG = 'Bij Zongericht zijn we gespecialiseerd in het efficiënt plaatsen van zonnepanelen op PVC-daken. Met onze diepgaande kennis en passie voor duurzaamheid bieden we een gratis huisinspectie om uw dak te evalueren en een vrijblijvende offerte op maat. Wij zorgen voor een naadloze installatie die optimaal presteert en perfect past bij uw PVC-dak. Vertrouw op onze expertise voor een zorgeloze overgang naar groene energie, en maak uw huis een toonbeeld van duurzaamheid met Zongericht aan uw zijde.';
+
+const creatorZG = "B. Kavzharadze - QOQU BV";
+
+
+
+export const metadata: Metadata = {
+
+  manifest: "/manifest.json",
+  applicationName: "Landing Page",
+  authors: [{ name: "Zongericht", url: "https://zongericht.nl/" }],
+  generator: "Next.js",
+  title: titleZG,
+  description: descriptionZG,
+  themeColor: colorZG,
+  creator: creatorZG,
+  publisher: "Vercel",
+  robots: "index, follow",
+  alternates: { canonical: urlZG },
+
+  openGraph: {
+    type: "website",
+    url: urlZG,
+    title: titleZG,
+    description: descriptionZG,
+    siteName: titleZG,
+    images: [{ url: imageZG, }],
+  },
+  
+
+  other: {
+    "color-scheme": "dark only",
+    "twitter:card": imageZG,
+    "twitter:site": urlZG,
+    "twitter:creator": creatorZG,
+    "twitter:title": titleZG,
+    "twitter:description": descriptionZG,
+    "twitter:image": imageZG,
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-title": titleZG,
+  }
+}
+
+
+export const viewport: Viewport = {
+  themeColor: colorZG,
+}
+
+
+
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
