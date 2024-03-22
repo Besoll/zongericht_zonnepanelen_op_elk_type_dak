@@ -1,7 +1,7 @@
-import Hero from '@/components/__lp/001/Hero'
-
+// import Hero from '@/components/__lp/001/Hero'
 
 import dynamic from 'next/dynamic'
+const Hero = dynamic(() => import("@/components/__lp/001/Hero"))
 const Form = dynamic(() => import("@/components/__lp/001/Form"))
 const Partners6Logos = dynamic(() => import("@/components/__lp/001/Partners6Logos"))
 const ProductUSP = dynamic(() => import("@/components/zonnepanelen/ProductUSP"))
@@ -20,7 +20,7 @@ const TestimonialsBig = dynamic(() => import("@/components/__lp/001/Testimonials
 const page = () => {
   return (
     <main className='mx-auto w-full flex-col text-black snap-y gap-2'>
-      <header className='w-full justify-center items-center flex mt-4 md:mt-12 pb-30 xs:h-auto flex-col '>
+      <header className='w-full justify-center items-center flex mt-4 md:mt-12 pb-30 xs:h-auto flex-col min-h-[120vw] xs:min-h-[110vw] sm:min-h-[100vw] md:min-h-[80vw] lg:min-h-[60vw] xl:min-h-[50vw] '>
         <Hero />
           <div className='bg-white shadow-xl w-[95%] rounded-3xl py-6 px-4 md:px-8 flex flex-col 
           justify-center items-center md:justify-start md:items-start max-w-[1440px] gap-3 scroll-mt-4
