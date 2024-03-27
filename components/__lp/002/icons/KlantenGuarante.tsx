@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const KlantenGuarante = () => {
   return (
-    <div className='flex flex-row gap-2 justify-start items-start md:justify-center md:items-center my-2 md:my-4'>
+    <div className='flex flex-row gap-2 justify-center items-center my-2 md:my-4 text-left'>
                         <div className='flex flex-row gap-3 items-center justify-center'>
                             <Image 
                                 src='/icons/KlantenVertelenOriginal.svg'
@@ -13,7 +13,7 @@ const KlantenGuarante = () => {
                                 md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer"
                             />
                             <div className='flex flex-col'>
-                                <div className='text-black text-xs font-medium'>
+                                <div className='text-white text-xs font-medium'>
                                     Klanten<span className='font-semibold'>Vertellen</span>
                                 </div>
                                 <div className='text-white-300 text-xs '>
@@ -32,7 +32,7 @@ const KlantenGuarante = () => {
                                 md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer"
                             />
                             <div className='flex flex-col'>
-                                <div className='text-black text-xs font-medium'>
+                                <div className='text-white text-xs font-medium'>
                                     10 jaar installatiegarantie
                                 </div>
                                 <div className='text-white-300 text-xs '>

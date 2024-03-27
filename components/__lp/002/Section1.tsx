@@ -1,11 +1,17 @@
 import Image from 'next/image'
 
 import dynamic from 'next/dynamic'
-const CtaButton2 = dynamic(() => import('@/components/__lp/001/ctaButtons/CtaButton2'))
+const CtaButton2 = dynamic(() => import('@/components/__lp/002/ctaButtons/CtaButton2'))
 
-const IsntalationSolarBlue = dynamic(() => import('@/components/__lp/001/icons/IsntalationSolarBlue'))
-const PaymentBlue = dynamic(() => import('@/components/__lp/001/icons/PaymentBlue'))
-const CustomerSupportBlue = dynamic(() => import('@/components/__lp/001/icons/CustomerSupportBlue'))
+const Icon_1_Instalation = dynamic(() => import('@/components/__lp/002/icons/icons-steps/Icon_1_Instalation'))
+const Icon_2_freeInspection = dynamic(() => import('@/components/__lp/002/icons/icons-steps/Icon_2_freeInspection'))
+const Icon_3_Monitoring = dynamic(() => import('@/components/__lp/002/icons/icons-steps/Icon_3_Monitoring'))
+const Icon_4_Customers = dynamic(() => import('@/components/__lp/002/icons/icons-steps/Icon_4_Customers'))
+const Icon_5_Installers = dynamic(() => import('@/components/__lp/002/icons/icons-steps/Icon_5_Installers'))
+const Icon_6_allRoof = dynamic(() => import('@/components/__lp/002/icons/icons-steps/Icon_6_allRoof'))
+
+
+
 
 const Section1 = () => {
   return (
@@ -14,75 +20,143 @@ const Section1 = () => {
         <div className='flex w-full justify-center items-center md:justify-start md:items-start
         gap-6 md:gap-20 flex-col md:flex-row ml-4'>      
             <div className='flex flex-col relative justify-center items-center w-[75%] md:min-w-[300px] 
-            lg:min-w-[450px]'>
+            lg:min-w-[450px] md:aspect-[1/1.8] aspect-[2.90381125/4]'>
                 <div className='flex w-full h-auto '>
                     <Image 
-                        src='/lp/001/2-big.webp'
-                        alt='zonnepanelen op schuin pvc dak'
-                        width={510}
-                        height={700}
-                        className="w-full h-auto rounded-[500px] xl:flex hidden"
-                    />
-                    <Image 
-                        src='/lp/001/2.webp'
-                        alt='zonnepanelen op schuin pvc dak'
-                        width={510}
-                        height={700}
-                        className="w-full h-auto rounded-[500px] md:flex xl:hidden hidden"
-                    />
-                    <Image 
-                        src='/lp/001/2-small.webp'
-                        alt='zonnepanelen op schuin pvc dak'
-                        width={510}
-                        height={700}
-                        className="w-full h-auto rounded-[500px] md:hidden flex"
-                    />
-                </div>
-                <div className=' w-[45%] h-auto items-center justify-center 
-                -mt-52 -mr-[18rem]  md:flex hidden
-                md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                md:cursor-pointer md:hover:rotate-2
-                
-                '>
-                    <Image 
-                        src='/lp/001/2-2.webp'
+                        src='/lp/002/1.JPG'
                         alt='zonnepanelen op schuin pvc dak'
                         width={400}
-                        height={400}
-                        className="w-full h-auto rounded-full shadow-xl"
-                    />                   
+                        height={551}
+                        className="absolute top-0 w-full h-auto rounded-lg xl:flex hidden"
+                    />
+                    <Image 
+                        src='/lp/002/1.JPG'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={400}
+                        height={551}
+                        className="absolute top-0 w-full h-auto rounded-lg md:flex xl:hidden hidden"
+                    />
+                    <Image 
+                        src='/lp/002/1.JPG'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={400}
+                        height={551}
+                        className="absolute top-0 w-full h-auto rounded-lg md:hidden flex"
+                    />
                 </div>
             </div>
 
             <div className='w-full flex flex-col justify-center items-center md:justify-start md:items-start gap-3'>
-                <div className='w-full flex flex-col items-start mb-2 justify-start'>              
-                    <h2 className='w-full heading3 md:heading2 lg:heading1 md:text-left text-center line-clamp-4'>
-                        Waarom kiezen voor Zongericht voor zonnepanelen op uw PVC dak?    
-                    </h2> 
-                </div>
+                <p className='text-qoqu_Blue font-semibold '>
+                    Plat dak
+                </p>             
+                <h2 className='w-full heading3 md:heading2 lg:heading1 md:text-left text-center line-clamp-4'>
+                    Waarom zongerichte zonnepanelen voor uw platte dak?    
+                </h2> 
 
-                {/* texts container */}
-                <div className='w-full md:w-[80%]'>
-                    <p className='md:text-left text-center mb-4'>
-                    Bij Zongericht zijn we gepassioneerd door de kracht van de zon en gespecialiseerd
-                    in het installeren van zonne-energiesystemen op alle typen daken in Nederland,
-                    inclusief de specifieke kennis en ervaring met PVC daken.
-                    <br />
-                    Als erkende installateurs zetten we ons volledig in om onze klanten niet alleen tevreden te stellen, maar hen ook trots te maken op hun keuze voor Zongericht. We streven ernaar elke installatie met de hoogste kwaliteitsstandaarden uit te voeren, ondersteund door onze uitgebreide kennis van PVC daksystemen. Dit commitment aan kwaliteit wordt verder benadrukt door onze 10 jaar lange installatiegarantie, wat ons vertrouwen in ons werk en de duurzaamheid van onze installaties onderstreept.
-                    <br />
-                    Kiezen voor Zongericht betekent kiezen voor zekerheid, kwaliteit, en een groene toekomst, één dak tegelijk. Met onze gespecialiseerde kennis van PVC daken en onze toewijding aan topkwaliteit, stapt u met vertrouwen de zonne-energie revolutie binnen
+                <div className='w-full md:w-[80%] flex flex-col gap-4 py-4'>
+                    <p className='md:text-left text-center'>
+                        Als Zongericht hebben wij kennis en ervaring met alle typen daken in Nederland, waaronder platte daken. Als gekwalificeerde installateur streven wij bij elke installatie naar de hoogst mogelijke kwaliteit, zodat onze klanten trots kunnen zijn op Zongericht. Daarom durven wij ook 10 jaar installatiegarantie op onze installaties te bieden.
+                    </p>
+                    <p className='md:text-left text-center'>
+                        Als installateur zien wij dat er vaak te simpel en te gemakkelijk wordt gedacht over platte daken, wat leidt tot verkeerd geplaatste installaties. Vaak wordt het ballastplan vergeten en wordt er te weinig of te veel ballast geplaatst. Te weinig ballast kan het risico met zich meebrengen dat de zonnepanelen wegwaaien, terwijl te veel ballast een hoog risico op dakbelasting en het potentieel van doorbuiging van bijvoorbeeld houten daken met zich meebrengt.
+                    </p>
+                    <p className='md:text-left text-center'>
+                        Een veelvoorkomende fout is ook dat installaties op het grind van platte daken worden geplaatst. Door het gewicht van het systeem dat op het grind drukt, in combinatie met de hete temperaturen rond de zomer, kan het grind door de dakbedekking gedrukt worden, wat tot flinke lekkages en schade kan leiden. Kies daarom voor een betrouwbare installateur met kennis van zaken, die uw zonnepanelen op een professionele wijze op uw platte dak installeert.
                     </p>
                 </div>
-                <CtaButton2 />
+
+
+                <div className='w-full h-auto flex flex-col px-2 md:px-3 py-4 md:py-6 gap-4'>
+                    <div className='flex flex-col md:flex-row gap-4'>
+                        <div className='w-full h-auto flex flex-col gap-2'>
+                            <div className='w-fit p-4 rounded-lg bg-qoqu_Blue/10
+                                md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
+                                md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
+                                '>
+                                <Icon_1_Instalation />
+                            </div>
+                            <p className='text-xl font-semibold'>
+                                Installatie binnen 4 weken
+                            </p>
+                        </div>
+                        <div className='w-full h-auto flex flex-col gap-2'>
+                            <div className='w-fit p-4 rounded-lg bg-qoqu_Blue/10
+                                md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
+                                md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
+                                '>
+                                <Icon_2_freeInspection />
+                            </div>
+                            <p className='text-xl font-semibold'>
+                                Gratis woninginspectie
+                            </p>
+                        </div>
+                        <div className='w-full h-auto flex flex-col gap-2'>
+                            <div className='w-fit p-4 rounded-lg bg-qoqu_Blue/10
+                                md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
+                                md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
+                                '>
+                                <Icon_3_Monitoring />
+                            </div>
+                            <p className='text-xl font-semibold'>
+                                Geavanceerde monitorring systeem
+                            </p>
+                        </div>               
+                    </div>
+                    <div className='flex flex-col md:flex-row gap-4'>
+                        <div className='w-full h-auto flex flex-col gap-2'>
+                            <div className='w-fit p-4 rounded-lg bg-qoqu_Blue/10
+                                md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
+                                md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
+                                '>
+                                <Icon_4_Customers />
+                            </div>
+                            <p className='text-xl font-semibold'>
+                                Hoge klantentevredenheid
+                            </p>
+                        </div>
+                        <div className='w-full h-auto flex flex-col gap-2'>
+                            <div className='w-fit p-4 rounded-lg bg-qoqu_Blue/10
+                                md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
+                                md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
+                                '>
+                                <Icon_5_Installers  />
+                            </div>
+                            <p className='text-xl font-semibold'>
+                            Betrouwbare en ervaren installateurs
+                            </p>
+                        </div>
+                        <div className='w-full h-auto flex flex-col gap-2'>
+                            <div className='w-fit p-4 rounded-lg bg-qoqu_Blue/10
+                                md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
+                                md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
+                                '>
+                                <Icon_6_allRoof />
+                            </div>
+                            <p className='text-xl font-semibold'>
+                                Expertise in alle daken
+                            </p>
+                        </div>               
+                    </div>
+                </div>
             </div>   
         </div>
 
-        <div className='flex flex-col gap-8'>
-            <hr className='mt-16 h-[2px] bg-gray-300'></hr>
-            <h2 className='heading2 text-center font-semibold'>
-                Onze werkwijze
-            </h2>
-            <div className='flex flex-col md:flex-row gap-4'>
+        
+           
+
+    </div>
+  )
+}
+
+export default Section1
+
+
+
+
+
+
+{/* <div className='flex flex-col md:flex-row gap-4'>
                 <div className='flex flex-col w-full md:w-1/3 gap-4 bg-white rounded-lg px-4 md:px-6 py-4 md:py-8 shadow-lg text-center justify-start items-center md:min-h-[350px]
                 md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
                 md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl'>
@@ -91,9 +165,6 @@ const Section1 = () => {
                     </div>
                     <p className='text-xl font-semibold'>
                         Gratis huis inspectie
-                    </p>
-                    <p className='text-center'>
-                        Wij bieden een gratis en vrijblijvende huisinspectie, waarbij onze adviseur uw vragen beantwoordt en een persoonlijke offerte op maat opstelt na zorgvuldige inspectie.
                     </p>
                 </div>
                 <div className='flex flex-col w-full md:w-1/3 gap-4 bg-white rounded-lg px-4 md:px-6 py-4 md:py-8 shadow-lg text-center justify-start items-center md:min-h-[350px]
@@ -123,11 +194,4 @@ const Section1 = () => {
                     </p>
                 </div>
 
-            </div>
-
-        </div>
-    </div>
-  )
-}
-
-export default Section1
+            </div> */}

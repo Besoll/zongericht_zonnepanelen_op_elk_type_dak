@@ -104,8 +104,8 @@ const ZofoForm: React.FC = () => {
         <input type="hidden" name="SingleLine12" value="[landingpagegroup]" />
         <input type="hidden" name="PhoneNumber_countrycodeval" value="+31" />
         <input type="hidden" name="SingleLine3" value="Zongericht" />
-        <input type="hidden" name="SingleLine5" value="https://zonnepanelen.zongericht.nl/schuin-pvc-dak" />
-        <input type="hidden" name="SingleLine6" value="Next.JS LP-001 - New technology" />
+        <input type="hidden" name="SingleLine5" value="https://zonnepanelen.zongericht.nl/plat-dak" />
+        <input type="hidden" name="SingleLine6" value="Next.JS LP-002 - New technology" />
         <input type="hidden" name="SingleLine4" value="" />
 
         <div className="flex flex-col lg:flex-row items-center justify-center w-full gap-1 md:gap-2 text-black">
@@ -118,7 +118,7 @@ const ZofoForm: React.FC = () => {
                         name="SingleLine"
                         value={formValues.SingleLine}
                         onChange={handleChange}
-                        className={`file-input bg-qoqu_Blue/10 rounded-3xl w-full border-none px-4 mb-2 mt-2 ${formErrors.SingleLine ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
+                        className={`file-input bg-qoqu_Blue/10 rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.SingleLine ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
                         placeholder="Voor en achternaam"
                         disabled={isSubmitted}
                     />
@@ -132,7 +132,7 @@ const ZofoForm: React.FC = () => {
                         name="PhoneNumber_countrycode"
                         value={formValues.PhoneNumber_countrycode}
                         onChange={handleChange}
-                        className={`file-input bg-qoqu_Blue/10 rounded-3xl w-full border-none px-4 mb-2 mt-2 ${formErrors.PhoneNumber_countrycode ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
+                        className={`file-input bg-qoqu_Blue/10 rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.PhoneNumber_countrycode ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
                         placeholder="Telefoonnummer"
                         disabled={isSubmitted}
                     />
@@ -144,7 +144,7 @@ const ZofoForm: React.FC = () => {
                         name="Email"
                         value={formValues.Email}
                         onChange={handleChange}
-                        className={`file-input bg-qoqu_Blue/10 rounded-3xl w-full border-none px-4 mb-2 mt-2 ${formErrors.Email ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
+                        className={`file-input bg-qoqu_Blue/10 rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.Email ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
                         placeholder="Email"
                         disabled={isSubmitted}
                     />
@@ -159,7 +159,7 @@ const ZofoForm: React.FC = () => {
                         name="SingleLine1"
                         value={formValues.SingleLine1}
                         onChange={handleChange}
-                        className={`file-input bg-qoqu_Blue/10 rounded-3xl w-full border-none px-4 mb-2 mt-2 ${formErrors.SingleLine1 ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
+                        className={`file-input bg-qoqu_Blue/10 rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.SingleLine1 ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
                         placeholder="Postcode"
                         disabled={isSubmitted}
                     />
@@ -172,7 +172,7 @@ const ZofoForm: React.FC = () => {
                         name="SingleLine2"
                         value={formValues.SingleLine2}
                         onChange={handleChange}
-                        className={`file-input bg-qoqu_Blue/10 rounded-3xl w-full border-none px-4 mb-2 mt-2 ${formErrors.SingleLine2 ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
+                        className={`file-input bg-qoqu_Blue/10 rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.SingleLine2 ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
                         placeholder="Huisnummer"
                         disabled={isSubmitted}
                     />
@@ -184,10 +184,10 @@ const ZofoForm: React.FC = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className={`submit-button mt-5 md:mt-0 py-4 md:py-3 px-3 md:px-3 md:min-w-[250px] w-full md:w-[250px] rounded-3xl  leading-tight border-none ${isFormValid && !isSubmitted ? 'bg-orange hover:bg-brand_original_main3' : 'bg-qoqu_Blue cursor-not-allowed'} text-white shadow-sm transition-colors duration-300`}
+            className={`submit-button mt-5 md:mt-0 py-4 md:py-3 px-3 md:px-3 md:min-w-[250px] w-full md:w-[250px] rounded-lg  leading-tight border-none ${isFormValid && !isSubmitted ? 'bg-orange hover:bg-brand_original_main3' : 'bg-qoqu_Blue cursor-not-allowed'} text-white shadow-sm transition-colors duration-300`}
           >
             {isSubmitted ?
-              "Uw aanvraag is succesvol ingediend" : "Vrag aan schouwing een" }
+              "Uw aanvraag is succesvol ingediend" : "Een vrijblijvende offerte aanvragen" }
           </button>
         </div>
       </form>

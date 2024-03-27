@@ -1,41 +1,44 @@
-import Hero from '@/components/__lp/001/Hero'
-
+// import Hero from '@/components/__lp/002/Hero'
 
 import dynamic from 'next/dynamic'
-const Form = dynamic(() => import("@/components/__lp/001/Form"))
-const Partners6Logos = dynamic(() => import("@/components/__lp/001/Partners6Logos"))
+const Hero = dynamic(() => import("@/components/__lp/002/Hero"))
+const Form = dynamic(() => import("@/components/__lp/002/Form"))
+const Partners6Logos = dynamic(() => import("@/components/__lp/002/Partners6Logos"))
 const ProductUSP = dynamic(() => import("@/components/zonnepanelen/ProductUSP"))
-const Section1 = dynamic(() => import("@/components/__lp/001/Section1"))
-const Section2 = dynamic(() => import("@/components/__lp/001/Section2"))
-const SectionCTA = dynamic(() => import("@/components/__lp/001/SectionCTA"))
-const Section3 = dynamic(() => import("@/components/__lp/001/Section3"))
-const Section4 = dynamic(() => import("@/components/__lp/001/Section4"))
-const FAQ = dynamic(() => import("@/components/__lp/001/FAQ"))
-const TestimonialsSmall = dynamic(() => import("@/components/__lp/001/TestimonialsSmall"))
-const TestimonialsBig = dynamic(() => import("@/components/__lp/001/TestimonialsBig"))
+const Section1 = dynamic(() => import("@/components/__lp/002/Section1"))
+const Section2 = dynamic(() => import("@/components/__lp/002/Section2"))
+const SectionCTA = dynamic(() => import("@/components/__lp/002/SectionCTA"))
+const Section3 = dynamic(() => import("@/components/__lp/002/Section3"))
+const Section4 = dynamic(() => import("@/components/__lp/002/Section4"))
+const FAQ = dynamic(() => import("@/components/__lp/002/FAQ"))
+const TestimonialsSmall = dynamic(() => import("@/components/__lp/002/TestimonialsSmall"))
+const TestimonialsBig = dynamic(() => import("@/components/__lp/002/TestimonialsBig"))
 
 
-// lp: page 001 - schuin pvc dak
+// lp: page 002 - schuin pvc dak
 
 const page = () => {
   return (
     <main className='mx-auto w-full flex-col text-black snap-y gap-2'>
-      <header className='w-full justify-center items-center flex mt-4 md:mt-12 pb-30 xs:h-auto flex-col '>
-        <Hero />
-          <div className='bg-white shadow-xl w-[95%] rounded-3xl py-6 px-4 md:px-8 flex flex-col 
+      <header className='w-full h-auto -mt-20 
+      bg-[url("/lp/002/bg-1.webp")] bg-no-repeat bg-cover bg-top'>
+        <div className='w-full h-auto flex flex-col justify-center items-center
+        bg-black/60 text-white pb-16 md:pb-20 pt-28 md:pt-40 '>
+          <Hero />
+          <div className='bg-white shadow-xl w-[95%] rounded-lg py-6 px-4 md:px-8 flex flex-col 
           justify-center items-center md:justify-start md:items-start max-w-[1440px] gap-3 scroll-mt-4
           md:scroll-mt-24 snap-start scroll-smooth md:scroll-auto' id="schouwingForm">
             <p className='text-black text-3xl font-semibold'>
-              Vraag een huis inspectie aan
+              Vraag een woninginspectie aan
             </p>
             <Form />
           </div>
-          
+        </div>
       </header>
 
-      <section className='flex justify-center items-center scroll-mt-24 snap-start scroll-smooth md:scroll-auto h-auto' id='partnersLogos' >
+      {/* <section className='flex justify-center items-center scroll-mt-24 snap-start scroll-smooth md:scroll-auto h-auto' id='partnersLogos' >
         <Partners6Logos />
-      </section>
+      </section> */}
 
       {/* <section className='w-full bg-qoqu_Blue/20 md:gradient_special_Hero3 flex flex-col min-h-[100vh]  pb-32 md:pb-2 xs:h-auto scroll-mt-16 snap-start scroll-smooth md:scroll-auto' id='productUSP' >
         <ProductUSP />
@@ -50,7 +53,7 @@ const page = () => {
         </Link>        
       </section> */}
 
-      <section className='flex justify-center items-center w-full flex-col min-h-[100vh] xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto bg-qoqu_Blue/10' id='sections' >
+      <section className='flex justify-center items-center w-full flex-col min-h-[100vh] xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto ' id='sections' >
         <Section1 />        
       </section>
 
@@ -67,9 +70,9 @@ const page = () => {
             Ook benieuwd wat wij voor uw PVC dak kunnen betekenen? <br/>
             Nodig ons uit en een van onze adviseurs zal het u komen uitleggen. 
         </h2>
-        <div className="w-full lg: h-[400px] bg-[url('/lp/001/4-big.webp')] bg-no-repeat bg-cover bg-top xl:flex hidden"></div> 
-        <div className="w-full lg: h-[400px] bg-[url('/lp/001/4.webp')] bg-no-repeat bg-cover bg-top md:flex xl:hidden hidden"></div>
-        <div className="w-full h-[350px] bg-[url('/lp/001/4-small.webp')] bg-no-repeat bg-cover bg-top md:hidden flex"></div>
+        <div className="w-full lg: h-[400px] bg-[url('/lp/002/4-big.webp')] bg-no-repeat bg-cover bg-top xl:flex hidden"></div> 
+        <div className="w-full lg: h-[400px] bg-[url('/lp/002/4.webp')] bg-no-repeat bg-cover bg-top md:flex xl:hidden hidden"></div>
+        <div className="w-full h-[350px] bg-[url('/lp/002/4-small.webp')] bg-no-repeat bg-cover bg-top md:hidden flex"></div>
         <Section3 />        
       </section>
 

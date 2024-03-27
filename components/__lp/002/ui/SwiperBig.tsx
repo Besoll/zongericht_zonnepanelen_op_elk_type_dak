@@ -1,15 +1,13 @@
 "use client"
 import Image from 'next/image'
-import React, { useRef, useState } from 'react';
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import '@/components/__lp/001/ui/swiper.css'
 
-import { Navigation, Pagination, EffectCoverflow, Mousewheel, Keyboard, Controller, Scrollbar, A11y } from 'swiper/modules'
+import { Navigation, Pagination, EffectCoverflow, Mousewheel, Keyboard } from 'swiper/modules'
 
 import dynamic from 'next/dynamic'
 const Stars5 = dynamic(() => import("@/components/__lp/001/icons/Stars5"))
@@ -42,9 +40,6 @@ import image5_small from "@/public/lp/Reviews/small/5-1.webp"
 import daveCover from "@/public/lp/Reviews/daveCover.webp"
 
 
-
-
-
   
   export default function SwiperBig() {
 
@@ -63,7 +58,7 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
       statuswho: "Huiseigenaar" },
 
     { big: image3_big, normal: image3_normal, small: image3_small, 
-      title: "W. Sonderen, Elst", 
+      title: "W. Sonderen, Nijmegen", 
       content: "Zongericht gaf me het vertrouwen dat ze niet alleen een product verkopen, maar ook streven naar educatie en gebruik bij hun klanten.",
       statuswho: "Huiseigenaar" },
 
@@ -99,7 +94,10 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
             modifier: 1,
             slideShadows: false,
           }}
-          navigation={true} 
+          navigation= {{
+            nextEl: ".swiper-button-next-big",
+            prevEl: ".swiper-button-prev-big",
+          }}
           loop={true}
           
           breakpoints={{
@@ -122,11 +120,11 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
           }}
           
           modules={[EffectCoverflow, Pagination, Navigation, Mousewheel, Keyboard]}
-          className="flex justify-center items-center text-center w-full max-w-[1440px] px-4 py-12 md:py-16 "
+          className="flex justify-center items-center text-center w-full max-w-[1440px] px-4 py-12 md:py-16 h-auto "
         >
           {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className='relative mb-8 group transition duration-300 ease-in-out md:cursor-pointer'>
+            <div className='w-full flex justify-center items-center relative mb-8 group transition duration-300 ease-in-out md:cursor-pointer'>
               <Image src={slide.big} alt={`${slide.title} big`} width={510} height={700} 
                 className='hidden xl:flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl'/>
               <Image src={slide.normal} alt={`${slide.title} normal`} width={510} height={700} 
@@ -134,7 +132,7 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
               <Image src={slide.small} alt={`${slide.title} small`} width={510} height={700} 
                 className='md:hidden flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl'/>
 
-              <div className={` flex opacity-75 md:opacity-0 md:group-hover:opacity-100 absolute top-0 left-0 bg-black bg-opacity-50 justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-3xl transition duration-300 ease-in-out md:cursor-pointer`}>
+              <div className="w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto flex justify-center items-center opacity-75 md:opacity-0 md:group-hover:opacity-100 absolute bg-black bg-opacity-50 object-cover rounded-3xl transition duration-300 ease-in-out md:cursor-pointer">
                   <Image 
                         src={daveCover}
                         alt={`${slide.title} dave cover`}
@@ -153,6 +151,15 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
           </SwiperSlide>
           ))}          
         </Swiper>
+
+        <div className='w-full flex flex-row-reverse justify-center items-center gap-4'>
+          <div className='swiper-button-next-big rounded-full shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+            <SwiperButtonNext />
+          </div>
+          <div className='swiper-button-prev-big rounded-full shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+            <SwiperButtonPrev />
+          </div>
+        </div>
       
       </>
   );
