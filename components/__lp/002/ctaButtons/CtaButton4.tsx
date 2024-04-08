@@ -8,7 +8,7 @@ const ctaButton4 = () => {
     hover:scale-105 transition duration-300 ease-in-out
     '>
         <Link href="#schouwingForm" className="text-base font-semibold" >
-          Vraag uw gratis offerte aan
+          Huis inspectie aanvragen
         </Link>
     </Button>
   )

@@ -20,24 +20,24 @@ const Section1 = () => {
         <div className='flex w-full justify-center items-center md:justify-start md:items-start
         gap-6 md:gap-20 flex-col md:flex-row ml-4'>      
             <div className='flex flex-col relative justify-center items-center w-[75%] md:min-w-[300px] 
-            lg:min-w-[450px] md:aspect-[1/1.8] aspect-[2.90381125/4]'>
+            lg:min-w-[450px] md:aspect-[0.768] aspect-[0.768]'>
                 <div className='flex w-full h-auto '>
                     <Image 
-                        src='/lp/002/1.JPG'
+                        src='/lp/002/1-big.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={400}
                         height={551}
                         className="absolute top-0 w-full h-auto rounded-lg xl:flex hidden"
                     />
                     <Image 
-                        src='/lp/002/1.JPG'
+                        src='/lp/002/1.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={400}
                         height={551}
                         className="absolute top-0 w-full h-auto rounded-lg md:flex xl:hidden hidden"
                     />
                     <Image 
-                        src='/lp/002/1.JPG'
+                        src='/lp/002/1-small.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={400}
                         height={551}
@@ -152,46 +152,3 @@ const Section1 = () => {
 export default Section1
 
 
-
-
-
-
-{/* <div className='flex flex-col md:flex-row gap-4'>
-                <div className='flex flex-col w-full md:w-1/3 gap-4 bg-white rounded-lg px-4 md:px-6 py-4 md:py-8 shadow-lg text-center justify-start items-center md:min-h-[350px]
-                md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl'>
-                    <div className='p-6 rounded-lg bg-qoqu_Blue/10'>
-                        <CustomerSupportBlue />
-                    </div>
-                    <p className='text-xl font-semibold'>
-                        Gratis huis inspectie
-                    </p>
-                </div>
-                <div className='flex flex-col w-full md:w-1/3 gap-4 bg-white rounded-lg px-4 md:px-6 py-4 md:py-8 shadow-lg text-center justify-start items-center md:min-h-[350px]
-                md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl '>
-                    <div className='p-6 rounded-lg bg-qoqu_Blue/10'>
-                        <IsntalationSolarBlue />
-                    </div>
-                    <p className='text-xl font-semibold'>
-                        Installatie
-                    </p>
-                    <p className='text-center'>
-                        Als u instemt met de offerte van onze adviseur die bij u thuis is geweest, regelt onze planner een afspraak met u. We beloven binnen 4 weken na uw bestelling te starten met de installatie van uw zonnepanelen, die meestal binnen één dag voltooid is.
-                    </p>
-                </div>
-                <div className='flex flex-col w-full md:w-1/3 gap-4 bg-white rounded-lg px-4 md:px-6 py-4 md:py-8 shadow-lg text-center justify-start items-center md:min-h-[350px]
-                md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl'>
-                    <div className='p-6 rounded-lg bg-qoqu_Blue/10'>
-                        <PaymentBlue />
-                    </div>
-                    <p className='text-xl font-semibold'>
-                        Betaling
-                    </p>
-                    <p className='text-center'>
-                        Na de succesvolle en werkende installatie van uw zonnepanelen op uw pvc dak, ontvangt u een factuur voor de betaling achteraf. U hoeft niet direct aan de deur te betalen; u kunt de betaling gemakkelijk regelen na voltooiing van de installatie.
-                    </p>
-                </div>
-
-            </div> */}

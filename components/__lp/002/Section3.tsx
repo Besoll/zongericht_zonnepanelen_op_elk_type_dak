@@ -1,103 +1,71 @@
+import Image from 'next/image'
+
 import dynamic from 'next/dynamic'
-const CtaButton6 = dynamic(() => import('@/components/__lp/001/ctaButtons/CtaButton6'))
-const Icon1satisfiedHomeowners = dynamic(() => import('@/components/__lp/001/icons/Icon1satisfiedHomeowners'))
-const Icon2yarsOfExperiance = dynamic(() => import('@/components/__lp/001/icons/Icon2yarsOfExperiance'))
-const Icon3successfullInstalation = dynamic(() => import('@/components/__lp/001/icons/Icon3successfullInstalation'))
-const Icon4companiesServed = dynamic(() => import('@/components/__lp/001/icons/Icon4companiesServed'))
+const CtaButton5 = dynamic(() => import('@/components/__lp/002/ctaButtons/CtaButton5'))
 
 
 
-const Section3 = () => {
+
+
+const Section1 = () => {
   return (
-    <div className='flex flex-col w-full justify-center md:justify-start items-center md:items-start max-w-[1440px] 
-    px-4 md:px-8 my-16 py-12 md:py-16 gap-6'>
-        <div className='flex flex-col md:flex-row justify-center items-center gap-6'>
-            <div className='flex flex-col w-full justify-center items-center md:justify-start md:items-start text-center md:text-left gap-6'>
-                <h2 className='heading3 md:heading2 font-semibold '>
-                    Onze prestaties: Hoe wij bouwen aan ons succes!
-                </h2>
-                <p className='text-base'>
-                    Zongericht heeft zijn succes te danken aan een combinatie van expertise in het installeren van zonnepanelen op alle soorten daken, inclusief de complexe PVC daken, en een sterke focus op klantenservice. De onderneming onderscheidde zich door haar aanpassingsvermogen, vakmanschap en de toewijding om voor elke unieke situatie een passende zonne-energieoplossing te bieden. Daarnaast heeft de mond-tot-mondreclame, voortkomend uit de tevredenheid van klanten over zowel de kwaliteit van het werk als de impact op hun energierekeningen, aanzienlijk bijgedragen aan het succes en de groei van Zongericht.
-                </p>                
+    <div  className='w-full flex flex-col md:flex-row justify-center items-center max-w-[1440px] 
+    gap-6 md:gap-20 ml-4 px-4 md:px-8 py-16'>
+     
+            <div className='flex flex-col relative justify-center items-center w-[75%] md:min-w-[300px] 
+            lg:min-w-[450px] md:aspect-[0.79] aspect-[0.79]'>
+                <div className='flex w-full h-auto '>
+                    <Image 
+                        src='/lp/002/3-big.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={400}
+                        height={551}
+                        className="w-full h-auto rounded-lg xl:flex hidden"
+                    />
+                    <Image 
+                        src='/lp/002/3.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={400}
+                        height={551}
+                        className="w-full h-auto rounded-lg md:flex xl:hidden hidden"
+                    />
+                    <Image 
+                        src='/lp/002/3-small.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={400}
+                        height={551}
+                        className="w-full h-auto rounded-lg md:hidden flex"
+                    />
+                </div>
             </div>
-            <div className='flex flex-col w-full justify-start items-start gap-6'>
-                <div className='flex flex-row gap-6 h-[100px] items-center'>
-                    <div className='flex flex-start items-start p-6  bg-qoqu_Blue/10 rounded-full  
-                 md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                 md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl'>
-                        <Icon1satisfiedHomeowners />
-                    </div>
-                    <div className='flex fflex-start items-start w-2/5'>
-                        <h2 className='heading3 md:heading2 font-semibold '>
-                            4K+
-                        </h2>
-                    </div>
-                    <div className='flex flex-center items-center p-6 w-full'>
-                        <h2 className='taxt-base text-left '>
-                            Tevreden klanten
-                        </h2>
-                    </div>
+
+            <div className='w-full flex flex-col justify-center items-center md:justify-start md:items-start gap-3'>
+                <p className='text-qoqu_Blue font-semibold '>
+                    Plat dak
+                </p>             
+                <h2 className='w-full heading3 md:heading2 lg:heading1 md:text-left text-center line-clamp-4'>
+                    Over ons    
+                </h2> 
+
+                <div className='w-full md:w-[80%] flex flex-col gap-4 py-4'>
+                    <p className='md:text-left text-center'>
+                        Welkom bij Zongericht, waar passie voor kwaliteit en service ons drijft en waar we nooit genoegen nemen met minder dan het allerbeste. Bij ons draait alles om het overtreffen van uw verwachtingen en het realiseren van uw dromen, zelfs als dat betekent dat we de uitdagendste installaties moeten plaatsen die anderen als onmogelijk beschouwen.
+                    </p>
+                    <p className='md:text-left text-center'>
+                        Wij zijn niet bang voor een uitdaging. Sterker nog, we omarmen ze. Want juist in de meest complexe projecten zien wij kansen om onze vaardigheden te tonen en uw vertrouwen te verdienen. Ons team van experts staat klaar om elk obstakel te overwinnen en elke installatie tot in perfectie te realiseren.
+                    </p>
+                    <p className='md:text-left text-center'>
+                        Maar we gaan verder dan alleen vakmanschap. Bij Zongericht draait het ook om zekerheid. We hebben onze organisatie zo ingericht dat we u de garantie kunnen bieden dat elke installatie, elk onderdeel en elke service die wij leveren van de hoogste kwaliteit is. Uw tevredenheid staat bij ons altijd voorop, en we zullen er alles aan doen om die te waarborgen.
+                    </p>
                 </div>
-                <hr className='w-full h-[0.10rem] bg-gray-400 rounded-full'></hr>
-                <div className='flex flex-row gap-6 h-[100px] items-center'>
-                    <div className='flex flex-start items-start p-6  bg-qoqu_Blue/10 rounded-full  
-                 md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                 md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl'>
-                        <Icon2yarsOfExperiance />
-                    </div>
-                    <div className='flex fflex-start items-start w-2/5'>
-                        <h2 className='heading3 md:heading2 font-semibold '>
-                            5+
-                        </h2>
-                    </div>
-                    <div className='flex flex-center items-center p-6 w-full'>
-                        <h2 className='taxt-base text-left '>
-                            Jaren ervaring
-                        </h2>
-                    </div>
-                </div>
-                <hr className='w-full h-[0.10rem] bg-gray-400 rounded-full'></hr>
-                <div className='flex flex-row gap-6 h-[100px] items-center'>
-                    <div className='flex flex-start items-start p-6  bg-qoqu_Blue/10 rounded-full  
-                 md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                 md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl'>
-                        <Icon3successfullInstalation />
-                    </div>
-                    <div className='flex fflex-start items-start w-2/5'>
-                        <h2 className='heading3 md:heading2 font-semibold '>
-                            40K+
-                        </h2>
-                    </div>
-                    <div className='flex flex-center items-center p-6 w-full'>
-                        <h2 className='taxt-base text-left '>
-                            Succesvolle installaties
-                        </h2>
-                    </div>
-                </div>
-                <hr className='w-full h-[0.10rem] bg-gray-400 rounded-full'></hr>
-                <div className='flex flex-row gap-6 h-[100px] items-center'>
-                    <div className='flex flex-start items-start p-6  bg-qoqu_Blue/10 rounded-full  
-                 md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                 md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl'>
-                        <Icon4companiesServed />
-                    </div>
-                    <div className='flex fflex-start items-start w-2/5'>
-                        <h2 className='heading3 md:heading2 font-semibold '>
-                            30+
-                        </h2>
-                    </div>
-                    <div className='flex flex-center items-center p-6 w-full'>
-                        <h2 className='taxt-base text-left '>
-                            Bedrijven bediend
-                        </h2>
-                    </div>
-                </div>
-                        
-            </div>
-        </div>
-        <CtaButton6 />
+
+                <CtaButton5 />     
+
+            </div>   
     </div>
   )
 }
 
-export default Section3
+export default Section1
+
+

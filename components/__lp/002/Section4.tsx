@@ -71,21 +71,21 @@ const Section4 = () => {
             lg:min-w-[450px]'>
             <div className='flex w-full h-auto '>
                 <Image 
-                    src='/lp/001/5.webp'
+                    src='/lp/001/3.webp'
                     alt='zonnepanelen op schuin pvc dak'
                     width={600}
                     height={826}
                     className="w-full h-auto rounded-[500px] xl:flex hidden"
                 />
                 <Image 
-                    src='/lp/001/5-small.webp'
+                    src='/lp/001/3-small.webp'
                     alt='zonnepanelen op schuin pvc dak'
                     width={450}
                     height={600}
                     className="w-full h-auto rounded-[500px] md:flex xl:hidden hidden"
                 />
                 <Image 
-                    src='/lp/001/5-small.webp'
+                    src='/lp/001/3-small.webp'
                     alt='zonnepanelen op schuin pvc dak'
                     width={300}
                     height={413}

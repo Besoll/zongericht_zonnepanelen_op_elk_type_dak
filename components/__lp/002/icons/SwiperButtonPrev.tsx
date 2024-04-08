@@ -1,14 +1,14 @@
 import Image from 'next/image'
-import swiperButtonPrev from '@/public/lp/icons/swiper-button-prev.svg'
+import arrowWhite from '@/public/lp/icons/arrowWhite.svg'
 
 const SwiperButtonPrev = () => (
-    <Image 
-      src={swiperButtonPrev} 
+      <Image 
+      src={arrowWhite} 
       alt='arrow icon'
-      width={64}
-      height={64}
+      width={30}
+      height={20}
       loading='lazy'
-      className='w-[64px] h-auto'
+      className='text-white ml-2 rotate-180'
     />
   );
   

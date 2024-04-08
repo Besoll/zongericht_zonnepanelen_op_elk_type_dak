@@ -17,7 +17,7 @@ const Hero = () => {
             {/* texts container */}
             <div className='w-full md:w-[45%]'>
                 <p className='text-center text-xl py-4 md:py-6 mb-4'>
-                Laat de zon maar schijnen op uw platte dak: zongericht, uw expert in zonnepaneleninstallaties staat voor u klaar
+                  Laat de zon maar schijnen op uw platte dak: zongericht, uw expert in zonnepaneleninstallaties staat voor u klaar
                 </p>
             </div>
             <CtaButton2 />

@@ -12,7 +12,7 @@ export default function FAQ() {
   
   const accordionInput = [
     {
-      title: 'Welke montagewijzen zijn er voor pvc daken?',
+      title: 'Wat is een Oost/west oriëntatie?',
       subTitle: 'Bij de installatie van PVC-daken hanteren wij geavanceerde montagetechnieken die niet alleen de levensduur van uw dak aanzienlijk verlengen, maar dit ook doen zonder enige schade toe te brengen. Onze aanpak is gericht op het minimaliseren van penetratie, waardoor het risico op lekkages aanzienlijk wordt verminderd en de structurele integriteit van uw dak onaangetast blijft. Wij bieden unieke montagesystemen die een solide bevestiging verzekeren zonder de noodzaak tot ingrijpende aanpassingen.',
       subTitle2: 'Als onderdeel van onze innovatieve oplossingen maken wij gebruik van PV-ankers, die zowel met als zonder dakpenetratie kunnen worden aangebracht. Deze ankers worden afgewerkt met een speciale manchet die naadloos aansluit bij het materiaal van de dakbedekking, waardoor een uniform en veilig resultaat wordt gegarandeerd.',
       subTitle3: 'Door te kiezen voor onze diensten, kiest u voor een toonaangevende partner in de sector die zich toelegt op het leveren van betrouwbare, kostenefficiënte en op maat gemaakte installatieoplossingen. Ons team van experts staat voor u klaar om deskundig advies te verstrekken en een visueel aantrekkelijke installatie te realiseren die volledig aan uw wensen voldoet. Kies voor vooruitgang, duurzaamheid en kwaliteit met onze PVC- dakinstallaties.',
