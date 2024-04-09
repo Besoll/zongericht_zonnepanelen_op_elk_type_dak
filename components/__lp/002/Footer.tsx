@@ -20,7 +20,7 @@ const Footer = () => {
                         2xl:mx-48
                         ">
             <div className='!-mt-20 gradient_special mb-2 rounded justify-center mx-auto items-center
-                            md:-mt-10 md:mb-6 max-w-[300px] min-w-[200px] max-h-[350px] shadow-xl
+                            md:-mt-10 md:mb-6 max-w-[300px] min-w-[100px] sm:min-w-[200px] max-h-[350px] shadow-xl
                             md:justify-center md:mx-0
                              '>
                 <div className='flex flex-col justify-center items-center'>

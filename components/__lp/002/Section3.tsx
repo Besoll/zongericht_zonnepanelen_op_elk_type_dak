@@ -16,21 +16,21 @@ const Section1 = () => {
             lg:min-w-[450px] md:aspect-[1/0.79] aspect-[1/0.79]'>
                 <div className='flex w-full h-auto '>
                     <Image 
-                        src='/lp/002/3-big.webp'
+                        src='/lp/002/3-Switch-big.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={400}
                         height={551}
                         className="w-full h-auto rounded-lg xl:flex hidden"
                     />
                     <Image 
-                        src='/lp/002/3.webp'
+                        src='/lp/002/3-Switch.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={400}
                         height={551}
                         className="w-full h-auto rounded-lg md:flex xl:hidden hidden"
                     />
                     <Image 
-                        src='/lp/002/3-small.webp'
+                        src='/lp/002/3-Switch-small.webp'
                         alt='zonnepanelen op schuin pvc dak'
                         width={400}
                         height={551}
