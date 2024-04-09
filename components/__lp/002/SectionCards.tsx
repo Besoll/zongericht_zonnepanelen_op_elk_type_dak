@@ -5,7 +5,7 @@ const SectionCTA = () => {
   return (
     <div className='w-full  max-w-[1440px] flex flex-col justify-center items-center gap-8     
     py-12 my-6 px-4 text-center'>
-      <p className='text-qoqu_Blue font-semibold text-xl'>
+      <p className='text-qoqu_Blue font-semibold text-2xl'>
           Plat dak
       </p>
       <h2 className='heading3 md:heading2'>

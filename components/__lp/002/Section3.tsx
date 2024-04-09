@@ -40,7 +40,7 @@ const Section1 = () => {
             </div>
 
             <div className='w-full flex flex-col justify-center items-center md:justify-start md:items-start gap-3'>
-                <p className='text-qoqu_Blue font-semibold '>
+                <p className='text-qoqu_Blue font-semibold text-xl'>
                     Plat dak
                 </p>             
                 <h2 className='w-full heading3 md:heading2 lg:heading1 md:text-left text-center line-clamp-4'>

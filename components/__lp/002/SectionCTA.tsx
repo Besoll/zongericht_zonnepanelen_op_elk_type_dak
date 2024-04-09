@@ -7,7 +7,7 @@ const SectionCTA = () => {
     py-12 my-6 px-4 text-center md:text-left'>
      
      <div className='w-full h-auto flex flex-col justify-center md:justify-start items-center md:items-start '>
-      <p className='text-2xl font-semibold text-qoqu_Blue'>
+      <p className='text-qoqu_Blue font-semibold text-2xl'>
         Plat Dak
       </p>
       <h2 className='text-[2.50rem] font-semibold'>
