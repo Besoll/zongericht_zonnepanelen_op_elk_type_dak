@@ -10,10 +10,10 @@ const CtaButton5 = dynamic(() => import('@/components/__lp/002/ctaButtons/CtaBut
 const Section1 = () => {
   return (
     <div  className='w-full flex flex-col md:flex-row justify-center items-center max-w-[1440px] 
-    gap-6 md:gap-20 ml-4 px-4 md:px-8 py-16'>
+    gap-6 md:gap-20 px-4 md:px-8 py-16'>
      
-            <div className='flex flex-col relative justify-center items-center w-[75%] md:min-w-[300px] 
-            lg:min-w-[450px] md:aspect-[0.79] aspect-[0.79]'>
+            <div className='flex flex-col relative justify-center items-center w-full md:min-w-[300px] 
+            lg:min-w-[450px] md:aspect-[1/0.79] aspect-[1/0.79]'>
                 <div className='flex w-full h-auto '>
                     <Image 
                         src='/lp/002/3-big.webp'

@@ -11,8 +11,8 @@ const Section2 = () => {
     <div  className='flex w-full justify-center items-center md:items-start max-w-[1440px] 
     px-4 md:px-8 flex-col md:flex-row-reverse mb-16 py-16 md:mb-24 md:py-24 gap-4'>
               
-        <div className='flex flex-col relative justify-center items-center w-[75%] md:min-w-[300px] 
-        lg:min-w-[450px] md:aspect-[0.98] aspect-[0.98]'>
+        <div className='flex flex-col relative justify-center items-center w-full md:min-w-[300px] 
+        lg:min-w-[450px] md:aspect-[1/0.98] aspect-[1/0.98]'>
             <div className='flex w-full h-auto '>
                 <Image 
                     src='/lp/002/2-big.webp'

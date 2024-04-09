@@ -18,9 +18,9 @@ const Section1 = () => {
     <div  className='flex w-full justify-center items-center max-w-[1440px] 
     px-4 md:px-8 flex-col mb-16 py-16 md:mb-24 md:py-24'>
         <div className='flex w-full justify-center items-center md:justify-start md:items-start
-        gap-6 md:gap-20 flex-col md:flex-row ml-4'>      
-            <div className='flex flex-col relative justify-center items-center w-[75%] md:min-w-[300px] 
-            lg:min-w-[450px] md:aspect-[0.768] aspect-[0.768]'>
+        gap-6 md:gap-20 flex-col md:flex-row'>      
+            <div className='flex flex-col relative justify-center items-center w-full md:min-w-[300px] 
+            lg:min-w-[450px] md:aspect-[1/0.768] aspect-[1/0.768]'>
                 <div className='flex w-full h-auto '>
                     <Image 
                         src='/lp/002/1-big.webp'
@@ -41,7 +41,7 @@ const Section1 = () => {
                         alt='zonnepanelen op schuin pvc dak'
                         width={400}
                         height={551}
-                        className="absolute top-0 w-full h-auto rounded-lg md:hidden flex"
+                        className="w-full h-auto rounded-lg md:hidden flex"
                     />
                 </div>
             </div>
