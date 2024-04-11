@@ -4,7 +4,7 @@ import Navbar from '@/components/__lp/002/Navbar'
 
 import type { Metadata, Viewport } from 'next'
 
-const titleZG = 'Zongericht - Zonnepanelen op uw platte dak';
+const titleZG = 'Zongericht - Platte dak';
 const colorZG = '#4c73ff'; // Blue
 const urlZG = 'https://zonnepanelen.zongericht.nl/plat-dak';
 const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Flp%2F002%2F1-big.webp&w=828&q=75';

@@ -1,14 +1,14 @@
 import React from 'react'
-import Footer from '@/components/__lp/001/Footer'
-import Navbar from '@/components/__lp/001/Navbar'
+import Footer from '@/components/__lp/003/Footer'
+import Navbar from '@/components/__lp/003/Navbar'
 
 import type { Metadata, Viewport } from 'next'
 
-const titleZG = 'Zongericht - Schuin PVC dak';
-const colorZG = '#4c73ff'; // Blue
-const urlZG = 'https://zonnepanelen.zongericht.nl/schuin-pvc-dak';
-const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Flp%2F001%2F1-small.webp&w=828&q=75';
-const descriptionZG = 'Bij Zongericht zijn we gespecialiseerd in het efficiënt plaatsen van zonnepanelen op PVC-daken. Met onze diepgaande kennis en passie voor duurzaamheid bieden we een gratis huisinspectie om uw dak te evalueren en een vrijblijvende offerte op maat. Wij zorgen voor een naadloze installatie die optimaal presteert en perfect past bij uw PVC-dak. Vertrouw op onze expertise voor een zorgeloze overgang naar groene energie, en maak uw huis een toonbeeld van duurzaamheid met Zongericht aan uw zijde.';
+const titleZG = 'Zongericht - Parabooldak';
+const colorZG = '#F87C2D'; // Orange
+const urlZG = 'https://zonnepanelen.zongericht.nl/parabooldak';
+const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Flp%2F002%2F1-big.webp&w=828&q=75';
+const descriptionZG = 'Heeft u een prachtig parabolisch dak en overweegt u om zonnepanelen te installeren? Bij Zongericht is dit volledig mogelijk. We beschikken over ruime ervaring in het installeren van zonnepanelen op parabolische daken';
 
 const creatorZG = "B. Kavzharadze - QOQU BV";
 
@@ -55,7 +55,6 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   themeColor: colorZG,
 }
-
 
 
 const layout = ({ children }: { children: React.ReactNode }) => {
