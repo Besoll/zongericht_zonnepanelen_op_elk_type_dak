@@ -104,8 +104,8 @@ const ZofoForm: React.FC = () => {
         <input type="hidden" name="SingleLine12" value="[landingpagegroup]" />
         <input type="hidden" name="PhoneNumber_countrycodeval" value="+31" />
         <input type="hidden" name="SingleLine3" value="Zongericht" />
-        <input type="hidden" name="SingleLine5" value="https://zonnepanelen.zongericht.nl/plat-dak" />
-        <input type="hidden" name="SingleLine6" value="Next.JS LP-002 - New technology" />
+        <input type="hidden" name="SingleLine5" value="https://zonnepanelen.zongericht.nl/parabooldak" />
+        <input type="hidden" name="SingleLine6" value="Next.JS LP-003 - New technology - Parabool Dak" />
         <input type="hidden" name="SingleLine4" value="" />
 
         <div className="flex flex-col lg:flex-row items-center justify-center w-full gap-1 md:gap-2 text-black">
@@ -184,10 +184,10 @@ const ZofoForm: React.FC = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className={`submit-button mt-5 md:mt-0 py-4 md:py-3 px-3 md:px-3 md:min-w-[250px] w-full md:w-[250px] rounded-lg  leading-tight border-none ${isFormValid && !isSubmitted ? 'bg-orange hover:bg-brand_original_main3' : 'bg-qoqu_Blue cursor-not-allowed'} text-white shadow-sm transition-colors duration-300`}
+            className={`submit-button mt-5 md:mt-0 py-4 md:py-3 px-3 md:px-3 md:min-w-[250px] w-full md:w-[250px] rounded-lg  leading-tight border-none ${isFormValid && !isSubmitted ? 'bg-qoqu_Light_Green hover:bg-brand_original_main3' : 'bg-qoqu_Light_Green/40 cursor-not-allowed'} text-qoqu_Dark_Green shadow-sm transition-colors duration-300`}
           >
             {isSubmitted ?
-              "Uw aanvraag is succesvol ingediend" : "Een vrijblijvende offerte aanvragen" }
+              "Uw aanvraag is succesvol ingediend" : "Schouwing aanvragen" }
           </button>
         </div>
       </form>

@@ -2,7 +2,8 @@ import Image from 'next/image'
 
 const KlantenGuarante = () => {
   return (
-    <div className='flex flex-row gap-2 justify-center items-center my-2 md:my-4 text-left'>
+    <div className='flex flex-row gap-2 justify-center items-center my-2 md:my-4 text-left
+                    bg-black-400 p-4 rounded-lg'>
                         <div className='flex flex-row gap-3 items-center justify-center'>
                             <Image 
                                 src='/icons/KlantenVertelenOriginal.svg'

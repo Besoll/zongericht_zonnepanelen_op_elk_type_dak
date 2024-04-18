@@ -24,7 +24,7 @@ const page = () => {
           <Hero />
       </header>
 
-      <section className='flex justify-center items-center w-full flex-col h-auto bg-black py-6 text-white' id='sectionCTA' >
+      <section className='flex justify-center items-center w-full flex-col h-auto py-6 text-white' id='sectionCTA' >
         <SectionCards />        
       </section>
 

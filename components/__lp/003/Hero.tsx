@@ -7,26 +7,26 @@ const KlantenGuarante = dynamic(() => import('@/components/__lp/003/icons/Klante
 
 const Hero = () => {
   return (
-    <div className='w-full max-w-[1440px] flex flex-col-reverse md:flex-row justify-center items-center 
-                    mt-32 px-4 md:px-8 gap-2 md:gap-4 mb-16 text-center md:text-left'>
+    <div className='w-full max-w-[1440px] flex flex-col-reverse md:flex-row justify-center items-center
+                    mt-32 px-4 md:px-8 gap-8 md:gap-4 mb-16 text-center'>
 
-      <div className='w-full h-auto flex flex-col justify-center md:justify-start items-center md:items-start gap-4'>
-        <h1 className='w-full heading3 md:heading1 lg:heading1  '>
+      <div className='w-full max-w-[900px] h-auto flex flex-col justify-center md:justify-start items-center md:items-start gap-4'>
+        <h1 className='w-full heading3 md:heading1 lg:heading1 md:text-left'>
             Zonnepanelen op uw 
             <br />
-            <span className='text-qoqu_Orange font-black heading1'>Parabool dak</span>                    
+            <span className='w-full h-auto flex justify-center md:justify-start mt-6 text-qoqu_Orange font-black heading1'>Parabool dak</span>                    
         </h1> 
 
         {/* texts container */}
-        <div className='w-full md:w-[45%]'>
-            <p className='text-center text-xl py-4 md:py-6 mb-4'>
-              Laat de zon maar schijnen op uw platte dak: zongericht, uw expert in zonnepaneleninstallaties staat voor u klaar
+        <div className='w-full md:w-[95%]'>
+            <p className='text-center md:text-left text-xl font-normal py-4 md:py-6 mb-4'>
+              Heeft u een prachtig parabolisch dak en overweegt u om zonnepanelen te installeren? Bij Zongericht is dit volledig mogelijk. We beschikken over ruime ervaring in het installeren van zonnepanelen op parabolische daken
             </p>
         </div>
         <CtaButton2 />
         <KlantenGuarante />
       </div>
-      <div className='w-full h-auto '>
+      <div className='w-full h-auto flex justify-center md:justify-end items-center md:items-end'>
         <HeroImageSection />
       </div>                           
     </div>
