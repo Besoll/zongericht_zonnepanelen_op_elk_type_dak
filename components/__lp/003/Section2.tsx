@@ -1,66 +1,70 @@
 import Image from 'next/image'
 
 import dynamic from 'next/dynamic'
-const CtaButton2 = dynamic(() => import('@/components/__lp/002/ctaButtons/CtaButton2'))
-const SectionBlueHand = dynamic(() => import('@/components/__lp/002/SectionBlueHand'))
+const CtaButton5 = dynamic(() => import('@/components/__lp/002/ctaButtons/CtaButton5'))
+
+
 
 
 
 const Section2 = () => {
   return (
-    <div  className='flex w-full justify-center items-center md:items-start max-w-[1440px] 
-    px-4 md:px-8 flex-col md:flex-row-reverse mb-16 py-16 md:mb-24 md:py-24 gap-4'>
-              
-        <div className='flex flex-col relative justify-center items-center w-full md:min-w-[300px] 
-        lg:min-w-[450px] md:aspect-[1/0.98] aspect-[1/0.98]'>
-            <div className='flex w-full h-auto '>
-                <Image 
-                    src='/lp/002/2-big.webp'
-                    alt='zonnepanelen op schuin pvc dak'
-                    width={400}
-                    height={551}
-                    className="absolute top-0 w-full h-auto rounded-lg xl:flex hidden"
-                />
-                <Image 
-                    src='/lp/002/2.webp'
-                    alt='zonnepanelen op schuin pvc dak'
-                    width={400}
-                    height={551}
-                    className="absolute top-0 w-full h-auto rounded-lg md:flex xl:hidden hidden"
-                />
-                <Image 
-                    src='/lp/002/2-small.webp'
-                    alt='zonnepanelen op schuin pvc dak'
-                    width={400}
-                    height={551}
-                    className="absolute top-0 w-full h-auto rounded-lg md:hidden flex"
-                />
+    <div  className='w-full flex flex-col md:flex-row justify-center items-center max-w-[1440px] 
+    gap-6 md:gap-20 px-4 md:px-8 py-16'>
+     
+            <div className='flex flex-col relative justify-center items-center w-full md:min-w-[300px] 
+            lg:min-w-[450px] md:aspect-[1/0.79] aspect-[1/0.79]'>
+                <div className='flex w-full h-auto '>
+                    <Image 
+                        src='/lp/002/3-Switch-big.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={400}
+                        height={551}
+                        className="w-full h-auto rounded-lg xl:flex hidden"
+                    />
+                    <Image 
+                        src='/lp/002/3-Switch.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={400}
+                        height={551}
+                        className="w-full h-auto rounded-lg md:flex xl:hidden hidden"
+                    />
+                    <Image 
+                        src='/lp/002/3-Switch-small.webp'
+                        alt='zonnepanelen op schuin pvc dak'
+                        width={400}
+                        height={551}
+                        className="w-full h-auto rounded-lg md:hidden flex"
+                    />
+                </div>
             </div>
-        </div>
 
-        <div className='w-full flex flex-col justify-center items-center md:justify-start md:items-start gap-3 md:text-left text-center'>
-            <p className='text-qoqu_Blue font-semibold text-xl '>
-                Plat dak
-            </p>             
-            <h2 className='w-full heading3 md:heading2 lg:heading1 line-clamp-4'>
-                Feilloze installatie van uw zonnepanelen op elk daktype 
-            </h2> 
+            <div className='w-full flex flex-col justify-center items-center md:justify-start md:items-start gap-3'>
+                <p className='text-qoqu_Blue font-semibold text-2xl'>
+                    Plat dak
+                </p>             
+                <h2 className='w-full heading3 md:heading2 lg:heading1 md:text-left text-center line-clamp-4'>
+                    Over ons    
+                </h2> 
 
-            <div className='w-full md:w-[80%] flex flex-col gap-4 py-4'>
-                <p className=''>
-                    Stel je voor: een stralende ochtend, de zon die opkomt en haar warme stralen over je huis laat schijnen. Je geniet van je koffie en realiseert je iets prachtigs: je huis draagt bij aan een duurzame toekomst.
-                </p>
-                <p className=''>
-                    Ons vakmanschap en expertise in het plaatsen van zonnepanelen op elk type dak zorgen ervoor dat we kwaliteit kunnen leveren aan al onze klanten, zelfs op platte daken. Met ons team bent u verzekerd van een perfecte installatie, elke keer weer. Kies voor een groenere toekomst en laat ons uw partner zijn in duurzaam wonen.
-                </p>
-            </div>
-            <SectionBlueHand />
-            <CtaButton2 />                
-        </div>      
-           
+                <div className='w-full md:w-[80%] flex flex-col gap-4 py-4'>
+                    <p className='md:text-left text-center'>
+                        Welkom bij Zongericht, waar passie voor kwaliteit en service ons drijft en waar we nooit genoegen nemen met minder dan het allerbeste. Bij ons draait alles om het overtreffen van uw verwachtingen en het realiseren van uw dromen, zelfs als dat betekent dat we de uitdagendste installaties moeten plaatsen die anderen als onmogelijk beschouwen.
+                    </p>
+                    <p className='md:text-left text-center'>
+                        Wij zijn niet bang voor een uitdaging. Sterker nog, we omarmen ze. Want juist in de meest complexe projecten zien wij kansen om onze vaardigheden te tonen en uw vertrouwen te verdienen. Ons team van experts staat klaar om elk obstakel te overwinnen en elke installatie tot in perfectie te realiseren.
+                    </p>
+                    <p className='md:text-left text-center'>
+                        Maar we gaan verder dan alleen vakmanschap. Bij Zongericht draait het ook om zekerheid. We hebben onze organisatie zo ingericht dat we u de garantie kunnen bieden dat elke installatie, elk onderdeel en elke service die wij leveren van de hoogste kwaliteit is. Uw tevredenheid staat bij ons altijd voorop, en we zullen er alles aan doen om die te waarborgen.
+                    </p>
+                </div>
 
+                <CtaButton5 />     
+
+            </div>   
     </div>
   )
 }
 
 export default Section2
+

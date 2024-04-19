@@ -118,7 +118,7 @@ const ZofoForm: React.FC = () => {
                         name="SingleLine"
                         value={formValues.SingleLine}
                         onChange={handleChange}
-                        className={`file-input bg-qoqu_Blue/10 rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.SingleLine ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
+                        className={`file-input bg-white rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.SingleLine ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
                         placeholder="Voor en achternaam"
                         disabled={isSubmitted}
                     />
@@ -132,7 +132,7 @@ const ZofoForm: React.FC = () => {
                         name="PhoneNumber_countrycode"
                         value={formValues.PhoneNumber_countrycode}
                         onChange={handleChange}
-                        className={`file-input bg-qoqu_Blue/10 rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.PhoneNumber_countrycode ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
+                        className={`file-input bg-white rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.PhoneNumber_countrycode ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
                         placeholder="Telefoonnummer"
                         disabled={isSubmitted}
                     />
@@ -144,7 +144,7 @@ const ZofoForm: React.FC = () => {
                         name="Email"
                         value={formValues.Email}
                         onChange={handleChange}
-                        className={`file-input bg-qoqu_Blue/10 rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.Email ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
+                        className={`file-input bg-white rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.Email ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
                         placeholder="Email"
                         disabled={isSubmitted}
                     />
@@ -159,7 +159,7 @@ const ZofoForm: React.FC = () => {
                         name="SingleLine1"
                         value={formValues.SingleLine1}
                         onChange={handleChange}
-                        className={`file-input bg-qoqu_Blue/10 rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.SingleLine1 ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
+                        className={`file-input bg-white rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.SingleLine1 ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
                         placeholder="Postcode"
                         disabled={isSubmitted}
                     />
@@ -172,7 +172,7 @@ const ZofoForm: React.FC = () => {
                         name="SingleLine2"
                         value={formValues.SingleLine2}
                         onChange={handleChange}
-                        className={`file-input bg-qoqu_Blue/10 rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.SingleLine2 ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
+                        className={`file-input bg-white rounded-lg w-full border-none px-4 mb-2 mt-2 ${formErrors.SingleLine2 ? 'border-red-500' : 'file-input-bordered file-input-success relative'}`}
                         placeholder="Huisnummer"
                         disabled={isSubmitted}
                     />

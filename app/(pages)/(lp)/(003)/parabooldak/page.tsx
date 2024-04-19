@@ -1,5 +1,6 @@
 // import Hero from '@/components/__lp/002/Hero'
 
+import Section6Steps from '@/components/__lp/003/Section6Steps'
 import dynamic from 'next/dynamic'
 const Hero = dynamic(() => import("@/components/__lp/003/Hero"))
 const Form = dynamic(() => import("@/components/__lp/003/Form"))
@@ -19,18 +20,18 @@ const CtaButton5 = dynamic(() => import('@/components/__lp/003/ctaButtons/CtaBut
 
 const page = () => {
   return (
-    <main className='mx-auto w-full flex flex-col justify-center items-center text-black snap-y gap-2'>
+    <main className='mx-auto w-full flex flex-col justify-center items-center text-black snap-y'>
       <header className='w-full h-auto  flex justify-center items-center -mt-20 bg-black text-white'>
           <Hero />
       </header>
 
-      <section className='flex justify-center items-center w-full flex-col h-auto py-6 text-white' id='sectionCTA' >
+      <section className='flex justify-center items-center w-full flex-col h-auto py-6 md:py-12 bg-qoqu_Grey/10' id='sectionCTA' >
         <SectionCards />        
       </section>
 
       <section className='flex justify-center items-center w-full flex-col h-auto bg-qoqu_Orange/10 py-6 text-white' id='sectionCTA' >
-        <div className='shadow-xl w-[95%] rounded-lg py-6 px-4 md:px-8 flex flex-col 
-          justify-center items-center md:justify-start md:items-start max-w-[1440px] gap-3 scroll-mt-4
+        <div className='w-[95%] rounded-lg py-6 md:py-16 px-4 md:px-8 flex flex-col 
+          justify-center items-center md:justify-start md:items-start max-w-[1440px] gap-3 md:gap-8 scroll-mt-4
           md:scroll-mt-24 snap-start scroll-smooth md:scroll-auto' id="schouwingForm">
             <p className='text-black text-3xl font-semibold'>
               Vraag een woninginspectie aan
@@ -41,6 +42,10 @@ const page = () => {
 
       <section className='flex justify-center items-center w-full flex-col xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto ' id='sections' >
         <Section1 />        
+      </section>
+
+      <section className='flex justify-center items-center w-full flex-col xs:h-auto scroll-mt-16 snap-start bg-qoqu_Orange/10 text-black scroll-smooth md:scroll-auto' id='section2' >
+        <Section6Steps />  
       </section>
 
 

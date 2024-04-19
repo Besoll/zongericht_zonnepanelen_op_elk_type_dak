@@ -53,6 +53,7 @@ module.exports = {
         qoqu_Light_Green: "#4fff4c",
         qoqu_Dark_Green: "#014800",
         qoqu_Orange: "#f8452d",
+        qoqu_Grey: "#C2C5CC",
         purple: "#8C7CFF",
         pink: "#ED5FBD",
         violet: "#F16565",
