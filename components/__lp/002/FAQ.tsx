@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import dynamic from 'next/dynamic'
-const FAQBox = dynamic(() => import('@/components/__lp/001/ui/FAQBox'));
+const FAQBox = dynamic(() => import('@/components/__lp/002/ui/FAQBox'));
 
 
 

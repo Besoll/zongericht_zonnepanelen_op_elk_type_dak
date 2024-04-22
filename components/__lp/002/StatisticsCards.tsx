@@ -1,9 +1,9 @@
 import dynamic from 'next/dynamic'
-const CtaButton6 = dynamic(() => import('@/components/__lp/001/ctaButtons/CtaButton6'))
-const Icon1satisfiedHomeowners = dynamic(() => import('@/components/__lp/001/icons/Icon1satisfiedHomeowners'))
-const Icon2yarsOfExperiance = dynamic(() => import('@/components/__lp/001/icons/Icon2yarsOfExperiance'))
-const Icon3successfullInstalation = dynamic(() => import('@/components/__lp/001/icons/Icon3successfullInstalation'))
-const Icon4companiesServed = dynamic(() => import('@/components/__lp/001/icons/Icon4companiesServed'))
+const CtaButton6 = dynamic(() => import('@/components/__lp/002/ctaButtons/CtaButton6'))
+const Icon1satisfiedHomeowners = dynamic(() => import('@/components/__lp/002/icons/Icon1satisfiedHomeowners'))
+const Icon2yarsOfExperiance = dynamic(() => import('@/components/__lp/002/icons/Icon2yarsOfExperiance'))
+const Icon3successfullInstalation = dynamic(() => import('@/components/__lp/002/icons/Icon3successfullInstalation'))
+const Icon4companiesServed = dynamic(() => import('@/components/__lp/002/icons/Icon4companiesServed'))
 
 
 

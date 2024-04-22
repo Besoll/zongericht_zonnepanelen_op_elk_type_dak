@@ -57,7 +57,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-2">
                     <Link 
-                        href="#overOns" 
+                        href="#section3" 
                         className='nav-links cursor-pointer  
                                 md:hover:scale-105 md:hover:text-orange md:duration-300'
                     >
@@ -66,7 +66,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-2">
                     <Link 
-                        href="#installatie" 
+                        href="#section1" 
                         className='nav-links cursor-pointer  
                                 md:hover:scale-105 md:hover:text-orange md:duration-300'
                     >
@@ -75,7 +75,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-2">
                     <Link 
-                        href="#onzeWerkwijze" 
+                        href="#section1" 
                         className='nav-links cursor-pointer  
                                 md:hover:scale-105 md:hover:text-orange md:duration-300'
                     >
@@ -84,7 +84,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-2">
                     <Link 
-                        href="/overOns" 
+                        href="#section3" 
                         className='nav-links cursor-pointer  
                                 md:hover:scale-105 md:hover:text-orange md:duration-300'
                     >

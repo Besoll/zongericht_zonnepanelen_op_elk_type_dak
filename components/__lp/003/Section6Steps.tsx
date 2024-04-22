@@ -4,9 +4,9 @@ const RoofTag = dynamic(() => import('@/components/__lp/003/ui/RoofTag'))
 
 const Section6Steps = () => {
   return (
-    <div className='w-full max-w-[1440px] h-auto flex flex-col justify-center items-center gap-4 md:gap-12 px-4 py-4 md:py-12 '>
+    <div className='w-full max-w-[1440px] h-auto flex flex-col justify-center items-center gap-4 md:gap-12 px-4 py-4 md:py-20 '>
         <RoofTag />
-        <h2 className='heading3 md:heading2'>
+        <h2 className='heading3 md:heading2 text-center'>
             Waarom kiezen voor Zongericht voor uw zonnepanelen installatie?       
         </h2>
         <Cards6Steps />

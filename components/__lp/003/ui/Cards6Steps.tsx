@@ -8,9 +8,9 @@ const Icon_6_allRoof = dynamic(() => import('@/components/__lp/003/icons/icons-s
 
 const Cards6Steps = () => {
   return (
-    <div className='w-full h-auto flex flex-col px-2 md:px-3 py-4 md:py-6 gap-4'>
-        <div className='flex flex-col md:flex-row gap-4'>
-            <div className='w-full h-auto flex flex-col gap-2'>
+    <div className='w-full h-auto flex flex-col px-2 md:px-3 py-4 md:py-6 gap-4 md:gap-6'>
+        <div className='flex flex-col md:flex-row gap-4 md:gap-8'>
+            <div className='w-full h-auto flex flex-row justify-start items-center gap-4 bg-white rounded-lg p-4'>
                 <div className='w-fit p-4 rounded-lg bg-qoqu_Blue/10
                     md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
                     md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
@@ -21,7 +21,7 @@ const Cards6Steps = () => {
                     Installatie binnen 4 weken
                 </p>
             </div>
-            <div className='w-full h-auto flex flex-col gap-2'>
+            <div className='w-full h-auto flex flex-row justify-start items-center gap-4 bg-white rounded-lg p-4'>
                 <div className='w-fit p-4 rounded-lg bg-qoqu_Blue/10
                     md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
                     md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
@@ -32,7 +32,7 @@ const Cards6Steps = () => {
                     Gratis woninginspectie
                 </p>
             </div>
-            <div className='w-full h-auto flex flex-col gap-2'>
+            <div className='w-full h-auto flex flex-row justify-start items-center gap-4 bg-white rounded-lg p-4'>
                 <div className='w-fit p-4 rounded-lg bg-qoqu_Blue/10
                     md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
                     md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
@@ -42,10 +42,10 @@ const Cards6Steps = () => {
                 <p className='text-xl font-semibold'>
                     Geavanceerde monitorring systeem
                 </p>
-            </div>               
+            </div>              
         </div>
-        <div className='flex flex-col md:flex-row gap-4'>
-            <div className='w-full h-auto flex flex-col gap-2'>
+        <div className='flex flex-col md:flex-row gap-4 md:gap-8'>
+            <div className='w-full h-auto flex flex-row justify-start items-center gap-4 bg-white rounded-lg p-4'>
                 <div className='w-fit p-4 rounded-lg bg-qoqu_Blue/10
                     md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
                     md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
@@ -56,7 +56,7 @@ const Cards6Steps = () => {
                     Hoge klantentevredenheid
                 </p>
             </div>
-            <div className='w-full h-auto flex flex-col gap-2'>
+            <div className='w-full h-auto flex flex-row justify-start items-center gap-4 bg-white rounded-lg p-4'>
                 <div className='w-fit p-4 rounded-lg bg-qoqu_Blue/10
                     md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
                     md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
@@ -67,7 +67,7 @@ const Cards6Steps = () => {
                 Betrouwbare en ervaren installateurs
                 </p>
             </div>
-            <div className='w-full h-auto flex flex-col gap-2'>
+            <div className='w-full h-auto flex flex-row justify-start items-center gap-4 bg-white rounded-lg p-4'>
                 <div className='w-fit p-4 rounded-lg bg-qoqu_Blue/10
                     md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
                     md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl

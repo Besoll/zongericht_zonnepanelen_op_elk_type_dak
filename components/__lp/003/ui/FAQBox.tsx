@@ -21,7 +21,7 @@ export default function FAQBox(item: FAQItems) {
 
    return (
     <motion.div 
-        className='flex flex-col shadow-inner rounded-xl border px-4 py-5 cursor-pointer max-w-[1200px] w-full gradient_special_blue max-h-[95vw] overflow-scroll md:max-h-[300vw] md:overflow-hidden
+        className='flex flex-col shadow-inner rounded-xl border px-4 py-5 cursor-pointer max-w-[1200px] w-full max-h-[95vw] overflow-scroll md:max-h-[300vw] md:overflow-hidden
         snap-start scroll-smooth md:scroll-auto
         '        
         initial={false}
@@ -40,7 +40,7 @@ export default function FAQBox(item: FAQItems) {
         <motion.header
             className='flex items-center justify-between px-5'>
             <div className='flex space-x-4 space-x-reverse items-center'>
-            <span className={`${expanded ? "text-qoqu_Blue" : "text-gradient_green"}`}>{item.title}</span>
+            <span className={`${expanded ? "text-qoqu_Orange" : "text-gradient_green"}`}>{item.title}</span>
             </div>
 
             <motion.div
@@ -49,7 +49,7 @@ export default function FAQBox(item: FAQItems) {
                     rotate: expanded ? 90 : 0,
                 }}
             >
-                <span className={`w-3 ${expanded ? "text-qoqu_Blue" : "text-gradient_green"}`}>
+                <span className={`w-3 ${expanded ? "text-qoqu_Orange" : "text-gradient_green"}`}>
                 <ChevronDownIcon /></span>
             </motion.div>
 

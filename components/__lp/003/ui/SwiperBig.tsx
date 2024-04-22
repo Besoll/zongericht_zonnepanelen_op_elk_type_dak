@@ -11,8 +11,8 @@ import { Navigation, Pagination, EffectCoverflow, Mousewheel, Keyboard } from 's
 
 import dynamic from 'next/dynamic'
 const Stars5 = dynamic(() => import("@/components/__lp/001/icons/Stars5"))
-const SwiperButtonNext = dynamic(() => import("@/components/__lp/002/icons/SwiperButtonNext"))
-const SwiperButtonPrev = dynamic(() => import("@/components/__lp/002/icons/SwiperButtonPrev"))
+const SwiperButtonNext = dynamic(() => import("@/components/__lp/003/icons/SwiperButtonNext"))
+const SwiperButtonPrev = dynamic(() => import("@/components/__lp/003/icons/SwiperButtonPrev"))
 
 
 
@@ -78,6 +78,12 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
 
     return (
       <>
+        <style jsx global>{`
+          .swiper-pagination-bullet-active {
+            background: #f8452d;
+          }
+        `}
+        </style>
         <Swiper 
           effect={'coverflow'}
           grabCursor={true}
@@ -153,10 +159,10 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
         </Swiper>
 
         <div className='w-full flex flex-row-reverse justify-center items-center gap-4 mt-4'>
-          <div className='swiper-button-next-big bg-qoqu_Blue rounded-lg pl-3 pr-5 py-6 text-center shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+          <div className='swiper-button-next-big bg-qoqu_Orange rounded-lg pl-3 pr-5 py-6 text-center shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
             <SwiperButtonNext />
           </div>
-          <div className='swiper-button-prev-big bg-qoqu_Blue rounded-lg pl-3 pr-5 py-6 text-ceter shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+          <div className='swiper-button-prev-big bg-qoqu_Orange rounded-lg pl-3 pr-5 py-6 text-ceter shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
             <SwiperButtonPrev />
           </div>
         </div>

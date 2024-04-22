@@ -1,8 +1,7 @@
-import Image from 'next/image'
-
 import dynamic from 'next/dynamic'
-const CtaButton5 = dynamic(() => import('@/components/__lp/002/ctaButtons/CtaButton5'))
-
+// const CtaButton5 = dynamic(() => import('@/components/__lp/003/ctaButtons/CtaButton5'))
+const RoofTag = dynamic(() => import('@/components/__lp/003/ui/RoofTag'))
+const StatisticsCards = dynamic(() => import("@/components/__lp/003/StatisticsCards"))
 
 
 
@@ -10,58 +9,26 @@ const CtaButton5 = dynamic(() => import('@/components/__lp/002/ctaButtons/CtaBut
 const Section2 = () => {
   return (
     <div  className='w-full flex flex-col md:flex-row justify-center items-center max-w-[1440px] 
-    gap-6 md:gap-20 px-4 md:px-8 py-16'>
-     
-            <div className='flex flex-col relative justify-center items-center w-full md:min-w-[300px] 
-            lg:min-w-[450px] md:aspect-[1/0.79] aspect-[1/0.79]'>
-                <div className='flex w-full h-auto '>
-                    <Image 
-                        src='/lp/002/3-Switch-big.webp'
-                        alt='zonnepanelen op schuin pvc dak'
-                        width={400}
-                        height={551}
-                        className="w-full h-auto rounded-lg xl:flex hidden"
-                    />
-                    <Image 
-                        src='/lp/002/3-Switch.webp'
-                        alt='zonnepanelen op schuin pvc dak'
-                        width={400}
-                        height={551}
-                        className="w-full h-auto rounded-lg md:flex xl:hidden hidden"
-                    />
-                    <Image 
-                        src='/lp/002/3-Switch-small.webp'
-                        alt='zonnepanelen op schuin pvc dak'
-                        width={400}
-                        height={551}
-                        className="w-full h-auto rounded-lg md:hidden flex"
-                    />
-                </div>
+    gap-4 md:gap-20 px-4 md:px-8 py-16'>  
+        <div className='w-full flex flex-col justify-center items-center md:justify-start md:items-start gap-3'>
+            <RoofTag />           
+            <h2 className='w-full heading3 md:heading2 lg:heading1 md:text-left text-center line-clamp-4'>
+             Onze prestaties: Hoe wij bouwen aan ons succes!    
+            </h2> 
+
+            <div className='w-full md:w-[95%] flex flex-col gap-4 py-4'>
+                <p className='md:text-left text-center'>
+                    Zongericht is een expert met zonnepanelen en alles eromheen, voor elk dak! Van platte daken tot daken met leisteen, wij hebben de kennis om overal zonnepanelen te plaatsen. We staan bekend om onze top service aan klanten en vinden altijd een zonne-energieoplossing die past bij jouw huis. Onze klanten zijn zo blij met ons werk en de besparing op hun energierekening, dat ze het aan iedereen vertellen. Dat heeft ons echt geholpen te groeien.
+                </p>
+                <p className='md:text-left text-center'>
+                    Nu bieden we ook onder andere thuisbatterijen aan. Hiermee kun je de zonne-energie die je overdag opwekt, opslaan en gebruiken wanneer je wilt. Dit betekent nog meer besparen op energiekosten en minder afhankelijk zijn van het energienet. Met Zongericht en onze thuisbatterijen ben je klaar voor een groene toekomst, makkelijk en simpel.
+                </p>
             </div>
 
-            <div className='w-full flex flex-col justify-center items-center md:justify-start md:items-start gap-3'>
-                <p className='text-qoqu_Blue font-semibold text-2xl'>
-                    Plat dak
-                </p>             
-                <h2 className='w-full heading3 md:heading2 lg:heading1 md:text-left text-center line-clamp-4'>
-                    Over ons    
-                </h2> 
+            {/* <CtaButton5 />      */}
 
-                <div className='w-full md:w-[80%] flex flex-col gap-4 py-4'>
-                    <p className='md:text-left text-center'>
-                        Welkom bij Zongericht, waar passie voor kwaliteit en service ons drijft en waar we nooit genoegen nemen met minder dan het allerbeste. Bij ons draait alles om het overtreffen van uw verwachtingen en het realiseren van uw dromen, zelfs als dat betekent dat we de uitdagendste installaties moeten plaatsen die anderen als onmogelijk beschouwen.
-                    </p>
-                    <p className='md:text-left text-center'>
-                        Wij zijn niet bang voor een uitdaging. Sterker nog, we omarmen ze. Want juist in de meest complexe projecten zien wij kansen om onze vaardigheden te tonen en uw vertrouwen te verdienen. Ons team van experts staat klaar om elk obstakel te overwinnen en elke installatie tot in perfectie te realiseren.
-                    </p>
-                    <p className='md:text-left text-center'>
-                        Maar we gaan verder dan alleen vakmanschap. Bij Zongericht draait het ook om zekerheid. We hebben onze organisatie zo ingericht dat we u de garantie kunnen bieden dat elke installatie, elk onderdeel en elke service die wij leveren van de hoogste kwaliteit is. Uw tevredenheid staat bij ons altijd voorop, en we zullen er alles aan doen om die te waarborgen.
-                    </p>
-                </div>
-
-                <CtaButton5 />     
-
-            </div>   
+        </div> 
+        <StatisticsCards />   
     </div>
   )
 }
