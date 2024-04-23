@@ -40,7 +40,7 @@ export default function FAQBox(item: FAQItems) {
         <motion.header
             className='flex items-center justify-between px-5'>
             <div className='flex space-x-4 space-x-reverse items-center'>
-            <span className={`${expanded ? "text-qoqu_Orange" : "text-gradient_green"}`}>{item.title}</span>
+            <span className={`${expanded ? "text-qoqu_Orange text-xl font-bold" : "text-gradient_green"}`}>{item.title}</span>
             </div>
 
             <motion.div
