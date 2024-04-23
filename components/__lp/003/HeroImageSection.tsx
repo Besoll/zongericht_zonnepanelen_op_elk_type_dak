@@ -6,7 +6,7 @@ const HeroImageSection = () => {
         <div className='w-1/2 flex flex-col justify-between gap-4'>
             {/* 3 size image - mobile-tablet-desktop */}
             <Image 
-                src='/lp/003/1-1-big.webp'
+                src='/lp/003/1-1.webp'
                 alt='glas glas zonnepanelen op parabool dak 1'
                 width={140}
                 height={125}
