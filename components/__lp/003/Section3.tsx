@@ -36,14 +36,14 @@ const Section3 = () => {
                     alt='zonnepanelen op schuin pvc dak'
                     width={400}
                     height={551}
-                    className="w-full h-auto rounded-lg xl:flex hidden"
+                    className="w-full h-auto rounded-lg lg:flex hidden"
                 />
                 <Image 
                     src='/lp/003/3.webp'
                     alt='zonnepanelen op schuin pvc dak'
                     width={400}
                     height={551}
-                    className="w-full h-auto rounded-lg md:flex xl:hidden hidden"
+                    className="w-full h-auto rounded-lg md:flex lg:hidden hidden"
                 />
                 <Image 
                     src='/lp/003/3-small.webp'

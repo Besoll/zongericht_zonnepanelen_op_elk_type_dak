@@ -20,14 +20,14 @@ const Section1 = () => {
                     alt='zonnepanelen op schuin pvc dak'
                     width={400}
                     height={551}
-                    className="absolute top-0 w-full h-auto rounded-lg xl:flex hidden"
+                    className="absolute top-0 w-full h-auto rounded-lg lg:flex hidden"
                 />
                 <Image 
                     src='/lp/003/2.webp'
                     alt='zonnepanelen op schuin pvc dak'
                     width={400}
                     height={551}
-                    className="absolute top-0 w-full h-auto rounded-lg md:flex xl:hidden hidden"
+                    className="absolute top-0 w-full h-auto rounded-lg md:flex lg:hidden hidden"
                 />
                 <Image 
                     src='/lp/003/2-small.webp'
