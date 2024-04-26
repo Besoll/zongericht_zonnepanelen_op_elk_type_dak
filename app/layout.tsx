@@ -63,7 +63,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="nl">
-      <GoogleTagManager gtmId="AW-16457474959" />
+      <GoogleTagManager gtmId="GTM-5TDL8DP8" />
       <body className='min-h-screen bg-white font-poppins'>
         {children}
         <SpeedInsights />
