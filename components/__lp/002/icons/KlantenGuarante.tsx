@@ -1,17 +1,12 @@
-import Image from 'next/image'
+import dynamic from 'next/dynamic'
+const IconKlantService = dynamic(() => import('@/components/__lp/002/icons/IconKlantService'))
+const IconGuarantee = dynamic(() => import('@/components/__lp/002/icons/IconGuarantee'))
 
 const KlantenGuarante = () => {
   return (
     <div className='flex flex-row gap-2 justify-center items-center my-2 md:my-4 text-left'>
                         <div className='flex flex-row gap-3 items-center justify-center'>
-                            <Image 
-                                src='/icons/KlantenVertelenOriginal.svg'
-                                alt='KlantenVertellen - Kwaliteit gegarandeerd'
-                                width={32}
-                                height={32}
-                                className="w-[45px] h-auto md:hover:rotate-1 md:hover:skew-3 
-                                md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer"
-                            />
+                            <IconKlantService />
                             <div className='flex flex-col'>
                                 <div className='text-white text-xs font-medium'>
                                     Klanten<span className='font-semibold'>Vertellen</span>
@@ -23,14 +18,7 @@ const KlantenGuarante = () => {
                         </div>
                         <hr className='hidden md:flex rotate-90 w-[15px]'></hr>
                         <div className='flex flex-row gap-3 items-center justify-center'>
-                            <Image 
-                                src='/icons/Guarantee10Years-Big.svg'
-                                alt='Guarantee 10 years - Beoordelingen'
-                                width={32}
-                                height={32}
-                                className="w-[45px] h-auto md:hover:rotate-1 md:hover:skew-3 
-                                md:hover:scale-105 md:transition md:duration-300 md:ease-in-out md:cursor-pointer"
-                            />
+                            <IconGuarantee />
                             <div className='flex flex-col'>
                                 <div className='text-white text-xs font-medium'>
                                     10 jaar installatiegarantie

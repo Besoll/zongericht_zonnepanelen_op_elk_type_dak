@@ -17,6 +17,14 @@ module.exports = {
       xl: "1220px",
       "2xl": "1440px",
       "3xl": "1700px",
+      'smSP': {'min': '240px', 'max': '767px'},
+      // => @media (min-width: 240px and max-width: 767px) { ... }
+
+      'mdSP': {'min': '768px', 'max': '1023px'},
+      // => @media (min-width: 768px and max-width: 1023px) { ... }
+
+      'lgSP': {'min': '1024px', 'max': '12000px'},
+      // => @media (min-width: 1024px and max-width: 1200px) { ... }
     },
     container: {
       center: true,
@@ -53,6 +61,7 @@ module.exports = {
         qoqu_Light_Green: "#4fff4c",
         qoqu_Dark_Green: "#014800",
         qoqu_Orange: "#f8452d",
+        qoqu_Light_Orange: "#FF691D",
         qoqu_Grey: "#C2C5CC",
         purple: "#8C7CFF",
         pink: "#ED5FBD",

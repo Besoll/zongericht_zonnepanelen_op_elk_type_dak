@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination, EffectCoverflow, Mousewheel, Keyboard } from 'swiper/modules'
 
 import dynamic from 'next/dynamic'
-const Stars5 = dynamic(() => import("@/components/__lp/001/icons/Stars5"))
+const Stars5 = dynamic(() => import("@/components/__lp/002/icons/Stars5"))
 const SwiperButtonNext = dynamic(() => import("@/components/__lp/002/icons/SwiperButtonNext"))
 const SwiperButtonPrev = dynamic(() => import("@/components/__lp/002/icons/SwiperButtonPrev"))
 
@@ -47,6 +47,31 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
 
   // Define your images and content in an array for easier management and rendering
   const slides = [
+    { big: image1_big, normal: image1_normal, small: image1_small, 
+      title: "M.Tilborg, Zwijndrecht", 
+      content: "Al met al kan ik zeggen dat mijn ervaring met Zongericht positief is. Van begin tot eind overtroffen ze mijn verwachtingen met hun toewijding aan kwaliteit, snelle service, expertise en vriendelijkheid.",
+      statuswho: "Huiseigenaar" },
+
+    { big: image2_big, normal: image2_normal, small: image2_small, 
+      title: "S. Vergouwen, Oud Gastel", 
+      content: "Mijn ervaring met Zongericht is niets minder dan uitstekend, en ik kan ze zonder aarzeling aanbevelen aan iedereen die overweegt om zonne-energie te omarmen en zijn of haar energierekening te verlagen. Laat ik de zon maar schijnen, met Zongericht bouw ik aan een groenere, duurzamere toekomst voor ons allemaal.",
+      statuswho: "Huiseigenaar" },
+
+    { big: image3_big, normal: image3_normal, small: image3_small, 
+      title: "W. Sonderen, Nijmegen", 
+      content: "Zongericht gaf me het vertrouwen dat ze niet alleen een product verkopen, maar ook streven naar educatie en gebruik bij hun klanten.",
+      statuswho: "Huiseigenaar" },
+
+    { big: image4_big, normal: image4_normal, small: image4_small, 
+      title: "R. Panhuysen, Utrecht", 
+      content: "Zongericht zond een kundige adviseur die bij mij thuis de analyse deed voor de inrichting en de geschiktheid van mijn elektriciteitskast. Aan de hand daarvan heb ik een vrijblijvende offerte gekregen.",
+      statuswho: "Huiseigenaar" },
+
+    { big: image5_big, normal: image5_normal, small: image5_small, 
+      title: "Desmond, Alblasserwaard", 
+      content: "Vanaf het eerste contact met Zongericht voelden we ons welkom en goed geïnformeerd. Het begon met een vriendelijk telefoongesprek waarin we onze wensen deelden. We zijn een gezin van vijf met een elektrische auto, wat extra elektriciteit vereist voor het opladen.",
+      statuswho: "Huiseigenaar" },
+
     { big: image1_big, normal: image1_normal, small: image1_small, 
       title: "M.Tilborg, Zwijndrecht", 
       content: "Al met al kan ik zeggen dat mijn ervaring met Zongericht positief is. Van begin tot eind overtroffen ze mijn verwachtingen met hun toewijding aan kwaliteit, snelle service, expertise en vriendelijkheid.",

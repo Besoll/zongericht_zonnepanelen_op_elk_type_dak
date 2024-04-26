@@ -8,10 +8,10 @@ import 'swiper/css/pagination';
 
 
 
-import { Navigation, Pagination, EffectCoverflow, Mousewheel, Keyboard } from 'swiper/modules'
+import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules'
 
 import dynamic from 'next/dynamic'
-const Stars5 = dynamic(() => import("@/components/__lp/001/icons/Stars5"))
+const Stars5 = dynamic(() => import("@/components/__lp/002/icons/Stars5"))
 const SwiperButtonNext = dynamic(() => import("@/components/__lp/002/icons/SwiperButtonNext"))
 const SwiperButtonPrev = dynamic(() => import("@/components/__lp/002/icons/SwiperButtonPrev"))
 

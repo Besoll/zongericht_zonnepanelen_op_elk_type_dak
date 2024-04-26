@@ -1,47 +1,78 @@
+
 import dynamic from 'next/dynamic'
-const Hero = dynamic(() => import("@/components/__lp/003/Hero"))
-const Form = dynamic(() => import("@/components/__lp/003/Form"))
-const Section1 = dynamic(() => import("@/components/__lp/003/Section1"))
-const SectionCards = dynamic(() => import("@/components/__lp/003/SectionCards"))
-const Section2 = dynamic(() => import("@/components/__lp/003/Section2"))
-const Section3 = dynamic(() => import("@/components/__lp/003/Section3"))
-const SectionCTA = dynamic(() => import("@/components/__lp/003/SectionCTA"))
-const Section6Steps = dynamic(() => import("@/components/__lp/003/Section6Steps"))
-const Partners6Logos = dynamic(() => import("@/components/__lp/003/Partners6Logos"))
-const RoofTag = dynamic(() => import("@/components/__lp/003/ui/RoofTag"))
-const FAQ = dynamic(() => import("@/components/__lp/003/FAQ"))
-const TestimonialsSmall = dynamic(() => import("@/components/__lp/003/TestimonialsSmall"))
-const TestimonialsBig = dynamic(() => import("@/components/__lp/003/TestimonialsBig"))
+const Hero = dynamic(() => import("@/components/__lp/004/Hero"))
+// const Form = dynamic(() => import("@/components/__lp/004/Form"))
+const Section1 = dynamic(() => import("@/components/__lp/004/Section1"))
+const StatisticsCards = dynamic(() => import("@/components/__lp/004/StatisticsCards"))
+const Section2 = dynamic(() => import("@/components/__lp/004/Section2"))
+const Section3 = dynamic(() => import("@/components/__lp/004/Section3"))
+const SectionCTA = dynamic(() => import("@/components/__lp/004/SectionCTA"))
+const Section6Steps = dynamic(() => import("@/components/__lp/004/Section6Steps"))
+const Partners6Logos = dynamic(() => import("@/components/__lp/004/Partners6Logos"))
+const RoofTag = dynamic(() => import("@/components/__lp/004/ui/RoofTag"))
+const FAQ = dynamic(() => import("@/components/__lp/004/FAQ"))
+const TestimonialsSmall = dynamic(() => import("@/components/__lp/004/TestimonialsSmall"))
+const TestimonialsBig = dynamic(() => import("@/components/__lp/004/TestimonialsBig"))
 
 
 
-// lp: page 002 - schuin pvc dak
+// lp: page 004 - ZInken dak
 
 const page = () => {
   return (
-    <main className='mx-auto w-full flex flex-col justify-center items-center text-black snap-y'>
-      <header className='w-full h-auto  flex justify-center items-center -mt-20 bg-black text-white'>
+    <main className='mx-auto w-full flex flex-col justify-center items-center text-white snap-y'>
+      <header className='w-full h-auto flex justify-center items-center -mt-20 smSP:bg-[url("/lp/004/bg-1-small.webp")] mdSP:bg-[url("/lp/004/bg-1.webp")] lgSP:bg-[url("/lp/004/bg-1-big.webp")] bg-no-repeat bg-cover bg-center'>
+        <div className='w-full h-auto flex justify-center items-center bg-black/60 '>
           <Hero />
+        </div>
       </header>
 
-      <section className='flex justify-center items-center w-full flex-col h-auto py-6 md:py-12 bg-qoqu_Grey/10' id='sectionCTA' >
-        <SectionCards />        
+      <section className='w-full h-auto flex justify-center items-center flex-col py-6 md:py-12 bg-black' id='sectionCTA' >
+        <StatisticsCards />        
       </section>
 
-      <section className='flex justify-center items-center w-full flex-col h-auto bg-qoqu_Orange/10 py-6 text-white' id='sectionCTA' >
-        <div className='w-[95%] rounded-lg py-6 md:py-16 px-4 md:px-8 flex flex-col 
-          justify-center items-center md:justify-start md:items-start max-w-[1440px] gap-3 md:gap-8 scroll-mt-4
-          md:scroll-mt-24 snap-start scroll-smooth md:scroll-auto' id="schouwingForm">
-            <p className='text-black text-3xl font-semibold'>
-              Vraag een woninginspectie aan
-            </p>
-            <Form />
-        </div>       
+
+      <section className='w-full h-auto flex justify-center items-center smSP:bg-[url("/lp/004/bg-2-small.webp")] mdSP:bg-[url("/lp/004/bg-2.webp")] lgSP:bg-[url("/lp/004/bg-2-big.webp")] bg-no-repeat bg-cover bg-center scroll-smooth md:scroll-auto ' id='section1' >
+        <div className='w-full h-auto flex justify-center items-center bg-black/60 '>
+          <Section1 />        
+        </div>
       </section>
 
-      <section className='flex justify-center items-center w-full flex-col xs:h-auto scroll-mt-16 snap-start text-black scroll-smooth md:scroll-auto ' id='sections' >
-        <Section1 />        
+      <section className='w-full h-auto flex justify-center items-center scroll-smooth md:scroll-auto bg-qoqu_Grey/20 text-black' id='section2' >
+        <Section2 />     
       </section>
+
+      <section className='w-full h-auto flex justify-center items-center scroll-smooth md:scroll-auto text-qoqu_Light_Orange' id='section3' >
+        <Section3 />     
+      </section>
+
+      <section 
+        className='flex justify-center items-center w-full flex-col h-auto py-6 text-black' 
+        id='testimonialsBig' 
+      >
+        <TestimonialsBig />        
+      </section>
+
+      <section 
+        className='flex justify-center items-center w-full flex-col h-auto py-16 md:py-32 bg-qoqu_Grey/20 text-black' 
+        id='testimonialsSmall' 
+      >
+        <TestimonialsSmall />        
+      </section>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
 
       <section className='flex justify-center items-center w-full flex-col xs:h-auto scroll-mt-16 snap-start bg-qoqu_Orange/10 text-black scroll-smooth md:scroll-auto' id='section2' >
         <Section6Steps />  
@@ -56,23 +87,11 @@ const page = () => {
       </section>
 
 
-      <section 
-        className='flex justify-center items-center w-full flex-col h-auto py-6 text-black' 
-        id='testimonialsSmall' 
-      >
-        <TestimonialsSmall />        
-      </section>
-      <section 
-        className='flex justify-center items-center w-full flex-col h-auto py-6 text-black' 
-        id='testimonialsBig' 
-      >
-        <TestimonialsBig />        
-      </section>
+      
+      
      
 
-      <section className='flex justify-center items-center w-full flex-col h-auto bg-qoqu_Orange/10 py-6 text-black' id='section3' >
-        <Section3 />        
-      </section>
+      
 
 
 

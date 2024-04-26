@@ -8,7 +8,7 @@ const ArrowWhite = () => (
     width={20}
     height={20}
     loading='lazy'
-    className='text-white ml-2'
+    className='h-auto text-white ml-2'
   />
 );
 

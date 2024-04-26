@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import type { Metadata, Viewport } from 'next'
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css'
@@ -62,6 +63,22 @@ export default function RootLayout({
 }) {
   return (
     <html lang="nl">
+      <Head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="manifest" href="/manifest.json" />
+        <title>{titleZG}</title>
+        {/* Google Tag Manager */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16457474959"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16457474959');
+          `}}>
+        </script>
+      </Head>
       <body className='min-h-screen bg-white font-poppins'>
         {children}
         <SpeedInsights />

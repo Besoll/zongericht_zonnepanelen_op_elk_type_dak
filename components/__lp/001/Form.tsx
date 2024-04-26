@@ -184,6 +184,7 @@ const ZofoForm: React.FC = () => {
           {/* Submit Button */}
           <button
             type="submit"
+            disabled={!isFormValid || isSubmitted}
             className={`submit-button mt-5 md:mt-0 py-4 md:py-3 px-3 md:px-3 md:min-w-[250px] w-full md:w-[250px] rounded-3xl  leading-tight border-none ${isFormValid && !isSubmitted ? 'bg-orange hover:bg-brand_original_main3' : 'bg-qoqu_Blue cursor-not-allowed'} text-white shadow-sm transition-colors duration-300`}
           >
             {isSubmitted ?
