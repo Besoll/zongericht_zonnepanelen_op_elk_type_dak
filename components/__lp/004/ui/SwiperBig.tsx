@@ -104,7 +104,7 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
 
 
     return (
-      <>
+      <div className='w-full h-auto flex flex-col gap-6 md:gap-12 pb-8 md:pb-16'>
         <style jsx global>{`
           .swiper-pagination-bullet-active {
             background: #f8452d;
@@ -186,15 +186,15 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
         </Swiper>
 
         <div className='w-full flex flex-row-reverse justify-center items-center gap-4 mt-4 md:-mt-6'>
-          <div className='swiper-button-next-big bg-qoqu_Orange rounded-full pl-3 pr-5 py-6 text-center shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+          <div className='swiper-button-next-big bg-qoqu_Light_Orange rounded-full pl-3 pr-5 py-6 text-center shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
             <SwiperButtonNext />
           </div>
-          <div className='swiper-button-prev-big bg-qoqu_Orange rounded-full pl-3 pr-5 py-6 text-ceter shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+          <div className='swiper-button-prev-big bg-qoqu_Light_Orange rounded-full pl-3 pr-5 py-6 text-ceter shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
             <SwiperButtonPrev />
           </div>
         </div>
       
-      </>
+      </div>
   );
 };
 

@@ -29,7 +29,7 @@ import imageProfile6 from "@/public/lp/Reviews/6-3.webp"
 
 
 
-export default function SwiperBig() {
+export default function SwiperSmall() {
 
   // Define images and content in an array for easier management and rendering
   const slides = [
@@ -67,23 +67,23 @@ export default function SwiperBig() {
   
 
     return (
-      <>
+      <div className='w-full h-auto flex flex-col justify-center items-center text-black'>
 
-        <style jsx global>{`
+        {/* <style jsx global>{`
             .swiper-pagination-bullet-active {
               background: #f8452d;
             }
           `}
-        </style>
+        </style> */}
         <Swiper 
           effect={'coverflow'}
           grabCursor={true}
           centeredSlides={true}
           slidesPerView={'auto'}
           spaceBetween={30}
-          pagination={{
-            clickable: true,          
-          }}
+          // pagination={{
+          //   clickable: true,          
+          // }}
           loop={true}
           
           breakpoints={{
@@ -114,27 +114,42 @@ export default function SwiperBig() {
           className="flex justify-center items-center text-center w-full h-auto max-w-[1440px] px-4 py-12 md:py-16"
         >
           {slides.map((slide, index) => (
-          <SwiperSlide key={index} className='w-full min-h-[600px] xxs:min-h-[540px] xs:min-h-[500px] md:min-h-[350px] bg-white shadow-lg px-6 py-6 rounded-3xl duration-300 ease-in-out md:cursor-pointer gap-8'>
-            <div className='w-full h-auto min-h-[600px] xxs:min-h-[540px] xs:min-h-[500px] md:min-h-[300px] flex flex-col-reverse md:flex-col justify-center md:justify-between items-center text-center py-4 gap-4 md:gap-1'>
+          <SwiperSlide key={index} className='w-full max-w-[400xp] flex flex-col justify-start items-start bg-white px-6 py-6 rounded-3xl duration-300 ease-in-out md:cursor-pointer gap-8'>
+            <div className='w-full h-auto min-h-[600px] xxs:min-h-[540px] xs:min-h-[500px] md:min-h-[300px] flex flex-col justify-cener items-start text-start py-4 gap-2 md:gap-4'>
+              <div className='w-full h-auto flex flex-row justify-between items-center gap-12'>
+                <Stars5 />
+                <div className='w-full h-auto flex flex-col justify-center items-start '>
+                  <p className='text-base font-semibold'>
+                    {slide.huiseIgenaar}
+                  </p>
+                  <p className='text-sm text-black-100/50'>
+                    {slide.statusWho}
+                  </p>
+                </div>
+              </div>
+
+
               <p className='text-base'>
                 {slide.content}
               </p>
               
-                <hr className='w-[90%] h-0.5 rounded-3xl bg-black/40 my-4'></hr>
-                <div className='flex flex-col justify-center items-center gap-4'>
+                {/* <hr className='w-[90%] h-0.5 rounded-3xl bg-black/40 my-4'></hr> */}
+                <div className='flex flex-col justify-center items-start gap-4'>
 
-                  <Image 
-                      src={slide.imageProject} alt={`${slide.title} big`} width={510} height={700} 
-                      className='w-[100px] h-auto rounded-3xl'
-                  />
-                      
-                  <div className='w-full h-auto flex flex-col justify-center items-center '>
-                    <p className='text-lg font-semibold'>
-                      {slide.title}
-                    </p>
-                    <p className='text-sm'>
-                      {slide.statusProduce}
-                    </p>
+                  <div className='w-full h-auto flex flex-row justify-start items-center gap-4'>
+                    <Image 
+                        src={slide.imageProject} alt={`${slide.title} big`} width={510} height={700} 
+                        className='w-[70px] h-auto rounded-full'
+                    />
+                    <div className='w-full h-auto flex flex-col justify-center items-start '>
+                      <p className='text-lg font-semibold'>
+                        {slide.title}
+                      </p>
+                      <p className='text-sm'>
+                        {slide.statusProduce}
+                      </p>
+                    </div>                   
+
                   </div>
 
                 </div> 
@@ -145,15 +160,15 @@ export default function SwiperBig() {
         </Swiper>
 
         <div className='w-full flex flex-row-reverse justify-center items-center gap-4 mt-4'>
-          <div className='swiper-button-next-small bg-qoqu_Orange rounded-full pl-3 pr-5 py-6 text-center shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+          <div className='swiper-button-next-small bg-qoqu_Light_Orange rounded-full pl-3 pr-5 py-6 text-center shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
             <SwiperButtonNext />
           </div>
-          <div className='swiper-button-prev-small bg-qoqu_Orange rounded-full pl-3 pr-5 py-6 text-ceter shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+          <div className='swiper-button-prev-small bg-qoqu_Light_Orange rounded-full pl-3 pr-5 py-6 text-ceter shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
             <SwiperButtonPrev />
           </div>
         </div>
       
-      </>
+      </div>
   );
 };
 
