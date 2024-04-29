@@ -184,10 +184,12 @@ const ZofoForm: React.FC = () => {
           <button
             type="submit"
             disabled={!isFormValid || isSubmitted}
-            className={`submit-button mt-5 md:mt-4 py-4 md:py-3 px-3 md:px-3 md:min-w-[250px] w-full rounded-full  leading-tight border-none ${isFormValid && !isSubmitted ? 'bg-qoqu_Light_Green hover:bg-brand_original_main3' : 'bg-qoqu_Light_Orange/80 cursor-not-allowed'} text-white font-bold text-xl transition-colors duration-300`}
-          >
-            {isSubmitted ?
+            className={`submit-button mt-5 md:mt-4 py-4 md:py-3 px-3 md:px-3 md:min-w-[250px] w-full rounded-full  drop-shadow-md leading-tight border-none ${isFormValid && !isSubmitted ? 'bg-qoqu_Light_Green hover:bg-brand_original_main3' : 'bg-qoqu_Light_Orange cursor-not-allowed'} text-white font-bold text-xl transition-colors duration-300`}
+          > 
+          <span className="drop-shadow-md">
+            {isSubmitted ? 
               "Uw aanvraag is succesvol ingediend" : "Schouwing aanvragen" }
+          </span>
           </button>
         </div>
       </form>

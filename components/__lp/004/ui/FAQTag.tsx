@@ -6,7 +6,7 @@ const FAQTag = () => {
     <div className='flex flex-row font-semibold text-2xl gap-2'>
         {/* <TagLine /> */}
         <p className='font-semibold text-2xl underline'>
-          FAQ
+          <span className="drop-shadow-md">FAQ</span>
         </p>
     </div>
   )
