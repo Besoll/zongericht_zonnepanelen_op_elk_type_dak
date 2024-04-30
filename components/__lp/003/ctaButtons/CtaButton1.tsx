@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from 'next/link'
-import MobileVraagAan from "@/public/icons/MobileVraagAan.svg"
+import MobileVraagAan from "@/public/lp/icons/MobileVraagAan.svg"
 
 import dynamic from 'next/dynamic'
 const HandIndex = dynamic(() => import('@/components/icons/HandIndex'))

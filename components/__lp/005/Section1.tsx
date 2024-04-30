@@ -1,36 +1,56 @@
 import Image from 'next/image'
 
 import dynamic from 'next/dynamic'
-const CtaButton3 = dynamic(() => import('@/components/__lp/004/ctaButtons/CtaButton3'))
-const CompanyTag = dynamic(() => import('@/components/__lp/004/ui/CompanyTag'))
-const SwiperCards = dynamic(() => import('@/components/__lp/004/ui/SwiperCards'))
+const CtaButton = dynamic(() => import('@/components/__lp/005/ctaButtons/CtaButton2'))
+const CompanyTag = dynamic(() => import('@/components/__lp/005/ui/CompanyTag'))
+const RoofTag = dynamic(() => import('@/components/__lp/005/ui/RoofTag'))
+const SectionHand = dynamic(() => import('@/components/__lp/005/SectionHand'))
 
 
 
 const Section1 = () => {
   return (
-    <div  className='w-full flex flex-col justify-center items-center md:items-start max-w-[1440px] 
-    px-4 md:px-8 mb-16 py-16 md:mb-24 md:py-32 gap-16 md:gap-20'>
-              
-        <div className='w-full flex flex-col justify-center items-center md:justify-start md:items-start gap-4 md:text-left text-center text-qoqu_Light_Orange'>
-            <CompanyTag />            
-            <h2 className='w-full heading3 md:heading2 lg:heading1 line-clamp-4 text-white'>
-                Waarom voor ons kiezen?
-            </h2> 
-            <div className='w-full md:w-[80%] flex pb-4 flex-col text-white'>
-                <p className='text-xl'>
-                    Bij Zongericht onderscheiden we ons door onze servicekwaliteit en vakmanschap. Ons aanbod omvat maatwerkinstallaties op alle soorten daken waaronder zinken daken, ondersteund door een uitgebreide garantieperiode van 10 jaar. Deze garantie bevestigt ons vertrouwen in de duurzaamheid en betrouwbaarheid van onze installaties. Ons doel is om te zorgen voor een optimale klanttevredenheid door het leveren van goed doordachte oplossingen voor duurzame energie.
-                </p>
+    <div  className='w-full flex flex-col  justify-center items-center max-w-[1440px] 
+    gap-4 md:gap-20 px-4 md:px-8 py-16 md:py-32'>
+        <div className='w-full h-auto flex flex-col md:flex-row gap-4 md:gap-20 justify-center items-center md:jsutify-start md:items-start'>
+            <div className='flex flex-col relative justify-center items-center w-full lg:w-1/4 md:min-w-[300px] 
+            lg:min-w-[450px]'>
+                <Image 
+                    src='/lp/005/1-big.webp'
+                    alt='zonnepanelen op schuin pvc dak'
+                    width={400}
+                    height={250}
+                    className="w-full h-auto rounded-full lg:flex hidden"
+                />
+                <Image 
+                    src='/lp/005/1.webp'
+                    alt='zonnepanelen op schuin pvc dak'
+                    width={400}
+                    height={250}
+                    className="w-full h-auto rounded-full md:flex lg:hidden hidden"
+                />
+                <Image 
+                    src='/lp/005/1-small.webp'
+                    alt='zonnepanelen op schuin pvc dak'
+                    width={400}
+                    height={250}
+                    className="w-full h-auto rounded-full md:hidden flex"
+                />
             </div>
-            <CtaButton3 />   
-        </div>
 
-        <div className='w-full flex flex-col justify-center items-center gap-4'>
-            <SwiperCards />                
+            <div className='w-full flex flex-col justify-center items-center md:justify-start md:items-start gap-6'> 
+
+                <RoofTag />        
+                <h2 className='w-full h-auto text-3xl md:text-4xl lg:text-6xl font-extrabold md:text-left text-center'>
+                    Deskundige installatie van zonnepanelen op uw golfplaten dak  
+                </h2> 
+                <p className='text-xl md:text-left text-center'>
+                    We zijn experts in het installeren van zonnepanelen op verschillende daktypes, en daar zijn we trots op. Ons team beschikt over de juiste kennis en ervaring, en helpt u daarom graag bij het installeren van zonnepanelen op uw golfplaten dak.
+                </p>
+                <SectionHand />
+                <CtaButton />
+            </div> 
         </div>  
-             
-           
-
     </div>
   )
 }

@@ -7,7 +7,7 @@ const ctaButton = () => {
     rounded-full w-[95%] md:w-fit
     hover:scale-105 transition duration-300 ease-in-out'>
         <Link href="#schouwingForm" className="text-base font-semibold drop-shadow-md" >
-          <span className="drop-shadow-md">Neem contact op</span>
+          Neem contact op
         </Link>
     </Button>
   )

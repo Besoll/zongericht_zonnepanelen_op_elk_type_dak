@@ -1,14 +1,14 @@
 import Image from 'next/image'
-import arrowWhite from '@/public/lp/icons/arrowWhite.svg'
+import arrowGreen from '@/public/lp/icons/arrowDarkGreen.svg'
 
 const SwiperButtonNext = () => (
       <Image 
-      src={arrowWhite} 
+      src={arrowGreen} 
       alt='arrow icon'
       width={30}
       height={20}
       loading='lazy'
-      className='text-white ml-2'
+      className='ml-2'
     />
   );
   

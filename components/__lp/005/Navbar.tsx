@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 import dynamic from 'next/dynamic'
-const CtaButton1 = dynamic(() => import('@/components/__lp/004/ctaButtons/CtaButton1'))
+const CtaButton = dynamic(() => import('@/components/__lp/005/ctaButtons/CtaButton1'))
 
 
 const Navbar = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
               className="w-full h-auto"
           />         
         </div>
-          <CtaButton1 />
+          <CtaButton />
       </div>
     </div>
   );

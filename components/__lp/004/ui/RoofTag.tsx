@@ -6,7 +6,7 @@ const RoofTag = () => {
     <div className='flex flex-row font-semibold text-2xl gap-2'>
         {/* <TagLine /> */}
         <p className='font-semibold text-2xl underline'>
-          <span className="drop-shadow-md">Zinken dak</span>
+          Zinken dak 
         </p>
     </div>
   )

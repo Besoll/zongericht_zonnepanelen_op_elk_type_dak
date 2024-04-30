@@ -11,9 +11,9 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules'
 
 import dynamic from 'next/dynamic'
-const Stars5 = dynamic(() => import("@/components/__lp/004/icons/Stars5"))
-const SwiperButtonNext = dynamic(() => import("@/components/__lp/004/icons/SwiperButtonNext"))
-const SwiperButtonPrev = dynamic(() => import("@/components/__lp/004/icons/SwiperButtonPrev"))
+const Stars5 = dynamic(() => import("@/components/__lp/005/icons/Stars5"))
+const SwiperButtonNext = dynamic(() => import("@/components/__lp/005/icons/SwiperButtonNext"))
+const SwiperButtonPrev = dynamic(() => import("@/components/__lp/005/icons/SwiperButtonPrev"))
 
 
 import imageProject1 from "@/public/lp/Reviews/1-4.webp"
@@ -67,11 +67,11 @@ export default function SwiperSmall() {
   
 
     return (
-      <div className='w-full h-auto flex flex-col justify-center items-center text-black'>
+      <div className='w-full md:w-2/4 h-auto flex flex-col justify-center items-center text-black'>
 
         {/* <style jsx global>{`
             .swiper-pagination-bullet-active {
-              background: #f8452d;
+              background: #ED1D24;
             }
           `}
         </style> */}
@@ -115,7 +115,7 @@ export default function SwiperSmall() {
         >
           {slides.map((slide, index) => (
           <SwiperSlide key={index} className='w-full max-w-[400xp] flex flex-col justify-start items-start bg-white px-6 py-6 rounded-3xl duration-300 ease-in-out md:cursor-pointer gap-8'>
-            <div className='w-full h-auto min-h-[600px] xxs:min-h-[540px] xs:min-h-[500px] md:min-h-[300px] flex flex-col justify-cener items-start text-start py-4 gap-2 md:gap-4'>
+            <div className='w-full h-auto flex flex-col justify-cener items-start text-start py-4 gap-2 md:gap-4'>
               <div className='w-full h-auto flex flex-row justify-between items-center gap-12'>
                 <Stars5 />
                 <div className='w-full h-auto flex flex-col justify-center items-start '>
@@ -159,11 +159,11 @@ export default function SwiperSmall() {
           ))}          
         </Swiper>
 
-        <div className='w-full flex flex-row-reverse justify-center items-center gap-4 mt-4'>
-          <div className='swiper-button-next-small bg-qoqu_Light_Orange rounded-full pl-3 pr-5 py-6 text-center shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+        <div className='w-full flex flex-row-reverse justify-center items-center gap-4 mt-4 md:hidden text-qoqu_Green'>
+          <div className='swiper-button-next-small bg-qoqu_Light_Green rounded-full pl-3 pr-5 py-6 text-center shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
             <SwiperButtonNext />
           </div>
-          <div className='swiper-button-prev-small bg-qoqu_Light_Orange rounded-full pl-3 pr-5 py-6 text-ceter shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+          <div className='swiper-button-prev-small bg-qoqu_Light_Green rounded-full pl-3 pr-5 py-6 text-ceter shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
             <SwiperButtonPrev />
           </div>
         </div>

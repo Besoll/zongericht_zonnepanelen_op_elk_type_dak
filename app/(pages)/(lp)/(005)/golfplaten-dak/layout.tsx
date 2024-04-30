@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from '@/components/__lp/004/Footer'
-import Navbar from '@/components/__lp/004/Navbar'
+import Footer from '@/components/__lp/005/Footer'
+import Navbar from '@/components/__lp/005/Navbar'
 
 import type { Metadata, Viewport } from 'next'
 

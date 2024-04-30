@@ -18,7 +18,6 @@ const TestimonialsBig = dynamic(() => import("@/components/__lp/004/Testimonials
 const CtaButton = dynamic(() => import('@/components/__lp/004/ctaButtons/CtaButton7'))
 
 
-
 // lp: page 004 - ZInken dak
 
 const page = () => {

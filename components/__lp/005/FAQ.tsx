@@ -12,77 +12,77 @@ export default function FAQ() {
   
   const accordionInput = [
     {
-      title: 'Kunt u zonnepanelen installeren op zinken daken?',
-      subTitle: 'Hoewel het al even meegaat als dakbedekking, is zink een relatief onbekende ondergrond voor zonne- installateurs. Nochtans ziet men deze zogenaamde felsdaken (weer) vaker verschijnen en maakt zink (weer) opgang als vervanger van traditionelere dakpannen of bitumen, ook op zogeheten (schuinere) roevendaken. Een bekend voorbeeld is het (gerenoveerd) roevendak van het Koninklijk Theater Carré in Amsterdam.',
-      subTitle2: 'Kunt u zonnepanelen installeren op zinken daken? Het antwoord is ja, maar met de nodige voorzichtigheid. Met name wanneer het op waterdichtheid en magnetisme aankomt, vraagt het zinken dak een eigen, omzichtige aanpak, die de zonne-installateur voor de nodige uitdagingen stelt. In grote lijnen komt het er op neer dat 2 dingen simpelweg niet mogelijk zijn op zinken daken. Om de (water- )dichting van de dakconstructie te vrijwaren kan er (1) niet geboord worden in het zink. Om ongewenst magnetisme te vermijden kan er (2) niet gewerkt worden met optimizers. Hieronder leggen we uit waarom dat zo is en hoe u dan wel best zonnepanelen installeert op een zinken dak.',
+      title: 'Is een golfplaten dak geschikt voor zonnepanelen?',
+      subTitle: 'Wij kunnen zonnepanelen plaatsen op elk daktype, dus ook op golfplaten daken. We komen deze vaak tegen op bijgebouwen als tuinhuisjes of garages. Deze lenen zich als prima alternatieve gastheren voor uw zonnepanelen! Er zijn slechts 2 harde vereisten. Ten eerste mogen de golfplaten niet gemaakt zijn uit asbestcement. Mocht dit wel het geval zijn, dan moeten de golfplaten eerst worden vervangen, alvorens we de panelen plaatsen. Ten tweede moet de juiste montagewijze gekozen worden op basis van de type platen en dakbeschot. Hier komt onze ervaring en expertise goed van pas: tijdens de wooninspectie kan een adviseur de juiste wijze van monteren in kaart brengen.',
+      subTitle2: '',
       subTitle3: '',
       subTitle4: '',
       id: 1,
       divId: 'accordion1'
     },
     {
-      title: 'Wat is Zink?',
-      subTitle: 'Om de uitdagingen van de zonne-installateur te begrijpen is een beter inzicht in zink als materiaal handig. Zink (Zn) is namelijk geen standaard fabrikaat, maar een chemisch element (atoomnummer 30). Het is omzeggen een basisstof van de natuur, teruggevonden in zinkhoudende ertsen zoals de zinblende sfaleriet, het carbonaat smithsoniet, het silicaat calamien en frankliniet. In het periodiek systeem van de elementen (de tabel van Mendelejev) verschijnt zink in het zogenaamde d-blok, bij de overgangsmetalen (transitiemetalen). Men spreekt van een blauw/wit overgangsmetaal',
-      subTitle2: 'Het d-blok van de tabel verwijst naar de d-subschil, een onderschil van bepaalde atomen. Men gebruikt deze subschillen om de elektronen te tellen in de zogenaamde elektronische grondtoestand (zeg maar het wezen, de basismanier van zijn) van het atoom. Overgangsmetalen onderscheiden zich daarbij door een geheel of gedeeltelijk gevulde d-schil (met 1 tot 9 elektronen). Die van zink is geheel gevuld en is een zogenaamde 3d-schil. (Daarnaast zijn er ook nog 4, 5 en 6d overgangsmetalen.) Kort gezegd is zink dus een geleider. Als non-ferro metaal is het echter niet magnetisch.',
-      subTitle3: 'Zink en vooral zinklegeringen worden al eeuwenlang ingezet. De vroegste zinken objecten (tot 87% zink) vond men in het Palestina van 1400 voor Christus. In het westen is het Andreas Sigismund Marggraf die zink ontdekt in calamien door reductie met houtskool. Dat gebeurt pas in 1746, hoewel zinklegeringen (met name messing of koper en zink) dan al ruime tijd gekend zijn. Zink is echter moeilijk op zich te "maken". Het verdampt relatief snel, bij een temperatuur van iets meer dan 900°. Verhit men het met koolstof, dan ontsnapt het langs de uitlaat. Verhit men zinkertsen en koperertsen, dan verdwijnt zinkdamp in het vloeibare koper.',
-      subTitle4: 'Overigens zijn zink en andere overgangsmetalen almaar belangrijk in onze hoogtechnologische tijden. Ze zijn bijvoorbeeld in staat om coördinatieverbindingen te vormen of kunnen als katalysator optreden. Ze zijn echter ook vaak schaars en moeilijker te ontginnen.',
+      title: 'Kan de plaatsing van zonnepanelen mijn golfplaten dak beschadigen?',
+      subTitle: 'Onze installateurs zijn gespecialiseerd in het plaatsen van zonnepanelen op elk daktype. Voor golfplaten daken werken we met de gaten die al gemaakt zijn bij het plaatsen van het dak. We vervangen de bestaande schroeven met stokschroeven, of brengen beugels aan op de bestaande schroeven. Zo hoeven we geen nieuwe gaten te boren in het dak. Ook als er geen bestaande gaten zijn in de golfplaten, kunnen we de zonnepanelen installeren zonder het dak te beschadigen. Welke methode het best werkt voor uw dak hangt af van het frame waarop de golfplaten gemonteerd zijn. Tijdens een woninginspectie kijkt onze adviseur hiernaar, en kan u op basis daarvan adviseren.',
+      subTitle2: '',
+      subTitle3: '',
+      subTitle4: '',
       id: 2,
       divId: 'accordion2'
     },
     {
-      title: 'Wat is een Felsdak?',
-      subTitle: 'Dat is meteen ook een voorname reden waarom zink in de industrie vooral gebruik wordt in legeringen. Zo zal men bepaalde stoffen bijvoorbeeld "verzinken" om ze te beschermen tegen corrosie. Het dient ook zelf vaak als legeringsmateriaal, bijvoorbeeld in messing, zilvernikkel of soldeertin. Of het is een element in batterijsamenstellingen, zoals in zink-nikkel of zink-lucht batterijen.',
-      subTitle2: 'Door de sterke weerstand tegen weerelementen en met name corrosie wordt het dus ook vaak gebruik op en rondom daken: in pijpen, goten en dakbedekkingen. Meestal gebruikt men dan titaanzink. Deze daken zijn zogenaamde felsdaken, verwijzend naar de typische banen -- de felsbanen -- van de zinken plaat. Met zo\'n felssysteem kan een zinken dak waterdicht gemaakt worden door de de felsbanen over elkaar te schuiven. De minimale helling is daarbij 3, maar liefst 7 graden. Voor deze daken wordt een zogeheten dubbele staande fels gebruikt. Vanaf 25 graden wordt dat een enkele fels. Die felsen verklaren de snelheid waarmee men het (moderne) felsdak kan leggen. Ze laten toe om de zinkbanen machinaal te prefabriceren. Bovendien zijn zo ook gebogen (concaaf en convex) of getapte banen mogelijk, zoals bij een roevendak. De prefab platen moeten daarbij wel nog steeds ambachtelijk geplaatst worden (manueel felsen). Naast zink kan ook koper, aluminium of staal worden gebruikt.',
+      title: 'Wat als mijn golfplaten dak is gemaakt van asbestcement?',
+      subTitle: 'Asbestcement gebruiken als bouwmateriaal is verboden sinds het einde van de vorige eeuw. Hebt u een golfplaten dak uit asbestcement, dan moet u dit dus eerst verwijderen en vervangen door een aanvaard bouwmateriaal voordat wij er zonnepanelen op kunnen plaatsen.',
+      subTitle2: '',
       subTitle3: '',
       subTitle4: '',
       id: 3,
       divId: 'accordion3'
     },
     {
-      title: 'Wat zijn Felsen en felsklemmen?',
-      subTitle: 'Tussen 2 felsen ontstaat een opstaande naad, die verschillende breedtes en hoogtes kan aannemen op een en hetzelfde dak. Naast de aard van het materiaal is deze felsnaad de voornaamste moeilijkheid voor zonne-installaties op een zinken dak. De felsen bepalen immers welke klemmen er gebruikt moeten worden om de zonnepanelen op het dak te houden. Gelet op de dimensionale variaties is dat niet altijd eenvoudig. Wij achterhalen dit dan ook tijdens onze technische schouwing vooraf',
-      subTitle2: 'Aangezien boren niet kan, is de keuze van de juiste felsklem cruciaal voor een geslaagde zonne- installatie op het felsdak. Niets anders houdt hier de zonnepanelen vast. Daarvoor schuiven we de klemmen over de felsnaden om ze aan te draaien met de inbusbout in de klem. Vooraf tekenen we hiervoor uit waar de klemmen moeten komen en worden de naden schoongemaakt. Het aantal felsklemmen wordt bepaald door het aantal zonnepanelen. Een rij van 5 zonnepanelen in portret geplaatst behoeft 2 horizontale rails, elk te bevestigen met 5 klemmen. De zonnepanelen worden dus vastgehouden met 10 felsklemmen. Naast boorgaten is het overigens ook zaak om deuken in zink te vermijden. Dit materiaal is hier bovengemiddeld gevoelig voor. Daarom werken we zoveel als mogelijk met nokladders',
+      title: 'Wat is het rendement van zonnepanelen?',
+      subTitle: 'Het rendement van uw zonnepanelen wordt vooral bepaald door de duurzaamheid van de installatie. Een lange levensduur staat u toe om de terugverdientijd te overschrijden en te genieten van een maximaal aantal winstjaren. Wij werken met glas-glas zonnepanelen van Sonnenstromfabrik, welke een product- en rendementsgarantie bieden van 30 jaar. Deze termijn bestaat, gemiddeld, uit 8 terugverdien-jaren en 22 winstjaren. Voor goedkopere varianten, waaronder meestal glas-folie panelen geldt dat de terugverdientijd een tweetal jaren korter is (gemiddeld 6 jaar); maar de gemiddelde levensduur is minder dan de helft (12 versus 30 jaar). Daarom werken wij alleen met glas-glas panelen: ze laten u veel langer genieten van de rendementsperiode die er echt toe doet.',
+      subTitle2: '',
       subTitle3: '',
       subTitle4: '',
       id: 4,
       divId: 'accordion4'
     },
     {
-      title: 'Hoe worden de Profielen en adapters geplaatst?',
-      subTitle: 'Op de felsklemmen kunnen we nu de profielen aanbrengen. Deze worden voorzien van micro- omvormers, waarna we er ook de zonnepanelen opleggen. Hiervoor maken we gebruik van PhotoVoltaïsche (PV) adapters. Zo\'n adapter heeft een halfrond uiteinde. Het vierkante profiel draait daarin en wordt erin vastgeklikt ("ingesloten"). Profielen en adapter worden verbonden met hamerkopbouten.',
-      subTitle2: 'Gelet op de aard van zink als transitiemetaal werken we op zinken daken nooit met micro-optimizers, maar enkel met micro-omvormers. Optimizers kunnen een magnetisch veld opwekken onder de panelen en het zinken dak als het ware onder stroom zetten. Bij micro-omvormers bestaat dat risico niet.',
+      title: 'Wat zijn veiligheidsrisico\’s van zonnepanelen?',
+      subTitle: 'Een erkend installateur van zonnepanelen weet wat hij doet en is bekend met de veiligheidsrisico\'s. We zullen er tijdens de installatie dan ook voor zorgen dat uw zonnesysteem voldoet aan alle veiligheidsnormen. Denkt u bij risico’s niet alleen aan de zonne-installatie zelf, maar ook de dakconstructie. Wat bent u met goede zonnepanelen op een lekkend dak? Met zonnepanelen die loskomen bij de eerste de beste storm? Met een onaangepaste meterkast? Een Zongericht installateur zorgt ervoor dat deze risico\'s geen realiteit worden.',
+      subTitle2: '',
       subTitle3: '',
       subTitle4: '',
       id: 5,
       divId: 'accordion5'
     },
     {
-      title: 'Hoe plaatsen we de bekabeling en afdichting?',
-      subTitle: 'We plaatsen de micro-omvormers op de profielen, onder de panelen, en verbinden ze met AC kabels. De eindkabel krijgt een einddop en wordt naar een lasdoos gestuurd. Daarin verbinden we deze kabel met die voor de meterkast. We dichten De doos met hars.',
-      subTitle2: 'Omdat we niet boren in zinken daken leiden we de AC kabel hier altijd rechtstreeks naar de meterkast. Dit betekent dus dat er geen omvormer in de woning komt. Ook de weg naar de meterkast zoeken we niet op, maar voorbij het dak, via gevel of kruipruimte. Voor een nette en veilige afwerking lopen de kabels in een PVC of rvs kabelgoot.',
+      title: 'Hoe zit het met garantie op zonnepanelen?',
+      subTitle: 'Wij werken met glas-glas zonnepanelen van het Duitse topmerk Sonnenstromfabrik. Deze producent is al 30 jaar marktleider en levert effectieve product- en rendementsgaranties van 30 jaar. Na die tijd behalen deze panelen nog steeds een indrukwekkende 85% van het oorspronkelijke rendement. De uiteindelijke levensduur bedraagt minimaal 50 jaar en Sonnenstromfabrik ontvangt amper schadeclaims. Als Premium Partner kunnen wij u deze glas-glas zonnepanelen bovendien standaard aanbieden met een 10-jarige All-Risk verzekering van ERGO.',
+      subTitle2: '',
       subTitle3: '',
       subTitle4: '',
       id: 6,
       divId: 'accordion6'
     },
-    // {
-    //   title: '',
-    //   subTitle: '',
-    //   subTitle2: '',
-    //   subTitle3: '',
-    //   subTitle4: '',
-    //   id: 7,
-    //   divId: 'accordion7'
-    // },
-    // {
-    //   title: '',
-    //   subTitle: '',
-    //   subTitle2: '',
-    //   subTitle3: '',
-    //   subTitle4: '',
-    //   id: 8,
-    //   divId: 'accordion8'
-    // },
+    {
+      title: 'Geven mijn zonnepanelen ook stroom in de winter? ',
+      subTitle: 'Zonnepanelen wekken minder energie op in de winter dan in de zomer. In deze periode is de stralingsintensiteit minder sterk, maar niet afwezig. Ook onder dit soort omstandigheden wekt het systeem nog altijd energie op. Bovendien heeft een slim zonnesysteem tijdens de beste maanden over geproduceerd. Met een thuisbatterij of via de salderingsregeling kunt u deze overschotten opsparen voor de mindere maanden. Zo zult u het gehele jaar een constante energieproductie krijgen.',
+      subTitle2: 'En dan is er die ene winterperiode waarin er sneeuw valt op uw zonnepaneel: dan zal uw paneel inderdaad geen energie produceren. Het zonlicht kan de zonnecellen immers op geen enkele manier bereiken. Een slimme montage met de juiste hellingshoek zorgt ervoor dat sneeuw en andere bevuilingen sneller op natuurlijk wijze worden afgevoerd.',
+      subTitle3: '',
+      subTitle4: '',
+      id: 7,
+      divId: 'accordion7'
+    },
+    {
+      title: 'Waar letten jullie op tijdens een wooninspectie?',
+      subTitle: 'Om het reële rendement van uw zonne-installatie te bepalen let onze adviseur op de volgende elementen:',
+      subTitle2: 'Locatie en omgeving. De hoeveelheid licht die uw zonnepanelen vangen hangt in grote mate af van uw locatie en omgeving. Waar vangt uw gebouw het zonlicht? Wat is de oriëntatie van uw dak? Zijn er schaduwplekken of ontnemen bomen of gebouwen uw licht? Zijn er obstakels die de zonne-installatie moet zien te overbruggen? Al deze elementen beïnvloeden de samenstelling van uw zonnesysteem en de opstelling van de zonnepanelen, in het bijzonder de hellingsgraad',
+      subTitle3: 'Meterkast. Om aan de keuring van een zonne-installatie te voldoen, moet het systeem aan heel wat technische eisen en veiligheidswetten voldoen. De meeste parameters kunnen wij daarbij zelf controleren. De norm schrijft voor dat er bij ingrijpende veranderingen, zoals de plaatsing van een nieuwe zonne-installatie, ook een bijpassende groepenkast moet komen. Wij geven advies wat voor u van toepassing is.',
+      subTitle4: 'Bekabeling. Het is belangrijk dat de bekabeling efficiënt, veilig en netjes wordt aangebracht. De inspecteur bekijkt de beste plek voor de bekabeling en hoe de bekabeling correct kan worden beschermd en verstopt. Ook wordt tijdens de inspectie de benodigde kabellengte inzichtelijk, op basis waarvan we dan weer de juist kabeldikte kunnen bepalen. Omvormer. We beoordelen welke omvormer bij uw situatie past en hoe de plaatsing ervan kan anticiperen op eventuele toekomstplannen. De adviseur bekijkt ook of er een werkschakelaar bij de omvormer moet worden geplaatst, waarbij brandveiligheid en ventilatie cruciaal zijn. Daktype en onderconstructie. Een grondige inspectie van het dak is nodig om een offerte op maat te kunnen maken. We zijn de specialist in het plaatsen van glas-glas zonnepanelen op elk daktype. Veiligheid, toelichting en advies. Tijdens de inspectie krijgen we een goed beeld van wat er moet gebeuren om de zonnepanelen veilig te installeren. Bijvoorbeeld, is het mogelijk om een dakrandbeveiliging te plaatsen? Is dit geen optie, dan dragen de installateurs valbescherming. Een andere inschatting die gemaakt kan worden, is of er een hoogwerker gebruikt kan worden om de zonnepanelen naar het dak te transporteren. Naast het inspecteren van de woning is dit ook een moment waarop u terecht kunt bij onze adviseur met alle vragen die u hebt',
+      id: 8,
+      divId: 'accordion8'
+    },
   ]
 
   return (
