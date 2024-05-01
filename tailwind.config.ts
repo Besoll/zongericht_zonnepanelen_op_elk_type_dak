@@ -57,6 +57,7 @@ module.exports = {
           500: "#A4B8D5",
           800: "#D0DFFF",
         },
+        qoqu_Night_Blue: "#224C86",
         qoqu_Blue: "#3E64FF",
         qoqu_Light_Green: "#4fff4c",
         qoqu_Dark_Green: "#014800",

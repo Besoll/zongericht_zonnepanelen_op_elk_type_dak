@@ -16,14 +16,14 @@ const HeroImageSection = () => {
                             "
             />
             <Image 
-                src='/lp/003/1-1-big.webp'
+                src='/lp/003/1-1.webp'
                 alt='glas glas zonnepanelen op parabool dak 1'
                 width={140}
                 height={125}
                 className="object-cover h-auto w-full rounded-xl lg:hidden hidden md:flex"
             />
             <Image 
-                src='/lp/003/1-1-big.webp'
+                src='/lp/003/1-1-small.webp'
                 alt='glas glas zonnepanelen op parabool dak 1'
                 width={140}
                 height={125}
