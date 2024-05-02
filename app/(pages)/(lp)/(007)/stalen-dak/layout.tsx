@@ -7,7 +7,7 @@ import type { Metadata, Viewport } from 'next'
 const titleZG = 'Zongericht - Stalen Dak';
 const colorZG = '#224C86'; // Night Blue
 const urlZG = 'https://zonnepanelen.zongericht.nl/stalen-dak';
-const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Flp%2F003%2F1-4-big.webp&w=384&q=75';
+const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Flp%2F007%2F1-big.webp&w=828&q=75';
 const descriptionZG = 'Sterk en duurzaam: zonnepanelen op een stalen dak. Vraag vandaag nog kosteloos en geheel vrijblijvend een wooninspectie aan voor een offerte op maat.';
 
 const creatorZG = "B. Kavzharadze - QOQU BV";

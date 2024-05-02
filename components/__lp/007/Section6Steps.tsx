@@ -1,6 +1,5 @@
 import dynamic from 'next/dynamic'
 const Cards6Steps = dynamic(() => import('@/components/__lp/007/ui/Cards6Steps'))
-const RoofTag = dynamic(() => import('@/components/__lp/007/ui/RoofTag'))
 
 const Section6Steps = () => {
   return (

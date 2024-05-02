@@ -17,7 +17,7 @@ const Cards6Steps = () => {
                     '>
                     <Icon_1_Instalation />
                 </div>
-                <p className='text-xl font-semibold'>
+                <p className='text-lg xl:text-xl font-semibold'>
                     Installatie binnen 4 weken
                 </p>
             </div>
@@ -28,7 +28,7 @@ const Cards6Steps = () => {
                     '>
                     <Icon_2_freeInspection />
                 </div>
-                <p className='text-xl font-semibold'>
+                <p className='text-lg xl:text-xl font-semibold'>
                     Vrijblijvende wooninspectie
                 </p>
             </div>            
@@ -42,7 +42,7 @@ const Cards6Steps = () => {
                     '>
                     <Icon_3_Monitoring />
                 </div>
-                <p className='text-xl font-semibold'>
+                <p className='text-lg xl:text-xl font-semibold'>
                     Monitorring systeem
                 </p>
             </div>     
@@ -53,7 +53,7 @@ const Cards6Steps = () => {
                     '>
                     <Icon_4_Customers />
                 </div>
-                <p className='text-xl font-semibold'>
+                <p className='text-lg xl:text-xl font-semibold'>
                     Hoge klantentevredenheid
                 </p>
             </div>
@@ -66,7 +66,7 @@ const Cards6Steps = () => {
                     '>
                     <Icon_5_Installers  />
                 </div>
-                <p className='text-xl font-semibold'>
+                <p className='text-lg xl:text-xl font-semibold'>
                     Vertrouwd en ervaren
                 </p>
             </div>
@@ -77,7 +77,7 @@ const Cards6Steps = () => {
                     '>
                     <Icon_6_allRoof />
                 </div>
-                <p className='text-xl font-semibold'>
+                <p className='text-lg xl:text-xl font-semibold'>
                     Expertise in alle daken
                 </p>
             </div>               

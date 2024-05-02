@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import arrowGreen from '@/public/lp/icons/arrowDarkGreen.svg'
+import arrowGreen from '@/public/lp/icons/arrowWhite.svg'
 
 const SwiperButtonNext = () => (
       <Image 

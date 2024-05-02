@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import icon2yarsOfExperiance from '@/public/lp/icons/icon2yarsOfExperiance-Red.svg'
+import icon2yarsOfExperiance from '@/public/lp/icons/icon2yarsOfExperiance-Night-Blue.svg'
 
 const Icon2yarsOfExperiance = () => (
   <Image 
@@ -8,7 +8,7 @@ const Icon2yarsOfExperiance = () => (
     width={25}
     height={25}
     loading='lazy'
-    className='w-[100px] h-auto'
+    className='w-[50px] h-auto'
   />
 );
 

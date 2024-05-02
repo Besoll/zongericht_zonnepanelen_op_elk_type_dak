@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import icon3successfullInstalation from '@/public/lp/icons/icon3successfullInstalation-Red.svg'
+import icon3successfullInstalation from '@/public/lp/icons/icon3successfullInstalation-Night-Blue.svg'
 
 const Icon3successfullInstalation = () => (
   <Image 
@@ -8,7 +8,7 @@ const Icon3successfullInstalation = () => (
     width={25}
     height={25}
     loading='lazy'
-    className='w-[100px] h-auto'
+    className='w-[50px] h-auto'
   />
 );
 

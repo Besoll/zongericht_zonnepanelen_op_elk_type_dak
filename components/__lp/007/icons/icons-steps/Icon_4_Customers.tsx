@@ -8,7 +8,7 @@ const Icon_4_Customers = () => (
     width={60}
     height={60}
     loading='lazy'
-    className='w-[60px] md:w-[90px] h-auto'
+    className='w-[40px] lg:w-[60px] md:w-[90px] h-auto'
   />
 );
 

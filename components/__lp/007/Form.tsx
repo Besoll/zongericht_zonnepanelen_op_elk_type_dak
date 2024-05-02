@@ -82,6 +82,9 @@ const ZofoForm: React.FC = () => {
 
   return (
     <div className="font-sans text-lg w-full">
+      {<style jsx global> {`                 
+      `}
+        </style>}
       <form 
         action="https://forms.zohopublic.eu/zongeschikt/form/LP002ZG84858966Flatroof/formperma/OL6urq_PIZl8yzemoMUPb_o5h2rPR_TeyGpR65gPKYM/htmlRecords/submit" 
         method="POST" 

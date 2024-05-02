@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import icon4companiesServed from '@/public/lp/icons/icon4companiesServed-Red.svg'
+import icon4companiesServed from '@/public/lp/icons/icon4companiesServed-Night-Blue.svg'
 
 const Icon4companiesServed = () => (
   <Image 
@@ -8,7 +8,7 @@ const Icon4companiesServed = () => (
     width={25}
     height={25}
     loading='lazy'
-    className='w-[100px] h-auto'
+    className='w-[50px] h-auto'
   />
 );
 
