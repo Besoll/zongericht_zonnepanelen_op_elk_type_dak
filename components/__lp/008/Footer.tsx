@@ -166,7 +166,7 @@ const Footer = () => {
                     </Link>
                 </li>
             </ul>
-            <ul className='text-sm text-White'>
+            <ul className='text-sm text-gray-400'>
                 <li>
                     Auteursrecht © 2018-2024. Alle rechten voorbehouden.
                 </li>

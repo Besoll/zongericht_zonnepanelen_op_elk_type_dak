@@ -4,7 +4,6 @@ const HeroImageSection = () => {
   return (
     <div className='w-full max-w-[500px] flex flex-row gap-4 bg-qoqu_Grey/20 pr-7 py-7'>
             {/* 3 size image - mobile-tablet-desktop */}
-            <div className='w-full flex aspect-[0,7875]'>
             <Image 
                 src='/lp/007/1-big.webp'
                 alt='glas glas zonnepanelen op parabool dak 1'
@@ -30,7 +29,6 @@ const HeroImageSection = () => {
                 height={600}
                 className="object-cover h-auto w-full shadow-lg rounded-[0] flex md:hidden"
             />
-            </div>
     </div>
 
   )

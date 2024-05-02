@@ -1,8 +1,6 @@
-import HeroImageSection from '@/components/__lp/007/HeroImageSection'
-
 import dynamic from 'next/dynamic'
 const CtaButton2 = dynamic(() => import('@/components/__lp/007/ctaButtons/CtaButton2'))
-// const HeroImageSection = dynamic(() => import('@/components/__lp/007/HeroImageSection'))
+const HeroImageSection = dynamic(() => import('@/components/__lp/007/HeroImageSection'))
 const KlantenGuarante = dynamic(() => import('@/components/__lp/007/icons/KlantenGuarante'))
 
 const Hero = () => {

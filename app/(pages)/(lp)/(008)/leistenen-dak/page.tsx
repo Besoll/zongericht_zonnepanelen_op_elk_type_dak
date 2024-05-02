@@ -1,7 +1,6 @@
-import Hero from '@/components/__lp/007/Hero'
 
 import dynamic from 'next/dynamic'
-// const Hero = dynamic(() => import("@/components/__lp/007/Hero"))
+const Hero = dynamic(() => import("@/components/__lp/007/Hero"))
 const Form = dynamic(() => import("@/components/__lp/007/Form"))
 const Section1 = dynamic(() => import("@/components/__lp/007/Section1"))
 const StatisticsCards = dynamic(() => import("@/components/__lp/007/StatisticsCards"))
@@ -9,10 +8,13 @@ const Section2 = dynamic(() => import("@/components/__lp/007/Section2"))
 const Section3 = dynamic(() => import("@/components/__lp/007/Section3"))
 const Section4 = dynamic(() => import("@/components/__lp/007/Section4"))
 const SectionCTA = dynamic(() => import("@/components/__lp/007/SectionCTA"))
+const Section6Steps = dynamic(() => import("@/components/__lp/007/Section6Steps"))
+const Partners6Logos = dynamic(() => import("@/components/__lp/007/Partners6Logos"))
 const Tag = dynamic(() => import("@/components/__lp/007/ui/RoofTag"))
 const FAQ = dynamic(() => import("@/components/__lp/007/FAQ"))
 const TestimonialsSmall = dynamic(() => import("@/components/__lp/007/TestimonialsSmall"))
 const TestimonialsBig = dynamic(() => import("@/components/__lp/007/TestimonialsBig"))
+const CtaButton = dynamic(() => import('@/components/__lp/007/ctaButtons/CtaButton7'))
 
 
 

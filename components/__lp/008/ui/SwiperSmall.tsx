@@ -122,7 +122,7 @@ export default function SwiperSmall() {
                   <p className='text-base font-semibold'>
                     {slide.huiseIgenaar}
                   </p>
-                  <p className='text-sm text-black-100/80'>
+                  <p className='text-sm text-black-100/50'>
                     {slide.statusWho}
                   </p>
                 </div>
