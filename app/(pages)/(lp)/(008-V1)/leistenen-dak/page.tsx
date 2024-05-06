@@ -48,11 +48,11 @@ const page = () => {
       </section>
 
 
-      <section className='w-full h-auto flex justify-center items-center text-black' id='section1' >
+      <section className='w-full h-auto flex justify-center items-center py-16 md:py-32 text-black' id='section1' >
           <Section1 />
       </section>
 
-      <section className='w-full h-auto flex justify-center items-center text-black' id='section2' >
+      <section className='w-full h-auto flex justify-center items-center py-16 md:py-32 text-black' id='section2' >
           <Section2 />
       </section>
 

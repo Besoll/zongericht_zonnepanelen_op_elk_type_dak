@@ -6,7 +6,7 @@ const CompanyTag = () => {
     <div className='flex flex-row font-semibold text-xl gap-4 text-qoqu_Orange'>
         <TagLine />
         <p className='font-normal text-xl'>
-          LEISTENEN DAK
+          ZONGERICHT
         </p>
         <TagLine />
     </div>

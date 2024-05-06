@@ -1,45 +1,52 @@
-
 import dynamic from 'next/dynamic'
-const ForwardBlue = dynamic(() => import('@/components/__lp/007/icons/ForwardBlue'))
+const HandPointer = dynamic(() => import('@/components/__lp/008-V1/icons/HandPointer'))
 
 const SectionHand = () => {
   return (
 
-    <div className='w-full md:w-[85%] h-auto flex flex-col gap-4'>
-        <div className='flex flex-row gap-4 justify-start items-start bg-qoqu_Grey/20 px-4 py-6'>
-            <ForwardBlue />
-            <div className='-mt-2 flex flex-col justify-start items-start gap-1'>
+    <div className='w-full  h-auto flex flex-col gap-4'>
+        <div className='flex flex-row gap-4 justify-start items-start'>
+            <HandPointer />
+            <div className='flex flex-col justify-start items-start gap-1'>
                 <p className='text-black font-bold text-xl'>
-                    Maatwerk
+                    Maatwerk:
                 </p>                    
                 <p className='text-sm text-left'>
-                    Zoals bij elk daktype, heeft ook een stalen dak zijn eigen uitdagingen. Namelijk, een stalen dak is gevoeliger dan andere daken voor lekkages en beschadigingen. Tijdens de wooninspectie bekijken we wat de juiste montagewijze is voor de zonnepanelen op uw stalen dak. Door een grote hoeveelheid kennis en ervaring begrijpen we wat er nodig is, en kunnen we op maat advies geven
+                    Bij het installeren van zonnepanelen op leistenen daken komt precisie en vakmanschap kijken. Bij Zongericht weten we dat elk leistenen dak zijn eigen unieke kenmerken heeft. Daarom geloven we niet in het geven van offertes zonder het dak zelf gezien te hebben. Het idee dat installaties op afstand kunnen worden ingeschat, vinden we onrealistisch. Zonder een bezoek aan uw woning, hoe kunnen we de specifieke behoeften en uitdagingen van uw dak begrijpen? 
+                    <br></br>
+                    Het direct beoordelen van uw dak is essentieel. Dit stelt ons in staat om alles tot in detail te plannen, van de beste manier om de zonnepanelen te plaatsen tot hoe we de kabels netjes kunnen wegwerken. Zo'n grondige inspectie voorkomt verrassingen tijdens de installatie, zoals onvoorziene werkzaamheden die de kosten kunnen opdrijven.
                 </p>                    
             </div>
         </div>
 
         {/* Text 2 */}
-        <div className='flex flex-row gap-4 justify-start items-start bg-qoqu_Grey/20 px-4 py-6'>
-            <ForwardBlue />
-            <div className='-mt-2 flex flex-col justify-start items-start gap-1'>
+        <div className='flex flex-row gap-4 justify-start items-start'>
+            <HandPointer />
+            <div className='flex flex-col justify-start items-start gap-1'>
                 <p className='text-black font-bold text-xl'>
-                    Technische expertise
+                    Technische expertise:
                 </p>                    
                 <p className='text-sm text-left'>
-                    Om zonnepanelen te kunnen installeren moet er technische achtergrondkennis zijn van het type dak. Bij een stalen dak is het belangrijk dat er voor de juiste montagewijze wordt gekozen, om lekkages en onnodige schade aan uw dak te voorkomen. Onze installateurs zijn zeer ervaren met stalen daken, en helpen u graag. Stalen daken zijn er in verschillende soorten en maten; zo heb je bijvoorbeeld stalen dakpanplaten, die van een afstandje lijken op dakpannen, maar in werkelijkheid stalen platen zijn
+                    Bij Zongericht hebben we uitgebreide ervaring met het installeren van zonnepanelen op leistenen daken. Leistenen daken zijn uniek en vereisen een speciale benadering, vooral wanneer het gaat om het bevestigen van de dakhaak die de zonnepanelen ondersteunt. Dit proces is zorgvuldig en vereist nauwkeurigheid en aandacht voor detail. 
+                    <br></br>
+                    Om een dakhaak stevig te bevestigen, is het soms noodzakelijk om enkele leistenen tijdelijk te verwijderen. Dit maakt het mogelijk om een solide basis te leggen voor de installatie. In bepaalde gevallen houdt dit ook in dat we de onderliggende structuur van het dak moeten versterken om alles goed te kunnen dragen. 
+                    <br></br>
+                    Na deze belangrijke voorbereidingen plaatsen we de leistenen verzegeld met duurzaam lood terug, met zorg en aandacht voor de oorspronkelijke staat van uw dak. Dit zorgt niet alleen voor een veilige en betrouwbare installatie, maar ook voor een esthetisch aangenaam uitzicht dat naadloos aansluit bij de unieke stijl van uw dak.
                 </p>
             </div>
         </div>
 
         {/* Text 3 */}
-        <div className='flex flex-row gap-4 justify-start items-start bg-qoqu_Grey/20 px-4 py-6 mb-4'>
-            <ForwardBlue />
-            <div className='-mt-2 flex flex-col justify-start items-start gap-1'>
+        <div className='flex flex-row gap-4 justify-start items-start mb-6'>
+            <HandPointer />
+            <div className='flex flex-col justify-start items-start gap-1'>
                 <p className='text-black font-bold text-xl'>
-                    Service:
+                    Service en controle:
                 </p>                    
                 <p className='text-sm text-left'>
-                    Wanneer de zonnepanelen zijn geplaatst, helpen we u met de installatie van de gekozen software, en meldt de hoofdmonteur uw zonnesysteem ter plaatse aan bij Energieleveren.nl. Zo kunt u niet gebruikte energie meteen terug leveren aan het stroomnet en maakt u direct optimaal gebruik van de stroom
+                    We zorgen ervoor dat uw installatie voldoet aan de hoogste normen en regelgevingen. Dit vereist nauwkeurige aandacht en om de kwaliteit te garanderen, wijzen we voor elk project een persoonlijke projectleider toe die u gedurende het hele traject begeleidt. Uw projectleider staat altijd klaar om al uw vragen en zorgen te beantwoorden. Met onze speciaal hiervoor ontworpen systemen voeren zij op afstand toezicht uit op uw installatie om er zeker van te zijn dat alles naadloos verloopt en correct wordt geïnstalleerd. Zelfs de meest kundige monteur kan immers soms iets over het hoofd zien. Na afronding van de installatie inspecteert onze hoofdmonteur samen met u alle details, zodat u onmiddellijk kunt genieten van de voordelen van uw zonnepanelen systeem. 
+                    <br></br>
+                    Daarnaast staan we ook na de installatie voor u klaar. Indien u niet volledig tevreden bent of er onverwachte problemen opduiken, staat ons team direct klaar om een oplossing te bieden.
                 </p>
             </div>
         </div>

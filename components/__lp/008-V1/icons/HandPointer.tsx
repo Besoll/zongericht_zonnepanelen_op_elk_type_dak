@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import handPointer from '@/public/lp/icons/handPointerRed.svg'
+import handPointer from '@/public/lp/icons/handPointerOrange.svg'
 
 const HandPointer = () => (
   <Image 
