@@ -7,7 +7,7 @@ import type { Metadata, Viewport } from 'next'
 const titleZG = 'Zongericht - leistenen ak';
 const colorZG = '#f8452d'; // Orange
 const urlZG = 'https://zonnepanelen.zongericht.nl/leistenen-dak';
-const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Flp%2F007%2F1-big.webp&w=828&q=75';
+const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Flp%2F008-V1%2F1-big.webp&w=828&q=75';
 const descriptionZG = 'Zonnepanelen op uw leistenen dak - Bij Zongericht beschikken wij over de kennis en ervaring die nodig zijn voor het installeren van zonnepanelen op uw leistenen dak.';
 
 const creatorZG = "B. Kavzharadze - QOQU BV";
