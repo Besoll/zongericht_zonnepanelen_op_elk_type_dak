@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import dynamic from 'next/dynamic'
-const FAQBox = dynamic(() => import('@/components/__lp/007/ui/FAQBox'));
+const FAQBox = dynamic(() => import('@/components/__lp/008-V1/ui/FAQBox'));
 
 
 
@@ -12,26 +12,26 @@ export default function FAQ() {
   
   const accordionInput = [
     {
-      title: 'Is een stalen dak geschikt voor zonnepanelen?',
-      subTitle: 'Onze installateurs zijn gespecialiseerd in het plaatsen van zonnepanelen op elk daktype, dus ook op een stalen dak. Belangrijk bij een stalen dak, is dat er voor de juiste montagewijze wordt gekozen. Een stalen dak is gevoeliger dan andere daken voor lekkages. Hier komt onze ervaring en expertise goed van pas: tijdens de wooninspectie kan een adviseur de juiste wijze van monteren in kaart brengen.',
-      subTitle2: '',
+      title: 'Hoe wordt een dakhaak op een leistenen dak gemonteerd?',
+      subTitle: 'Eens we de juiste haken te pakken hebben, kunnen we ze monteren. Hiervoor tekenen we ze eerst uit waar ze moeten komen. We duiden de plekken aan met krijt. Leihaken schroeven we in het dakbeschot, hetgeen betekent dat er gaten in de bezetting komen. Het afdichten van deze gaten is bijzonder bij leistenen omdat wij hiervoor lood gebruiken, meer bepaald met olie geïmpregneerd lood. Die impregnering is nodig opdat het lood geen vlekken maakt als het beregend wordt.',
+      subTitle2: 'Het lood snijden we op maat van de gaten. Zo\'n gat is meestal een 5-tal pannen groot en wordt bedekt met een stuk lood van 25 x 30 centimeter. We plaatsen het lood op het houtwerk en de leihaak op het lood. Zo\'n haak heeft verzonken gaten, waardoor we schroeven in het beschot kunnen draaien. De onderkant wordt ook verlijmd met Tixolphalte. Tixolphalte heeft een enorme kleefkracht en is tegelijk permanent flexibel. Je kunt het zien als een uiterst krachtige kit met een bitumineuze werking. Bovenop de gemonteerde haak leggen we vervolgens nog een laag lood om de constructie waterdicht te maken. Op dit lood leggen we de pannen terug, voorzien van uitsnijdingen waarin de uiteinden van de haken passen. Loden afdichtingen zie je tegenwoordig niet meer zo vaak. Meestal gebruikt men op het leien dak plastic afdichtingen. Plastic gaat echter slechts 10 jaar mee. Het biedt geen lange garantie in afdichtingen van onderconstructies voor zonnepanelen. Lood gaat daarentegen minstens 60 jaar mee.',
       subTitle3: '',
       subTitle4: '',
       id: 1,
       divId: 'accordion1'
     },
     {
-      title: 'Kan de plaatsing van zonnepanelen mijn stalen dak beschadigen?',
-      subTitle: 'Op een stalen dak kunnen zonnepanelen op verschillende manieren geplaatst worden. Tijdens de wooninspectie bekijkt onze adviseur welke methode op uw dak van toepassing kan zijn. Om een voorbeeld te geven, een van de methodes die wij veel toepassen is het plaatsen van zonnepanelen met behulp van aluminium strips. Deze zijn speciaal ontworpen voor het plaatsen van portret- of landschap opstellingen op hellende daken. Om de strips te bevestigen op de stalen plaat gebruiken we smelt schroeven. Zo\'n schroef is voorzien van een waterdichte afsluiting, die we combineren met een EPDM-afdichting. Deze combinatie laat toe om panelen waterdicht en weerbestendig te monteren op de stalen plaat, die eerder gevoelig is voor lekken. Voor minimale impact op uw stalen dak, leiden we de stroom niet eerst naar een omvormer, maar rechtstreeks naar de meterkast. Zo hoeven we geen extra boorgaten maken in het staal om deze kabels in te leiden.',
-      subTitle2: '',
+      title: 'Wat is een kruis verbindende onderconstructie?',
+      subTitle: 'Om de lage drukbelasting van leistenen te counteren gebruiken we een aangepaste onderconstructie voor de zonnepanelen. Slechts een handvol Nederlandse bedrijven gebruikt deze constructie met enige regelmaat, ook zonder dat het om installaties op leistenen daken gaat. Kort gezegd is het een kruisverbinding van rails. We leggen eerst een horizontale reeks rails en plaatsen daar een verticale reeks bovenop. Zo wordt het gewicht van de installatie beter verdeeld: de druk wordt gespreid.',
+      subTitle2: 'De kruisverbinding is meteen ook de stevigste onderconstructie voor zonnepanelen die er is. In landen waar men, meer dan in Nederland, te maken krijgt met extra drukbelasting op daken is het daarom vaak de standaard onderconstructie. Duitsland is een goed voorbeeld.',
       subTitle3: '',
       subTitle4: '',
       id: 2,
       divId: 'accordion2'
     },
     {
-      title: 'Wat is het rendement van zonnepanelen?',
-      subTitle: 'Het rendement van uw zonnepanelen wordt vooral bepaald door de duurzaamheid van de installatie. Een lange levensduur staat u toe om de terugverdientijd te overschrijden en te genieten van een maximaal aantal winstjaren. Wij werken met hoogwaardige en zeer kwalitatieve glas-glas zonnepanelen van onder andere Sonnenstromfabrik, welke een product- en rendementsgarantie bieden van 30 jaar. Deze termijn bestaat, gemiddeld, uit 8 terugverdien-jaren en 22 winstjaren. Voor goedkopere varianten, waaronder meestal glas-folie panelen geldt dat de terugverdientijd een tweetal jaren korter is (gemiddeld 6 jaar); maar de gemiddelde levensduur is minder dan de helft (12 versus 30 jaar). Daarom werken wij alleen met glas-glas panelen: ze laten u veel langer genieten van de rendementsperiode die er echt toe doet.',
+      title: 'Hoe zit het met garantie op zonnepanelen?',
+      subTitle: 'Zongericht werkt alleen met de hoogwaardige glas-glas zonnepanelen van de beste leveranciers. Voorwaardelijk is dat onze leveranciers een product- en rendement garantie bieden van minimaal 30 jaar en voldoen aan de Europese garantiewaarden. Een van onze leveranciers is het Duitse topmerk Sonnenstromfabrik. Deze producent is al 30 jaar marktleider en levert effectieve product- en rendementsgaranties van 30 jaar. Na die tijd behalen deze panelen nog steeds een indrukwekkende 85% van het oorspronkelijke rendement. De uiteindelijke levensduur bedraagt minimaal 50 jaar en Sonnenstromfabrik ontvangt amper schadeclaims. Als Premium Partner kunnen wij u deze glas-glas zonnepanelen bovendien standaard aanbieden met een 10-jarige All-Risk verzekering van ERGO.',
       subTitle2: '',
       subTitle3: '',
       subTitle4: '',
@@ -39,22 +39,13 @@ export default function FAQ() {
       divId: 'accordion3'
     },
     {
-      title: 'Wat zijn veiligheidsrisico’s van zonnepanelen?',
-      subTitle: 'Een erkend installateur van zonnepanelen weet wat hij doet en is bekend met de veiligheidsrisico\'s. We zullen er tijdens de installatie dan ook voor zorgen dat uw zonnesysteem voldoet aan alle veiligheidsnormen. Denkt u bij risico’s niet alleen aan de zonne-installatie zelf, maar ook de dakconstructie. Wat bent u met goede zonnepanelen op een lekkend dak? Met zonnepanelen die loskomen bij de eerste de beste storm? Met een onaangepaste meterkast? Een Zongericht installateur zorgt ervoor dat deze risico\'s geen realiteit worden.',
-      subTitle2: '',
-      subTitle3: '',
-      subTitle4: '',
+      title: 'Waar letten jullie op tijdens een woninginspectie?',
+      subTitle: 'Om het reële rendement van uw zonne-installatie te bepalen let onze adviseur onder andere op de volgende elementen:',
+      subTitle2: 'Locatie en omgeving. De hoeveelheid licht die uw zonnepanelen vangen hangt in grote mate af van uw locatie en omgeving. Waar vangt uw gebouw het zonlicht? Wat is de oriëntatie van uw dak? Zijn er schaduwplekken of ontnemen bomen of gebouwen uw licht? Zijn er obstakels die de zonne- installatie moet zien te overbruggen? Al deze elementen beïnvloeden de samenstelling van uw zonnesysteem en de opstelling van de zonnepanelen, in het bijzonder de hellingsgraad.',
+      subTitle3: 'Meterkast. Om aan de keuring van een zonne-installatie te voldoen, moet het systeem aan heel wat technische eisen en veiligheidswetten voldoen. De meeste parameters kunnen wij daarbij zelf controleren. De norm schrijft voor dat er bij ingrijpende veranderingen, zoals de plaatsing van een nieuwe zonne-installatie, ook een bijpassende groepenkast moet komen. Wij geven advies wat voor u van toepassing is.',
+      subTitle4: 'Bekabeling. Het is belangrijk dat de bekabeling efficiënt, veilig en netjes wordt aangebracht. De inspecteur bekijkt de beste plek voor de bekabeling en hoe de bekabeling correct kan worden beschermd en verstopt. Ook wordt tijdens de inspectie de benodigde kabellengte inzichtelijk, op basis waarvan we dan weer de juist kabeldikte kunnen bepalen. Omvormer. We beoordelen welke omvormer bij uw situatie past en hoe de plaatsing ervan kan anticiperen op eventuele toekomstplannen. De adviseur bekijkt ook of er een werkschakelaar bij de omvormer moet worden geplaatst, waarbij brandveiligheid en ventilatie cruciaal zijn. Daktype en onderconstructie. Een grondige inspectie van het dak is nodig om een offerte op maat te kunnen maken. We zijn de specialist in het plaatsen van glas-glas zonnepanelen op elk daktype. Hier wordt gekeken wat ervoor nodig is om de zonnepanelen op een goede wijze op uw dak te kunnen monteren. Veiligheid, toelichting en advies. Tijdens de inspectie krijgen we een goed beeld van wat er moet gebeuren om de zonnepanelen veilig te installeren. Bijvoorbeeld, is het mogelijk om een dakrandbeveiliging te plaatsen? Is dit geen optie, dan dragen de installateurs valbescherming. Een andere inschatting die gemaakt kan worden, is of er een hoogwerker gebruikt kan worden om de zonnepanelen naar het dak te transporteren. Naast het inspecteren van de woning is dit ook een moment waarop u terecht kunt bij onze adviseur met alle vragen die u hebt',
       id: 4,
       divId: 'accordion4'
-    },
-    {
-      title: 'Hoe zit het met garantie op zonnepanelen?',
-      subTitle: 'Zongericht werkt alleen met de hoogwaardige glas-glas zonnepanelen van de beste leveranciers. Voorwaardelijk is dat onze leveranciers een product- en rendement garantie bieden van minimaal 30 jaar en voldoen aan de Europese garantiewaarden. Een van onze leveranciers is het Duitse topmerk Sonnenstromfabrik. Deze producent is al 30 jaar marktleider en levert effectieve product- en rendementsgaranties van 30 jaar. Na die tijd behalen deze panelen nog steeds een indrukwekkende 85% van het oorspronkelijke rendement. De uiteindelijke levensduur bedraagt minimaal 50 jaar en Sonnenstromfabrik ontvangt amper schadeclaims. Als Premium Partner kunnen wij u deze glas-glas zonnepanelen bovendien standaard aanbieden met een 10-jarige All- Risk verzekering van ERGO.',
-      subTitle2: '',
-      subTitle3: '',
-      subTitle4: '',
-      id: 5,
-      divId: 'accordion5'
     },
     {
       title: 'Geven mijn zonnepanelen ook stroom in de winter?',
@@ -62,17 +53,8 @@ export default function FAQ() {
       subTitle2: '',
       subTitle3: '',
       subTitle4: '',
-      id: 6,
-      divId: 'accordion6'
-    },
-    {
-      title: 'Waar letten jullie op tijdens een wooninspectie?',
-      subTitle: 'Om het reële rendement van uw zonne-installatie te bepalen let onze adviseur op de volgende elementen:',
-      subTitle2: 'Locatie en omgeving. De hoeveelheid licht die uw zonnepanelen vangen hangt in grote mate af van uw locatie en omgeving. Waar vangt uw gebouw het zonlicht? Wat is de oriëntatie van uw dak? Zijn er schaduwplekken of ontnemen bomen of gebouwen uw licht? Zijn er obstakels die de zonne-installatie moet zien te overbruggen? Al deze elementen beïnvloeden de samenstelling van uw zonnesysteem en de opstelling van de zonnepanelen, in het bijzonder de hellingsgraad.',
-      subTitle3: 'Meterkast. Om aan de keuring van een zonne-installatie te voldoen, moet het systeem aan heel wat technische eisen en veiligheidswetten voldoen. De meeste parameters kunnen wij daarbij zelf controleren. De norm schrijft voor dat er bij ingrijpende veranderingen, zoals de plaatsing van een nieuwe zonne-installatie, ook een bijpassende groepenkast moet komen. Wij geven advies wat voor u van toepassing is.',
-      subTitle4: 'Bekabeling. Het is belangrijk dat de bekabeling efficiënt, veilig en netjes wordt aangebracht. De inspecteur bekijkt de beste plek voor de bekabeling en hoe de bekabeling correct kan worden beschermd en verstopt. Ook wordt tijdens de inspectie de benodigde kabellengte inzichtelijk, op basis waarvan we dan weer de juist kabeldikte kunnen bepalen. Omvormer. We beoordelen welke omvormer bij uw situatie past en hoe de plaatsing ervan kan anticiperen op eventuele toekomstplannen. De adviseur bekijkt ook of er een werkschakelaar bij de omvormer moet worden geplaatst, waarbij brandveiligheid en ventilatie cruciaal zijn.  Daktype en onderconstructie. Een grondige inspectie van het dak is nodig om een offerte op maat te kunnen maken. We zijn de specialist in het plaatsen van glas-glas zonnepanelen op elk daktype.  Veiligheid, toelichting en advies. Tijdens de inspectie krijgen we een goed beeld van wat er moet gebeuren om de zonnepanelen veilig te installeren. Bijvoorbeeld, is het mogelijk om een dakrandbeveiliging te plaatsen? Is dit geen optie, dan dragen de installateurs valbescherming. Een andere inschatting die gemaakt kan worden, is of er een hoogwerker gebruikt kan worden om de zonnepanelen naar het dak te transporteren. Naast het inspecteren van de woning is dit ook een moment waarop u terecht kunt bij onze adviseur met alle vragen die u hebt.',
-      id: 7,
-      divId: 'accordion7'
+      id: 5,
+      divId: 'accordion5'
     },
     // {
     //   title: '',

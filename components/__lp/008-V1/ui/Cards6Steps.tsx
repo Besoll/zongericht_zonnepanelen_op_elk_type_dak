@@ -1,10 +1,10 @@
 import dynamic from 'next/dynamic'
-const Icon_1_Instalation = dynamic(() => import('@/components/__lp/007/icons/icons-steps/Icon_1_Instalation'))
-const Icon_2_freeInspection = dynamic(() => import('@/components/__lp/007/icons/icons-steps/Icon_2_freeInspection'))
-const Icon_3_Monitoring = dynamic(() => import('@/components/__lp/007/icons/icons-steps/Icon_3_Monitoring'))
-const Icon_4_Customers = dynamic(() => import('@/components/__lp/007/icons/icons-steps/Icon_4_Customers'))
-const Icon_5_Installers = dynamic(() => import('@/components/__lp/007/icons/icons-steps/Icon_5_Installers'))
-const Icon_6_allRoof = dynamic(() => import('@/components/__lp/007/icons/icons-steps/Icon_6_allRoof'))
+const Icon_1_Instalation = dynamic(() => import('@/components/__lp/008-V1/icons/icons-steps/Icon_1_Instalation'))
+const Icon_2_freeInspection = dynamic(() => import('@/components/__lp/008-V1/icons/icons-steps/Icon_2_freeInspection'))
+const Icon_3_Monitoring = dynamic(() => import('@/components/__lp/008-V1/icons/icons-steps/Icon_3_Monitoring'))
+const Icon_4_Customers = dynamic(() => import('@/components/__lp/008-V1/icons/icons-steps/Icon_4_Customers'))
+const Icon_5_Installers = dynamic(() => import('@/components/__lp/008-V1/icons/icons-steps/Icon_5_Installers'))
+const Icon_6_allRoof = dynamic(() => import('@/components/__lp/008-V1/icons/icons-steps/Icon_6_allRoof'))
 
 const Cards6Steps = () => {
   return (

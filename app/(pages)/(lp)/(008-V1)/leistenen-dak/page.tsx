@@ -7,14 +7,15 @@ const StatisticsCards = dynamic(() => import("@/components/__lp/008-V1/Statistic
 const Section2 = dynamic(() => import("@/components/__lp/008-V1/Section2"))
 const Section3 = dynamic(() => import("@/components/__lp/008-V1/Section3"))
 const Section4 = dynamic(() => import("@/components/__lp/008-V1/Section4"))
+const Section5 = dynamic(() => import("@/components/__lp/008-V1/Section5"))
 const SectionCTA = dynamic(() => import("@/components/__lp/008-V1/SectionCTA"))
 const Section6Steps = dynamic(() => import("@/components/__lp/008-V1/Section6Steps"))
 const Partners6Logos = dynamic(() => import("@/components/__lp/008-V1/Partners6Logos"))
-const Tag = dynamic(() => import("@/components/__lp/008-V1/ui/RoofTag"))
+const RoofTag = dynamic(() => import("@/components/__lp/008-V1/ui/RoofTag"))
 const FAQ = dynamic(() => import("@/components/__lp/008-V1/FAQ"))
 const TestimonialsSmall = dynamic(() => import("@/components/__lp/008-V1/TestimonialsSmall"))
 const TestimonialsBig = dynamic(() => import("@/components/__lp/008-V1/TestimonialsBig"))
-const CtaButton = dynamic(() => import('@/components/__lp/008-V1/ctaButtons/CtaButton7'))
+const CtaButton2 = dynamic(() => import('@/components/__lp/008-V1/ctaButtons/CtaButton2'))
 
 
 
@@ -39,7 +40,7 @@ const page = () => {
         <div className='w-[95%] py-6 md:py-16 px-4 md:px-8 flex flex-col 
           justify-center items-center max-w-[1440px] gap-3 md:gap-4 scroll-mt-4
           md:scroll-mt-24 snap-start scroll-smooth md:scroll-auto' id="schouwingForm">
-            <Tag />
+            <RoofTag />
             <p className='w-fit text-black text-4xl font-semibold text-center pb-4 md:pb-8 '>
               Vraag een woninginspectie aan
             </p>
@@ -57,22 +58,37 @@ const page = () => {
       </section>
 
 
-      <section className='w-full h-auto flex justify-center items-center flex-col py-16 md:py-32' id='StatisticsCards' >
-        <StatisticsCards />        
+      <section className='w-full h-auto flex justify-center items-center scroll-smooth md:scroll-auto text-white 
+                          smSP:bg-[url("/lp/008-V1/bg-2-small.webp")] mdSP:bg-[url("/lp/008-V1/bg-2.webp")] lgSP:bg-[url("/lp/008-V1/bg-2-big.webp")] bg-no-repeat bg-cover bg-center
+                          ' id='SectionCTA' >
+        <div className='w-full h-auto flex justify-center items-center bg-gradient-to-t md:bg-gradient-to-l from-transparent to-black/80 py-16 md:py-32 '>
+          <SectionCTA />     
+        </div>
       </section>
-      
 
       <section className='w-full h-auto flex justify-center items-center text-black py-16 md:py-32' id='section3' >
           <Section3 />
       </section>
 
 
+      <section className='w-full h-auto flex justify-center items-center text-black py-16 md:py-32' id='section4' >
+          <Section4 />
+      </section>
+
+
       <section className='w-full h-auto flex justify-center items-center scroll-smooth md:scroll-auto text-white 
-                          smSP:bg-[url("/lp/008-V1/bg-1-small.webp")] mdSP:bg-[url("/lp/008-V1/bg-1.webp")] lgSP:bg-[url("/lp/008-V1/bg-1-big.webp")] bg-no-repeat bg-cover bg-center
+                          smSP:bg-[url("/lp/008-V1/bg-3-small.webp")] mdSP:bg-[url("/lp/008-V1/bg-3.webp")] lgSP:bg-[url("/lp/008-V1/bg-3-big.webp")] bg-no-repeat bg-cover bg-center
                           ' id='SectionCTA' >
-        <div className='w-full h-auto flex justify-center items-center bg-gradient-to-t md:bg-gradient-to-l from-transparent to-black py-16 md:py-32 '>
+        <div className='w-full h-auto flex justify-center items-center bg-gradient-to-t md:bg-gradient-to-l from-transparent to-black/80 py-16 md:py-32 '>
           <SectionCTA />     
         </div>
+      </section>
+
+      <section 
+        className='w-full flex justify-center items-centerflex-col h-auto py-16 md:py-32 bg-qoqu_Orange/10 text-black' 
+        id='testimonialsSmall' 
+      >
+        <TestimonialsSmall />        
       </section>
 
       <section 
@@ -82,36 +98,20 @@ const page = () => {
         <TestimonialsBig />        
       </section>
 
-
-      <section 
-        className='w-full flex justify-center items-centerflex-col h-auto py-16 md:py-32 bg-qoqu_Grey/20 text-black' 
-        id='testimonialsSmall' 
-      >
-        <TestimonialsSmall />        
+      <section className='w-full h-auto flex justify-center items-center flex-col bg-qoqu_Orange/10' id='Section6Steps' >
+        <Section5 />        
       </section>
 
-      <section className='w-full h-auto flex justify-center items-center flex-col py-16 md:py-32' id='Section6Steps' >
-        <Section4 />        
-      </section>
-
-
-      <section className='w-full h-auto flex justify-center items-center scroll-smooth md:scroll-auto text-white 
-                          smSP:bg-[url("/lp/008-V1/bg-2-small.webp")] mdSP:bg-[url("/lp/008-V1/bg-2.webp")] lgSP:bg-[url("/lp/008-V1/bg-2-big.webp")] bg-no-repeat bg-cover bg-center
-                          ' id='SectionCTA' >
-        <div className='w-full h-auto flex justify-center items-center bg-gradient-to-t md:bg-gradient-to-l from-transparent to-black py-16 md:py-32 '>
-          <SectionCTA />     
-        </div>
-      </section>
-
-      <section className='w-full max-w-[1440px] h-auto flex flex-col justify-center items-center 
+      <section className='w-full max-w-[1440px] h-auto flex flex-col md:flex-row justify-center items-center 
                           gap-8 md:gap-12 py-8 md:py-12     
                           px-4 md:px-6 pb-16 md:pb-32
                           scroll-mt-16 snap-start scroll-smooth md:scroll-auto' id='faq'>   
-        <div className='flex flex-col justify-center items-center gap-6 md:gap-8 px-4 lg:px-6 scroll-mt-4 snap-start my-12 pt-4 md:pt-12' id="accordionstart">
-          <Tag />
+        <div className='flex flex-col justify-center items-center md:items-start gap-6 md:gap-8 px-4 lg:px-6 scroll-mt-4 snap-start my-12 pt-4 md:pt-12' id="accordionstart">
+          <RoofTag />
           <h2 className='heading3 md:heading2 font-semibold text-center md:text-left text_black text-black'>
             Veelgestelde vragen:
-          </h2>  
+          </h2> 
+          <CtaButton2 /> 
         </div>  
         <FAQ />
       </section>

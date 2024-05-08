@@ -17,7 +17,7 @@ const Section1 = () => {
                 {/* 3 size image - mobile-tablet-desktop */}
                 <Image 
                     src='/lp/008-V1/1-big.webp'
-                    alt='glas glas zonnepanelen op parabool dak 1'
+                    alt='glas glas zonnepanelen op  leistenen dak 1'
                     width={400}
                     height={600}
                     className="object-cover h-auto w-full rounded-[0]
@@ -27,7 +27,7 @@ const Section1 = () => {
                 />
                 <Image 
                     src='/lp/008-V1/1.webp'
-                    alt='glas glas zonnepanelen op parabool dak 1'
+                    alt='glas glas zonnepanelen op  leistenen dak 1'
                     width={400}
                     height={600}
                     className="object-cover h-auto w-full rounded-[0]
@@ -35,7 +35,7 @@ const Section1 = () => {
                 />
                 <Image 
                     src='/lp/008-V1/1-small.webp'
-                    alt='glas glas zonnepanelen op parabool dak 1'
+                    alt='glas glas zonnepanelen op  leistenen dak 1'
                     width={400}
                     height={600}
                     className="object-cover h-auto w-full shadow-lg rounded-[0] flex md:hidden"

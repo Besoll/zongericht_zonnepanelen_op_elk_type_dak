@@ -1,9 +1,9 @@
 
 
 import dynamic from 'next/dynamic'
-const SwiperBig = dynamic(() => import("@/components/__lp/007/ui/SwiperBig"))
-const CtaButton = dynamic(() => import('@/components/__lp/007/ctaButtons/CtaButton3'))
-const Tag = dynamic(() => import('@/components/__lp/007/ui/RoofTag'))
+const SwiperBig = dynamic(() => import("@/components/__lp/008-V1/ui/SwiperBig"))
+const CtaButton = dynamic(() => import('@/components/__lp/008-V1/ctaButtons/CtaButton2'))
+const Tag = dynamic(() => import('@/components/__lp/008-V1/ui/CompanyTag'))
 
 const TestimonialsBig = () => {
   return (

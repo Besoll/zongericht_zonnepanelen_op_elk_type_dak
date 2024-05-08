@@ -11,9 +11,9 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules'
 
 import dynamic from 'next/dynamic'
-const Stars5 = dynamic(() => import("@/components/__lp/007/icons/Stars5"))
-const SwiperButtonNext = dynamic(() => import("@/components/__lp/007/icons/SwiperButtonNext"))
-const SwiperButtonPrev = dynamic(() => import("@/components/__lp/007/icons/SwiperButtonPrev"))
+const Stars5 = dynamic(() => import("@/components/__lp/008-V1/icons/Stars5"))
+const SwiperButtonNext = dynamic(() => import("@/components/__lp/008-V1/icons/SwiperButtonNext"))
+const SwiperButtonPrev = dynamic(() => import("@/components/__lp/008-V1/icons/SwiperButtonPrev"))
 
 
 import imageProject1 from "@/public/lp/Reviews/1-4.webp"
@@ -71,7 +71,7 @@ export default function SwiperSmall() {
 
         {/* <style jsx global>{`
             .swiper-pagination-bullet-active {
-              background: #ED1D24;
+              background: #f8452d;
             }
           `}
         </style> */}
@@ -160,10 +160,10 @@ export default function SwiperSmall() {
         </Swiper>
 
         <div className='w-full flex flex-row-reverse justify-center items-center gap-4 mt-4 md:hidden text-qoqu_Green'>
-          <div className='swiper-button-next-small bg-qoqu_Night_Blue rounded-none pl-3 pr-5 py-6 text-center shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+          <div className='swiper-button-next-small bg-qoqu_Orange rounded-none pl-3 pr-5 py-6 text-center shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
             <SwiperButtonNext />
           </div>
-          <div className='swiper-button-prev-small bg-qoqu_Night_Blue rounded-none pl-3 pr-5 py-6 text-ceter shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+          <div className='swiper-button-prev-small bg-qoqu_Orange rounded-none pl-3 pr-5 py-6 text-ceter shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
             <SwiperButtonPrev />
           </div>
         </div>
