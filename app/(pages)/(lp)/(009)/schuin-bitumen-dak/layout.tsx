@@ -1,14 +1,14 @@
 import React from 'react'
-import Footer from '@/components/__lp/008-V1/Footer'
-import Navbar from '@/components/__lp/008-V1/Navbar'
+import Footer from '@/components/__lp/009/Footer'
+import Navbar from '@/components/__lp/009/Navbar'
 
 import type { Metadata, Viewport } from 'next'
 
-const titleZG = 'Zongericht - leistenen dak';
-const colorZG = '#f8452d'; // Orange
-const urlZG = 'https://zonnepanelen.zongericht.nl/leistenen-dak';
+const titleZG = 'Zongericht - schuin bitumen dak';
+const colorZG = '#C2C5CC'; // Grey
+const urlZG = 'https://zonnepanelen.zongericht.nl/schuin-bitumen-dak';
 const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Flp%2F008-V1%2F1-big.webp&w=828&q=75';
-const descriptionZG = 'Zonnepanelen op uw leistenen dak - Bij Zongericht beschikken wij over de kennis en ervaring die nodig zijn voor het installeren van zonnepanelen op uw leistenen dak.';
+const descriptionZG = 'Bij Zongericht beschikken wij over de kennis en ervaring die nodig zijn voor het installeren van zonnepanelen op uw schuin bitumen dak.';
 
 const creatorZG = "B. Kavzharadze - QOQU BV";
 
