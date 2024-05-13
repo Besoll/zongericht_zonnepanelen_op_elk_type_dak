@@ -7,7 +7,7 @@ const CtaButton002 = dynamic(() => import('@/components/home/DaktypesSectioned/C
 
 const Section1 = () => {
   return (
-    <Link href="/schuin-pvc-dak" className='w-full h-auto flex justify-center items-center text-white
+    <Link href="/plat-dak" className='w-full h-auto flex justify-center items-center text-white
                     smSP:bg-[url("/lp/002/1-small.webp")] 
                     mdSP:bg-[url("/lp/002/1.webp")] 
                     lgSP:bg-[url("/lp/002/1-big.webp")] bg-no-repeat bg-cover bg-center rounded-2xl
