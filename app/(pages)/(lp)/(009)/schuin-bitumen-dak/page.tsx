@@ -1,8 +1,9 @@
 
 import dynamic from 'next/dynamic'
 const Hero = dynamic(() => import("@/components/__lp/009/Hero"))
-const Form = dynamic(() => import("@/components/__lp/009/Form"))
+// const Form = dynamic(() => import("@/components/__lp/009/Form"))
 const Section1 = dynamic(() => import("@/components/__lp/009/Section1"))
+const SectionForm = dynamic(() => import("@/components/__lp/009/SectionForm"))
 const StatisticsCards = dynamic(() => import("@/components/__lp/009/StatisticsCards"))
 const Section2 = dynamic(() => import("@/components/__lp/009/Section2"))
 const Section3 = dynamic(() => import("@/components/__lp/009/Section3"))
@@ -40,16 +41,8 @@ const page = () => {
       </section>
 
 
-      <section className='flex justify-center items-center w-full flex-col h-auto py-6' id='sectionform' >
-        <div className='w-[95%] py-6 md:py-16 px-4 md:px-8 flex flex-col 
-          justify-center items-center max-w-[1440px] gap-3 md:gap-4 scroll-mt-4
-          md:scroll-mt-24 snap-start scroll-smooth md:scroll-auto' id="schouwingForm">
-            <RoofTag />
-            <p className='w-fit text-black text-4xl font-semibold text-center pb-4 md:pb-8 '>
-              Vraag een woninginspectie aan
-            </p>
-            <Form />
-        </div>       
+      <section className='w-full h-auto flex justify-center items-center py-16 md:py-32 bg-qoqu_Dark_Grey text-white' id='sectionform' >
+        <SectionForm />
       </section>
 
 
