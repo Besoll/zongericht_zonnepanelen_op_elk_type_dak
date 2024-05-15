@@ -106,8 +106,8 @@ const ZofoForm: React.FC = () => {
         <input type="hidden" name="SingleLine12" value="[landingpagegroup]" />
         <input type="hidden" name="PhoneNumber_countrycodeval" value="+31" />
         <input type="hidden" name="SingleLine3" value="Zongericht" />
-        <input type="hidden" name="SingleLine5" value="https://zonnepanelen.zongericht.nl/leistenen-dak" />
-        <input type="hidden" name="SingleLine6" value="Next.JS LP-008-V1 - New technology - Leistenen Dak" />
+        <input type="hidden" name="SingleLine5" value="https://zonnepanelen.zongericht.nl/schuin-bitumen-dak" />
+        <input type="hidden" name="SingleLine6" value="Next.JS LP-009 - New technology - Schuin bitumen Dak" />
         <input type="hidden" name="SingleLine4" value="" />
 
         <div className="flex flex-col items-center justify-center w-full gap-1 md:gap-2 text-white text-xl">

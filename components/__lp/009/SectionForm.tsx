@@ -19,7 +19,7 @@ const SectionForm = () => {
             <div className='w-full md:min-w-[300px] lg:min-w-[450px] h-auto
             flex flex-col relative justify-center items-center ml-4 mb-6'>
 
-                <div className='w-full h-full text-qoqu_Grey outline outline-2 rounded-none rounded-t-full absolute top-4 right-4 z-0' />
+                <div className='w-full h-full text-qoqu_Grey outline outline-2 rounded-none rounded-t-full absolute right-4 z-0' />
                 {/* 3 size image - mobile-tablet-desktop */}
                 <Image 
                     src='/lp/009/3-big.webp'

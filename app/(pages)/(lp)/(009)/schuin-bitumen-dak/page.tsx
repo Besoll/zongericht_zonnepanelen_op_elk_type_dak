@@ -46,7 +46,6 @@ const page = () => {
       </section>
 
 
-
       <section className='w-full h-auto flex justify-center items-center py-16 md:py-32 text-black' id='section2' >
           <Section2 />
       </section>
