@@ -4,30 +4,24 @@ const HandPointer = dynamic(() => import('@/components/__lp/009/icons/HandPointe
 const SectionHand = () => {
   return (
 
-    <div className='w-full h-auto flex flex-col xxs:flex-row gap-4 px-6 py-6  bg-qoqu_Dark_Grey text-white rounded-xl'>
-        <div className='w-full  h-auto flex flex-col gap-4'>
-            <div className='flex flex-row gap-2 justify-start items-center'>
-                <HandPointer />
-                <p className='text-base'>
-                    Installatie binnen 4 weken
-                </p>  
+    <div className='w-full h-auto flex flex-col text-white rounded-xl'>
+        <div className='w-full  h-auto flex flex-col gap-4 relative'>
+        <div className='w-full h-full bg-qoqu_Dark_Grey rounded-xl absolute top-2 left-2' />
+            <div className='flex flex-row gap-2 justify-start items-center bg-black rounded-xl px-4 py-4 relative'>
+                <p className='text-6xl'>
+                    01
+                </p> 
+                <div className='w-full flex flex-col justify-start items-start'>
+                    <p className='text-xl'>
+                        Gratis woninginspectie
+                    </p>
+                    <p className='text-base'>
+                        Wij bieden een gratis en vrijblijvende woninginspectie aan. Onze adviseur komt persoonlijk bij u langs, neemt alle tijd om uw vragen te beantwoorden, en stelt  a een zorgvuldige inspectie van uw bitumen dak een persoonlijke offerte op maat voor u op.
+                    </p>    
+                </div> 
             </div>
+            
 
-            {/* Text 2 */}
-            <div className='flex flex-row gap-2 justify-start items-center'>
-                <HandPointer />
-                <p className='text-base'>
-                    Gratis woninginspectie
-                </p>
-            </div>
-
-            {/* Text 3 */}
-            <div className='flex flex-row gap-2 justify-start items-center'>
-                <HandPointer />
-                <p className='text-base'>
-                    Monitorring systee
-                </p>
-            </div>
         </div>       
 
     </div>
