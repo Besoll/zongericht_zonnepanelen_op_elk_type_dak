@@ -7,7 +7,7 @@ import type { Metadata, Viewport } from 'next'
 const titleZG = 'Zongericht - schuin bitumen dak';
 const colorZG = '#C2C5CC'; // Grey
 const urlZG = 'https://zonnepanelen.zongericht.nl/schuin-bitumen-dak';
-const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Flp%2F008-V1%2F1-big.webp&w=828&q=75';
+const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Flp%2F009%2F1-big.webp&w=828&q=75';
 const descriptionZG = 'Bij Zongericht beschikken wij over de kennis en ervaring die nodig zijn voor het installeren van zonnepanelen op uw schuin bitumen dak.';
 
 const creatorZG = "B. Kavzharadze - QOQU BV";
