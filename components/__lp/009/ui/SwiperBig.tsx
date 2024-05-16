@@ -10,9 +10,9 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination, EffectCoverflow, Mousewheel, Keyboard } from 'swiper/modules'
 
 import dynamic from 'next/dynamic'
-const Stars5 = dynamic(() => import("@/components/__lp/008-V1/icons/Stars5"))
-const SwiperButtonNext = dynamic(() => import("@/components/__lp/008-V1/icons/SwiperButtonNext"))
-const SwiperButtonPrev = dynamic(() => import("@/components/__lp/008-V1/icons/SwiperButtonPrev"))
+const Stars5 = dynamic(() => import("@/components/__lp/009/icons/Stars5"))
+const SwiperButtonNext = dynamic(() => import("@/components/__lp/009/icons/SwiperButtonNext"))
+const SwiperButtonPrev = dynamic(() => import("@/components/__lp/009/icons/SwiperButtonPrev"))
 
 
 
@@ -107,7 +107,7 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
       <div className='w-full h-auto flex flex-col gap-6 md:gap-12 pb-8 md:pb-16'>
         <style jsx global>{`
           .swiper-pagination-bullet-active {
-            background: #f8452d;
+            background: #373d4c;
           }
         `}
         </style>
@@ -159,19 +159,19 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
           <SwiperSlide key={index}>
             <div className='w-full flex justify-center items-center relative mb-8 group transition duration-300 ease-in-out md:cursor-pointer'>
               <Image src={slide.big} alt={`${slide.title} big`} width={510} height={700} 
-                className='hidden xl:flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-none'/>
+                className='hidden xl:flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-xl'/>
               <Image src={slide.normal} alt={`${slide.title} normal`} width={510} height={700} 
-                className='hidden md:flex xl:hidden justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-none'/>
+                className='hidden md:flex xl:hidden justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-xl'/>
               <Image src={slide.small} alt={`${slide.title} small`} width={510} height={700} 
-                className='md:hidden flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-none'/>
+                className='md:hidden flex justify-center items-center w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto object-cover rounded-xl'/>
 
-              <div className="w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto flex justify-center items-center opacity-75 md:opacity-0 md:group-hover:opacity-100 absolute bg-black bg-opacity-50 object-cover rounded-none transition duration-300 ease-in-out md:cursor-pointer">
+              <div className="w-[85%] min-w-[300px] md:w-full max-w-[450px] h-auto flex justify-center items-center opacity-75 md:opacity-0 md:group-hover:opacity-100 absolute bg-black bg-opacity-50 object-cover rounded-xl transition duration-300 ease-in-out md:cursor-pointer">
                   <Image 
                         src={daveCover}
                         alt={`${slide.title} dave cover`}
                         width={510}
                         height={700}
-                        className="w-full h-auto rounded-none opacity-40"
+                        className="w-full h-auto rounded-xl opacity-40"
                     />
                 <div className="absolute flex flex-col gap-4 w-full h-fit justify-start items-center px-4 py-2">
                   <Stars5 />
@@ -186,10 +186,10 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
         </Swiper>
 
         <div className='w-full flex flex-row-reverse justify-center items-center gap-4 mt-4 md:-mt-6'>
-          <div className='swiper-button-next-big bg-qoqu_Orange rounded-none pl-3 pr-5 py-6 text-center shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+          <div className='swiper-button-next-big bg-qoqu_Dark_Grey rounded-full pl-3 pr-5 py-6 text-center shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
             <SwiperButtonNext />
           </div>
-          <div className='swiper-button-prev-big bg-qoqu_Orange rounded-none pl-3 pr-5 py-6 text-ceter shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+          <div className='swiper-button-prev-big bg-qoqu_Dark_Grey rounded-full pl-3 pr-5 py-6 text-ceter shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
             <SwiperButtonPrev />
           </div>
         </div>

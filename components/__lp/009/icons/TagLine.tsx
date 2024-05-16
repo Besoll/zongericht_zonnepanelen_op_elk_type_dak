@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import tagLine from '@/public/lp/icons/tagLineOrange.svg'
+import tagLine from '@/public/lp/icons/tagLineDarkGrey.svg'
 
 const TagLine = () => (
   <Image 

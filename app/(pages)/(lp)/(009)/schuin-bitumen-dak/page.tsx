@@ -52,33 +52,16 @@ const page = () => {
 
 
       <section className='w-full h-auto flex justify-center items-center scroll-smooth md:scroll-auto text-white 
-                          smSP:bg-[url("/lp/009/bg-2-small.webp")] mdSP:bg-[url("/lp/009/bg-2.webp")] lgSP:bg-[url("/lp/009/bg-2-big.webp")] bg-no-repeat bg-cover bg-center
+                          smSP:bg-[url("/lp/009/bg-small.webp")] mdSP:bg-[url("/lp/009/bg.webp")] lgSP:bg-[url("/lp/009/bg-big.webp")] bg-no-repeat bg-cover bg-center
                           ' id='SectionCTA' >
         <div className='w-full h-auto flex justify-center items-center bg-gradient-to-t md:bg-gradient-to-l from-transparent to-black/80 py-16 md:py-32 '>
           <SectionCTA />     
         </div>
       </section>
 
-      <section className='w-full h-auto flex justify-center items-center text-black py-16 md:py-32' id='section3' >
-          <Section3 />
-      </section>
-
-
-      <section className='w-full h-auto flex justify-center items-center text-black py-16 md:py-32' id='section4' >
-          <Section4 />
-      </section>
-
-
-      <section className='w-full h-auto flex justify-center items-center scroll-smooth md:scroll-auto text-white 
-                          smSP:bg-[url("/lp/009/bg-3-small.webp")] mdSP:bg-[url("/lp/009/bg-3.webp")] lgSP:bg-[url("/lp/009/bg-3-big.webp")] bg-no-repeat bg-cover bg-center
-                          ' id='SectionCTA' >
-        <div className='w-full h-auto flex justify-center items-center bg-gradient-to-t md:bg-gradient-to-l from-transparent to-black/80 py-16 md:py-32 '>
-          <SectionCTA />     
-        </div>
-      </section>
 
       <section 
-        className='w-full flex justify-center items-centerflex-col h-auto py-16 md:py-32 bg-qoqu_Orange/10 text-black' 
+        className='w-full flex justify-center items-centerflex-col h-auto py-16 md:py-32 bg-qoqu_Grey/30 text-black' 
         id='testimonialsSmall' 
       >
         <TestimonialsSmall />        
@@ -91,7 +74,7 @@ const page = () => {
         <TestimonialsBig />        
       </section>
 
-      <section className='w-full h-auto flex justify-center items-center flex-col bg-qoqu_Orange/10' id='Section6Steps' >
+      <section className='w-full h-auto flex justify-center items-center flex-col bg-qoqu_Grey/30' id='Section6Steps' >
         <Section5 />        
       </section>
 
