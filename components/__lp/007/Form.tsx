@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, ChangeEvent, FormEvent, useEffect } from 'react';
+import React, { useState, ChangeEvent, FormEvent } from 'react';
 
 interface FormFields {
   SingleLine: string;
@@ -28,10 +28,6 @@ const ZofoForm: React.FC = () => {
   const [formValues, setFormValues] = useState<FormFields>(initialFormValues);
   const [formErrors, setFormErrors] = useState<FormErrors>({});
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
-
-  // useEffect(() => {
-  //   // This will now handle client-specific initializations
-  // }, []);
 
   const validateField = (name: string, value: string) => {
     let error = '';
@@ -69,10 +65,16 @@ const ZofoForm: React.FC = () => {
 
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
-    const hasErrors = Object.values(formErrors).some(error => error !== '');
-    if (hasErrors) return;
+
+    // Check if there are any errors
+    const hasErrors = Object.values(formErrors).some((error) => error !== '');
+    if (hasErrors) {
+      return; // Prevent submission if there are errors
+    }
+
     setIsSubmitted(true);
-    // Handle form submission logic here
+    // Submit form data
+    // You can implement form submission logic here, e.g., using fetch API or Axios to post data asynchronously.
   };
 
   const isFormValid = Object.values(formErrors).every((error) => error === '') && Object.values(formValues).every(value => value !== '');
@@ -91,7 +93,6 @@ const ZofoForm: React.FC = () => {
         acceptCharset="UTF-8" 
         encType="multipart/form-data" 
         className="flex flex-col items-center justify-center gap-4 mx-auto w-full"
-        onSubmit={handleSubmit}
         
       >
         {/* Hidden Inputs */}
