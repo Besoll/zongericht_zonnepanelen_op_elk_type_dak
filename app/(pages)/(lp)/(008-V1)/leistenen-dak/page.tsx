@@ -3,14 +3,14 @@ import dynamic from 'next/dynamic'
 const Hero = dynamic(() => import("@/components/__lp/008-V1/Hero"))
 const Form = dynamic(() => import("@/components/__lp/008-V1/Form"))
 const Section1 = dynamic(() => import("@/components/__lp/008-V1/Section1"))
-const StatisticsCards = dynamic(() => import("@/components/__lp/008-V1/StatisticsCards"))
+// const StatisticsCards = dynamic(() => import("@/components/__lp/008-V1/StatisticsCards"))
 const Section2 = dynamic(() => import("@/components/__lp/008-V1/Section2"))
 const Section3 = dynamic(() => import("@/components/__lp/008-V1/Section3"))
 const Section4 = dynamic(() => import("@/components/__lp/008-V1/Section4"))
 const Section5 = dynamic(() => import("@/components/__lp/008-V1/Section5"))
 const SectionCTA = dynamic(() => import("@/components/__lp/008-V1/SectionCTA"))
-const Section6Steps = dynamic(() => import("@/components/__lp/008-V1/Section6Steps"))
-const Partners6Logos = dynamic(() => import("@/components/__lp/008-V1/Partners6Logos"))
+// const Section6Steps = dynamic(() => import("@/components/__lp/008-V1/Section6Steps"))
+// const Partners6Logos = dynamic(() => import("@/components/__lp/008-V1/Partners6Logos"))
 const RoofTag = dynamic(() => import("@/components/__lp/008-V1/ui/RoofTag"))
 const FAQ = dynamic(() => import("@/components/__lp/008-V1/FAQ"))
 const TestimonialsSmall = dynamic(() => import("@/components/__lp/008-V1/TestimonialsSmall"))
@@ -24,16 +24,9 @@ const CtaButton2 = dynamic(() => import('@/components/__lp/008-V1/ctaButtons/Cta
 
 const page = () => {
   return (
-    <main className='mx-auto w-full flex flex-col justify-center items-center bg-white text-black 
-                    snap-y scroll-smooth md:scroll-auto scroll-mt-4 snap-start'>
-
-      <header className='w-full h-auto flex justify-center items-center -mt-20 text-white
-                        smSP:bg-[url("/lp/008-V1/bg-1-small.webp")] 
-                        mdSP:bg-[url("/lp/008-V1/bg-1.webp")] 
-                        lgSP:bg-[url("/lp/008-V1/bg-1-big.webp")] bg-no-repeat bg-cover bg-center'>
-        <div className='w-full h-auto flex justify-center items-center bg-black/60'>
-          <Hero />          
-        </div>
+    <main className='mx-auto w-full flex flex-col justify-center items-center bg-white text-black snap-y scroll-smooth md:scroll-auto scroll-mt-4 snap-start'>
+      <header className='w-full h-auto flex justify-center items-center -mt-20'>
+        <Hero />
       </header>
 
       <section className='flex justify-center items-center w-full flex-col h-auto py-6' id='sectionform' >

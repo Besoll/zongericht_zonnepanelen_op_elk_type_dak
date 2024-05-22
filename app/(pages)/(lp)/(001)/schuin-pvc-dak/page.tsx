@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic'
 const Hero = dynamic(() => import("@/components/__lp/001/Hero"))
 const Form = dynamic(() => import("@/components/__lp/001/Form"))
 const Partners6Logos = dynamic(() => import("@/components/__lp/001/Partners6Logos"))
-const ProductUSP = dynamic(() => import("@/components/zonnepanelen/ProductUSP"))
+// const ProductUSP = dynamic(() => import("@/components/zonnepanelen/ProductUSP"))
 const Section1 = dynamic(() => import("@/components/__lp/001/Section1"))
 const Section2 = dynamic(() => import("@/components/__lp/001/Section2"))
 const SectionCTA = dynamic(() => import("@/components/__lp/001/SectionCTA"))
