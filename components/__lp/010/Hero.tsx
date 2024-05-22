@@ -11,7 +11,7 @@ const Hero = () => {
     <div className='w-full max-w-[1440px] flex flex-col md:flex-row justify-center items-center
                     mt-12 px-4 md:px-8 gap-8 md:gap-4  text-center py-8 '>
 
-      <div className='w-full max-w-[1400px] h-auto flex flex-col justify-center items-center md:justify-start md:items-start gap-4 text-black'>
+      <div className='w-full max-w-[1400px] h-auto flex flex-col justify-center items-center md:justify-start md:items-start pr-0 lg:pr-6 xl:pr-2 gap-4 text-black'>
         <Tag />
         <h1 className='w-full text-4xl md:text-6xl lg:text-7xl font-extrabold letters text-center md:text-left'>
           Duitse zonnepanelen op uw <br></br>         

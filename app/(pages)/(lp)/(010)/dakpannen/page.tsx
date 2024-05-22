@@ -50,14 +50,7 @@ const page = () => {
 
 
       <section className='w-full h-auto flex justify-center items-center py-16 md:py-32 bg-qoqu_Dark_Blue text-white' >
-      <div className='flex flex-col justify-center items-center md:items-start gap-6 md:gap-8 px-4 lg:px-6 scroll-mt-4 snap-start my-12 pt-4 md:pt-12'>
-          <RoofTag />
-          <h2 className='heading3 md:heading2 font-semibold text-center md:text-left '>
-            <span className='text-qoqu_Light_Blue'>Waarom</span> werken met Zongericht?
-          </h2> 
           <Section6Steps /> 
-          <CtaButton2 /> 
-        </div>  
       </section>
 
 

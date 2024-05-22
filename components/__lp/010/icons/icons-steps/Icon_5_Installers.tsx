@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import icon_5 from '@/public/lp/icons/stepsIcons/5-installers-Orange.svg'
+import icon_5 from '@/public/lp/icons/stepsIcons/5-installers-Light-Blue.svg'
 
 const Icon_5_Installers = () => (
   <Image 
