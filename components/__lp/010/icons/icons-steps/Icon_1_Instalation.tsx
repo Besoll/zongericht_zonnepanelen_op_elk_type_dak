@@ -8,7 +8,7 @@ const Icon_1_Instalation = () => (
     width={60}
     height={60}
     loading='lazy'
-    className='w-[40px] lg:w-[60px] xl:w-[90px] h-auto'
+    className='w-[40px] lg:w-[60px] md:w-[90px] h-auto'
   />
 );
 

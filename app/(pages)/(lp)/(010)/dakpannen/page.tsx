@@ -59,18 +59,23 @@ const page = () => {
       </section>
 
 
-      <section className='w-full h-auto flex justify-center items-center scroll-smooth md:scroll-auto text-white 
+      {/* <section className='w-full h-auto flex justify-center items-center scroll-smooth md:scroll-auto text-white 
                           smSP:bg-[url("/lp/010/bg-small.webp")] mdSP:bg-[url("/lp/010/bg.webp")] lgSP:bg-[url("/lp/010/bg-big.webp")] bg-no-repeat bg-cover bg-center
                           ' id='SectionCTA' >
         <div className='w-full h-auto flex justify-center items-center bg-gradient-to-t md:bg-gradient-to-l from-transparent to-black/80 py-16 md:py-32 '>
           <SectionCTA /> 
             
         </div>
+      </section> */}
+
+      <section className='w-full h-auto flex justify-center items-center scroll-smooth md:scroll-auto text-white 
+                          bg-qoqu_Dark_Blue py-16 md:py-32' id='SectionCTA' >
+          <SectionCTA /> 
       </section>
 
 
       <section 
-        className='w-full flex justify-center items-centerflex-col h-auto py-16 md:py-32 bg-qoqu_Grey/30 text-black' 
+        className='w-full flex justify-center items-centerflex-col h-auto py-16 md:py-32 bg-qoqu_Light_Blue/10 text-black' 
         id='testimonialsSmall' 
       >
         <TestimonialsSmall />        

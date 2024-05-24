@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
-const CtaButton = dynamic(() => import('@/components/__lp/005/ctaButtons/CtaButton2'))
+const CtaButton = dynamic(() => import('@/components/__lp/010/ctaButtons/CtaButton2'))
 
 
 
@@ -11,25 +11,25 @@ const Section2Part2 = () => {
         <div className='flex flex-col relative justify-center items-center w-full md:min-w-[300px] 
         lg:min-w-[450px]'>
             <Image 
-                src='/lp/005/3-big.webp'
+                src='/lp/010/4-big.webp'
                 alt='zonnepanelen op schuin pvc dak'
                 width={400}
                 height={250}
-                className="w-full h-auto rounded-full lg:flex hidden hover:scale-105 hover:cursor-pointer hover:rotate-2 transition duration-300 ease-in-out shadow-lg"
+                className="w-full h-auto rounded-none lg:flex hidden hover:scale-105 hover:cursor-pointer hover:rotate-2 transition duration-300 ease-in-out shadow-lg"
             />
             <Image 
-                src='/lp/005/3.webp'
+                src='/lp/010/4.webp'
                 alt='zonnepanelen op schuin pvc dak'
                 width={400}
                 height={250}
-                className="w-full h-auto rounded-full md:flex lg:hidden hidden hover:scale-105 hover:cursor-pointer hover:rotate-2 transition duration-300 ease-in-out shadow-lg"
+                className="w-full h-auto rounded-none md:flex lg:hidden hidden hover:scale-105 hover:cursor-pointer hover:rotate-2 transition duration-300 ease-in-out shadow-lg"
             />
             <Image 
-                src='/lp/005/3-small.webp'
+                src='/lp/010/4-small.webp'
                 alt='zonnepanelen op schuin pvc dak'
                 width={400}
                 height={250}
-                className="w-full h-auto rounded-full md:hidden flex"
+                className="w-full h-auto rounded-none md:hidden flex"
             />
         </div>
 
@@ -38,7 +38,7 @@ const Section2Part2 = () => {
                 De installatie
             </h2> 
             <p className='md:text-left text-center  pb-2 md:pb-8'>
-                Hoewel je het op het eerste gezicht misschien niet verwacht, biedt een golfplaten dak alle mogelijkheden voor de installatie van zonnepanelen. Er zijn verschillende manieren om de zonnepanelen te monteren op uw golfplaten dak. Een methode die we veel toepassen is montage door middel van aluminium strips, waarmee we de gevoelige plekken van de golfplaten kunnen versterken. Deze strips zorgen voor een sterke basis, en helpen om de panelen recht te kunnen plaatsen. Anders dan andere daken, leiden we de bekabeling niet eerst naar een omvormer, maar rechtstreeks naar de meterkast. Zo komt er geen omvormer in uw gebouw te staan en hoeven we geen extra boorgaten maken in het staal om deze kabels in te leiden. Dit geeft meer controle over de dichting van uw golfplaten dak, en eventuele lekkage of schade aan de isolatie te vermijden
+                Er zijn verschillende manieren om de zonnepanelen te monteren op uw pannendak. Onze adviseur maakt tijdens de wooninspectie een legplan, waarbij gekeken wordt naar factoren als astverdeling en windbelasting. Cruciaal voor het legplan is de hellingshoek van het dak; die bepaalt namelijk hoeveel haken er nodig zijn om de zonne-installatie veilig te plaatsen. De haken dienen om de profielen vast te maken, waarop de zonnepanelen komen te liggen.
             </p>
             <CtaButton />
 

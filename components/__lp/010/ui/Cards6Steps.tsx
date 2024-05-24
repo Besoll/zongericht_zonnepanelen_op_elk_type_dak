@@ -12,8 +12,8 @@ const Cards6Steps = () => {
         <div className='flex flex-col lg:flex-row gap-2 md:gap-4'>
             <div className='w-full h-auto flex flex-row justify-start items-center gap-4 bg-qoqu_Light_Blue/30 rounded-xl py-2 px-2'>
                 <div className='w-fit p-4
-                    md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                    md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
+                    md:hover:scale-105 md:hover:skew-y-1  md:transition md:duration-300 md:ease-in-out 
+                    md:cursor-pointer md:hover:rotate-1
                     '>
                     <Icon_1_Instalation />
                 </div>
@@ -23,8 +23,8 @@ const Cards6Steps = () => {
             </div>
             <div className='w-full h-auto flex flex-row justify-start items-center gap-4 bg-qoqu_Light_Blue/30 rounded-xl py-2 px-2'>
                 <div className='w-fit p-4
-                    md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                    md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
+                    md:hover:scale-105 md:hover:skew-y-1  md:transition md:duration-300 md:ease-in-out 
+                    md:cursor-pointer md:hover:rotate-1
                     '>
                     <Icon_2_freeInspection />
                 </div>
@@ -37,8 +37,8 @@ const Cards6Steps = () => {
 
             <div className='w-full h-auto flex flex-row justify-start items-center gap-4 bg-qoqu_Light_Blue/30 rounded-xl py-2 px-2'>
                 <div className='w-fit p-4
-                    md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                    md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
+                    md:hover:scale-105 md:hover:skew-y-1  md:transition md:duration-300 md:ease-in-out 
+                    md:cursor-pointer md:hover:rotate-1
                     '>
                     <Icon_3_Monitoring />
                 </div>
@@ -48,8 +48,8 @@ const Cards6Steps = () => {
             </div>     
             <div className='w-full h-auto flex flex-row justify-start items-center gap-4 bg-qoqu_Light_Blue/30 rounded-xl py-2 px-2'>
                 <div className='w-fit p-4
-                    md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                    md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
+                    md:hover:scale-105 md:hover:skew-y-1  md:transition md:duration-300 md:ease-in-out 
+                    md:cursor-pointer md:hover:rotate-1
                     '>
                     <Icon_4_Customers />
                 </div>
@@ -61,8 +61,8 @@ const Cards6Steps = () => {
         <div className='flex flex-col lg:flex-row gap-2 md:gap-4'>
             <div className='w-full h-auto flex flex-row justify-start items-center gap-4 bg-qoqu_Light_Blue/30 rounded-xl py-2 px-2'>
                 <div className='w-fit p-4
-                    md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                    md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
+                    md:hover:scale-105 md:hover:skew-y-1  md:transition md:duration-300 md:ease-in-out 
+                    md:cursor-pointer md:hover:rotate-1
                     '>
                     <Icon_5_Installers  />
                 </div>
@@ -72,8 +72,8 @@ const Cards6Steps = () => {
             </div>
             <div className='w-full h-auto flex flex-row justify-start items-center gap-4 bg-qoqu_Light_Blue/30 rounded-xl py-2 px-2'>
                 <div className='w-fit p-4
-                    md:hover:scale-105 md:hover:skew-y-2  md:transition md:duration-300 md:ease-in-out 
-                    md:cursor-pointer md:hover:rotate-2 md:hover:shadow-2xl
+                    md:hover:scale-105 md:hover:skew-y-1  md:transition md:duration-300 md:ease-in-out 
+                    md:cursor-pointer md:hover:rotate-1
                     '>
                     <Icon_6_allRoof />
                 </div>
