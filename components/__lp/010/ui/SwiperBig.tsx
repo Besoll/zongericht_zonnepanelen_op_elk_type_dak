@@ -10,9 +10,9 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination, EffectCoverflow, Mousewheel, Keyboard } from 'swiper/modules'
 
 import dynamic from 'next/dynamic'
-const Stars5 = dynamic(() => import("@/components/__lp/009/icons/Stars5"))
-const SwiperButtonNext = dynamic(() => import("@/components/__lp/009/icons/SwiperButtonNext"))
-const SwiperButtonPrev = dynamic(() => import("@/components/__lp/009/icons/SwiperButtonPrev"))
+const Stars5 = dynamic(() => import("@/components/__lp/010/icons/Stars5"))
+const SwiperButtonNext = dynamic(() => import("@/components/__lp/010/icons/SwiperButtonNext"))
+const SwiperButtonPrev = dynamic(() => import("@/components/__lp/010/icons/SwiperButtonPrev"))
 
 
 
@@ -107,7 +107,7 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
       <div className='w-full h-auto flex flex-col gap-6 md:gap-12 pb-8 md:pb-16'>
         <style jsx global>{`
           .swiper-pagination-bullet-active {
-            background: #373d4c;
+            background: #03A9F3;
           }
         `}
         </style>
@@ -186,10 +186,10 @@ import daveCover from "@/public/lp/Reviews/daveCover.webp"
         </Swiper>
 
         <div className='w-full flex flex-row-reverse justify-center items-center gap-4 mt-4 md:-mt-6'>
-          <div className='swiper-button-next-big bg-qoqu_Dark_Grey rounded-full pl-3 pr-5 py-6 text-center shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+          <div className='swiper-button-next-big bg-qoqu_Light_Blue rounded-xl pl-3 pr-5 py-6 text-center shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
             <SwiperButtonNext />
           </div>
-          <div className='swiper-button-prev-big bg-qoqu_Dark_Grey rounded-full pl-3 pr-5 py-6 text-ceter shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
+          <div className='swiper-button-prev-big bg-qoqu_Light_Blue rounded-xl pl-3 pr-5 py-6 text-ceter shadow-md md:hover:scale-110 hover:shadow-2xl transition duration-300 ease-in-out md:cursor-pointer'>
             <SwiperButtonPrev />
           </div>
         </div>

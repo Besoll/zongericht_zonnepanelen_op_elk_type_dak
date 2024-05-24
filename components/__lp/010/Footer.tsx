@@ -11,7 +11,7 @@ const KlantenGuaranteFooter = dynamic(() => import('@/components/__lp/009/icons/
 
 const Footer = () => {
   return (
-    <footer className="bg-black shadow-lg text-gray-200 text-base capitalize mt-20 md:mt-5">
+    <footer className="bg-qoqu_Dark_Blue shadow-lg text-gray-200 text-base capitalize mt-20 md:mt-5">
         <hr className="my-6 border-gray-400 md:mx-auto lg:my-8" />
 
         <div className="flex flex-col justify-center mx-6 ml-5

@@ -9,6 +9,7 @@ const Type005 = dynamic(() => import('@/components/home/DaktypesSectioned/005'))
 const Type007 = dynamic(() => import('@/components/home/DaktypesSectioned/007'))
 const Type008V1 = dynamic(() => import('@/components/home/DaktypesSectioned/008-V1'))
 const Type009 = dynamic(() => import('@/components/home/DaktypesSectioned/009'))
+const Type010 = dynamic(() => import('@/components/home/DaktypesSectioned/010'))
 
 
 
@@ -24,6 +25,7 @@ const Section1 = () => {
         <Type007 />
         <Type008V1 />
         <Type009 />
+        <Type010 />
     </div>
   )
 }

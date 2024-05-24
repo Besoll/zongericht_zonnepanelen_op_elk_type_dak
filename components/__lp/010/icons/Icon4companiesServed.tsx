@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import icon4companiesServed from '@/public/lp/icons/icon4companiesServed-Black.svg'
+import icon4companiesServed from '@/public/lp/icons/icon4companiesServed-White.svg'
 
 const Icon4companiesServed = () => (
   <Image 

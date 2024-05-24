@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import icon2yarsOfExperiance from '@/public/lp/icons/icon2yarsOfExperiance-Black.svg'
+import icon2yarsOfExperiance from '@/public/lp/icons/icon2yarsOfExperiance-White.svg'
 
 const Icon2yarsOfExperiance = () => (
   <Image 
