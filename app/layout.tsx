@@ -7,7 +7,7 @@ import { GoogleTagManager } from '@next/third-parties/google'
 const titleZG = 'Zongericht';
 const colorZG = '#FF7C29'; // orange
 const urlZG = 'https://zonnepanelen.zongericht.nl';
-const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Fhero-banner.webp&w=828&q=75';
+const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2FheroImages%2Fdakkapel.webp&w=384&q=75';
 const descriptionZG = 'Zonnepanelen op elk type dak - Waar een dak is, schijnt de zon! Met Onze kennis transformeren we elk dak in een zonne-energiebron';
 
 const creatorZG = "B. Kavzharadze - QOQU BV";
