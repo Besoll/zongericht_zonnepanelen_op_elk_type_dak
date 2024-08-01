@@ -1,4 +1,4 @@
-// import dynamic from 'next/dynamic'
+import dynamic from 'next/dynamic'
 const TagLine = dynamic(() => import('@/components/__lp/007/icons/TagLine'))
 
 const RoofTag = () => {
