@@ -6,8 +6,8 @@ import type { Metadata, Viewport } from 'next'
 
 const titleZG = 'Zongericht - Schuin PVC dak';
 const colorZG = '#4c73ff'; // Blue
-const urlZG = 'https://zonnepanelen.zongericht.nl/schuin-pvc-dak';
-const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Flp%2F001%2F1-small.webp&w=828&q=75';
+const urlZG = 'https://zongericht.owlweb.nl/schuin-pvc-dak';
+const imageZG = 'https://zongericht.owlweb.nl/_next/image?url=%2Flp%2F001%2F1-small.webp&w=828&q=75';
 const descriptionZG = 'Bij Zongericht zijn we gespecialiseerd in het efficiënt plaatsen van zonnepanelen op PVC-daken. Met onze diepgaande kennis en passie voor duurzaamheid bieden we een gratis huisinspectie om uw dak te evalueren en een vrijblijvende offerte op maat. Wij zorgen voor een naadloze installatie die optimaal presteert en perfect past bij uw PVC-dak. Vertrouw op onze expertise voor een zorgeloze overgang naar groene energie, en maak uw huis een toonbeeld van duurzaamheid met Zongericht aan uw zijde.';
 
 const creatorZG = "B. Kavzharadze - QOQU BV";
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
   manifest: "/manifest.json",
   applicationName: "Landing Page",
-  authors: [{ name: "Zongericht", url: "https://zongericht.nl/" }],
+  authors: [{ name: "OwlWeb", url: "https://owelweb.nl/" }],
   generator: "Next.js",
   title: titleZG,
   description: descriptionZG,

@@ -6,8 +6,8 @@ import type { Metadata, Viewport } from 'next'
 
 const titleZG = 'Zongericht - Parabooldak';
 const colorZG = '#F87C2D'; // Orange
-const urlZG = 'https://zonnepanelen.zongericht.nl/parabooldak';
-const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Flp%2F003%2F1-4-big.webp&w=384&q=75';
+const urlZG = 'https://zongericht.owlweb.nl/parabooldak';
+const imageZG = 'https://zongericht.owlweb.nl/_next/image?url=%2Flp%2F003%2F1-4-big.webp&w=384&q=75';
 const descriptionZG = 'Heeft u een prachtig parabolisch dak en overweegt u om zonnepanelen te installeren? Bij Zongericht is dit volledig mogelijk. We beschikken over ruime ervaring in het installeren van zonnepanelen op parabolische daken';
 
 const creatorZG = "B. Kavzharadze - QOQU BV";
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
   manifest: "/manifest.json",
   applicationName: "Landing Page",
-  authors: [{ name: "Zongericht", url: "https://zongericht.nl/" }],
+  authors: [{ name: "OwlWeb", url: "https://owelweb.nl/" }],
   generator: "Next.js",
   title: titleZG,
   description: descriptionZG,

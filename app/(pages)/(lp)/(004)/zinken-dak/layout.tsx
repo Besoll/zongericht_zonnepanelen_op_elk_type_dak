@@ -6,8 +6,8 @@ import type { Metadata, Viewport } from 'next'
 
 const titleZG = 'Zongericht - Zinken dak';
 const colorZG = '#FF691D'; // Light Orange
-const urlZG = 'https://zonnepanelen.zongericht.nl/zinken-dak';
-const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2Flp%2F004%2F1-big.webp&w=828&q=75';
+const urlZG = 'https://zongericht.owlweb.nl/zinken-dak';
+const imageZG = 'https://zongericht.owlweb.nl/_next/image?url=%2Flp%2F004%2F1-big.webp&w=828&q=75';
 const descriptionZG = 'Bij Zongericht beschikken wij over de kennis en ervaring die nodig zijn voor het installeren van zonnepanelen op uw zinken dak.';
 
 const creatorZG = "B. Kavzharadze - QOQU BV";

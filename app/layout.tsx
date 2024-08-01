@@ -6,8 +6,8 @@ import { GoogleTagManager } from '@next/third-parties/google'
 
 const titleZG = 'Zongericht';
 const colorZG = '#FF7C29'; // orange
-const urlZG = 'https://zonnepanelen.zongericht.nl';
-const imageZG = 'https://zonnepanelen.zongericht.nl/_next/image?url=%2FheroImages%2Fdakkapel.webp&w=384&q=75';
+const urlZG = 'https://zongericht.owlweb.nl';
+const imageZG = 'https://zongericht.owlweb.nl/_next/image?url=%2FheroImages%2Fdakkapel.webp&w=384&q=75';
 const descriptionZG = 'Zonnepanelen op elk type dak - Waar een dak is, schijnt de zon! Met Onze kennis transformeren we elk dak in een zonne-energiebron';
 
 const creatorZG = "B. Kavzharadze - QOQU BV";
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
   manifest: "/manifest.json",
   applicationName: "Landing Page",
-  authors: [{ name: "Zongericht", url: "https://zongericht.nl/" }],
+  authors: [{ name: "OwlWeb", url: "https://owlweb.nl/" }],
   generator: "Next.js",
   title: titleZG,
   description: descriptionZG,
@@ -58,9 +58,9 @@ export const viewport: Viewport = {
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="nl">
       <GoogleTagManager gtmId="GTM-5TDL8DP8" />
