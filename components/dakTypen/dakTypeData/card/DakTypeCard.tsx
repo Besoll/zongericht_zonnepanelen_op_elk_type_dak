@@ -18,8 +18,8 @@ interface Props {
 
 const DakTypeCard = ({ title, image, shortDescription, views, schouwingLink, slug }: Props) => {
   return (
-    <Card className="w-full max-w-fit px-5 py-5 ">
-        <Link href={`/daktypen/${slug}`}>
+    <Card className="w-full max-w-fit px-5 py-5 cursor-pointer">
+        {/* <Link href='#'> */}
             <CardHeader className='flex-center flex-col gap-2.5 !p-0 h-fit w-full'>
                     <Image 
                         src={image}
@@ -36,7 +36,7 @@ const DakTypeCard = ({ title, image, shortDescription, views, schouwingLink, slu
             <CardDescription className='text-brand_original_main '>
                 {shortDescription}
             </CardDescription>
-        </Link>
+        {/* </Link> */}
         <CardContent className='flex flex-row xs:flex-between mt-4 p-4 border'>            
             <div className='xs:flex hidden flex-row body-medium gap-1.5 text-black'>
                 <DownloadsIcon />

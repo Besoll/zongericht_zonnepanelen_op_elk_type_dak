@@ -233,9 +233,8 @@ const Footer = () => {
                     Ontwerp & Copyright door QOQU B.V.
                 </li>
             </ul>
-        </div>
-        <div className='text-xs'>
-                Developed and continuously maintained by {' '} 
+            <div className='text-xs w-full text-center py-4'>
+                Developed by {' '} 
 
                     <Link 
                     href='https://besok.nl'
@@ -245,6 +244,8 @@ const Footer = () => {
                     beSok.nl                  
                 </Link>
             </div>
+        </div>
+        
     </footer>
   )
 }
